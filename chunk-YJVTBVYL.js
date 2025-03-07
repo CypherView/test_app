@@ -1,0 +1,1 @@
+var t={production:!0,apiUrls:["https://api.us1.kt1.io/fleet/v2","https://v1-test-api.cypherview.net/fleet/v2","https://api.cypherview.net/fleet/v2","https://api.stage.kt1.io/fleet/v2"],defaultThemeId:"454d57b6-1678-4e61-8688-fb68b8b1f74c",flutterUrl:"/assets/flutter/index.html"};export{t as a};
