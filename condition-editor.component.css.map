@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/forms/event-filter-field/condition-editor/condition-editor.component.scss"],
+  "sourcesContent": [".condition-editor {\n  .checklist {\n    max-height: 200px;\n    overflow-y: auto;\n    border-radius: 4px;\n    padding: 8px;\n  }\n\n  h3 {\n    margin-top: 0;\n    margin-bottom: 1rem;\n    font-size: 1.25rem;\n  }\n}\n"],
+  "mappings": ";AACE,CAAA,iBAAA,CAAA;AACE,cAAA;AACA,cAAA;AACA,iBAAA;AACA,WAAA;;AAGF,CAPA,iBAOA;AACE,cAAA;AACA,iBAAA;AACA,aAAA;;",
+  "names": []
+}
