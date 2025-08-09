@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/layouts/components/sidebar/menu-item/menu-item.component.scss"],
+  "sourcesContent": [".custom-icon-svg {\n  width: 1.5rem;\n  height: 1.5rem;\n  fill: currentColor;\n  transition: fill 0.2s ease;\n\n  :host-context(.p-menuitem-link-active) & {\n    fill: var(--primary-color);\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;AACA,UAAA;AACA,QAAA;AACA,cAAA,KAAA,KAAA;;AAEA,cAAA,CAAA,wBAAA,CANF;AAOI,QAAA,IAAA;;",
+  "names": []
+}
