@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/details-panel/details-panel.component.scss"],
+  "sourcesContent": [":host {\n  display: flex;\n  flex-direction: column;\n  height: 100%;\n  width: 100%;\n  overflow: hidden;\n}\n\n.flex-1 {\n  flex: 1 1 auto;\n  min-height: 0; /* Important for Firefox */\n}\n\n::ng-deep {\n  .p-component-outlet {\n    height: 100%;\n  }\n\n  .p-component-outlet > * {\n    height: 100%;\n    display: block;\n  }\n\n  .state-popover {\n    background: var(--input-background-color);\n    animation: fadeIn 0.2s ease-in-out;\n  }\n}\n\n@keyframes fadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n\n.hover:hover {\n  opacity: 1 !important;\n  color: var(--color-primary-color);\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,kBAAA;AACA,UAAA;AACA,SAAA;AACA,YAAA;;AAGF,CAAA;AACE,QAAA,EAAA,EAAA;AACA,cAAA;;AAIA,UAAA,CAAA;AACE,UAAA;;AAGF,UAAA,CAJA,mBAIA,EAAA;AACE,UAAA;AACA,WAAA;;AAGF,UAAA,CAAA;AACE,cAAA,IAAA;AACA,aAAA,OAAA,KAAA;;AAIJ,WAJI;AAKF;AACE,aAAA;AACA,eAAA,WAAA;;AAEF;AACE,aAAA;AACA,eAAA,WAAA;;;AAIJ,CAAA,KAAA;AACE,WAAA;AACA,SAAA,IAAA;;",
+  "names": []
+}

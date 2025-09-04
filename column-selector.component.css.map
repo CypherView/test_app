@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/grid/column-selector/column-selector.component.scss"],
+  "sourcesContent": ["// Only keep styles that require ::ng-deep or can't be done with Tailwind\n.column-selector {\n  ::ng-deep {\n    // PrimeNG multiselect customizations that can't be done with Tailwind classes\n    .p-multiselect {\n      min-height: 120px;\n\n      .p-multiselect-label {\n        min-height: 2.5rem;\n        display: flex;\n        align-items: center;\n        flex-wrap: wrap;\n        gap: 0.25rem;\n      }\n\n      .p-multiselect-token {\n        font-size: 0.875rem;\n        padding: 0.25rem 0.5rem;\n      }\n    }\n  }\n}\n"],
+  "mappings": ";AAII,CAAA,gBAAA,UAAA,CAAA;AACE,cAAA;;AAEA,CAHF,gBAGE,UAAA,CAHF,cAGE,CAAA;AACE,cAAA;AACA,WAAA;AACA,eAAA;AACA,aAAA;AACA,OAAA;;AAGF,CAXF,gBAWE,UAAA,CAXF,cAWE,CAAA;AACE,aAAA;AACA,WAAA,QAAA;;",
+  "names": []
+}
