@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/layouts/components/sidebar/user-profile/user-profile.component.scss"],
+  "sourcesContent": [".user-profile {\n  white-space: nowrap;\n  background: var(--navigation-client-background-color);\n  color: var(--navigation-client-font-color);\n  border-bottom-style: solid;\n  border-bottom-width: var(--navigation-client-border-width);\n  border-color: var(--navigation-client-border-color);\n}\n\n.sidebar-brand {\n  color: var(--navigation-font-color);\n  border-color: var(--navigation-border-color);\n  border-width: var(--navigation-border-width);\n  background-color: var(--navigation-logo-background-color);\n  padding: var(--padding) 0;\n  img {\n    width: auto;\n    max-width: 120px;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,eAAA;AACA,cAAA,IAAA;AACA,SAAA,IAAA;AACA,uBAAA;AACA,uBAAA,IAAA;AACA,gBAAA,IAAA;;AAGF,CAAA;AACE,SAAA,IAAA;AACA,gBAAA,IAAA;AACA,gBAAA,IAAA;AACA,oBAAA,IAAA;AACA,WAAA,IAAA,WAAA;;AACA,CANF,cAME;AACE,SAAA;AACA,aAAA;;",
+  "names": []
+}
