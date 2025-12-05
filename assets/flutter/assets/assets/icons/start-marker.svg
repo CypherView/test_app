@@ -1,0 +1,11 @@
+
+<svg viewBox="-25 -65 50 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Location pin/teardrop shape with white border and black fill -->
+  <path d="M0,0 C0,0 20,-25 20,-40 C20,-52 10,-60 0,-60 C-10,-60 -20,-52 -20,-40 C-20,-25 0,0 0,0 Z" 
+        fill="black" 
+        stroke="white" 
+        stroke-width="3" />
+  
+  <!-- White dot moved down and made bigger -->
+  <circle cx="0" cy="-41" r="10" fill="white" />
+</svg>
