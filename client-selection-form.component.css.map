@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/client-selection-form/client-selection-form.component.scss"],
+  "sourcesContent": [".client-selection-form {\n  .accounts {\n    .meta {\n      @apply text-xs text-gray-500;\n    }\n  }\n}\n"],
+  "mappings": ";AAGM,CAAA,sBAAA,CAAA,SAAA,CAAA;AAAA,aAAA;AAAA,eAAA;AAAA,qBAAA;AAAA,SAAA,IAAA,IAAA,IAAA,IAAA,EAAA,IAAA,iBAAA,EAAA;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/client-selector/client-selector.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  width: 100%;\n  max-width: 500px;\n  margin: auto;\n  padding: 0 1rem;\n  --p-iconfield-icon-color: var(--color-primary-color, #378bc0);\n\n  @media (min-width: 532px) {\n    padding: 0;\n  }\n}\n\n.accounts-list {\n  display: flex;\n  flex-direction: column;\n  gap: 0.75rem;\n  overflow-y: auto;\n}\n\n.account-item {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 1rem;\n  border: 1px solid var(--surface-border);\n  border-radius: var(--border-radius);\n  gap: 0.75rem;\n}\n\n.account-avatar {\n  background-color: var(--color-primary-color, #378bc0);\n  color: white;\n}\n\n.account-select-icon {\n  color: var(--color-primary-color, #378bc0);\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,SAAA;AACA,aAAA;AACA,UAAA;AACA,WAAA,EAAA;AACA,4BAAA,IAAA,qBAAA,EAAA;;AAEA,QAAA,WAAA;AARF;AASI,aAAA;;;AAIJ,CAAA;AACE,WAAA;AACA,kBAAA;AACA,OAAA;AACA,cAAA;;AAGF,CAAA;AACE,WAAA;AACA,eAAA;AACA,mBAAA;AACA,WAAA;AACA,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA,IAAA;AACA,OAAA;;AAGF,CAAA;AACE,oBAAA,IAAA,qBAAA,EAAA;AACA,SAAA;;AAGF,CAAA;AACE,SAAA,IAAA,qBAAA,EAAA;;",
+  "names": []
+}
