@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/wizard/wizard.component.scss"],
+  "sourcesContent": [":host ::ng-deep {\n  .wizard-dialog .wizard-content {\n    @apply w-[70vw] h-auto max-w-[800px] min-w-[400px] max-h-[90vh] overflow-hidden;\n  }\n\n  // Reset some Dialog padding to give more space\n  .p-dialog-header {\n    @apply py-3 px-4;\n  }\n\n  .p-dialog-footer {\n    @apply py-3 px-4;\n  }\n}\n\n.wizard-content {\n  @apply h-auto max-w-[800px] min-w-[400px] max-h-[90vh] overflow-hidden;\n}\n"],
+  "mappings": ";AAEI,MAAA,UAAA,CAAA,cAAA,CAAA;AAAA,UAAA;AAAA,cAAA;AAAA,SAAA;AAAA,aAAA;AAAA,aAAA;AAAA,YAAA;AAAA;AAKA,MAAA,UAAA,CAAA;AAAA,eAAA;AAAA,kBAAA;AAAA,gBAAA;AAAA,iBAAA;AAAA;AAIA,MAAA,UAAA,CAAA;AAAA,eAAA;AAAA,kBAAA;AAAA,gBAAA;AAAA,iBAAA;AAAA;AAKF,CAdE;AAcF,UAAA;AAAA,cAAA;AAAA,aAAA;AAAA,aAAA;AAAA,YAAA;AAAA;",
+  "names": []
+}
