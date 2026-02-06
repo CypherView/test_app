@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/admin-container/admin-main-content/admin-main-content.component.scss"],
+  "sourcesContent": ["// Admin main content styles\n:host {\n  display: block;\n  height: 100%;\n  --p-drawer-background: var(--main-background-color) !important;\n}\n"],
+  "mappings": ";AACA;AACE,WAAA;AACA,UAAA;AACA,yBAAA,IAAA;;",
+  "names": []
+}

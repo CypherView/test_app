@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/device/device-io-section/device-io-section.component.scss"],
+  "sourcesContent": ["// device-io-section.component.scss\n.io-calibration-summary {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 0.5rem;\n\n  span {\n    background-color: var(--surface-100);\n    padding: 0.25rem 0.5rem;\n    border-radius: 4px;\n  }\n}\n\n.io-actions {\n  display: flex;\n  align-items: center;\n\n  .action {\n    cursor: pointer;\n    color: var(--primary-color);\n    transition: color 0.2s;\n\n    &:hover {\n      color: var(--primary-600);\n    }\n  }\n}\n\n:host ::ng-deep {\n  .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {\n    border-color: var(--primary-color);\n    color: var(--primary-color);\n  }\n\n  .p-panel .p-panel-header {\n    padding: 0.75rem 1.25rem;\n    background-color: var(--surface-50);\n  }\n\n  .p-panel .p-panel-content {\n    padding: 1rem 1.25rem;\n  }\n}\n"],
+  "mappings": ";AACA,CAAA;AACE,WAAA;AACA,aAAA;AACA,OAAA;;AAEA,CALF,uBAKE;AACE,oBAAA,IAAA;AACA,WAAA,QAAA;AACA,iBAAA;;AAIJ,CAAA;AACE,WAAA;AACA,eAAA;;AAEA,CAJF,WAIE,CAAA;AACE,UAAA;AACA,SAAA,IAAA;AACA,cAAA,MAAA;;AAEA,CATJ,WASI,CALF,MAKE;AACE,SAAA,IAAA;;AAMJ,MAAA,UAAA,CAAA,UAAA,CAAA,cAAA,EAAA,CAAA,YAAA,CAAA;AACE,gBAAA,IAAA;AACA,SAAA,IAAA;;AAGF,MAAA,UAAA,CAAA,QAAA,CAAA;AACE,WAAA,QAAA;AACA,oBAAA,IAAA;;AAGF,MAAA,UAAA,CALA,QAKA,CAAA;AACE,WAAA,KAAA;;",
+  "names": []
+}

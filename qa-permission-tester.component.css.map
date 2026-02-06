@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/qa-permission-tester/qa-permission-tester.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n\n.qa-permission-tester {\n  max-height: 80vh;\n  overflow-y: auto;\n}\n\n.qa-permission-toggle-list {\n  max-height: 240px;\n  overflow-y: auto;\n  border: 1px solid var(--p-content-border-color);\n  border-radius: 6px;\n  padding: 8px 12px;\n  background-color: var(--p-content-background);\n}\n\n.col-25 {\n  width: 25%;\n}\n\n.col-15 {\n  width: 15%;\n}\n\n.col-35 {\n  width: 35%;\n}\n\ncode {\n  background-color: var(--p-surface-100);\n  color: var(--p-surface-700);\n  padding: 2px 6px;\n  border-radius: 3px;\n  font-family: 'Courier New', monospace;\n\n  :host-context(.dark-theme) & {\n    background-color: var(--p-surface-800);\n    color: var(--p-surface-200);\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,SAAA;AACA,UAAA;;AAGF,CAAA;AACE,cAAA;AACA,cAAA;;AAGF,CAAA;AACE,cAAA;AACA,cAAA;AACA,UAAA,IAAA,MAAA,IAAA;AACA,iBAAA;AACA,WAAA,IAAA;AACA,oBAAA,IAAA;;AAGF,CAAA;AACE,SAAA;;AAGF,CAAA;AACE,SAAA;;AAGF,CAAA;AACE,SAAA;;AAGF;AACE,oBAAA,IAAA;AACA,SAAA,IAAA;AACA,WAAA,IAAA;AACA,iBAAA;AACA,eAAA,aAAA,EAAA;;AAEA,cAAA,CAAA,YAAA;AACE,oBAAA,IAAA;AACA,SAAA,IAAA;;",
+  "names": []
+}
