@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/app-store/utils/status.utils.ts"],
+  "sourcesContent": ["import { AppDefinition } from '../models/app-store.models';\n\n/**\n * Maps app status to PrimeNG tag severity for visual indication\n */\nexport function getStatusSeverity(\n  status: AppDefinition['status'],\n): 'success' | 'info' | 'warn' | 'danger' | 'secondary' {\n  switch (status) {\n    case 'approved':\n      return 'success';\n    case 'pendingReview':\n    case 'underReview':\n    case 'changesRequested':\n      return 'warn';\n    case 'draft':\n    case 'withdrawn':\n      return 'secondary';\n    case 'rejected':\n    case 'suspended':\n      return 'danger';\n    default:\n      return 'info';\n  }\n}\n\n/**\n * Converts camelCase status to human-readable label\n * Examples:\n *   'pendingReview' -> 'Pending Review'\n *   'approved' -> 'Approved'\n *   'changesRequested' -> 'Changes Requested'\n */\nexport function getStatusLabel(status: AppDefinition['status']): string {\n  return status\n    .replace(/([A-Z])/g, ' $1')\n    .replace(/^./, (str) => str.toUpperCase())\n    .trim();\n}\n"],
+  "mappings": ";AAKM,SAAU,kBACd,QAA+B;AAE/B,UAAQ,QAAQ;IACd,KAAK;AACH,aAAO;IACT,KAAK;IACL,KAAK;IACL,KAAK;AACH,aAAO;IACT,KAAK;IACL,KAAK;AACH,aAAO;IACT,KAAK;IACL,KAAK;AACH,aAAO;IACT;AACE,aAAO;EACX;AACF;AASM,SAAU,eAAe,QAA+B;AAC5D,SAAO,OACJ,QAAQ,YAAY,KAAK,EACzB,QAAQ,MAAM,CAAC,QAAQ,IAAI,YAAW,CAAE,EACxC,KAAI;AACT;",
+  "names": []
+}

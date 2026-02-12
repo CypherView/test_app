@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/app-store/pages/app-creator-dashboard/app-creator-dashboard.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n::ng-deep {\n  .p-datatable {\n    .p-datatable-header {\n      background: transparent;\n      border: none;\n    }\n\n    .p-datatable-thead > tr > th {\n      background: var(--surface-50);\n      color: var(--surface-600);\n      font-size: 0.75rem;\n      text-transform: uppercase;\n      letter-spacing: 0.05em;\n      padding: 1rem 1.5rem;\n      border-bottom: 1px solid var(--surface-200);\n    }\n\n    .p-datatable-tbody > tr {\n      background: var(--surface-0);\n      transition: background-color 0.2s;\n\n      &:hover {\n        background: var(--surface-50);\n      }\n\n      > td {\n        padding: 1.25rem 1.5rem;\n        border-bottom: 1px solid var(--surface-100);\n      }\n    }\n  }\n\n  .p-tag {\n    font-size: 0.7rem;\n    padding: 0.25rem 0.6rem;\n    font-weight: 600;\n    border-radius: 6px;\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;;AAKE,UAAA,CAAA,YAAA,CAAA;AACE,cAAA;AACA,UAAA;;AAGF,UAAA,CALA,YAKA,CAAA,kBAAA,EAAA,GAAA,EAAA;AACE,cAAA,IAAA;AACA,SAAA,IAAA;AACA,aAAA;AACA,kBAAA;AACA,kBAAA;AACA,WAAA,KAAA;AACA,iBAAA,IAAA,MAAA,IAAA;;AAGF,UAAA,CAfA,YAeA,CAAA,kBAAA,EAAA;AACE,cAAA,IAAA;AACA,cAAA,iBAAA;;AAEA,UAAA,CAnBF,YAmBE,CAJF,kBAIE,EAAA,EAAA;AACE,cAAA,IAAA;;AAGF,UAAA,CAvBF,YAuBE,CARF,kBAQE,EAAA,GAAA,EAAA;AACE,WAAA,QAAA;AACA,iBAAA,IAAA,MAAA,IAAA;;AAKN,UAAA,CAAA;AACE,aAAA;AACA,WAAA,QAAA;AACA,eAAA;AACA,iBAAA;;",
+  "names": []
+}
