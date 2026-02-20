@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/forms/dynamic-field/dynamic-field.component.scss"],
+  "sourcesContent": [".p-error {\n  color: var(--p-inputtext-invalid-border-color);\n}\n\n.autocomplete-item {\n  padding: 0.5rem;\n  cursor: pointer;\n}\n\n.dynamic-color-swatch {\n  background-color: var(--swatch-color, #ffffff);\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA,IAAA;;AAGF,CAAA;AACE,WAAA;AACA,UAAA;;AAGF,CAAA;AACE,oBAAA,IAAA,cAAA,EAAA;;",
+  "names": []
+}

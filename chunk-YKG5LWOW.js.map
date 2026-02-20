@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/services/entity/entity-adapter.token.ts"],
+  "sourcesContent": ["import { InjectionToken, Type } from '@angular/core';\nimport { EntityDetailsAdapter } from '../../models/entity-details-adapter.interface';\n\nexport interface EntityAdapterRegistration {\n  types: string[];\n  adapter: Type<EntityDetailsAdapter>;\n}\n\nexport const ENTITY_ADAPTER_REGISTRY = new InjectionToken<\n  EntityAdapterRegistration[]\n>('ENTITY_ADAPTER_REGISTRY');\n"],
+  "mappings": ";;;;;AAQO,IAAM,0BAA0B,IAAI,eAEzC,yBAAyB;",
+  "names": []
+}

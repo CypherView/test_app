@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/shared/asset-list-section/asset-list-section.component.scss"],
+  "sourcesContent": [".action {\n  &.disabled {\n    opacity: 0.5;\n    cursor: not-allowed;\n    pointer-events: none;\n  }\n\n  &.hover:not(.disabled) {\n    cursor: pointer;\n    &:hover {\n      color: var(--color-primary-color);\n    }\n  }\n}\n"],
+  "mappings": ";AACE,CAAA,MAAA,CAAA;AACE,WAAA;AACA,UAAA;AACA,kBAAA;;AAGF,CANA,MAMA,CAAA,KAAA,KAAA,CANA;AAOE,UAAA;;AACA,CARF,MAQE,CAFF,KAEE,KAAA,CARF,SAQE;AACE,SAAA,IAAA;;",
+  "names": []
+}

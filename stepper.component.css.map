@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/stepper/stepper.component.scss"],
+  "sourcesContent": [":host ::ng-deep {\n  .p-steps .p-steps-item {\n    &.step-completed .p-menuitem-link .p-steps-number {\n      @apply bg-green-500;\n    }\n\n    &.step-error .p-menuitem-link .p-steps-number {\n      @apply bg-red-500;\n    }\n\n    &.step-active .p-menuitem-link .p-steps-number {\n      @apply bg-primary;\n    }\n  }\n\n  .stepper-numbered {\n    .p-steps-item:before {\n      @apply hidden;\n    }\n  }\n}\n"],
+  "mappings": ";AAGM,MAAA,UAAA,CAAA,QAAA,CAAA,YAAA,CAAA,eAAA,CAAA,gBAAA,CAAA;AAAA,mBAAA;AAAA,oBAAA,IAAA,GAAA,IAAA,GAAA,EAAA,IAAA,eAAA,EAAA;AAAA;AAIA,MAAA,UAAA,CAJA,QAIA,CAJA,YAIA,CAAA,WAAA,CAJA,gBAIA,CAJA;AAIA,mBAAA;AAAA,oBAAA,IAAA,IAAA,GAAA,GAAA,EAAA,IAAA,eAAA,EAAA;AAAA;AAIA,MAAA,UAAA,CARA,QAQA,CARA,YAQA,CAAA,YAAA,CARA,gBAQA,CARA;AAQA,oBAAA,IAAA;AAAA;AAMA,MAAA,UAAA,CAAA,iBAAA,CAdA,YAcA;AAAA,WAAA;AAAA;",
+  "names": []
+}

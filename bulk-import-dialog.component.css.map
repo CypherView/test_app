@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/shared/bulk-import-dialog/bulk-import-dialog.component.scss"],
+  "sourcesContent": [".bulk-import-dialog {\n  min-width: 600px;\n  max-width: 800px;\n\n  .instructions {\n    background-color: var(--surface-ground);\n    color: var(--text-color);\n    padding: 1rem;\n    border-radius: 4px;\n    border-left: 4px solid var(--primary-color);\n\n    p {\n      color: var(--text-color);\n    }\n\n    .text-sm {\n      color: var(--text-color-secondary);\n    }\n  }\n\n  .stat-card {\n    text-align: center;\n    border: 1px solid var(--surface-border);\n    background-color: var(--surface-card);\n\n    p {\n      color: var(--text-color);\n    }\n\n    .text-sm {\n      color: var(--text-color-secondary);\n    }\n  }\n\n  .error-details {\n    border-top: 1px solid var(--surface-border);\n    padding-top: 1rem;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,aAAA;AACA,aAAA;;AAEA,CAJF,mBAIE,CAAA;AACE,oBAAA,IAAA;AACA,SAAA,IAAA;AACA,WAAA;AACA,iBAAA;AACA,eAAA,IAAA,MAAA,IAAA;;AAEA,CAXJ,mBAWI,CAPF,aAOE;AACE,SAAA,IAAA;;AAGF,CAfJ,mBAeI,CAXF,aAWE,CAAA;AACE,SAAA,IAAA;;AAIJ,CApBF,mBAoBE,CAAA;AACE,cAAA;AACA,UAAA,IAAA,MAAA,IAAA;AACA,oBAAA,IAAA;;AAEA,CAzBJ,mBAyBI,CALF,UAKE;AACE,SAAA,IAAA;;AAGF,CA7BJ,mBA6BI,CATF,UASE,CAdA;AAeE,SAAA,IAAA;;AAIJ,CAlCF,mBAkCE,CAAA;AACE,cAAA,IAAA,MAAA,IAAA;AACA,eAAA;;",
+  "names": []
+}
