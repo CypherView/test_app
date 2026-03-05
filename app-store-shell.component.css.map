@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/app-store/pages/app-store-shell/app-store-shell.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  height: 100%;\n  width: 100%;\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,UAAA;AACA,SAAA;;",
+  "names": []
+}
