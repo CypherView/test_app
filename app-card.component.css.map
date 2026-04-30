@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/app-store/components/app-card/app-card.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  height: 100%;\n\n  .category {\n    background-color: color-mix(\n      in srgb,\n      var(--color-primary-color) 15%,\n      transparent\n    );\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,UAAA;;AAEA,MAAA,CAAA;AACE,oBAAA,UAAA,GAAA,IAAA,EAAA,IAAA,uBAAA,GAAA,EAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/development/components/analytical-report/chat/components/chat-summary-header/chat-summary-header.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  z-index: 50;\n}\n\n// Required: PrimeNG renders popovers outside the component DOM, so Tailwind\n// can style our content but cannot reach PrimeNG's internal wrapper padding.\n::ng-deep .header-edit-panel .p-popover-content {\n  padding: 0;\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,WAAA;;AAKF,UAAA,CAAA,kBAAA,CAAA;AACE,WAAA;;",
+  "names": []
+}

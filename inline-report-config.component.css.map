@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/development/components/analytical-report/chat/components/inline-report-config/inline-report-config.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n// Custom scrollbar — no Tailwind equivalent\n.report-type-list {\n  &::-webkit-scrollbar {\n    width: 4px;\n  }\n\n  &::-webkit-scrollbar-track {\n    background: transparent;\n  }\n\n  &::-webkit-scrollbar-thumb {\n    background-color: var(--input-border-color, #cbd5e1);\n    border-radius: 2px;\n  }\n}\n\n// PrimeNG deep override — required for component-scoped button theming\n::ng-deep .confirm-btn {\n  background: var(--color-primary-color, #3b82f6);\n  border: none;\n  font-weight: 600;\n\n  &:hover {\n    filter: brightness(0.9);\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;;AAKA,CAAA,gBAAA;AACE,SAAA;;AAGF,CAJA,gBAIA;AACE,cAAA;;AAGF,CARA,gBAQA;AACE,oBAAA,IAAA,oBAAA,EAAA;AACA,iBAAA;;AAKJ,UAAA,CAAA;AACE,cAAA,IAAA,qBAAA,EAAA;AACA,UAAA;AACA,eAAA;;AAEA,UAAA,CALF,WAKE;AACE,UAAA,WAAA;;",
+  "names": []
+}

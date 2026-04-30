@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/development/components/analytical-report/chat/components/inline-schedule-config/inline-schedule-config.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n::ng-deep .confirm-btn {\n  background: var(--color-primary-color, #3b82f6);\n  border: none;\n  font-weight: 600;\n\n  &:hover {\n    filter: brightness(0.9);\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;;AAGF,UAAA,CAAA;AACE,cAAA,IAAA,qBAAA,EAAA;AACA,UAAA;AACA,eAAA;;AAEA,UAAA,CALF,WAKE;AACE,UAAA,WAAA;;",
+  "names": []
+}
