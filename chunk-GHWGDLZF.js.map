@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/history/components/history-container/history-container.component.ts", "src/app/features/history/history.routes.ts"],
+  "sourcesContent": ["import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-history-container',\n  imports: [],\n  templateUrl: './history-container.component.html',\n  styleUrl: './history-container.component.scss',\n})\nexport class HistoryContainerComponent {}\n", "import { Routes } from '@angular/router';\nimport { HistoryContainerComponent } from './components/history-container/history-container.component';\n\nexport const HISTORY_ROUTES: Routes = [\n  {\n    path: '',\n    component: HistoryContainerComponent,\n  },\n];\n"],
+  "mappings": ";;;;;;;;;AAQM,IAAO,4BAAP,MAAO,2BAAyB;;qCAAzB,4BAAyB;EAAA;yEAAzB,4BAAyB,WAAA,CAAA,CAAA,uBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,mCAAA,IAAA,KAAA;EAAA,GAAA,eAAA,EAAA,CAAA;;;sEAAzB,2BAAyB,CAAA;UANrC;uBACW,yBAAuB,SACxB,CAAA,GAAE,UAAA,GAAA,CAAA;;;;6EAIA,2BAAyB,EAAA,WAAA,6BAAA,UAAA,wFAAA,YAAA,EAAA,CAAA;AAAA,GAAA;;;ACL/B,IAAM,iBAAyB;EACpC;IACE,MAAM;IACN,WAAW;;;",
+  "names": []
+}

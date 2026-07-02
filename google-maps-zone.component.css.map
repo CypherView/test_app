@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/maps/google-maps-zone/google-maps-zone.component.scss"],
+  "sourcesContent": [".google-maps-container {\n  width: 100%;\n  height: 100%;\n  min-height: 400px;\n}\n\n:host {\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n\n.google-maps-zone-container {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n\n  .map-container {\n    width: 100%;\n    border: 1px solid #e0e0e0;\n    border-radius: 4px;\n    overflow: hidden;\n  }\n\n  .error-message {\n    margin-top: 8px;\n    margin-bottom: 8px;\n  }\n\n  .actions {\n    margin-top: 16px;\n    display: flex;\n\n    button {\n      transition: background-color 0.2s;\n\n      &:not(:last-child) {\n        margin-right: 8px;\n      }\n    }\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;AACA,UAAA;AACA,cAAA;;AAGF;AACE,WAAA;AACA,SAAA;AACA,UAAA;;AAGF,CAAA;AACE,WAAA;AACA,kBAAA;AACA,SAAA;;AAEA,CALF,2BAKE,CAAA;AACE,SAAA;AACA,UAAA,IAAA,MAAA;AACA,iBAAA;AACA,YAAA;;AAGF,CAZF,2BAYE,CAAA;AACE,cAAA;AACA,iBAAA;;AAGF,CAjBF,2BAiBE,CAAA;AACE,cAAA;AACA,WAAA;;AAEA,CArBJ,2BAqBI,CAJF,QAIE;AACE,cAAA,iBAAA;;AAEA,CAxBN,2BAwBM,CAPJ,QAOI,MAAA,KAAA;AACE,gBAAA;;",
+  "names": []
+}

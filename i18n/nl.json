@@ -1,0 +1,3983 @@
+{
+  "SHARED": {
+    "THEME": {
+      "PRIMARY_COLOR": "Primaire kleur",
+      "NAVIGATION_COLOR": "Navigatiekleur",
+      "NAVIGATION_ACTIVE_STATE": "Actieve navigatiestatus",
+      "HEADER_COLOR": "Headerkleur",
+      "HEADER_ACTIVE_COLOR": "Actieve headerkleur",
+      "BACKGROUND": "Achtergrond",
+      "FOREGROUND": "Voorgrond",
+      "LEFT_BORDER": "Linkerrand",
+      "RIGHT_BORDER": "Rechterrand",
+      "INVERT": "Omkeren",
+      "ACCENT": "Accent",
+      "LOADING_THEME": "Thema laden..."
+    },
+    "COMMON": {
+      "BUTTONS": {
+        "SAVE": "Opslaan",
+        "CANCEL": "Annuleren",
+        "DELETE": "Verwijderen",
+        "EDIT": "Bewerken",
+        "ADD": "Toevoegen",
+        "CLOSE": "Sluiten",
+        "BACK": "Terug",
+        "NEXT": "Volgende",
+        "CONFIRM": "Bevestigen",
+        "RESET": "Herstellen",
+        "SEARCH": "Zoeken",
+        "CLEAR": "Wissen",
+        "IMPORT": "Importeren",
+        "EXPORT": "Exporteren",
+        "DOWNLOAD": "Downloaden",
+        "UPLOAD": "Uploaden",
+        "REFRESH": "Vernieuwen",
+        "VIEW": "Bekijken",
+        "CREATE": "Aanmaken",
+        "UPDATE": "Bijwerken",
+        "DISCARD": "Verwerpen",
+        "FINISH": "Voltooien",
+        "OK": "OK",
+        "DISABLE": "Uitzetten",
+        "REMOVE": "Verwijderen",
+        "BACK_TO_LOGIN": "Terug naar Inloggen",
+        "BULK_IMPORT": "Bulkimport",
+        "EXPORTING": "Exporteren"
+      },
+      "STATUS": {
+        "ACTIVE": "Actief",
+        "INACTIVE": "Inactief",
+        "PENDING": "In behandeling",
+        "COMPLETED": "Voltooid",
+        "FAILED": "Mislukt",
+        "SUCCESS": "Geslaagd",
+        "ERROR": "Fout",
+        "LOADING": "Laden",
+        "NO_DATA": "Geen gegevens",
+        "NO_RESULTS": "Geen resultaten gevonden",
+        "UNKNOWN": "Onbekend",
+        "ENABLED": "Ingeschakeld",
+        "DISABLED": "Uitgeschakeld",
+        "SUSPENDED": "Opgeschort",
+        "DELETED": "Verwijderd",
+        "UNAVAILABLE": "Niet beschikbaar"
+      },
+      "ERRORS": {
+        "TITLE": "Fout",
+        "LOAD_FAILED": "Laden mislukt",
+        "SAVE_FAILED": "Opslaan mislukt",
+        "DELETE_FAILED": "Verwijderen mislukt",
+        "UNEXPECTED": "Onverwachte fout",
+        "SESSION_EXPIRED": "Sessie verlopen",
+        "NO_PERMISSION": "Geen toestemming"
+      },
+      "VALIDATION": {
+        "REQUIRED": "Dit veld is verplicht",
+        "INVALID_EMAIL": "Ongeldig e-mailadres",
+        "MIN_LENGTH": "Minimale lengte is {{min}} tekens",
+        "MAX_LENGTH": "Maximale lengte is {{max}} tekens",
+        "PATTERN": "Ongeldig formaat",
+        "MUST_BE_NUMBER": "Moet een getal zijn",
+        "MUST_BE_POSITIVE": "Moet een positief getal zijn",
+        "INVALID_FORMAT": "Ongeldig formaat",
+        "INVALID_PHONE": "Ongeldig telefoonnummer (7-15 cijfers vereist)"
+      },
+      "SEARCH": "Zoeken...",
+      "COLUMN_SELECTOR": {
+        "TITLE": "Kolommen weergeven",
+        "PLACEHOLDER": "Selecteer kolommen om weer te geven",
+        "REQUIRED": "Verplicht"
+      },
+      "ARIA": {
+        "SELECTED_ITEMS": "Geselecteerde items",
+        "TOGGLE_SELECTOR": "Selector in-/uitschakelen",
+        "CLEAR_SELECTION": "Selectie wissen",
+        "REMOVE_ITEM": "{{name}} verwijderen"
+      },
+      "MESSAGES": {
+        "SHOWING_X_OF_Y_ITEMS": "{{limit}} van {{count}} items worden weergegeven.",
+        "TYPE_MORE_TO_NARROW_RESULTS": "Typ meer om resultaten te verfijnen.",
+        "REFINE_SEARCH": "Verfijn de zoekopdracht om resultaten te beperken.",
+        "SUCCESS": "Succes",
+        "ERROR": "Fout",
+        "ERROR_GENERIC": "Er is een fout opgetreden"
+      },
+      "WIZARD": {
+        "COMPLETION_TEXT": "U heeft alle vereiste informatie ingevuld en we zijn klaar om uw {{entity}} aan te maken.",
+        "FINISH_PROMPT": "Klik op Voltooien om deze {{entity}} aan te maken.",
+        "TITLE": "{{entiteit}} Wizard"
+      },
+      "DIALOG": {
+        "APPLY": "Toepassen",
+        "OK": "OK",
+        "ADD": "Toevoegen",
+        "EDIT": "Bewerken",
+        "CANCEL": "Annuleren",
+        "SAVE": "Opslaan",
+        "NEXT": "Volgende",
+        "BACK": "Terug",
+        "FINISH": "Voltooien",
+        "RETRY": "Opnieuw proberen",
+        "UPDATE": "Bijwerken",
+        "REFRESH": "Vernieuwen",
+        "CLOSE": "Sluiten",
+        "DOWNLOAD_ITEM": "{{subject}} downloaden",
+        "DOWNLOAD": "Downloaden",
+        "CONFIRMATION": "Bevestiging",
+        "ERROR": "Fout",
+        "DISMISS": "Sluiten",
+        "ABORT": "Afbreken",
+        "SHARE": "Delen",
+        "DELETE": "Verwijderen",
+        "ALERT": "Waarschuwing",
+        "INFORMATION": "Informatie",
+        "SUCCESS": "Geslaagd",
+        "DELETE_CONFIRMATION": "Bevestiging verwijderen",
+        "UNDO": "Ongedaan maken",
+        "REDO": "Opnieuw uitvoeren",
+        "VIEW": "Weergeven",
+        "COPY": "Kopiëren",
+        "COPIED": "Gekopieerd naar klembord",
+        "GOT_IT": "Begrepen",
+        "TIP": "Tip",
+        "CLEAR": "Wissen",
+        "SEND": "Verzenden",
+        "VIDEO": "Video aanvragen"
+      },
+      "FORMS": {
+        "SHARED": {
+          "REQUIRED": "{{field}} is verplicht.",
+          "INCOMPLETE": "{{field}} is onvolledig.",
+          "LOOKUP_FAILED": "De waarden voor dit veld konden niet worden geladen.",
+          "ENTER": "Voer {{veld}} in"
+        },
+        "TEXT": {
+          "MIN": "{{field}} moet minimaal {{min}} tekens lang zijn.",
+          "MAX": "{{field}} mag niet langer zijn dan {{max}} tekens."
+        },
+        "NUMBER": {
+          "MIN": "{{field}} moet groter dan of gelijk aan {{min}} zijn.",
+          "MAX": "{{field}} moet kleiner dan of gelijk aan {{max}} zijn."
+        },
+        "MIN_MAX": {
+          "MIN": "Min",
+          "MAX": "Max",
+          "MIN_LARGER_THAN_MAX": "De minimumwaarde mag de maximumwaarde niet overschrijden."
+        },
+        "CHECKBOX": {
+          "YES": "Ja",
+          "NO": "Nee"
+        },
+        "CHECKLIST": {
+          "EMPTY": "Geen items gevonden.",
+          "MULTI_SELECTION": "Alles selecteren/deselecteren",
+          "SELECT_ALL": "Alles selecteren",
+          "DESELECT_ALL": "Alles deselecteren",
+          "SEARCH_LIST": "Controlelijst doorzoeken...",
+          "DESCRIPTION": "Aanvullende resultaten zijn afgekapt in deze lijst. Verfijn uw zoekcriteria."
+        },
+        "TAGS": {
+          "PLACEHOLDER": "Tags invoeren..."
+        },
+        "ASSET_FILTER": {
+          "PLACEHOLDER": "Asset- of voertuignaam invoeren...",
+          "DESCRIPTION": "Voer een asset- / voertuignaam in of de naam van een assetgroep.",
+          "GROUP_DESCRIPTION": {
+            "ANY": "alle {{assetType}}",
+            "COST_CENTRE": "alle {{assetType}} in kostenplaats \"{{name}}\"",
+            "CATEGORY": "alle {{assetType}} in categorie \"{{name}}\"",
+            "GROUP": "alle {{assetType}} in groep \"{{name}}\""
+          },
+          "GROUP_TREE": {
+            "COST_CENTRE": "In kostenplaats",
+            "CATEGORY": "In categorie",
+            "GROUP": "In groep"
+          },
+          "TRUNCATED_MESSAGE": "{{limit}} van {{count}} items worden weergegeven. Gebruik de zoekfunctie om uw resultaten te verfijnen.",
+          "NO_ASSETS": "Geen beschikbare assets",
+          "ASSETS": "Assets",
+          "GROUPS": "Groepen"
+        },
+        "LABEL_FILTER": {
+          "PLACEHOLDER": "Labelnaam invoeren...",
+          "DESCRIPTION": "Selecteer een of meer labels."
+        },
+        "SEARCH_SELECT": {
+          "PLACEHOLDER": "Naam invoeren...",
+          "TRUNCATED_MESSAGE": "{{limit}} van {{count}} items worden weergegeven. Gebruik de zoekfunctie om uw resultaten te verfijnen."
+        },
+        "CLIENT_FILTER": {
+          "PLACEHOLDER": "Klantnaam invoeren...",
+          "DESCRIPTION_MULTIPLE": "Voer een klantnaam in of typ \"alle\" om alle klanten te selecteren.",
+          "DESCRIPTION_SINGLE": "Voer een klantnaam in.",
+          "CLIENT": "Klant",
+          "ANY_CLIENT": "Alle klanten"
+        },
+        "VENDOR_FILTER": {
+          "PLACEHOLDER": "Leveranciersnaam invoeren...",
+          "DESCRIPTION_MULTIPLE": "Voer een leveranciersnaam in of typ \"alle\" om alle leveranciers te selecteren.",
+          "DESCRIPTION_SINGLE": "Voer een leveranciersnaam in.",
+          "VENDOR": "leverancier",
+          "ANY_VENDOR": "Alle leveranciers"
+        },
+        "DISTRIBUTOR_FILTER": {
+          "PLACEHOLDER": "Distributeursnaam invoeren...",
+          "DESCRIPTION_MULTIPLE": "Voer een distributeursnaam in of typ \"alle\" om alle distributeurs te selecteren.",
+          "DESCRIPTION_SINGLE": "Voer een distributeursnaam in.",
+          "DISTRIBUTOR": "distributeur",
+          "ANY_DISTRIBUTOR": "Alle distributeurs"
+        },
+        "USER_FILTER": {
+          "PLACEHOLDER": "Gebruikersnaam invoeren..."
+        },
+        "DEVICE_FILTER": {
+          "PLACEHOLDER": "Apparaatnaam invoeren..."
+        },
+        "ZONE_FILTER": {
+          "PLACEHOLDER": "Geofence-naam invoeren...",
+          "DESCRIPTION": "Voer een geofence-naam in of de naam van een geofencegroep.",
+          "GROUP_DESCRIPTION": {
+            "ANY": "alle {{zoneType}}",
+            "COST_CENTRE": "alle {{zoneType}} in kostenplaats \"{{name}}\"",
+            "GROUP": "alle {{zoneType}} in groep \"{{name}}\""
+          },
+          "GROUP_TREE": {
+            "COST_CENTRE": "In kostenplaats",
+            "GROUP": "In groep"
+          }
+        },
+        "DAYTIME": {
+          "INVALID_TIME": "Ongeldige tijdinvoer",
+          "OPTIONS": {
+            "TODAY": "Vandaag",
+            "YESTERDAY": "Gisteren",
+            "2_DAYS_AGO": "2 dagen geleden",
+            "3_DAYS_AGO": "3 dagen geleden"
+          }
+        },
+        "URL": {
+          "INVALID_PATTERN": "{{field}} moet beginnen met \"http://\" of \"https://\"."
+        }
+      },
+      "SELECTION": {
+        "TITLE": "{{type}} selecteren",
+        "SEARCH": "{{type}} zoeken...",
+        "LOADING": "{{type}} laden...",
+        "NO_ITEMS": "Geen {{type}} gevonden.",
+        "SELECTED_ITEMS": "Geselecteerde artikelen"
+      },
+      "NONE": "Geen",
+      "DEFAULT": "Standaard",
+      "UNKNOWN": "Onbekend",
+      "NA": "N.v.t",
+      "NOT_PROVIDED": "Niet opgegeven",
+      "EM_DASH": "—"
+    },
+    "ASSET_FILTER": {
+      "LEGEND": "Assetfilter",
+      "PLACEHOLDER": "Asset- of voertuignaam invoeren...",
+      "TABS": {
+        "ASSETS": "Assets",
+        "GROUPS": "Groepen"
+      },
+      "NO_ASSETS_AVAILABLE": "Geen assets beschikbaar",
+      "NO_GROUPS": "Geen groepen beschikbaar",
+      "NO_ASSETS": "Geen assets gevonden"
+    },
+    "ZONE_FILTER": {
+      "LEGEND": "Zonefilter",
+      "PLACEHOLDER": "Zonenaam invoeren...",
+      "TABS": {
+        "ZONES": "Zones",
+        "GROUPS": "Groepen"
+      },
+      "NO_ZONES_AVAILABLE": "Geen zones beschikbaar",
+      "NO_GROUPS": "Geen groepen beschikbaar",
+      "NO_ZONES": "Geen zones gevonden"
+    },
+    "CLIENT_SELECTOR": {
+      "SEARCH_ACCOUNTS": "Accounts zoeken",
+      "ACCOUNTS_AVAILABLE": "{{count}} accounts beschikbaar",
+      "AVAILABLE_ACCOUNTS": "Beschikbare accounts",
+      "SELECT_ACCOUNT_ARIA": "{{name}}{{ownerInfo}} selecteren",
+      "OWNER_INFO": ", {{ownerType}}: {{ownerName}}"
+    },
+    "CLIENT_SELECTION_FORM": {
+      "SEARCH_CLIENTS": "Klanten zoeken",
+      "CLIENTS_FOUND": "{{count}} klanten gevonden",
+      "RECENTLY_USED": "Recent gebruikt",
+      "ALL_CLIENTS": "Alle klanten",
+      "AVAILABLE_CLIENTS": "Beschikbare klanten",
+      "RECENTLY_USED_CLIENTS_ARIA": "Recent gebruikte klanten",
+      "SELECT_RECENT_CLIENT_ARIA": "Recent gebruikte klant selecteren: {{name}}",
+      "SELECT_CLIENT_ARIA": "{{name}}{{ownerInfo}} selecteren",
+      "OWNER_INFO": ", eigendom van {{ownerName}}"
+    },
+    "UNAUTHORIZED": {
+      "ACCESS_DENIED": "Toegang geweigerd",
+      "NO_PERMISSION_MESSAGE": "U heeft geen toestemming om toegang te krijgen tot deze resource.",
+      "REASON": "Reden:",
+      "RETURN_HOME": "Terug naar startpagina",
+      "NO_PERMISSIONS_ASSIGNED": "Geen machtigingen toegewezen"
+    },
+    "IMAGE_EDITOR": {
+      "TITLE": "Afbeeldingseditor",
+      "UPLOAD_IMAGE": "Afbeelding uploaden",
+      "DRAG_DROP_HELP": "Sleep een afbeelding vanaf uw computer of plak een afbeelding vanuit uw klembord.",
+      "UPLOAD_DIFFERENT_IMAGE": "Andere afbeelding uploaden",
+      "PREVIEW": "Voorbeeld",
+      "PREVIEW_HELP": "Gebruik de bijsnijdbediening om het zichtbare afbeeldingsgebied aan te passen. Het voorbeeld hieronder laat zien hoe uw afbeelding eruitziet na het bijsnijden en vergroten/verkleinen.",
+      "REMOVE_IMAGE": "Afbeelding verwijderen"
+    },
+    "CHART": {
+      "TITLES": {
+        "DEVICES": "Apparaten",
+        "ASSETS": "Assets",
+        "CLIENTS": "Klanten",
+        "VENDORS": "Leveranciers",
+        "DISTRIBUTORS": "Distributeurs",
+        "USERS": "Gebruikers",
+        "COMPANION_CAMERAS": "Companion-camera-apparaten",
+        "RECORDS": "Records",
+        "BYTES": "Bytes",
+        "CONNECTIONS": "Verbindingen",
+        "MINUTES": "Onlinetijd"
+      },
+      "RANGES": {
+        "24H": "24 uur",
+        "7D": "7 dagen",
+        "30D": "30 dagen",
+        "60D": "60 dagen",
+        "90D": "90 dagen"
+      },
+      "ERRORS": {
+        "NO_INFORMATION": "Geen informatie beschikbaar",
+        "UNEXPECTED_ERROR": "Statistieken kunnen niet worden opgehaald"
+      }
+    },
+    "CONTACTS": {
+      "TYPES": {
+        "Emergency": "Noodgeval",
+        "Administrative": "Administratief",
+        "Technical": "Technisch",
+        "Operational": "Operationeel",
+        "Management": "Management",
+        "Owner": "Eigenaar"
+      }
+    }
+  },
+  "ADMIN": {
+    "CLIENTS": {
+      "TABS": {
+        "DETAILS": "Details",
+        "ASSETS": "Assets",
+        "GEOFENCES": "Geofences",
+        "ALERTS": "Waarschuwingen",
+        "HARDWARE": "Hardware",
+        "DEVICES": "Apparaten",
+        "ASSET_TAGS": "Asset-tags",
+        "SIM_CARDS": "SIM-kaarten",
+        "PROVIDERS": "Providers",
+        "SMS_GATEWAYS": "SMS-gateways",
+        "PROFILES": "Profielen",
+        "IO_TYPES": "I/O-typen",
+        "DEVICE_CONFIG_PROFILES": "Apparaatconfiguratieprofielen",
+        "ASSET_RATING_PROFILES": "Asset-beoordelingsprofielen",
+        "ASSET_STATE_PROFILES": "Asset-statusprofielen",
+        "OVERSPEED_PROFILES": "Snelheidsovertreding-profielen",
+        "ROAD_PROFILES": "Wegprofielen",
+        "GEO_LOCK_PROFILES": "Geo-vergrendelingsprofielen",
+        "CUSTOM_FIELDS": "Aangepaste velden",
+        "ORGANIZATION": "Organisatie",
+        "COST_CENTRES": "Kostenplaatsen",
+        "ASSET_GROUPS": "Assetgroepen",
+        "CATEGORIES": "Categorieën",
+        "GEOFENCE_GROUPS": "Geofencegroepen",
+        "ACCOUNTS": "Accounts",
+        "USERS": "Gebruikers",
+        "USER_ROLES": "Gebruikersrollen",
+        "CONTACTS": "Contacten"
+      },
+      "GRID": {
+        "ASSETS": "Activa",
+        "ASSET_TAGS": "Labels",
+        "COMPANION_CAMERA_DEVICES": "Begeleidende camera-apparaten",
+        "DEVICES": "Apparaten",
+        "GROUP": "Groep",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "SIM_CARDS": "SIM-kaarten",
+        "STATE": "Staat",
+        "USERS": "Gebruikers",
+        "WEBSITE": "Website"
+      },
+      "DETAILS": {
+        "TITLE": "Klantgegevens",
+        "DESCRIPTION": "Configureer de verschillende klantgegevens.",
+        "FIELDS": {
+          "NAME": "Name",
+          "WEBSITE": "Website",
+          "GROUP": "Groep",
+          "TIMEZONE": "Tijdzone",
+          "PIN": "PIN",
+          "TAGS": "Tags"
+        },
+        "ARIA": {
+          "BUILDING_ICON": "Pictogram van het gebouw",
+          "EDIT_CLIENT_DETAILS": "Klantgegevens bewerken"
+        }
+      },
+      "SETTINGS": {
+        "TITLE": "Instellingen",
+        "DESCRIPTION": "Kies uit de volgende instellingen.",
+        "FIELDS": {
+          "DEVICE_TYPES": "Apparaattypen",
+          "MAP_SET": "Kaartset"
+        },
+        "ARIA": {
+          "COG_ICON": "Kogge icoon",
+          "EDIT": "Klantinstellingen bewerken"
+        }
+      },
+      "NOTIFICATION_SETTINGS": {
+        "TITLE": "Meldingsinstellingen",
+        "DESCRIPTION": "Kies uit de volgende opties.",
+        "FIELDS": {
+          "EMAIL_PROVIDER": "E-mailprovider"
+        },
+        "ARIA": {
+          "AT_ICON": "Bij icoon",
+          "EDIT": "Meldingsinstellingen bewerken"
+        }
+      },
+      "ADDRESS": {
+        "TITLE": "Adres",
+        "DESCRIPTION": "Vul de volgende adresgegevens in.",
+        "FIELDS": {
+          "ADDRESS": "Adres",
+          "CITY": "Stad",
+          "STATE": "Provincie",
+          "CODE": "Postcode",
+          "COUNTRY": "Land"
+        },
+        "ARIA": {
+          "EDIT_ADDRESS": "Adres bewerken",
+          "ID_CARD_ICON": "Identiteitskaart icoon"
+        }
+      },
+      "SSL_CERTIFICATES": {
+        "TITLE": "SSL-certificaten",
+        "DESCRIPTION": "De volgende aangepaste domeinen zijn geregistreerd voor deze klant.",
+        "FIELDS": {
+          "DOMAINS": "Domeinen"
+        }
+      },
+      "MEASUREMENT_UNITS": {
+        "TITLE": "Meeteenheden",
+        "DESCRIPTION": "Pas de meeteenheden voor deze klant aan.",
+        "FIELDS": {
+          "DATE": "Datum",
+          "TIME": "Tijd",
+          "DISTANCE": "Afstand",
+          "ALTITUDE": "Hoogte",
+          "SPEED": "Snelheid",
+          "VOLUME": "Volume",
+          "WEIGHT": "Gewicht",
+          "AREA": "Oppervlakte",
+          "TEMPERATURE": "Temperatuur"
+        },
+        "VALUES": {
+          "ACRES": "Acres",
+          "CELSIUS": "Celsius",
+          "CUBIC_FEET": "Kubieke voet",
+          "CUBIC_METRES": "Kubieke meter",
+          "FAHRENHEIT": "Fahrenheit",
+          "FEET": "Voet",
+          "GALLONS": "Gallon (UK)",
+          "GALLONS_US": "Gallon (US)",
+          "HECTARES": "Hectare",
+          "INCHES": "Inch",
+          "KILOGRAMS": "Kilogram",
+          "KILOMETRES": "Kilometer",
+          "KILOMETRES_PER_HOUR": "Kilometer per uur",
+          "KNOTS": "Knopen",
+          "LITRES": "Liter",
+          "METRES": "Meter",
+          "METRES_PER_SECOND": "Meter per seconde",
+          "MILES": "Mijlen",
+          "MILES_PER_HOUR": "Mijlen per uur",
+          "NAUTICAL_MILES": "Zeemijlen",
+          "OUNCES": "Ons (UK)",
+          "OUNCES_US": "Ons (US)",
+          "POUNDS": "Pond",
+          "SQUARE_FEET": "Vierkante voet",
+          "SQUARE_INCHES": "Vierkante inch",
+          "SQUARE_KILOMETRES": "Vierkante kilometer",
+          "SQUARE_MILES": "Vierkante mijlen",
+          "SQUARE_YARDS": "Vierkante yard",
+          "SQUARE_METRES": "Vierkante meter",
+          "TONNES": "Ton",
+          "YARDS": "Yard",
+          "HHMMSS": "HH:mm:ss",
+          "HMMSS": "H:mm:ss",
+          "HMMSSA": "h:mm:ss AM/PM",
+          "YYYY_MM_DD_1": "yyyy/mm/dd",
+          "YYYY_MM_DD_2": "yyyy.mm.dd",
+          "YYYY_MM_DD_3": "yyyy-mm-dd",
+          "DD_MM_YYYY_1": "dd/mm/yyyy",
+          "DD_MM_YYYY_2": "dd.mm.yyyy",
+          "DD_MM_YYYY_3": "dd-mm-yyyy",
+          "D_M_YYYY_1": "d/m/yyyy",
+          "D_M_YYYY_2": "d.m.yyyy",
+          "D_M_YYYY_3": "d-m-yyyy",
+          "MM_DD_YYYY_1": "mm/dd/yyyy",
+          "M_D_YYYY_1": "m/d/yyyy"
+        },
+        "ARIA": {
+          "EDIT": "Meeteenheden bewerken",
+          "GAUGE_ICON": "Meterpictogram"
+        }
+      },
+      "SHIFT": {
+        "TITLE": "Diensten",
+        "DESCRIPTION": "Voeg dagelijkse diensten toe voor deze klant.",
+        "FIELDS": {
+          "DAILY_SHIFT": "Diensten"
+        },
+        "MODAL": {
+          "TITLE": "Dienst",
+          "ADD_DESCRIPTION": "Een dienst aan de klant toevoegen",
+          "EDIT_DESCRIPTION": "Huidige dienst van de klant bewerken",
+          "FIELDS": {
+            "NAME": "Name",
+            "START": "Begintijd",
+            "END": "Eindtijd"
+          }
+        }
+      },
+      "TITLE": "Klanten",
+      "CUSTOMIZE": {
+        "DESCRIPTION": "Wanneer gebruikers een van de onderstaande domeinen bezoeken, wordt de software aangepast met de volgende instellingen.",
+        "RESET_COLOR": "Terugzetten naar standaardinstellingen basisthema",
+        "TITLE": "Aanpassen",
+        "FIELDS": {
+          "DOMAINS": "Domeinen",
+          "LANGUAGE": "Taal",
+          "THEME": "Thema",
+          "LOGO": "Logo",
+          "LOGO_DESCRIPTION": "De afbeelding wordt herschaald naar 800 x 333 pixels en wordt gebruikt in rapporten.",
+          "WEB_LOGO": "Weblogo",
+          "WEB_LOGO_DESCRIPTION": "De afbeelding wordt herschaald naar 240 x 100 pixels. Voor betere resultaten kunt u uw afbeelding vooraf schalen in een grafisch programma voordat u deze uploadt.",
+          "LOGIN_MESSAGE": "Aanmeldingsbericht",
+          "LOGIN_MESSAGE_DESCRIPTION": "Markdown-syntaxis wordt ondersteund voor het opmaken van tekst."
+        },
+        "ARIA": {
+          "EDIT": "Klant aanpassen",
+          "PAINT_ROLLER_ICON": "Verfroller pictogram",
+          "TITLE": "Klantaanpassing"
+        }
+      },
+      "STATISTICS": {
+        "ARIA": {
+          "DATE_RANGE": "Datumbereik"
+        },
+        "TITLE": "Klantstatistieken"
+      }
+    },
+    "USERS": {
+      "GRID": {
+        "NAME": "Name",
+        "STATE": "Status",
+        "MODIFIED": "Gewijzigd",
+        "EMAIL_ADDRESS": "E-mailadres",
+        "MOBILE_NUMBER": "Mobiel nummer",
+        "COST_CENTRE": "Kostenplaats",
+        "TIMEZONE": "Tijdzone",
+        "LANGUAGE": "Taal"
+      },
+      "RESET": {
+        "TIP": "Gebruikersaccount opnieuw instellen",
+        "CONFIRM": "Hierdoor wordt de gebruiker geschorst en ontvangt hij een e-mail met instructies voor het herstellen van zijn account.",
+        "ERROR": "Er is een fout opgetreden bij het opnieuw instellen van het account.",
+        "ERROR_EMAIL": "Het wachtwoord van de gebruiker is succesvol opnieuw ingesteld, maar de herstel-e-mail kon niet worden verzonden. U moet proberen het account opnieuw in te stellen."
+      },
+      "INVITE": {
+        "TIP": "Nieuwe gebruiker uitnodigen",
+        "ERROR_EMAIL": "De gebruiker is succesvol aangemaakt, maar de uitnodigings-e-mail voor het aanmaken van het account kon niet worden verzonden. U moet het account opnieuw instellen om het opnieuw te proberen."
+      },
+      "DETAILS": {
+        "TITLE": "Gebruikersgegevens",
+        "TITLE_ALT": "Mijn gegevens",
+        "TITLE_PROFILE": "Gebruikersprofiel",
+        "DESCRIPTION": "Vul de volgende persoonlijke gegevens in voor de gebruiker.",
+        "DESCRIPTION_ALT": "Vul de volgende persoonlijke gegevens in voor uzelf.",
+        "PROFILE_PHOTO": "Profielfoto",
+        "FIELDS": {
+          "NAME": "Name",
+          "EMAIL_ADDRESS": "E-mailadres",
+          "MOBILE_NUMBER": "Mobiel nummer",
+          "PASSWORD": "Wachtwoord",
+          "PASSWORD_LENGTH": "Moet {{length}} tekens of meer bevatten",
+          "PASSWORD_ALPHANUMERIC": "Moet zowel letters als cijfers bevatten",
+          "PASSWORD_MIXED_CASE": "Moet zowel kleine als hoofdletters bevatten",
+          "PASSWORD_SYMBOLS": "Moet een of meer niet-alfanumerieke symbolen bevatten",
+          "COST_CENTRE": "Kostenplaats",
+          "TIMEZONE": "Tijdzone",
+          "LANGUAGE": "Taal",
+          "DEFAULT_CLIENT": "Standaardklant",
+          "SEND_INVITE": "Uitnodiging verzenden",
+          "SEND_INVITE_DESCRIPTION": "Indien ingeschakeld, ontvangt de gebruiker een e-mail met de uitnodiging om zijn account te activeren."
+        }
+      },
+      "ROLES": {
+        "TITLE": "Gebruikersrollen",
+        "DESCRIPTION": "Selecteer uit de volgende gebruikersrollen.",
+        "FIELDS": {
+          "ROLES": "Rollen"
+        }
+      },
+      "CLIENT_PERMISSIONS": {
+        "TITLE": "Clientmachtigingen",
+        "DESCRIPTION": "U kunt deze gebruiker beperken tot bepaalde klanten en assets door ze op te geven in de onderstaande lijst.",
+        "FIELDS": {
+          "CLIENTS": "Klanten",
+          "CLIENT": "Klant",
+          "ASSETS": "Assets"
+        },
+        "MODALS": {
+          "CLIENT": {
+            "TITLE": "Clientmachtigingen",
+            "DESCRIPTION": "Geef hier machtigingen op voor een specifieke klant."
+          }
+        }
+      },
+      "ASSET_PERMISSIONS": {
+        "TITLE": "Assetmachtigingen",
+        "DESCRIPTION": "U kunt deze gebruiker beperken tot bepaalde assets door ze op te geven in de onderstaande lijst.",
+        "FIELDS": {
+          "ASSETS": "Assets"
+        }
+      },
+      "NOTIFY": {
+        "TITLE": "Meldingen",
+        "DESCRIPTION": "Configureer meldingsacties voor waarschuwingen en toegestane SMS-tijden.",
+        "ACTIONS": {
+          "NONE": "Geen",
+          "EMAIL": "E-mail",
+          "SMS": "SMS",
+          "EMAILSMS": "E-mail en SMS"
+        },
+        "FIELDS": {
+          "SMS_FROM": "SMS toestaan vanaf",
+          "SMS_TO": "SMS toestaan tot",
+          "LOW_ACTION": "Lage prioriteit",
+          "MEDIUM_ACTION": "Gemiddelde prioriteit",
+          "HIGH_ACTION": "Hoge prioriteit"
+        }
+      },
+      "SESSIONS": {
+        "TITLE": "Actieve sessies",
+        "MESSAGES": {
+          "CURRENT_SESSION": "Huidige sessie",
+          "CONFIRM_DELETE": "Weet u zeker dat u de geselecteerde sessie geforceerd wilt uitloggen?",
+          "UNEXPECTED_ERROR": "Er is een onverwachte fout opgetreden"
+        }
+      },
+      "OIDC_TAGS": {
+        "TITLE": "Externe verificatie",
+        "DESCRIPTION": "Koppel de gebruiker aan een of meer externe OpenID Connect-providers door het voor elke provider unieke abonnee-ID in te voeren.",
+        "DESCRIPTION_OWN": "Koppel uw account aan een of meer externe OpenID Connect-providers.",
+        "FIELDS": {
+          "LINK": "Koppelen aan {{issuer}}"
+        },
+        "ERRORS": {
+          "LINK_EMAIL": "Het e-mailadres opgehaald van {{issuer}} komt niet overeen met het e-mailadres van deze gebruiker.",
+          "LINK_FIELDS": "Het was niet mogelijk om het e-mailadres en het abonnee-ID op te halen van {{issuer}}."
+        }
+      },
+      "OTP": {
+        "TITLE": "Eenmalige wachtwoorden",
+        "DESCRIPTION": "Beheer inschrijvingen voor eenmalige wachtwoorden.",
+        "FIELDS": {
+          "TYPES": "Ingeschreven bij",
+          "NAME": "Name"
+        },
+        "CLEAR_TOKENS": "OTP-tokens wissen",
+        "TYPES": {
+          "TOTP": "Tijdgebaseerd eenmalig wachtwoord"
+        },
+        "MODALS": {
+          "CLEAR": {
+            "DESCRIPTION": "Weet u zeker dat u uw gecachte OTP-tokens op deze computer wilt wissen? U moet de meervoudige verificatie opnieuw uitvoeren wanneer u inlogt."
+          },
+          "DELETE": {
+            "DESCRIPTION": "Weet u zeker dat u deze OTP-inschrijving wilt verwijderen? De gebruiker moet zich opnieuw inschrijven voor OTP bij de volgende aanmelding."
+          },
+          "ADD_OTP": {
+            "TITLE": " OTP-inschrijving",
+            "DESCRIPTION": "Scan de volgende QR-code in uw authenticatie-app op uw mobiele telefoon en voer vervolgens de code in die u ontvangt."
+          }
+        }
+      },
+      "API_KEYS": {
+        "TITLE": "API-sleutels",
+        "DESCRIPTION": "Genereer API-sleutels die kunnen worden gebruikt om dit gebruikersaccount te koppelen aan systemen van derden.",
+        "FIELDS": {
+          "KEYS": "Sleutels",
+          "NAME": "Name"
+        },
+        "MODALS": {
+          "NEW": {
+            "TITLE": "Nieuwe API-sleutel",
+            "DESCRIPTION": "Voer een beschrijvende naam in voor uw nieuwe API-sleutel."
+          },
+          "DETAILS": {
+            "TITLE": "API-sleuteldetails",
+            "DESCRIPTION": "Uw API-sleutel wordt hieronder weergegeven. Deze wordt slechts één keer getoond en kan niet worden hersteld. Zorg ervoor dat u de waarde kopieert en veilig opslaat voordat u dit bericht sluit."
+          },
+          "DELETE": {
+            "DESCRIPTION": "Weet u zeker dat u deze API-sleutel wilt verwijderen? Iedereen die deze sleutel gebruikt, verliest onmiddellijk de toegang."
+          }
+        }
+      },
+      "TITLE": "Gebruikers"
+    },
+    "USER_ROLES": {
+      "GRID": {
+        "NAME": "Name",
+        "DESCRIPTION": "Beschrijving",
+        "MODIFIED": "Gewijzigd"
+      },
+      "DETAILS": {
+        "TITLE": "Roldetails",
+        "DESCRIPTION": "Beschrijf deze gebruikersrol.",
+        "FIELDS": {
+          "NAME": "Name",
+          "DESCRIPTION": "Beschrijving"
+        }
+      },
+      "RIGHTS": {
+        "TITLE": "Toegangsrechten",
+        "DESCRIPTION": "Selecteer uit de volgende toegangsrechten."
+      },
+      "INLINE_POLICIES": {
+        "TITLE": "Inline-beleidsregels",
+        "DESCRIPTION": "Voeg aangepaste inline-beleidsregels toe aan deze gebruikersrol.",
+        "FIELDS": {
+          "POLICIES": "Beleidsregels",
+          "NAME": "Name",
+          "STATEMENTS": "Instructies"
+        },
+        "MODAL": {
+          "TITLE": "Inline-beleidsregel",
+          "DESCRIPTION": "Vul de volgende velden in voor uw inline-beleidsregel."
+        }
+      },
+      "TITLE": "Gebruikersrollen",
+      "DESCRIPTION": "Selecteer uit de volgende gebruikersrollen."
+    },
+    "ASSETS": {
+      "ANALOG_TRIGGERS": {
+        "DESCRIPTION": "Bepaal wanneer analoge en temperatuurgebeurtenissen voor dit asset worden gegenereerd.",
+        "FIELDS": {
+          "ANALOGS": "Analogen",
+          "ANALOG_DESCRIPTION": "Bereik van {{minRange}} tot {{maxRange}} met een debounce van {{rangeDebounce}} posities.",
+          "ANALOG_INPUT": "Analoge ingang",
+          "DROP_AMOUNT": "Dalbedrag",
+          "INCREASE_AMOUNT": "Verhoog het bedrag",
+          "MAX_RANGE": "Maximaal bereik",
+          "MIN_RANGE": "Min. bereik",
+          "RANGE_DEBOUNCE": "Bereik debounce",
+          "TEMPERATURES": "Temperaturen",
+          "TEMPERATURE_DESCRIPTION": "Bereik van {{minRange}} tot {{maxRange}} met een debounce van {{rangeDebounce}} posities.",
+          "TEMPERATURE_INPUT": "Analoge ingang"
+        },
+        "MODALS": {
+          "ANALOG": {
+            "DESCRIPTION": "Er wordt een gebeurtenis gegenereerd wanneer het opgegeven bereik wordt overschreden, of wanneer een plotselinge daling of stijging wordt gedetecteerd die overeenkomt met de opgegeven bedragen.",
+            "TITLE": "Analoge gebeurtenistrigger"
+          },
+          "TEMPERATURE": {
+            "DESCRIPTION": "Er wordt een gebeurtenis gegenereerd wanneer het opgegeven bereik wordt overschreden.",
+            "TITLE": "Trigger temperatuurgebeurtenis"
+          }
+        },
+        "TITLE": "Analoge triggers",
+        "ARIA": {
+          "ASSET_ANALOG_TRIGGER_ICON": "Icoon van analoge activatietrigger: {{icon}}",
+          "EDIT_ASSET_ANALOG_TRIGGER_ICON": "Bewerk het analoge triggerpictogram van het item"
+        }
+      },
+      "CATEGORIES": {
+        "DESCRIPTION": "Activa kunnen tot een aantal door de gebruiker gedefinieerde categorieën behoren.",
+        "TITLE": "Categorieën",
+        "NO_CATEGORIES": "Geen categorieën geselecteerd",
+        "ARIA": {
+          "ASSET_CATEGORY_ICON": "Pictogram voor itemcategorie: {{icon}}",
+          "EDIT_ASSET_CATEGORY_ICON": "Pictogram voor activacategorie bewerken"
+        }
+      },
+      "COLUMNS": {
+        "ASSET_TAG": "Itemtag",
+        "CAMERAS": "Camera's",
+        "COST_CENTRE": "Kostenplaats",
+        "DEVICES": "Apparaten",
+        "DEVICE_IDS": "Apparaat-ID's",
+        "GROUPS": "Groepen",
+        "LINKED_FROM": "Gekoppeld vanaf klant",
+        "LINKED_TO": "Gekoppeld aan klanten",
+        "LINK_ENDED": "(eindigde {{time}})",
+        "LINK_ENDS": "(eindigt {{time}})",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "SHARED_WITH": "Gedeeld met",
+        "STATE": "Staat",
+        "TAGS": "Labels",
+        "TYPE": "Type",
+        "SHARED_FROM": "Gedeeld van",
+        "SHARED_TO": "Gedeeld met",
+        "VOICE_NUMBER": "Stemnummer"
+      },
+      "CONTACTS": {
+        "DESCRIPTION": "De volgende contactpersonen worden aan dit item gekoppeld.",
+        "FIELDS": {
+          "CONTACTS": "Contacten",
+          "EMAIL": "E-mailadres",
+          "NAME": "Naam",
+          "PHONE": "Telefoonnummer",
+          "MOBILE": "Mobiel nummer",
+          "NOTES": "Opmerkingen",
+          "TYPE": "Type"
+        },
+        "MODAL": {
+          "DESCRIPTION": "Vul de volgende gegevens in voor uw activacontactpersoon.",
+          "TITLE": "Activa-contactpersoon"
+        },
+        "TITLE": "Contacten",
+        "MESSAGES": {
+          "UPDATED": "Contacten zijn succesvol bijgewerkt"
+        },
+        "MODAL_ADD": "Contactpersoon toevoegen",
+        "MODAL_EDIT": "Contactpersoon bewerken",
+        "ARIA": {
+          "ASSET_CONTACT_ICON": "Icoon van itemcontact: {{icon}}",
+          "DELETE_CONTACT": "Contactpersoon verwijderen",
+          "EDIT_ASSET_CONTACT_ICON": "Pictogram voor activacontact bewerken",
+          "GO_TO_CONTACT": "Ga naar contact",
+          "GO_TO_CONTACT_NAME": "Ga naar {{name}}",
+          "REMOVE_CONTACT_NAME": "{{name}} verwijderen"
+        },
+        "PICKER_PLACEHOLDER": "Selecteer contacten…",
+        "MODAL_CREATE": "Nieuw contact",
+        "EMPTY_PICKER": "Nog geen contacten toegevoegd. Zoek hierboven om er een toe te voegen.",
+        "EMPTY_VIEW": "Geen contacten toegevoegd aan dit activum."
+      },
+      "COUNTERS": {
+        "HOURS": {
+          "DESCRIPTION": "Pas hieronder de motorurenwaarde aan.",
+          "TITLE": "Motoruren"
+        },
+        "ODOMETER": {
+          "DESCRIPTION": "Pas hieronder de kilometertellerwaarde aan.",
+          "TITLE": "Kilometerteller"
+        },
+        "DATE": "Datum",
+        "WARNINGS": {
+          "UNAVAILABLE": "Tellerwaarden zijn momenteel niet beschikbaar en kunnen niet worden bijgewerkt. \nDit kan komen doordat aan het asset geen apparaat is toegewezen of omdat er geen telemetriegegevens beschikbaar zijn."
+        },
+        "ARIA": {
+          "ASSET_COUNTER_ICON": "Pictogram voor activateller: {{icon}}",
+          "EDIT_ASSET_COUNTER_ICON": "Pictogram voor activateller bewerken"
+        }
+      },
+      "CURFEW_EVENTS": {
+        "DESCRIPTION": "Definieer de werkuren van dit item om avondklokovertredingen te genereren.",
+        "FIELDS": {
+          "CURFEWS": "Werktijden",
+          "CURFEW_DESCRIPTION": "Tussen {{from}} en {{to}} op {{days}}.",
+          "DAYS": "Dagen",
+          "FROM": "Van",
+          "TIMEZONE": "Tijdzone",
+          "TO": "Naar"
+        },
+        "MODALS": {
+          "CURFEW": {
+            "DESCRIPTION": "Er wordt een gebeurtenis gegenereerd wanneer het activum buiten de opgegeven werkuren beweegt.",
+            "TITLE": "Werktijden"
+          }
+        },
+        "TITLE": "Werktijden",
+        "ARIA": {
+          "ASSET_CURFEW_ICON": "Pictogram voor avondklok voor activa: {{icon}}",
+          "EDIT_ASSET_CURFEW_ICON": "Pictogram voor avondklok bewerken"
+        }
+      },
+      "DETAILS": {
+        "AVATAR": {
+          "DELETE_ERROR": "Er is een fout opgetreden bij het verwijderen van de asset-avatar: {{error}}",
+          "DELETE_SUCCESS": "De asset-avatar is succesvol verwijderd.",
+          "DELETING_DETAIL": "Activa-avatar verwijderen. \nWacht alstublieft.",
+          "DELETING_TITLE": "Activa-avatar verwijderen",
+          "PERMISSION_DENIED_DELETE": "Je hebt geen toestemming om deze avatar te verwijderen.",
+          "PERMISSION_DENIED_UPLOAD": "Je hebt geen toestemming om een ​​avatar te uploaden.",
+          "UPLOAD_FAILED": "Er is een fout opgetreden bij het uploaden van de afbeelding: {{error}}",
+          "UPLOAD_FAILED_TITLE": "Uploaden mislukt",
+          "UPLOAD_SUCCESS": "Afbeelding succesvol geüpload.",
+          "UPLOAD_SUCCESS_TITLE": "Uploaden is gelukt"
+        },
+        "COLORS": {
+          "BLUE": "Blauw",
+          "GRAY": "Grijs",
+          "GREEN": "Groente",
+          "LIGHTBLUE": "Lichtblauw",
+          "OLIVE": "Olijf",
+          "ORANGE": "Oranje",
+          "PINK": "Roze",
+          "PURPLE": "Paars",
+          "RED": "Rood",
+          "TEAL": "Wintertaling",
+          "WHITE": "Wit",
+          "YELLOW": "Geel"
+        },
+        "CONTACTS_TYPES": {
+          "ADMINISTRATIVE": "Administratief",
+          "EMERGENCY": "Noodgeval",
+          "OPERATIONAL": "Operationeel",
+          "OTHER": "Ander",
+          "OWNER": "Eigenaar",
+          "TECHNICAL": "Technisch"
+        },
+        "DESCRIPTION": "De volgende informatie is vereist om uw asset te identificeren.",
+        "FIELDS": {
+          "ASSET_TAG": "Itemtag",
+          "COLOR": "Kleur",
+          "COST_CENTRE": "Kostenplaats",
+          "GROUPS": "Groepen",
+          "NAME": "Naam",
+          "PHOTO": "Activafoto",
+          "STATE": "Staat",
+          "TAGS": "Labels",
+          "TYPE": "Type",
+          "ICON_NAME": "Icoon Naam",
+          "PARENT_ASSET": "Bovenliggende activa",
+          "SHARED_FROM": "Gedeeld van"
+        },
+        "ICON_OPTIONS": {
+          "AIRPLANE": "Vliegtuig",
+          "AMBULANCE": "Ambulance",
+          "AMBULANCE_SMALL": "Ziekenwagen (klein)",
+          "BOAT": "Boot",
+          "BUS": "Bus",
+          "CAR": "Auto",
+          "CEMENT_MIXER": "Cementmixer",
+          "CONTAINER": "Houder",
+          "DEFAULT": "Standaard",
+          "DUMP_TRUCK": "Kipper",
+          "EXCAVATOR": "Graafmachine",
+          "HAUL_TRUCK": "Transportwagen",
+          "LAWN_MOWER": "Grasmaaier",
+          "MAN": "Man",
+          "MOTORCYCLE": "Motorfiets",
+          "PARCEL": "Perceel",
+          "PICKUP_TRUCK": "Pick-up",
+          "SCHOOL_BUS": "Schoolbus",
+          "SCHOOL_BUS_SMALL": "Schoolbus (klein)",
+          "TRACTOR": "Tractor",
+          "TRAILER": "Aanhangwagen",
+          "TRUCK": "Vrachtwagen",
+          "TRUCK_SMALL": "Vrachtwagen (klein)",
+          "VAN": "Van",
+          "VAN_SMALL": "Bestelwagen (klein)"
+        },
+        "PRIVACY_MODE": {
+          "AD_HOC_PRIVACY_MODE": "Dit item bevindt zich momenteel in de ad-hocprivacymodus en eindigt om",
+          "DISABLE": "Schakel de ad-hocprivacymodus uit",
+          "ENABLE": "Schakel de ad-hocprivacymodus in",
+          "INDEFINITE_AD_HOC_PRIVACY_MODE": "Dit item bevindt zich momenteel in een ad-hocprivacymodus voor onbepaalde tijd.",
+          "MODAL": {
+            "DESCRIPTION": "U staat op het punt de privacymodus in te schakelen. Geef de voorwaarden op voor het automatisch beëindigen van de privacymodus, indien van toepassing.",
+            "FIELDS": {
+              "CONDITION": "Voorwaarde",
+              "ENDS_IN": "Eindigt over",
+              "NONE": "Geen, privacy blijft bestaan ​​totdat deze handmatig wordt verwijderd",
+              "ONE_HOUR": "1 uur",
+              "TIME_DURATION": "Tijdsduur",
+              "TWELVE_HOURS": "12 uur",
+              "TWENTY_FOUR_HOURS": "24 uur"
+            },
+            "NAME": "Schakel de privacymodus in"
+          },
+          "REMOVE_PRIVACY_MODE": "Weet u zeker dat u de privacymodus van dit item wilt verwijderen?"
+        },
+        "TITLE": "Activadetails",
+        "ARIA": {
+          "ASSET_ICON": "Itempictogram: {{icon}}",
+          "ASSET_IMAGE": "Afbeelding van item",
+          "EDIT_ASSET_DETAILS": "Itemdetails bewerken",
+          "EDIT_ASSET_ICON": "Itempictogram bewerken",
+          "SHARED_FROM": "Gedeeld van {{klant}}",
+          "UPLOAD_ASSET_IMAGE": "Upload itemafbeelding"
+        }
+      },
+      "EVENT_TRIGGERS": {
+        "DESCRIPTION": "Bepaal wanneer snelheids-, stationair- en uitschakellimietgebeurtenissen voor dit asset worden gegenereerd.",
+        "FIELDS": {
+          "EXCESSIVE_IDLE": "Overmatig inactief",
+          "MAX_INACTIVE_TIME": "Maximale inactieve tijd",
+          "MAX_SPEED": "Maximale snelheid",
+          "MAX_TRIP_DISTANCE": "Maximale reisafstand",
+          "MAX_TRIP_TIME": "Maximale reistijd",
+          "MINUTES": "notulen",
+          "OVERSPEED_PROFILE": "Oversnelheidsprofiel",
+          "SPEED_TOLERANCE": "Snelheidstolerantie"
+        },
+        "TITLE": "Gebeurtenistriggers",
+        "ARIA": {
+          "ASSET_EVENT_TRIGGER_ICON": "Triggerpictogram voor itemgebeurtenis: {{icon}}",
+          "EDIT_ASSET_EVENT_TRIGGER_ICON": "Triggerpictogram voor itemgebeurtenis bewerken"
+        }
+      },
+      "LABELS": {
+        "DESCRIPTION": "Configureer labels die standaard op gegevens uit dit asset worden toegepast.",
+        "FIELDS": {
+          "DEFAULT_TRIP_LABELS": "Standaard reislabels",
+          "DEFAULT_TRIP_LABELS_DESCRIPTION": "De hierboven gespecificeerde labels worden standaard op nieuwe reizen toegepast."
+        },
+        "TITLE": "Standaardlabels",
+        "ARIA": {
+          "ASSET_LABEL_ICON": "Icoon itemlabel: {{icon}}",
+          "EDIT_ASSET_LABEL_ICON": "Pictogram voor itemlabel bewerken"
+        }
+      },
+      "PROFILES": {
+        "DESCRIPTION": "Maak een keuze uit de volgende profielen.",
+        "FIELDS": {
+          "ASSET_RATING": "Activabeoordeling",
+          "ASSET_STATE": "Activa staat",
+          "GEO_LOCK_PROFILE": "Geo Lock-profiel",
+          "PRIVACY_PROFILE": "Privacyprofiel",
+          "ROAD_PROFILE": "Wegprofiel"
+        },
+        "TITLE": "Profielen",
+        "ARIA": {
+          "ASSET_PROFILE_ICON": "Icoon van itemprofiel: {{icon}}",
+          "EDIT_ASSET_PROFILE_ICON": "Pictogram voor itemprofiel bewerken",
+          "EDIT": "Activaprofielen bewerken",
+          "VERIFIED_ICON": "Geverifieerd pictogram"
+        }
+      },
+      "REMINDERS": {
+        "DESCRIPTION": "Stel herinneringen in voor activa.",
+        "FIELDS": {
+          "DAILY": "Dagelijks",
+          "DAY": "Dag",
+          "DAYS": "Dagen",
+          "EVERY": "Elk",
+          "MODE": "Modus",
+          "MONTHS": "Maanden",
+          "MONTHLY": "Maandelijks",
+          "NAME": "Naam",
+          "NONE": "Na elke herinnering",
+          "REMINDERS": "Herinneringen",
+          "RESET": "Opnieuw instellen",
+          "RESET_COUNTER": "Teller opnieuw instellen",
+          "STARTING_AT": "Beginnend om",
+          "TIMEZONE": "Tijdzone",
+          "WEEKDAYS": "Weekdagen",
+          "WEEKLY": "Wekelijks"
+        },
+        "HOURS": {
+          "DESCRIPTION": "Herinneringen voor motoruren creëren een gebeurtenis (en een optionele waarschuwing) wanneer de opgegeven motorurenwaarde wordt bereikt.",
+          "FIELDS": {
+            "ONCE": "Op specifieke uren",
+            "REPEATING": "Elke X uur",
+            "STARTING_AT_DESCRIPTION": "Stel de uren in waarop herinneringen moeten starten",
+            "TRIGGER_VALUE": {
+              "ONCE": "Motoruren",
+              "REPEATING": "Uur"
+            }
+          },
+          "TITLE": "Herinnering motoruren"
+        },
+        "ODO": {
+          "DESCRIPTION": "Kilometertellerherinneringen creëren een gebeurtenis (en optionele waarschuwing) wanneer de opgegeven kilometertellerwaarde wordt bereikt.",
+          "FIELDS": {
+            "ONCE": "Bij specifieke kilometerteller",
+            "REPEATING": "Elke X {{eenheid}}",
+            "STARTING_AT_DESCRIPTION": "Stel de kilometertellerwaarde in waarvandaan herinneringen moeten worden gestart",
+            "TRIGGER_VALUE": {
+              "ONCE": "Kilometerteller",
+              "REPEATING": "{{eenheid}}"
+            }
+          },
+          "TITLE": "Kilometerteller herinnering"
+        },
+        "TIME": {
+          "DESCRIPTION": "Op tijd gebaseerde herinneringen creëren een gebeurtenis (en optionele waarschuwing) wanneer de opgegeven datum en tijd worden bereikt.",
+          "FIELDS": {
+            "ONCE": "Op specifieke datum/tijd",
+            "REPEATING": "Elke X dagen",
+            "TRIGGER_VALUE": {
+              "ONCE": "Datum",
+              "REPEATING": "Dagen"
+            }
+          },
+          "TITLE": "Op tijd gebaseerde herinnering"
+        },
+        "TITLE": "Herinneringen",
+        "MESSAGES": {
+          "DELETED": "Herinnering verwijderd",
+          "DELETED_DETAIL": "Herinnering \"{{name}}\" is gemarkeerd voor verwijdering.",
+          "SAVE_ERROR": "Kan herinneringen niet opslaan",
+          "SAVE_SUCCESS": "Herinneringen zijn succesvol bijgewerkt"
+        },
+        "MODAL_ADD": "Voeg {{type}} toe",
+        "ARIA": {
+          "ASSET_REMINDER_ICON": "Pictogram voor activaherinnering: {{icon}}",
+          "EDIT_ASSET_REMINDER_ICON": "Pictogram voor activaherinnering bewerken",
+          "CLOCK_ICON": "Klokpictogram",
+          "DELETE_REMINDER": "Herinnering verwijderen",
+          "EDIT": "Herinneringen bewerken"
+        },
+        "BUTTONS": {
+          "ADD_REMINDER": "Herinnering toevoegen"
+        }
+      },
+      "SHARING": {
+        "DESCRIPTION": "Voeg hieronder bedrijven toe waarmee u dit item wilt delen.",
+        "FIELDS": {
+          "PIN": "PIN",
+          "SHARED_WITH": "Gedeeld met"
+        },
+        "MODAL": {
+          "DESCRIPTION": "Voer de pincode in van het bedrijf waarmee u dit bezit wilt delen. \nWeet u de pincode niet, neem dan contact op met het betreffende bedrijf en vraag naar de pincode.",
+          "INVALID_PIN_MESSAGE": "De ingevoerde pincode is ongeldig.",
+          "TITLE": "Deel activa",
+          "CLIENT_FOUND": "Klant gevonden:",
+          "SEARCHING": "Op zoek naar klant..."
+        },
+        "TITLE": "Delen",
+        "CONFIRM": {
+          "HEADER": "Delen verwijderen",
+          "MESSAGE": "Weet je zeker dat je het delen met {{name}} wilt verwijderen?"
+        },
+        "MESSAGES": {
+          "ALREADY_SHARED": "Al gedeeld",
+          "ALREADY_SHARED_DETAIL": "Item is al gedeeld met {{name}}",
+          "UPDATE_FAILED": "Kan de instellingen voor delen niet updaten",
+          "UPDATE_SUCCESS": "Instellingen voor delen zijn bijgewerkt"
+        },
+        "VALIDATIONS": {
+          "CLIENT_NOT_FOUND": "Er is geen client gevonden voor deze pincode",
+          "PIN_MIN_LENGTH": "De pincode moet minimaal 3 tekens lang zijn"
+        },
+        "ARIA": {
+          "ASSET_SHARING_ICON": "Pictogram voor het delen van middelen: {{icon}}",
+          "EDIT_ASSET_SHARING_ICON": "Pictogram voor het delen van middelen bewerken",
+          "DELETE_ITEM": "Het delen verwijderen",
+          "EDIT": "Item delen bewerken",
+          "SHARE_ICON": "Pictogram voor delen"
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "CATEGORIES": "Categorieën",
+          "DETAILS": "Activadetails",
+          "INFO": "Info"
+        }
+      },
+      "ZONES": {
+        "BORDER_VALUES": {
+          "COUNTRY": "Land",
+          "STATE": "Staat / Provincie"
+        },
+        "DESCRIPTION": "Activeer geografische gebeurtenissen op basis van geofence-, route- en grenswijzigingen.",
+        "FIELDS": {
+          "BORDERS": "Grenzen",
+          "BORDERS_DESCRIPTION": "Wanneer het item een ​​van deze grenzen overschrijdt, wordt er een gebeurtenis gegenereerd.",
+          "ZONES": "Geofences"
+        },
+        "TITLE": "Geografische triggers",
+        "ARIA": {
+          "ASSET_ZONE_ICON": "Pictogram voor activazone: {{icon}}",
+          "EDIT_ASSET_ZONE_ICON": "Pictogram voor activazone bewerken",
+          "EDIT": "Activazones bewerken"
+        }
+      },
+      "MOVE": {
+        "FIELDS": {
+          "DESTINATION_CLIENT": "Bestemming klant",
+          "INCLUDE_DEVICE": "Inclusief apparaat",
+          "INCLUDE_SIMCARD": "Inclusief simkaart"
+        },
+        "MOVE_ASSET": "Verplaats activa",
+        "MOVE_ASSET_DESCRIPTION": "Selecteer de doelklant waarnaar u dit activum wilt verplaatsen. \nHet asset wordt naar de nieuwe client gekopieerd en vervolgens in deze client verwijderd.",
+        "TIP": "Verplaats activa"
+      },
+      "KEY_TELEMATICS": {
+        "BUTTONS": {
+          "PROCEED": "Doorgaan",
+          "PROCEED_ANYWAY": "Ga hoe dan ook door",
+          "SIGN_IN_DIFFERENT": "Log in met een ander account",
+          "SWITCH_ACCOUNT": "Van account wisselen"
+        },
+        "CONFIRM": {
+          "CHECKING": "Entiteiten controleren...",
+          "CONFLICT_ERROR": "Er zijn conflicten die moeten worden opgelost voordat verder kan worden gegaan.",
+          "DIFFERENT_CLIENT": "een andere cliënt",
+          "OWNED_BY": "Eigendom van",
+          "REVIEW": "Bekijk de volgende wijzigingen voordat u doorgaat.",
+          "VERIFY_ERROR": "Kan entiteiten niet verifiëren. \nU kunt toch doorgaan, maar er kunnen zich conflicten voordoen."
+        },
+        "CREDENTIALS": {
+          "ACTIVE_ACCOUNT": "Actief account",
+          "CONNECTED": "Verbonden met Key Telematica",
+          "CONNECTING": "Verbinden...",
+          "DESCRIPTION": "Voer uw Key Telematics-inloggegevens in om door te gaan.",
+          "FIELDS": {
+            "PASSWORD": "Wachtwoord",
+            "PASSWORD_PLACEHOLDER": "Voer uw wachtwoord in",
+            "USERNAME": "Gebruikersnaam",
+            "USERNAME_PLACEHOLDER": "Voer uw gebruikersnaam in"
+          },
+          "MULTIPLE_ACCOUNTS": "Meerdere accounts gevonden. \nSelecteer er een om door te gaan.",
+          "TITLE": "Meld u aan bij Key Telematics"
+        },
+        "MAP_DEPS": {
+          "DESCRIPTION": "Wijs CypherView-entiteiten toe aan hun Key Telematics-equivalenten.",
+          "NO_DEPS": "Er zijn geen afhankelijkheden om in kaart te brengen voor dit item.",
+          "TITLE": "Afhankelijkheden in kaart brengen"
+        },
+        "SELECT_CLIENT": {
+          "DESCRIPTION": "Zoek naar de Key Telematics-client waarmee u dit asset wilt synchroniseren.",
+          "TITLE": "Selecteer Belangrijke telematicaclient"
+        },
+        "SYNCING": "Asset synchroniseren met Key Telematics..."
+      },
+      "ODO_HOUR_CHANGES": {
+        "ARIA": {
+          "DELETE_CHANGE": "Wijziging verwijderen",
+          "EDIT": "Bewerking",
+          "EDIT_CHANGE": "Wijziging bewerken"
+        },
+        "BUTTONS": {
+          "ADD_CHANGE": "Wijziging toevoegen"
+        },
+        "COLUMNS": {
+          "ACTIONS": "Acties",
+          "CREATED_BY": "Gemaakt door",
+          "DATE": "Datum"
+        },
+        "EMPTY": "Geen wijzigingen geregistreerd."
+      },
+      "BULK_IMPORT_TITLE": "Bulkimport van activa",
+      "TITLE": "Activa"
+    },
+    "ASSET_CATEGORIES": {
+      "COLUMNS": {
+        "ASSETS": "Activa",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "De volgende informatie is vereist om uw activacategorie te identificeren.",
+        "FIELDS": {
+          "NAME": "Naam",
+          "PARENT": "Ouder"
+        },
+        "TITLE": "Categoriedetails"
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details activacategorie"
+        }
+      },
+      "ARIA": {
+        "ASSET_CATEGORY_ICON": "Pictogram voor itemcategorie: {{icon}}",
+        "EDIT_ASSET_CATEGORY_DETAILS": "Bewerk de details van de itemcategorie"
+      },
+      "TITLE": "Categorieën"
+    },
+    "ASSET_GROUPS": {
+      "COLUMNS": {
+        "ASSETS": "Activa",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "De volgende informatie is vereist om uw activagroep te identificeren.",
+        "FIELDS": {
+          "NAME": "Naam",
+          "PARENT": "Ouder"
+        },
+        "PARENT_OPTIONS": {
+          "ROOT": "Wortel"
+        },
+        "TITLE": "Details van activagroep"
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details van activagroep"
+        }
+      },
+      "ARIA": {
+        "EDIT_ASSET_GROUP_DETAILS": "Bewerk de details van de itemgroep"
+      },
+      "TITLE": "Activagroepen"
+    },
+    "ASSET_STATE_PROFILES": {
+      "COLUMNS": {
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "STATE": "Staat"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Configureer de statuswijzigingstriggers voor uw assetstatusprofiel.",
+        "FIELDS": {
+          "COLOR": "Staat kleur",
+          "FILTER": "Gebeurtenisfilter",
+          "NAME": "Naam",
+          "RADIUS": "Radius",
+          "RADIUS_DESCRIPTION": "Definieert de dikte van de rijlijn die op de kaart wordt getekend voor toepassingen waarbij dekking belangrijk is.",
+          "RADIUS_UNIT": "meter",
+          "STATE": "Naam van de staat",
+          "STATES": "Staten"
+        },
+        "MODALS": {
+          "STATE": {
+            "DESCRIPTION": "Kies een statusnaam en -kleur en configureer het gebeurtenisfilter om deze status te activeren.",
+            "TITLE": "Trigger voor statuswijziging"
+          }
+        },
+        "TITLE": "Profielgegevens activastatus"
+      },
+      "WARNINGS": {
+        "ITEM_LENGTH": "Er zijn ten minste twee statussen vereist om het assetstatusprofiel bruikbaar te maken."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Profielgegevens activastatus"
+        }
+      },
+      "ARIA": {
+        "ASSET_STATE_PROFILE_ICON": "Profielpictogram itemstatus: {{icon}}",
+        "EDIT_ASSET_STATE_PROFILE_DETAILS": "Profielgegevens van de itemstatus bewerken"
+      },
+      "TITLE": "Profielen van activastatussen"
+    },
+    "ASSET_RATING_PROFILES": {
+      "COLUMNS": {
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "STATE": "Staat"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Configureer de beoordelingsboetes voor uw activabeoordelingsprofiel.",
+        "FIELDS": {
+          "COST": "Kosten",
+          "FILTER": "Gebeurtenisfilter",
+          "MAX_PENALTY": "Maximale straf",
+          "NAME": "Naam",
+          "PENALTIES": "Sancties",
+          "PENALTY": "Straf"
+        },
+        "MODALS": {
+          "STATE": {
+            "DESCRIPTION": "Kies de ernst van de straf en configureer het gebeurtenisfilter om deze straf te activeren.",
+            "TITLE": "Beoordelingsstraf"
+          }
+        },
+        "TITLE": "Gegevens over activabeoordelingsprofielen"
+      },
+      "WARNINGS": {
+        "ITEM_LENGTH": "Er is ten minste één boete vereist om het activabeoordelingsprofiel bruikbaar te maken."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Gegevens over activabeoordelingsprofielen"
+        }
+      },
+      "ARIA": {
+        "ASSET_RATING_PROFILE_ICON": "Profielpictogram voor activabeoordeling: {{icon}}",
+        "EDIT_ASSET_RATING_PROFILE_DETAILS": "Bewerk de profielgegevens van de activabeoordeling"
+      },
+      "TITLE": "Profielen voor activabeoordeling"
+    },
+    "ASSET_TAGS": {
+      "COLUMNS": {
+        "ASSET": "Bezit",
+        "ASSET_TAG_TYPE": "Tagtype",
+        "MODE": "Modus",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "SERIAL_NUMBER": "Serienummer",
+        "STATE": "Staat"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "De volgende informatie is vereist om uw assettag te identificeren.",
+        "FIELDS": {
+          "ASSET_TAG_TYPE": "Tagtype",
+          "MODE": "Modus",
+          "NAME": "Naam",
+          "SERIAL_NUMBER": "Serienummer"
+        },
+        "TITLE": "Details van itemtags"
+      },
+      "MODES": {
+        "FIXED": "Vast",
+        "MOVABLE": "Beweegbaar",
+        "STOCK": "Voorraad"
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details van itemtags"
+        }
+      },
+      "ARIA": {
+        "ASSET_TAG_ICON": "Icoon van itemtag: {{icon}}",
+        "EDIT_ASSET_TAG_DETAILS": "Bewerk itemtagdetails"
+      },
+      "TITLE": "Itemtags"
+    },
+    "ZONES": {
+      "COLUMNS": {
+        "COST_CENTRE": "Kostenplaats",
+        "GROUP": "Groep",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "STATE": "Staat",
+        "TYPE": "Type"
+      },
+      "COORDS": {
+        "DESCRIPTION": "Voer de lengte- en breedtegraad in van de geofence die u wilt maken.",
+        "FIELDS": {
+          "LATITUDE": "Breedte",
+          "LONGITUDE": "Lengte",
+          "RADIUS": "Radius",
+          "SHAPE": "Vorm"
+        },
+        "SHAPES": {
+          "HEXAGON": "Zeshoek",
+          "OCTAGON": "Achthoek",
+          "SQUARE": "Vierkant",
+          "TRIANGLE": "Driehoek"
+        },
+        "TITLE": "Geofence-coördinaten",
+        "ARIA": {
+          "EDIT": "Geofence-coördinaten bewerken",
+          "MAP_MARKER_ICON": "Kaartmarkeringspictogram"
+        }
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Configureer uw geofence-gegevens.",
+        "FIELDS": {
+          "COST_CENTRE": "Kostenplaats",
+          "GROUP": "Groep",
+          "NAME": "Naam",
+          "RADIUS": "Nabijheidswaarschuwing",
+          "SPEED": "Snelheidslimiet",
+          "TYPE": "Type"
+        },
+        "TITLE": "Geofence-details",
+        "TYPES": {
+          "KEEP_IN": "Blijf binnen",
+          "NO_GO": "Nee ga",
+          "LOCATION": "Locatie",
+          "ROUTE": "Route"
+        },
+        "ARIA": {
+          "EDIT": "Geofence-details bewerken",
+          "MAP_ICON": "Kaartpictogram"
+        }
+      },
+      "MAP": {
+        "TITLE": "Geofence-kaart",
+        "ARIA": {
+          "EDIT": "Geofence-kaart bewerken"
+        },
+        "DESCRIPTION": "Bekijk en bewerk de geofence-grens op de kaart."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "COORDINATES": "Geofence-coördinaten",
+          "DETAILS": "Geofence-details"
+        }
+      },
+      "TITLE": "Geofences"
+    },
+    "ZONE_GROUPS": {
+      "COLUMNS": {
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "ZONES": "Geofences"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "De volgende informatie is vereist om uw geofence-groep te identificeren.",
+        "FIELDS": {
+          "NAME": "Naam",
+          "PARENT": "Ouder"
+        },
+        "PARENT_OPTIONS": {
+          "ROOT": "Wortel"
+        },
+        "TITLE": "Details van de Geofence-groep",
+        "ARIA": {
+          "EDIT": "Bewerk geofence-groepsdetails"
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details van de Geofence-groep"
+        }
+      },
+      "TITLE": "Geofence-groepen"
+    },
+    "ENTITIES": {
+      "ACCESS_GROUP": "Kostenplaats",
+      "ACCOUNT": "Rekening",
+      "ACCOUNTS": "Rekeningen",
+      "ALERT": "Waarschuw",
+      "ALERTS": "Waarschuwingen",
+      "ANALYTICS": "Dashboard",
+      "ANALYTICS_BASE_REPORT": "Basisrapport",
+      "ANALYTICS_BASE_REPORTS": "Basisrapporten",
+      "ASSET": "Bezit",
+      "ASSETS": "Activa",
+      "ASSETS_AND_VEHICLES": "Activa en voertuigen",
+      "ASSET_CATEGORIES": "Categorieën",
+      "ASSET_CATEGORY": "Categorie",
+      "ASSET_GROUP": "Activagroep",
+      "ASSET_GROUPS": "Activagroepen",
+      "ASSET_RATING_PROFILE": "Vermogensbeoordelingsprofiel",
+      "ASSET_RATING_PROFILES": "Profielen voor activabeoordeling",
+      "ASSET_STATE_PROFILE": "Profiel van activastatus",
+      "ASSET_STATE_PROFILES": "Profielen van activastatussen",
+      "ASSET_TAG": "Itemtag",
+      "ASSET_TAGS": "Itemtags",
+      "CLIENT": "Cliënt",
+      "CLIENTS": "Klanten",
+      "CLIENT_GROUPS": "Klantgroepen",
+      "COMPANY_GROUP": "Bedrijfsgroep",
+      "COMPANY_GROUPS": "Bedrijfsgroepen",
+      "CONTACTS": "Contacten",
+      "CONTACTS_COUNT": "{{count}} contacten",
+      "COST_CENTRE": "Kostenplaats",
+      "COST_CENTRES": "Kostenplaatsen",
+      "CUSTOM_FIELD": "Aangepast veld",
+      "CUSTOM_FIELDS": "Aangepaste velden",
+      "DASHBOARD": "Dashboard",
+      "DASHBOARDS": "Dashboards",
+      "DASHBOARD_TEMPLATE": "Dashboard-sjabloon",
+      "DASHBOARD_TEMPLATES": "Dashboard-sjablonen",
+      "DEVICE": "Apparaat",
+      "DEVICES": "Apparaten",
+      "DEVICE_CONFIG_PROFILE": "Apparaatconfiguratieprofiel",
+      "DEVICE_CONFIG_PROFILES": "Apparaatconfiguratieprofielen",
+      "DEVICE_PROVIDER": "Apparaataanbieder",
+      "DEVICE_PROVIDERS": "Apparaataanbieders",
+      "DEVICE_TYPE": "Apparaattype",
+      "DEVICE_TYPES": "Apparaattypen",
+      "DISTRIBUTOR": "Distributeur",
+      "DISTRIBUTORS": "Distributeurs",
+      "EMAIL_PROVIDER": "E-mailprovider",
+      "EMAIL_PROVIDERS": "E-mailproviders",
+      "EVENT": "Evenement",
+      "EVENTS": "Evenementen",
+      "EXPORT_TASK": "Taak exporteren",
+      "EXPORT_TASKS": "Taken exporteren",
+      "FUEL_CARD": "Brandstofkaart",
+      "FUEL_CARDS": "Brandstofkaarten",
+      "GEO_LOCK_PROFILE": "Geo Lock-profiel",
+      "GEO_LOCK_PROFILES": "Geo Lock-profielen",
+      "HARDWARE": "Hardware",
+      "INPUT_OUTPUT_TYPE": "I/O-type",
+      "IO_TYPE": "I/O-type",
+      "IO_TYPES": "I/O-typen",
+      "LABEL": "Label",
+      "LABELS": "Etiketten",
+      "MAP_SET": "Kaart ingesteld",
+      "MAP_SETS": "Kaartsets",
+      "MEDIA": "Media",
+      "ORGANIZATION": "Organisatie",
+      "OVERSPEED_PROFILE": "Oversnelheidsprofiel",
+      "OVERSPEED_PROFILES": "Overspeed-profielen",
+      "PRIVACY_PROFILE": "Privacyprofiel",
+      "PRIVACY_PROFILES": "Privacyprofielen",
+      "PROFILES": "Profielen",
+      "PROVIDERS": "Aanbieders",
+      "REMINDER": "Herinnering",
+      "REPORT_TEMPLATE": "Rapportsjabloon",
+      "REPORT_TEMPLATES": "Rapportsjablonen",
+      "ROAD_PROFILE": "Wegprofiel",
+      "ROAD_PROFILES": "Wegprofielen",
+      "SCHEDULED_REPORT": "Gepland rapport",
+      "SCHEDULED_REPORTS": "Geplande rapporten",
+      "SIM_CARD": "Simkaart",
+      "SIM_CARDS": "SIM-kaarten",
+      "SMS_GATEWAY_PROVIDER": "SMS-gateway",
+      "SMS_GATEWAY_PROVIDERS": "SMS-gateways",
+      "SSL_CERTIFICATE": "SSL-certificaat",
+      "SSL_CERTIFICATES": "SSL-certificaten",
+      "SYSTEM": "Systeem",
+      "SYSTEM_HEALTH": "Systeemgezondheid",
+      "TASK": "Taak",
+      "TASKS": "Taken",
+      "THEME": "Thema",
+      "THEMES": "Thema's",
+      "THEME_CONFIG": "Themaconfiguratie",
+      "USER": "Gebruiker",
+      "USER_ROLE": "Gebruikersrol",
+      "USER_ROLES": "Gebruikersrollen",
+      "USERS": "Gebruikers",
+      "VENDOR": "Leverancier",
+      "VENDORS": "Verkopers",
+      "VENDOR_GROUPS": "Leveranciersgroepen",
+      "WIDGET": "Widget",
+      "WIDGETS": "Widgets",
+      "ZONE": "Geofence",
+      "ZONES": "Geofences",
+      "ZONE_GROUP": "Geofence-groep",
+      "ZONE_GROUPS": "Geofence-groepen",
+      "CONTACT": "Contact"
+    },
+    "DEVICES": {
+      "CONFIG_PROFILES": {
+        "COLUMNS": {
+          "DEVICE_TYPE": "Type",
+          "MODIFIED": "Gewijzigd",
+          "NAME": "Naam",
+          "STATE": "Staat"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Configureer uw apparaatconfiguratieprofiel.",
+          "FIELDS": {
+            "DEVICE_TYPE": "Apparaattype",
+            "NAME": "Naam"
+          },
+          "TITLE": "Apparaatconfiguratiedetails",
+          "ARIA": {
+            "EDIT": "Bewerk de profielgegevens van de apparaatconfiguratie",
+            "MICROCHIP_ICON": "Profielpictogram voor apparaatconfiguratie"
+          }
+        },
+        "MESSAGES": {
+          "NO_BULK": "Bulkupdates zijn niet beschikbaar als uw bulkselectie verschillende soorten apparaathardware bevat."
+        },
+        "PARAMETERS": {
+          "DESCRIPTION": "Configureer hieronder verschillende apparaatparameters.",
+          "FIELDS": {
+            "ACTIVE_INPUT": "Actieve invoer",
+            "HOURS_INPUT": "Uren invoer",
+            "IDLING_INPUT": "Inactieve ingang",
+            "IDLING_INPUT_INVERT": "Inactieve ingang omkeren",
+            "INPUTS_OUTPUTS": "Invoer/uitvoer",
+            "IO_TYPE": "I/O-type"
+          },
+          "TITLE": "Apparaatparameters",
+          "ARIA": {
+            "EDIT": "Bewerk details van apparaatparameters",
+            "WRENCH_ICON": "Pictogram voor apparaatconfiguratieprofielparameters"
+          }
+        }
+      },
+      "IO_TYPES": {
+        "COLUMNS": {
+          "MODIFIED": "Gewijzigd",
+          "NAME": "Naam",
+          "STATE": "Staat",
+          "TYPE": "Type"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "De volgende informatie is vereist om uw I/O-type te configureren.",
+          "FIELDS": {
+            "ACTIVE_TEXT": "Actieve tekst",
+            "FILTER": "Filter",
+            "INACTIVE_TEXT": "Inactieve tekst",
+            "LOOKUPS": "Zoekopdrachten",
+            "LOOKUPS_DESCRIPTION": "Waarden plakken in CSV-formaat, d.w.z. \"sleutel\", \"waarde\"",
+            "NAME": "Naam",
+            "RATE_MULTIPLIER": "Tariefvermenigvuldiger",
+            "RATE_TYPE": "Tarieftype",
+            "RATE_UNIT": "Tariefeenheid",
+            "TYPE": "Type",
+            "UNIT": "Eenheid",
+            "SMOOTHING_TYPE": "Gladmakende soort"
+          },
+          "TITLE": "Details van I/O-type",
+          "ARIA": {
+            "EDIT": "Bewerk details van het I/O-type",
+            "ICON": "I/O-typepictogram"
+          }
+        },
+        "RATE_TYPES": {
+          "HOUR_PER_VAL": "Uren per waarde",
+          "KM_PER_VAL": "Kilometer per waarde",
+          "MILE_PER_VAL": "Mijlen per waarde",
+          "NONE": "Geen",
+          "VAL_PER_HOUR": "Waarde per uur",
+          "VAL_PER_KM": "Waarde Per Kilometer",
+          "VAL_PER_MILE": "Waarde per mijl"
+        },
+        "SMOOTHING_TYPES": {
+          "MOVING_AVERAGE_10": "Voortschrijdend gemiddelde (10 voorbeelden)",
+          "MOVING_AVERAGE_20": "Voortschrijdend gemiddelde (20 voorbeelden)",
+          "MOVING_AVERAGE_5": "Voortschrijdend gemiddelde (5 voorbeelden)",
+          "NONE": "Geen"
+        },
+        "TYPES": {
+          "ANALOG_INPUT": "Analoge ingang",
+          "CAMERA_INPUT": "Camera-invoer",
+          "CAN_INPUT": "CAN-ingang",
+          "COUNTER_INPUT": "Tellerinvoer",
+          "DIGITAL_INPUT": "Digitale ingang",
+          "DIGITAL_OUTPUT": "Digitale uitgang",
+          "TEMPERATURE_INPUT": "Temperatuurinvoer",
+          "VALUE_INPUT": "Waarde-invoer"
+        },
+        "TOAST_SUCCESS": "IO-type is succesvol bijgewerkt.",
+        "TITLE": "I/O-typen"
+      },
+      "PROVIDERS": {
+        "COLUMNS": {
+          "MODIFIED": "Gewijzigd",
+          "NAME": "Naam",
+          "STATE": "Staat",
+          "TYPE": "Type"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "De volgende informatie is vereist om uw apparaatprovider te configureren.",
+          "FIELDS": {
+            "NAME": "Naam",
+            "TYPE": "Type"
+          },
+          "TITLE": "Details apparaatprovider",
+          "ARIA": {
+            "EDIT": "Gegevens van de apparaatprovider bewerken"
+          }
+        },
+        "PARAMETERS": {
+          "DESCRIPTION": "Configureer de volgende parameters die vereist zijn om te communiceren met de upstreamprovider.",
+          "TITLE": "Parameters",
+          "ARIA": {
+            "EDIT": "Parameters van apparaatprovider bewerken",
+            "WRENCH_ICON": "Moersleutelpictogram"
+          }
+        },
+        "TITLE": "Apparaataanbieders"
+      },
+      "TYPES": {
+        "CACHED": {
+          "DESCRIPTION": "Wanneer een invoer in de cache wordt opgeslagen, wordt de laatste waarde ervan in de cache opgeslagen en herhaald voor elk volgend telemetriebericht totdat een nieuwe waarde wordt ontvangen.",
+          "FIELDS": {
+            "CACHED_FIELDS": "Ingangen"
+          },
+          "TITLE": "Gecachte invoer",
+          "ARIA": {
+            "EDIT": "Bewerk gecachte velden",
+            "ICON": "Pictogram Gecachte velden"
+          },
+          "SECTION_DESCRIPTION": "Beheer in de cache opgeslagen velden voor dit apparaattype",
+          "SECTION_TITLE": "Gecachte velden"
+        },
+        "COLUMNS": {
+          "MODIFIED": "Gewijzigd",
+          "NAME": "Naam",
+          "STATE": "Staat"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "De volgende informatie is vereist om uw apparaattype te configureren.",
+          "FIELDS": {
+            "NAME": "Naam",
+            "PARENT": "Ouder",
+            "SHORT_NAME": "Korte naam",
+            "TAG": "Label",
+            "DEVICE_PROVIDER": "Apparaataanbieder"
+          },
+          "TITLE": "Details apparaattype",
+          "META": {
+            "CREATED": "Aanmaakdatum",
+            "ENTITY_TYPE": "Entiteitstype",
+            "MODIFIED": "Gewijzigde datum",
+            "VERSION": "Versie"
+          },
+          "PROVIDER": {
+            "ACTIVE": "Actief",
+            "DESCRIPTION": "Voor dit apparaattype is selectie van de apparaatprovider vereist tijdens de configuratie.",
+            "ID": "Identiteitskaart",
+            "TITLE": "Provider-integratie"
+          },
+          "VALIDATION": {
+            "TAG_PATTERN": "De tag mag alleen letters, cijfers, koppeltekens, punten en onderstrepingstekens bevatten"
+          },
+          "ARIA": {
+            "BUILDING_ICON": "Pictogram van het gebouw",
+            "EDIT": "Details van apparaattypen bewerken"
+          }
+        },
+        "FEATURES": {
+          "DESCRIPTION": "Voeg de functies toe die dit apparaat ondersteunt.",
+          "FIELDS": {
+            "FEATURES": "Functies",
+            "TYPE": "Type"
+          },
+          "MODAL": {
+            "DESCRIPTION": "Selecteer de functie en configureer deze hieronder.",
+            "TITLE": "Apparaatfunctie"
+          },
+          "TITLE": "Apparaatfuncties",
+          "CONFIRM": {
+            "DISABLE": "Weet u zeker dat u \"{{name}}\" wilt uitschakelen?"
+          },
+          "ERRORS": {
+            "DUPLICATE_MESSAGE": "Deze functie is al ingeschakeld.",
+            "DUPLICATE_TITLE": "Dubbele functie"
+          },
+          "ARIA": {
+            "EDIT": "Functies bewerken",
+            "ICON": "Functies icoon"
+          }
+        },
+        "IO": {
+          "FIELDS": {
+            "ITEMS": "Artikelen",
+            "OPTIONAL": "Optioneel",
+            "REQUIRED": "Vereist"
+          },
+          "MODAL": {
+            "DESCRIPTION": "Voer de naam van de ingang in zoals deze in het telemetrierecord wordt weergegeven. \nAlleen alfanumerieke tekens in kleine letters en onderstrepingstekens.",
+            "FIELDS": {
+              "VALUE": "Waarde",
+              "INPUT_NAME": "Invoernaam",
+              "INPUT_PLACEHOLDER": "Voer de invoernaam in...",
+              "OPTIONAL_HINT": "Indien ingeschakeld, is deze ingang optioneel. \nIndien uitgeschakeld, is deze invoer vereist."
+            },
+            "TITLE": "Invoer toevoegen"
+          },
+          "COLUMNS": {
+            "NAME": "Naam",
+            "STATUS": "Vereist/optioneel"
+          },
+          "CONFIRM": {
+            "DELETE": "Weet u zeker dat u \"{{name}}\" wilt verwijderen?"
+          },
+          "DIGITAL_OUTPUT": {
+            "CAN_PULSE": "Kan pulseren",
+            "CAN_PULSE_HINT": "Indien ingeschakeld, kan deze uitgang gedurende een bepaalde duur pulseren.",
+            "CAN_TOGGLE": "Kan schakelen",
+            "CAN_TOGGLE_HINT": "Indien ingeschakeld, kan deze uitgang aan/uit worden geschakeld.",
+            "MAX_PULSE": "Maximale pulsseconden",
+            "MAX_PULSE_HINT": "Maximale pulsduur in seconden.",
+            "MIN_PULSE": "Min. pulsseconden",
+            "MIN_PULSE_HINT": "Minimale pulsduur in seconden."
+          },
+          "EMPTY": "Er zijn momenteel geen {{title}} geconfigureerd voor dit apparaattype.",
+          "ARIA": {
+            "EDIT": "Bewerk {{title}}",
+            "ICON": "{{title}} pictogram"
+          }
+        },
+        "IO_ANALOGS": {
+          "DESCRIPTION": "Voeg de analoge ingangen toe die beschikbaar zijn op dit apparaat.",
+          "TITLE": "Analoge ingangen"
+        },
+        "IO_CAMERAS": {
+          "DESCRIPTION": "Voeg de camera-ingangen toe die beschikbaar zijn op dit apparaat.",
+          "TITLE": "Camera-ingangen"
+        },
+        "IO_CANS": {
+          "DESCRIPTION": "Voeg de CAN-busingangen toe die beschikbaar zijn op dit apparaat.",
+          "TITLE": "CAN-busingangen"
+        },
+        "IO_COUNTERS": {
+          "DESCRIPTION": "Voeg de telleringangen toe die beschikbaar zijn op dit apparaat.",
+          "TITLE": "Telleringangen"
+        },
+        "IO_DIGITALS": {
+          "DESCRIPTION": "Voeg de digitale ingangen toe die beschikbaar zijn op dit apparaat.",
+          "TITLE": "Digitale ingangen"
+        },
+        "IO_OUTPUTS": {
+          "DESCRIPTION": "Voeg de digitale uitgangen toe die beschikbaar zijn op dit apparaat.",
+          "TITLE": "Digitale uitgangen"
+        },
+        "IO_TEMPERATURES": {
+          "DESCRIPTION": "Voeg de temperatuuringangen toe die beschikbaar zijn op dit apparaat.",
+          "TITLE": "Temperatuuringangen"
+        },
+        "IO_VALUES": {
+          "DESCRIPTION": "Voeg de waarde-invoer toe die beschikbaar is op dit apparaat.",
+          "TITLE": "Waarde-invoer"
+        },
+        "ACCESSORIES": {
+          "CONFIRM": {
+            "REMOVE": "Weet u zeker dat u \"{{name}}\" wilt verwijderen?"
+          },
+          "DESCRIPTION": "Configureer apparaataccessoires zoals taglezers, sensoren en andere randapparatuur.",
+          "EMPTY": "Geen accessoires geconfigureerd",
+          "ERRORS": {
+            "DUPLICATE_MESSAGE": "Deze accessoiresleutel is al in gebruik.",
+            "DUPLICATE_TITLE": "Dubbele accessoire"
+          },
+          "MODAL": {
+            "FIELDS": {
+              "KEY": "Accessoiresleutel",
+              "KEY_HINT": "Unieke ID voor dit accessoire (bijvoorbeeld 'mritagreader')",
+              "KEY_PLACEHOLDER": "Accessoiresleutel invoeren...",
+              "NAME": "Weergavenaam",
+              "NAME_HINT": "Voor mensen leesbare naam voor dit accessoire",
+              "NAME_PLACEHOLDER": "Weergavenaam invoeren..."
+            },
+            "TITLE": "Accessoire toevoegen"
+          },
+          "TITLE": "Accessoires",
+          "ARIA": {
+            "EDIT": "Accessoires bewerken",
+            "ICON": "Accessoires pictogram"
+          }
+        },
+        "ERRORS": {
+          "LOAD_DEVICE_TYPES": "Kan apparaattypen niet ophalen.",
+          "LOAD_PROVIDERS": "Kan apparaatproviders niet ophalen.",
+          "TOAST_SUCCESS": "Apparaattype succesvol bijgewerkt."
+        },
+        "SETTINGS": {
+          "CONFIRM": {
+            "REMOVE": "Weet u zeker dat u \"{{name}}\" wilt verwijderen?"
+          },
+          "DESCRIPTION": "Configureer aangepaste instellingenvelden voor dit apparaattype.",
+          "EMPTY": "Geen instellingen geconfigureerd",
+          "ERRORS": {
+            "DUPLICATE_MESSAGE": "Deze instellings-ID is al in gebruik.",
+            "DUPLICATE_TITLE": "Dubbele instelling"
+          },
+          "INVALID": "Ongeldige instellingendefinitie",
+          "MODAL": {
+            "FIELDS": {
+              "DEFAULT": "Standaardwaarde",
+              "DEFAULT_HINT": "Standaardwaarde als het veld leeg is",
+              "DEFAULT_PLACEHOLDER": "Standaardwaarde invoeren...",
+              "DESCRIPTION": "Beschrijving",
+              "DESCRIPTION_HINT": "Aanvullende beschrijving voor het veld",
+              "DESCRIPTION_PLACEHOLDER": "Beschrijving invoeren...",
+              "ID": "Veld-ID",
+              "ID_HINT": "Unieke identificatie voor dit veld",
+              "ID_PLACEHOLDER": "Voer veld-ID in...",
+              "MAX": "Maximale waarde",
+              "MAX_HINT": "Maximaal toegestane waarde voor getalvelden",
+              "MAX_PLACEHOLDER": "Voer de maximale waarde in...",
+              "MIN": "Minimale waarde",
+              "MIN_HINT": "Minimaal toegestane waarde voor getalvelden",
+              "MIN_PLACEHOLDER": "Minimale waarde invoeren...",
+              "PLACEHOLDER_HINT": "Tijdelijke tekst weergegeven in het veld",
+              "PLACEHOLDER_LABEL": "Tijdelijke aanduiding",
+              "PLACEHOLDER_PLACEHOLDER": "Plaatsaanduidingstekst invoeren...",
+              "TITLE_HINT": "Weergavenaam voor dit veld",
+              "TITLE_LABEL": "Veldtitel",
+              "TITLE_PLACEHOLDER": "Veldtitel invoeren...",
+              "TYPE": "Veldtype",
+              "TYPE_HINT": "Selecteer het invoertype voor dit veld",
+              "UNIT": "Eenheid",
+              "UNIT_HINT": "Maateenheid voor getalvelden",
+              "UNIT_PLACEHOLDER": "bijvoorbeeld millimeters, seconden, enz.",
+              "WIDTH": "Veldbreedte",
+              "WIDTH_HINT": "Weergavebreedte voor het invoerveld",
+              "WIDTH_PLACEHOLDER": "Veldbreedte invoeren..."
+            },
+            "TITLE": "Instellingsveld toevoegen",
+            "TYPES": {
+              "BOOLEAN": "Booleaans",
+              "COMBO": "Combinatie/dropdownmenu",
+              "NUMBER": "Nummer",
+              "TEXT": "Tekst"
+            }
+          },
+          "TITLE": "Instellingen",
+          "ARIA": {
+            "EDIT": "Instellingen bewerken",
+            "ICON": "Pictogram Instellingen"
+          }
+        },
+        "ACCESSORY": {
+          "ACCORDION": {
+            "FEATURES": "Functies",
+            "IO_CAPABILITIES": "IO-mogelijkheden",
+            "SETTINGS_DEFINITION": "Instellingen Definitie"
+          },
+          "DESCRIPTION": "Configureer {{title}} accessoire-instellingen en -mogelijkheden.",
+          "EDIT_ARIA": "Bewerk {{title}}",
+          "EMPTY_CONTENT": "Er zijn geen IO-mogelijkheden, functies of instellingen geconfigureerd voor dit {{title}} accessoire.",
+          "ICON_ARIA": "{{title}} pictogram",
+          "NO_DATA": "Geen gegevens beschikbaar voor {{title}}."
+        },
+        "FEATURE": {
+          "ACCORDION": {
+            "SETTINGS": "Instellingen",
+            "WEBHOOKS": "Webhaken"
+          },
+          "DESCRIPTION": "Configureer {{title}} functie-instellingen en webhooks.",
+          "EDIT_ARIA": "Bewerk {{title}}",
+          "EMPTY_CONTENT": "Er zijn geen instellingen of webhooks geconfigureerd voor deze {{title}}-functie.",
+          "ICON_ARIA": "{{title}} pictogram",
+          "NO_DATA": "Geen gegevens beschikbaar voor {{title}}."
+        },
+        "SETTING": {
+          "ARIA": {
+            "EDIT": "Bewerk {{title}}",
+            "ICON": "{{title}} pictogram"
+          },
+          "DESCRIPTION": "Configureer {{title}} veldinstellingen en eigenschappen.",
+          "NO_DATA": "Geen gegevens beschikbaar voor {{title}}."
+        }
+      },
+      "IO": {
+        "CALIBRATION": {
+          "DESCRIPTION": "Voltooi de volgende kalibratiewaarden voor uw IO.",
+          "FIELDS": {
+            "ENABLE_LIVE_STREAM": "Livestreaming",
+            "INPUT": "Invoer",
+            "INVERT": "Omkeren",
+            "MAX_VALUE": "Maximale waarde",
+            "MAX_VOLTS": "Maximale volt",
+            "MIN_VALUE": "Minimale waarde",
+            "MIN_VOLTS": "Min. volt",
+            "MULTIPLIER": "Vermenigvuldiger",
+            "PULSED": "Gepulseerd"
+          },
+          "TITLE": "{{type}} Kalibratie",
+          "MODAL_DESCRIPTION": "Configureer kalibratie-instellingen voor uw IO"
+        },
+        "CUSTOM": "Aangepast",
+        "CUSTOM_MODAL": {
+          "DESCRIPTION": "Voer hieronder de naam in van de aangepaste invoer die u wilt gebruiken.",
+          "FIELDS": {
+            "INPUT": "Invoer"
+          },
+          "TITLE": "Aangepaste invoer"
+        },
+        "PRESET": {
+          "DEFAULT": "Standaard",
+          "EMULATE": "Emuleren",
+          "IGNITION": "Ontsteking",
+          "IGNITION_WIRE": "Ontstekingsdraad",
+          "MOVEMENT": "Bewegingsdetectie",
+          "SPEED": "Snelheid"
+        },
+        "WHITELIST_WARNING": "Deze invoer maakt geen deel uit van uw IO-selectie en wordt dus niet opgenomen. \nSelecteer het in het gedeelte IO-selectie hierboven als u het wilt gebruiken.",
+        "ARIA": {
+          "CONFIGURE": "Configureer {{naam}}",
+          "EDIT": "Bewerk {{naam}}",
+          "ICON": "Invoer/uitvoer-pictogram"
+        },
+        "DESCRIPTION": "Configureer {{name}} met kalibratie-instellingen",
+        "FIELDS": {
+          "SELECT_CONFIGURATION": "Selecteer configuratie"
+        }
+      },
+      "ACCESSORIES": {
+        "ARIA": {
+          "COG_ICON": "tandwiel icoon",
+          "EDIT": "Details van apparaataccessoires bewerken"
+        },
+        "DESCRIPTION": "Schakel dit accessoire hieronder in en configureer het.",
+        "FIELDS": {
+          "ENABLED": "Ingeschakeld",
+          "NO": "Nee",
+          "YES": "Ja"
+        }
+      },
+      "COLUMNS": {
+        "ASSET": "Bezit",
+        "CONFIG_PROFILE": "Configuratieprofiel",
+        "DEVICE_TYPE": "Type",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "SIM_CARD": "Simkaart",
+        "STATE": "Staat",
+        "DEVICE_REMARKS": "Toestel Opmerkingen",
+        "DEVICE_SERIAL": "Apparaatserieel"
+      },
+      "DETAILS": {
+        "ARIA": {
+          "EDIT": "Apparaatgegevens bewerken",
+          "MICROCHIP_ICON": "microchip-pictogram"
+        },
+        "DESCRIPTION": "Configureer verschillende details over uw apparaat.",
+        "FIELDS": {
+          "CONFIG_PROFILE": "Configuratie",
+          "DEVICE_TYPE": "Apparaattype",
+          "MANUAL_CONFIG": "Handmatig geconfigureerd",
+          "PROVIDER": "Apparaataanbieder",
+          "SERIAL_NUMBER": "Serienummer"
+        },
+        "TITLE": "Apparaatdetails"
+      },
+      "IO_BITMAPS": {
+        "ARIA": {
+          "DELETE": "Bitmap verwijderen",
+          "EDIT": "Bewerk bitmapped IO-eigenschappen.",
+          "SQUARE_BINARY_ICON": "vierkant binair pictogram"
+        },
+        "DESCRIPTION": "U kunt nieuwe invoer maken op basis van samengestelde waarden met behulp van I/O-bitmaps. \nConfigureer deze hieronder.",
+        "EMPTY": "Er zijn nog geen bitmaps toegevoegd. \nKlik op \"Toevoegen\" om een ​​bitmap te maken.",
+        "FIELDS": {
+          "INPUTS": "Ingangen",
+          "SOURCE_BITMASK": "Bitmasker",
+          "SOURCE_BITMASK_DESCRIPTION": "Bitmasker dat moet worden toegepast op de waarde na het verschuiven, in hex-formaat (d.w.z. 0x01)",
+          "SOURCE_BITSHIFT": "Bitverschuiving",
+          "SOURCE_BITSHIFT_DESCRIPTION": "Aantal bits dat de broninvoerwaarde naar rechts wordt verschoven",
+          "SOURCE_INPUT": "Broninvoer",
+          "TARGET_INPUT": "Doelinvoer",
+          "TARGET_TYPE": "Doeltype"
+        },
+        "MODAL": {
+          "DESCRIPTION": "Geef de details op voor uw nieuwe bitmap-invoer.",
+          "TITLE": "Bitmapped IO-eigenschappen"
+        },
+        "TITLE": "Bitmapped IO"
+      },
+      "IO_WHITELIST": {
+        "ARIA": {
+          "EDIT": "IO-selectie bewerken",
+          "LIST_ICON": "Lijstpictogram"
+        },
+        "DESCRIPTION": "Selecteer welke van de verschillende in- en uitgangen die beschikbaar zijn op het apparaat, u wilt vastleggen en behouden.",
+        "TITLE": "IO-selectie"
+      },
+      "LINKED": {
+        "ARIA": {
+          "EDIT": "Bewerk gekoppelde entiteiten",
+          "LINK_ICON": "Koppelingspictogram"
+        },
+        "DESCRIPTION": "De volgende entiteiten zijn aan dit apparaat gekoppeld.",
+        "FIELDS": {
+          "ASSET": "Bezit",
+          "SIM_CARD": {
+            "PLACEHOLDER": "Voer de naam van de simkaart in...",
+            "TITLE": "Simkaart"
+          }
+        },
+        "TITLE": "Gekoppelde entiteiten",
+        "WARNING": {
+          "ASSET_MULTIPLE_DEVICE": "Meerdere apparaten toegewezen aan gekoppeld Asset"
+        }
+      },
+      "PARAMETERS": {
+        "ADD_SECONDARY": "Voeg een secundaire stationairconditie toe",
+        "AND": "EN",
+        "ARIA": {
+          "EDIT": "Apparaatparameters bewerken",
+          "WRENCH_ICON": "Moersleutelpictogram"
+        },
+        "DESCRIPTION": "Configureer hieronder verschillende apparaatparameters.",
+        "FIELDS": {
+          "ACTIVE_INPUT": "Actieve invoer",
+          "HOURS_INPUT": "Uren invoer",
+          "IDLING_INPUT": "Inactieve ingang",
+          "IDLING_INPUT_INVERT": "Inactieve ingang omkeren",
+          "INPUTS_OUTPUTS": "Invoer/uitvoer",
+          "IO_TYPE": "I/O-type"
+        },
+        "REMOVE_SECONDARY_HINT": "AND-voorwaarde en drempel verwijderen",
+        "REMOVE_SECONDARY_LABEL": "Secundaire voorwaarde verwijderen",
+        "TITLE": "Apparaatparameters"
+      },
+      "BULK_IMPORT_TITLE": "Apparaten bulksgewijs importeren",
+      "TITLE": "Apparaten"
+    },
+    "PROFILES": {
+      "CUSTOM_FIELDS": {
+        "COLUMNS": {
+          "ENTITY": "Geldt voor",
+          "NAME": "Naam",
+          "TYPE": "Type"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Maak een keuze uit de volgende opties voor uw aangepaste veld.",
+          "FIELDS": {
+            "ENTITY": "Geldt voor",
+            "ID": "Identiteitskaart",
+            "NAME": "Naam",
+            "REQUIRED": "Vereist",
+            "TYPE": "Type",
+            "VALUES": "Waarden",
+            "VALUES_DESCRIPTION": "Plaats elke waarde op een nieuwe regel."
+          },
+          "TITLE": "Aangepaste velddetails",
+          "ARIA": {
+            "EDIT": "Aangepaste velddetails bewerken",
+            "MOBILE_ICON": "Aangepast veldpictogram"
+          }
+        },
+        "TYPES": {
+          "CHECKBOX": "Ja/Nee",
+          "COMBO": "Selectie",
+          "DATE": "Datum",
+          "DATETIME": "Datum",
+          "MEMO": "Memo",
+          "TEXT": "Tekst",
+          "URL": "URL"
+        },
+        "TITLE": "Aangepaste velden"
+      },
+      "GEO_LOCK": {
+        "COLUMNS": {
+          "MODIFIED": "Gewijzigd",
+          "NAME": "Naam",
+          "STATE": "Staat"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Gebruik een geolock-profiel om een ​​voertuig tijdens bepaalde uren automatisch op zijn plaats te vergrendelen.",
+          "FIELDS": {
+            "DAYS": "Dagen",
+            "FROM": "Van",
+            "FROM_TO": "{{van}} tot {{tot}}",
+            "ITEMS": "Tijden",
+            "NAME": "Naam",
+            "RADIUS": "Radius",
+            "TIMEZONE": "Tijdzone",
+            "TO": "Naar"
+          },
+          "MODALS": {
+            "TIME": {
+              "DESCRIPTION": "Configureer de dagen van de week en tijden waarop het slot actief is.",
+              "TITLE": "Geo Lock-tijden"
+            }
+          },
+          "TITLE": "Geo Lock-profieldetails",
+          "WIZARD": {
+            "STEPS": {
+              "DETAILS": "Geo Lock-profieldetails"
+            }
+          },
+          "ARIA": {
+            "EDIT": "Bewerk profielgegevens voor geovergrendeling",
+            "LOCK_ICON": "Vergrendelpictogram"
+          }
+        },
+        "WARNINGS": {
+          "ITEM_LENGTH": "Er is ten minste één tijdinvoer vereist om het geolock-profiel bruikbaar te maken."
+        },
+        "TITLE": "Geo Lock-profielen"
+      },
+      "OVERSPEED": {
+        "COLUMNS": {
+          "MODIFIED": "Gewijzigd",
+          "NAME": "Naam",
+          "STATE": "Staat"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Configureer de banden die zullen worden gebruikt om de ernst van snelheidsoverschrijdingen te beoordelen.",
+          "FIELDS": {
+            "DESCRIPTION_MIN_AND_MAX": "Snelheidsovertredingen {{min}}-{{max}}% boven de snelheidslimiet",
+            "DESCRIPTION_MIN_ONLY": "Snelheidsovertredingen {{min}}% plus boven de snelheidslimiet",
+            "ITEMS": "Banden",
+            "MIN": "Te hoge snelheid",
+            "NAME": "Naam",
+            "OFFSET": "Offset"
+          },
+          "MODALS": {
+            "STATE": {
+              "DESCRIPTION": "Configureer de bandwaarden waarop te hoge snelheid moet worden afgestemd",
+              "TITLE": "Oversnelheidsband"
+            }
+          },
+          "TITLE": "Profieldetails voor te hoge snelheid",
+          "ARIA": {
+            "EDIT": "Bewerk profieldetails voor te hoge snelheid",
+            "GAUGE_ICON": "Meterpictogram"
+          }
+        },
+        "WARNINGS": {
+          "ITEM_LENGTH": "Er is ten minste één oversnelheidsband vereist om het oversnelheidsprofiel bruikbaar te maken."
+        },
+        "WIZARD": {
+          "STEPS": {
+            "DETAILS": "Profieldetails voor te hoge snelheid"
+          }
+        },
+        "TITLE": "Overspeed-profielen"
+      },
+      "ROAD": {
+        "COLUMNS": {
+          "MODIFIED": "Gewijzigd",
+          "NAME": "Naam",
+          "STATE": "Staat"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Configureer hieronder de wegaanpassingen die u op dit profiel wilt toepassen.",
+          "FIELDS": {
+            "FILTER": "Filter",
+            "ITEMS": "Snelheidsmodificatoren",
+            "NAME": "Naam",
+            "SPEED": "Nieuwe snelheidslimiet",
+            "UNIT": "Eenheid"
+          },
+          "MODALS": {
+            "MODIFIER": {
+              "DESCRIPTION": "Maak een filter dat aan bepaalde geografische omstandigheden voldoet, en specificeer een nieuwe snelheidslimiet voor uw activa.",
+              "TITLE": "Modificatie van de rijsnelheid"
+            }
+          },
+          "TITLE": "Details van wegprofiel",
+          "ARIA": {
+            "EDIT": "Bewerk wegprofieldetails"
+          }
+        },
+        "WIZARD": {
+          "STEPS": {
+            "DESCRIPTION": "Maak een filter dat aan bepaalde geografische omstandigheden voldoet, en specificeer een nieuwe snelheidslimiet voor uw activa.",
+            "DETAILS": "Modificatie van wegprofielen"
+          }
+        },
+        "TITLE": "Wegprofielen"
+      }
+    },
+    "ALERTS": {
+      "ACTIONS": {
+        "CAMERA": "Camera",
+        "LABELS": "Etiketten",
+        "LABEL_CURRENT_TRIP": "Label huidige reis",
+        "LABEL_CURRENT_TRIP_DESCRIPTION": "Voeg de volgende labels toe aan de huidige reis: {{labels}}",
+        "LABEL_MODAL": {
+          "DESCRIPTION": "Kies de labels die op de huidige rit moeten worden toegepast wanneer deze waarschuwing wordt geactiveerd.",
+          "FIELDS": {
+            "LABELS": "Etiketten"
+          },
+          "TITLE": "Etiketten toevoegen"
+        },
+        "REQUEST_VIDEO": "Video aanvragen",
+        "REQUEST_VIDEO_DESCRIPTION": "{{duration}} seconden (met een offset van {{offset}} seconden) van {{cameras}}"
+      },
+      "COLUMNS": {
+        "COST_CENTRE": "Kostenplaats",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "PRIORITY": "Prioriteit",
+        "STATE": "Staat"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Configureer het filter en de meldingsinstellingen voor uw waarschuwing.",
+        "FIELDS": {
+          "ACTIONS": "Acties",
+          "COST_CENTRE": "Kostenplaats",
+          "FILTER": "Gebeurtenisfilter",
+          "ICON": "Icon",
+          "ICON_DESCRIPTION": "Selecteer een pictogram om deze waarschuwing weer te geven",
+          "NAME": "Naam",
+          "NOTIFY": "Informeer",
+          "PRIORITY": "Prioriteit"
+        },
+        "TITLE": "Waarschuwingsdetails"
+      },
+      "NOTIFY": {
+        "ME": "Mij",
+        "ROLE": "Gebruikersrol",
+        "ROLES": "Gebruikers met een specifieke rol",
+        "USER": "Gebruiker",
+        "USERS": "Specifieke gebruiker"
+      },
+      "PRIORITIES": {
+        "HIGH": "Hoog",
+        "LOW": "Laag",
+        "MEDIUM": "Medium"
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Waarschuwingsdetails"
+        }
+      },
+      "ARIA": {
+        "ALERT_ICON": "Waarschuwingspictogram: {{icon}}",
+        "ALERT_NOTIFICATION_ICON": "Waarschuwingspictogram",
+        "EDIT_ALERT_DETAILS": "Waarschuwingsdetails bewerken"
+      },
+      "IMPORT_VENDOR_ALERTS": "Leverancierswaarschuwingen importeren",
+      "TITLE": "Waarschuwingen"
+    },
+    "COMPANY_GROUPS": {
+      "COLUMNS": {
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Om uw bedrijfsgroep te identificeren, zijn de volgende gegevens nodig.",
+        "FIELDS": {
+          "NAME": "Naam",
+          "PARENT": "Ouder"
+        },
+        "TITLE": "Bedrijfsgroepdetails",
+        "PARENT_OPTIONS": {
+          "ROOT": "Wortel"
+        },
+        "ARIA": {
+          "EDIT": "Bewerk de gegevens van de bedrijfsgroep"
+        }
+      },
+      "EMAIL_CUSTOMIZATION": {
+        "DEFAULT_TEMPLATE_NAME": "Standaard",
+        "FIELDS": {
+          "BODY": "Lichaam",
+          "SUBJECT": "Onderwerp",
+          "TEMPLATE": "Sjabloon"
+        },
+        "FORGOT_PASSWORD": {
+          "BODY": "U ontvangt deze e-mail omdat u uw e-mailadres heeft ingevoerd en op de link Wachtwoord vergeten op {{siteUrl}} heeft geklikt.\n\n\nOm uw wachtwoord opnieuw in te stellen, opent u de volgende link in uw browser: {{resetUrl}}\n\n\nU kunt dit bericht veilig negeren als u uw wachtwoord niet opnieuw wilt instellen.",
+          "DESCRIPTION": "Pas de tekst aan die wordt verzonden wanneer een gebruiker zijn eigen wachtwoord opnieuw instelt met de actie Wachtwoord vergeten.",
+          "SUBJECT": "Wachtwoord opnieuw instellen op {{siteUrl}}",
+          "TITLE": "Wachtwoord vergeten E-mail"
+        },
+        "USER_INVITE": {
+          "BODY": "U ontvangt deze e-mail omdat er voor u een account is aangemaakt op {{siteUrl}}.\n\n\nOm uw profiel te voltooien en een wachtwoord in te stellen, opent u de volgende link in uw browser: {{resetUrl}}\n\n\nU kunt dit bericht veilig negeren als u het proces voor het aanmaken van een account niet wilt voltooien.",
+          "DESCRIPTION": "Pas de tekst aan die wordt verzonden in de e-mailuitnodiging voor nieuwe gebruikers.",
+          "SUBJECT": "Account aanmaken op {{siteUrl}}",
+          "TITLE": "E-mail met uitnodiging voor gebruiker"
+        },
+        "USER_RESET": {
+          "BODY": "U ontvangt deze e-mail omdat uw account is gereset door een beheerder op {{siteUrl}}.\n\n\nOm uw account te herstellen en een nieuw wachtwoord in te stellen, opent u de volgende link in uw browser: {{resetUrl}}\n\n\nU kunt dit bericht veilig negeren als u uw account niet wilt herstellen.",
+          "DESCRIPTION": "Pas de tekst aan die wordt verzonden wanneer een beheerder een gebruikersaccount opnieuw instelt.",
+          "SUBJECT": "Accountherstel op {{siteUrl}}",
+          "TITLE": "E-mailadres voor opnieuw instellen van gebruikersaccount"
+        }
+      },
+      "TITLE": "Bedrijfsgroepen"
+    },
+    "COST_CENTRES": {
+      "COLUMNS": {
+        "ASSETS": "Activa",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "USERS": "Gebruikers"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Om uw kostenplaats te kunnen identificeren, zijn de volgende gegevens nodig.",
+        "FIELDS": {
+          "NAME": "Naam",
+          "PARENT": "Ouder"
+        },
+        "TITLE": "Kostenplaatsdetails",
+        "ARIA": {
+          "EDIT": "Bewerk kostenplaatsgegevens"
+        }
+      },
+      "TITLE": "Kostenplaatsen"
+    },
+    "EMAIL_PROVIDERS": {
+      "COLUMNS": {
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "STATE": "Staat",
+        "TYPE": "Type"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "De volgende informatie is vereist om uw e-mailprovider te configureren.",
+        "FIELDS": {
+          "NAME": "Naam",
+          "TYPE": "Type"
+        },
+        "TITLE": "Details van e-mailprovider",
+        "ARIA": {
+          "EDIT": "Bewerk de details van de e-mailprovider"
+        }
+      },
+      "PARAMETERS": {
+        "DESCRIPTION": "Configureer de volgende parameters die vereist zijn om te communiceren met de e-mailprovider.",
+        "TITLE": "Parameters",
+        "ARIA": {
+          "EDIT": "Bewerk de parameters van de e-mailprovider",
+          "WRENCH_ICON": "Moersleutelpictogram"
+        }
+      },
+      "TITLE": "E-mailproviders"
+    },
+    "SIM_CARDS": {
+      "COLUMNS": {
+        "DESCRIPTION": "Beschrijving",
+        "DEVICE": "Apparaat",
+        "MODIFIED": "Gewijzigd",
+        "NETWORK": "Netwerk",
+        "NUMBER": "Nummer",
+        "SERIAL_NUMBER": "Serienummer",
+        "STATE": "Staat"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Configureer verschillende details over uw simkaart.",
+        "FIELDS": {
+          "DESCRIPTION": "Beschrijving",
+          "DEVICE": "Apparaat",
+          "NETWORK": "Netwerk",
+          "NUMBER": "Nummer",
+          "SERIAL_NUMBER": "Serienummer",
+          "STATE": "Staat"
+        },
+        "TITLE": "SIM-kaartgegevens",
+        "ARIA": {
+          "EDIT": "SIM-kaartgegevens bewerken",
+          "MOBILE_ICON": "Mobiel icoon"
+        }
+      },
+      "TITLE": "SIM-kaarten"
+    },
+    "SMS_GATEWAY_PROVIDERS": {
+      "COLUMNS": {
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "STATE": "Staat",
+        "TYPE": "Type"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "De volgende informatie is vereist om uw SMS Gateway-provider te configureren.",
+        "FIELDS": {
+          "NAME": "Naam",
+          "TYPE": "Type"
+        },
+        "TITLE": "SMS-gatewaydetails",
+        "ARIA": {
+          "EDIT": "Bewerk de details van de SMS-gatewayprovider"
+        }
+      },
+      "PARAMETERS": {
+        "DESCRIPTION": "Configureer de volgende parameters die vereist zijn om te communiceren met de upstreamprovider.",
+        "TITLE": "Parameters",
+        "ARIA": {
+          "EDIT": "Parameters van de SMS-gatewayprovider bewerken",
+          "WRENCH_ICON": "Moersleutelpictogram"
+        }
+      },
+      "TITLE": "SMS-gateway"
+    },
+    "THEMES": {
+      "COLUMNS": {
+        "BASE_THEME": "Basisthema",
+        "DESCRIPTION": "Beschrijving",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "STATE": "Staat"
+      },
+      "DETAILS": {
+        "CLONE": "Kloon",
+        "CSS": "Aangepaste CSS",
+        "DESCRIPTION": "Geef uw thema een unieke naam en beschrijving.",
+        "FIELDS": {
+          "BASE_THEME": "Basisthema",
+          "CSS_SRC": "Aangepaste CSS-link",
+          "CUSTOM_TAGS": "Aangepaste tags",
+          "DESCRIPTION": "Beschrijving",
+          "NAME": "Naam",
+          "WEB_LOGO": "Weblogo",
+          "WEB_LOGO_DESCRIPTION": "De afbeelding wordt opnieuw gesampled naar 240 x 100 pixels. \nVoor betere resultaten moet u uw afbeelding vooraf schalen in een grafisch programma voordat u deze uploadt."
+        },
+        "JSON": "JSON",
+        "MODALS": {
+          "CUSTOM_TAG": {
+            "DESCRIPTION": "Voer de details in voor een HTML-tag die op de door u gekozen locatie in de pagina wordt geïnjecteerd.",
+            "FIELDS": {
+              "LOCATION": "Locatie",
+              "LOCATION_BODY": "Lichaam",
+              "LOCATION_HEADER": "Koptekst",
+              "NAME": "Naam",
+              "TAG_ATTRIBUTES": "Tag-attributen",
+              "TAG_ATTRIBUTES_DESCRIPTION": "Een lijst met tagkenmerken, één per regel, in de notatie: attr=\"value\"",
+              "TAG_CONTENTS": "Tag-inhoud",
+              "TAG_TYPE": "Tagtype"
+            },
+            "TITLE": "Aangepaste HTML-tag"
+          }
+        },
+        "TITLE": "Themadetails"
+      },
+      "SETTINGS": {
+        "ACCORDION": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Accordeon"
+        },
+        "BUTTON": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Knop"
+        },
+        "COLOR": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Kleur"
+        },
+        "CONTENT": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Inhoud"
+        },
+        "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+        "FEED": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Voer"
+        },
+        "FIELDS": {
+          "ACTIVE": {
+            "BACKGROUND": {
+              "COLOR": "Actieve achtergrond"
+            },
+            "BORDER": {
+              "COLOR": "Actieve grens",
+              "SHADOW": "Actieve schaduw"
+            },
+            "FONT": {
+              "COLOR": "Actief lettertype"
+            },
+            "INDICATOR": {
+              "COLOR": "Indicatorkleur",
+              "STYLE": "Actieve indicator"
+            },
+            "STYLE": "Actieve stijl",
+            "TAB": {
+              "BACKGROUND": {
+                "COLOR": "Actieve tabbladachtergrond"
+              },
+              "FONT": {
+                "COLOR": "Actief tabbladlettertype"
+              }
+            }
+          },
+          "BACKGROUND": {
+            "COLOR": "Achtergrondkleur",
+            "TITLE": "Achtergrond"
+          },
+          "BORDER": {
+            "COLOR": "Randkleur",
+            "RADIUS": "Grensradius",
+            "SHADOW": "Schaduw",
+            "WIDTH": "Randbreedte"
+          },
+          "CONTENT": "Inhoud",
+          "DANGER": {
+            "COLOR": "Gevaar"
+          },
+          "FONT": {
+            "COLOR": "Lettertypekleur",
+            "FAMILY": "Lettertypefamilie",
+            "SIZE": "Lettergrootte",
+            "TITLE": "Lettertype",
+            "TRANSFORM": "Lettertype geval",
+            "WEIGHT": "Lettertype gewicht"
+          },
+          "FOOTER": {
+            "BACKGROUND": {
+              "COLOR": "Voettekst Achtergrond"
+            },
+            "BORDER": {
+              "COLOR": "Randkleur voettekst"
+            },
+            "FONT": {
+              "COLOR": "Tekstkleur voettekst",
+              "SIZE": "Lettergrootte voettekst",
+              "TRANSFORM": "Voettekstlettertype Hoofdlettergebruik",
+              "WEIGHT": "Gewicht voettekstlettertype"
+            }
+          },
+          "GUTTER": {
+            "WIDTH": "Grootte van de goot"
+          },
+          "HEADER": {
+            "BACKGROUND": {
+              "COLOR": "Kopachtergrond"
+            },
+            "BORDER": {
+              "COLOR": "Randkleur koptekst"
+            },
+            "FONT": {
+              "COLOR": "Tekstkleur koptekst",
+              "SIZE": "Lettergrootte koptekst",
+              "TRANSFORM": "Hoofdlettertype Hoofdlettergebruik",
+              "WEIGHT": "Gewicht koptekst"
+            }
+          },
+          "HOVER": {
+            "BORDER": {
+              "COLOR": "Beweeg de grens",
+              "SHADOW": "Zweef schaduw"
+            }
+          },
+          "ICON": {
+            "PACK": "Pictogrampakket"
+          },
+          "INACTIVE": {
+            "BACKGROUND": {
+              "COLOR": "Inactieve achtergrond"
+            },
+            "FONT": {
+              "COLOR": "Inactief lettertype"
+            }
+          },
+          "INFO": {
+            "COLOR": "Info"
+          },
+          "LABEL": {
+            "FONT": {
+              "COLOR": "Tekstkleur van label",
+              "FAMILY": "Labellettertypefamilie",
+              "SIZE": "Lettergrootte van label"
+            }
+          },
+          "LOGO": {
+            "BACKGROUND": {
+              "COLOR": "Logo-achtergrond"
+            },
+            "STYLE": "Logostijl"
+          },
+          "MAIN": "Voornaamst",
+          "NOTIFY": {
+            "COLOR": "Informeer"
+          },
+          "PALETTE": "Palet",
+          "POSITION": "Positie",
+          "PRIMARY": {
+            "COLOR": "Primair",
+            "CONTRAST": "Primair contrast"
+          },
+          "SECONDARY": {
+            "COLOR": "Secundair",
+            "CONTRAST": "Secundair contrast"
+          },
+          "SEPARATOR": {
+            "WIDTH": "Breedte scheidingswand"
+          },
+          "SHADOW": "Schaduw",
+          "SIZE": "Maat",
+          "STYLE": "Stijl",
+          "SUB_NAV": {
+            "BACKGROUND": {
+              "COLOR": "Achtergrond van subnavigatie"
+            },
+            "FONT": {
+              "COLOR": "Subnavigatie Letterkleur"
+            }
+          },
+          "SUCCESS": {
+            "COLOR": "Succes"
+          },
+          "WARNING": {
+            "COLOR": "Waarschuwing"
+          }
+        },
+        "FOOTER": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Voettekst"
+        },
+        "GRAPH": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Grafiek"
+        },
+        "HEADER": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Koptekst"
+        },
+        "INPUT": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Invoer"
+        },
+        "LIST": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Lijst"
+        },
+        "LOADER": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "STYLE": {
+            "PULSE": "Puls",
+            "RAINBOW": "Regenboog",
+            "SPINNER": "Spinner",
+            "UNEVEN_LINES": "Ongelijke lijnen"
+          },
+          "TITLE": "Lader"
+        },
+        "MAIN": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Voornaamst"
+        },
+        "MODAL": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Modaal"
+        },
+        "NAVIGATION": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Navigatie"
+        },
+        "SIDEBAR": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Zijbalk"
+        },
+        "SUBHEADER": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Subkop"
+        },
+        "TAB": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Tab"
+        },
+        "TABLE": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Tafel"
+        },
+        "TITLE": "Thema-instellingen",
+        "TOPNAVIGATION": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Topnavigatie"
+        },
+        "TREE": {
+          "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+          "TITLE": "Boom"
+        },
+        "VALUES": {
+          "AUTO": "Auto",
+          "BACKGROUND-COLOR": "{{group}} Achtergrond",
+          "BLACK": "Zwart",
+          "BORDER-COLOR": "{{group}} Rand",
+          "CUSTOM": "Aangepast",
+          "DARKEN": "Donkerder maken {{groep}} {{variabele}} {{percentage}}%",
+          "FONT-COLOR": "{{group}} Letterkleur",
+          "FONT-FAMILY": "{{groep}} Lettertype",
+          "FONT-WEIGHT": "{{groep}} Gewicht",
+          "INHERIT": "Erven",
+          "LIGHTEN": "Lichter maken {{groep}} {{variabele}} {{percentage}}%",
+          "NONE": "Geen",
+          "OFF_BLACK": "Gebroken zwart",
+          "OFF_WHITE": "Gebroken wit",
+          "TRANSPARENT": "Transparant",
+          "WHITE": "Wit"
+        }
+      },
+      "STYLE": {
+        "DESCRIPTION": "Pas uw thema aan door de volgende instellingen aan te passen.",
+        "TITLE": "Stijlinstellingen"
+      },
+      "TITLE": "Thema's"
+    },
+    "SYSTEM_HEALTH": {
+      "AZURE_FUNCTIONS": {
+        "COLD_START": {
+          "ALL_OPTIMAL": "Alle functies draaien optimaal",
+          "COLUMNS": {
+            "AVG_COLD": "Gemiddeld koud",
+            "AVG_WARM": "Gemiddeld warm",
+            "COLD_STARTS": "Koude start",
+            "FUNCTION": "Functie",
+            "IMPACT": "Invloed",
+            "RATE": "Tarief"
+          },
+          "DETAILS_BY_FUNCTION": "Details koude start per functie",
+          "NO_COLD_STARTS": "Geen koude start gedetecteerd",
+          "SUMMARY": {
+            "AVG_RATE": "Gem. koudestartpercentage",
+            "FUNCTIONS_ANALYZED": "Functies geanalyseerd",
+            "HEADER": "Samenvatting koude start",
+            "TOTAL": "Totale koude start"
+          },
+          "TOP_FUNCTIONS": "Topfuncties op basis van koudestartpercentage"
+        },
+        "DEPENDENCIES": {
+          "FAILED_CALLS": "Mislukte oproepen",
+          "NO_DATA": "Er zijn geen afhankelijkheidsgegevens beschikbaar",
+          "OVERALL_ERROR_RATE": "Algemeen foutenpercentage",
+          "TABLE": {
+            "COLUMNS": {
+              "AVG_DURATION": "Gem. duur",
+              "CALLS": "Oproepen",
+              "DEPENDENCY": "Afhankelijkheid",
+              "ERROR_RATE": "Foutpercentage",
+              "FAILED": "Mislukt",
+              "FUNCTION": "Functie",
+              "TYPE": "Type"
+            }
+          },
+          "TOTAL_CALLS": "Totale afhankelijkheidsoproepen"
+        },
+        "EXPANDED": {
+          "DEPENDENCIES": "Afhankelijkheden",
+          "DETAILED_METRICS_SUFFIX": "- Gedetailleerde statistieken",
+          "DURATION_METRICS": "Duurstatistieken",
+          "EXECUTION_STATISTICS": "Uitvoeringsstatistieken",
+          "LABELS": {
+            "ERROR_RATE": "Foutpercentage:",
+            "FAILED": "Mislukt:",
+            "MAX": "Maximaal:",
+            "MIN": "Min:",
+            "P50": "P50:",
+            "P99": "P99:",
+            "TOTAL": "Totaal:"
+          },
+          "NO_DEPENDENCIES": "Er zijn geen afhankelijkheden bijgehouden"
+        },
+        "LOADING": "Azure Functions-gegevens laden...",
+        "METRICS": {
+          "AVG_SUCCESS_RATE": "Gemiddeld succespercentage",
+          "COLD_STARTS": "Koude start",
+          "TOTAL_EXECUTIONS": "Totaal aantal executies",
+          "TOTAL_FUNCTIONS": "Totaal Functies",
+          "TOOLTIPS": {
+            "AVG_SUCCESS_RATE": "Het gemiddelde percentage niet-mislukte uitvoeringen voor alle functies.",
+            "COLD_STARTS": "Het aantal uitvoeringen dat last had van een vertraging bij de koude start (de functie moest in Azure opstarten voordat deze kon worden uitgevoerd).",
+            "TOTAL_EXECUTIONS": "Het totale geaggregeerde aantal uitvoeringen voor alle Azure-functies gecombineerd.",
+            "TOTAL_FUNCTIONS": "Het aantal unieke Azure-functies dat binnen het tijdsbereik is geïmplementeerd en gedetecteerd."
+          }
+        },
+        "TABLE": {
+          "COLUMNS": {
+            "AVG_DURATION": "Gem. duur",
+            "EXECUTIONS": "Executies",
+            "FUNCTION_NAME": "Functienaam",
+            "LAST_EXECUTION": "Laatste executie",
+            "P95_DURATION": "P95 Duur",
+            "STATUS": "Status",
+            "SUCCESS_RATE": "Succespercentage"
+          },
+          "EMPTY": {
+            "LOADING": "Functiegegevens laden...",
+            "NO_DATA": "Geen functiegegevens beschikbaar"
+          },
+          "COLUMN_TOOLTIPS": {
+            "AVG_DURATION": "Gemiddelde tijd die nodig is om de functie te voltooien",
+            "EXECUTIONS": "Totaal aantal runs",
+            "FUNCTION_NAME": "Naam van de actieve Azure-functie",
+            "LAST_EXECUTION": "Tijdstempel van de meest recent geregistreerde uitvoering",
+            "P95_DURATION": "Uitvoeringstijd 95e percentiel (langzamer dan gemiddeld)",
+            "STATUS": "Gezondheidsstatus op basis van foutenpercentages",
+            "SUCCESS_RATE": "Percentage executies dat slaagt"
+          }
+        },
+        "TABS": {
+          "COLD_START": "Koudestartanalyse",
+          "DEPENDENCIES": "Afhankelijkheden",
+          "OVERVIEW": "Functieoverzicht",
+          "TIMELINE": "Uitvoering tijdlijn"
+        },
+        "TIMELINE": {
+          "GRANULARITY_LABEL": "Granulariteit:",
+          "LOADING": "Tijdlijngegevens laden...",
+          "NO_DATA": "Geen tijdlijngegevens beschikbaar",
+          "OPTIONS": {
+            "FIFTEEN_MINUTES": "15 minuten",
+            "FIVE_MINUTES": "5 minuten",
+            "ONE_HOUR": "1 uur",
+            "ONE_MINUTE": "1 minuut",
+            "THIRTY_MINUTES": "30 minuten"
+          }
+        },
+        "TITLE": "Azure Functions-prestaties"
+      },
+      "CONTAINER": {
+        "TABS": {
+          "AZURE_FUNCTIONS": "Azure-functies",
+          "DATA_STORAGE": "Gegevensopslag",
+          "ERRORS_AND_ALERTS": "Fouten",
+          "EVENT_FLOW": "Gebeurtenisstroom",
+          "INGESTION": "Inslikken",
+          "SYSTEM_OVERVIEW": "Systeemoverzicht"
+        }
+      },
+      "DATA_STORAGE": {
+        "EXPANDED": {
+          "DETAILED_METRICS_SUFFIX": "- Gedetailleerde statistieken",
+          "LABELS": {
+            "AVG_LATENCY": "Gem. latentie:",
+            "ERROR_RATE": "Foutpercentage:",
+            "FAILED": "Mislukt:",
+            "LAST_ACTIVITY": "Laatste activiteit:",
+            "MAX": "Maximaal:",
+            "MIN": "Min:",
+            "P50": "P50:",
+            "P95": "P95:",
+            "P99": "P99:",
+            "SUCCESSFUL": "Succesvol:",
+            "SUCCESS_RATE": "Succespercentage:",
+            "THROUGHPUT": "Doorvoer:",
+            "TOTAL": "Totaal:"
+          },
+          "LATENCY_PERCENTILES": "Latentiepercentages",
+          "OPERATION_STATISTICS": "Bedrijfsstatistieken",
+          "PERFORMANCE_SUMMARY": "Prestatiesamenvatting"
+        },
+        "METRICS": {
+          "TOTAL_OPERATIONS": "Totale operaties",
+          "TOTAL_SUCCESS_RATE": "Totaal succespercentage",
+          "TOOLTIPS": {
+            "TOTAL_OPERATIONS": "Het totale aantal opslagbewerkingen (lezen, schrijven, verwijderen) voor alle verbonden opslagservices.",
+            "TOTAL_SUCCESS_RATE": "Het percentage opslagbewerkingen dat zonder fouten is voltooid."
+          }
+        },
+        "TABLE": {
+          "COLUMNS": {
+            "AVG_LATENCY": "Gem. latentie",
+            "LAST_ACTIVITY": "Laatste activiteit",
+            "OPERATIONS": "Operaties",
+            "P95_LATENCY": "P95 Latentie",
+            "STATUS": "Status",
+            "STORAGE_TYPE": "Opslagtype",
+            "SUCCESS_RATE": "Succespercentage",
+            "TARGET": "Doel",
+            "THROUGHPUT": "Doorvoer"
+          },
+          "EMPTY": {
+            "LOADING": "Opslaggegevens laden...",
+            "NO_DATA": "Geen opslaggegevens beschikbaar"
+          },
+          "HEADER": "Overzicht opslag",
+          "COLUMN_TOOLTIPS": {
+            "AVG_LATENCY": "Gemiddelde tijd die nodig is om een ​​bewerking te voltooien",
+            "LAST_ACTIVITY": "Tijdstempel van de meest recent geregistreerde bewerking",
+            "OPERATIONS": "Totaal aantal bewerkingen op deze specifieke resource",
+            "P95_LATENCY": "95e percentiel opvraag-/bewerkingstijd",
+            "STATUS": "Huidige status van de opslagbron",
+            "STORAGE_TYPE": "Type opslagbron (bijvoorbeeld Azure Blob, Cosmos DB)",
+            "SUCCESS_RATE": "Percentage succesvolle bewerkingen voor deze resource",
+            "TARGET": "De specifieke resource-instantie of tabelnaam",
+            "THROUGHPUT": "Gemiddeld aantal voltooide bewerkingen per seconde"
+          }
+        },
+        "TITLE": "Gegevensopslag"
+      },
+      "ERRORS_AND_ALERTS": {
+        "ALERT": {
+          "AFFECTED_OPERATIONS_LABEL": "Getroffen operaties",
+          "AFFECTED_RESOURCE_LABEL": "Betrokken bron",
+          "DETAILS_LABEL": "Details:",
+          "DURATION": {
+            "DAYS": "dagen",
+            "HOURS": "uur",
+            "MIN": "min"
+          },
+          "DURATION_LABEL": "Duur",
+          "FIRST_OCCURRENCE_LABEL": "Eerste gebeurtenis",
+          "ID_LABEL": "Waarschuwings-ID:",
+          "LAST_OCCURRENCE_LABEL": "Laatste gebeurtenis",
+          "MESSAGE_LABEL": "Bericht:",
+          "SAMPLE_ERROR_LABEL": "Voorbeeldfout:",
+          "SOURCE_LABEL": "Bron",
+          "UNIQUE_ISSUES_LABEL": "Unieke problemen"
+        },
+        "ALERT_STATUS": {
+          "ACTIVE": "De kwestie is momenteel aan de gang en actief.",
+          "DEFAULT": "De status kon niet worden vastgesteld.",
+          "RECENT": "Het probleem is onlangs opgetreden, maar is momenteel mogelijk niet actief.",
+          "RESOLVED": "Het probleem is opgelost en is niet meer actief."
+        },
+        "CHART": {
+          "HEADER": "Fouttijdlijn per service",
+          "LOADING": "Fouttijdlijn laden...",
+          "NO_DATA": "Geen foutgegevens beschikbaar",
+          "NO_DATA_SUBTITLE": "Fouttijdlijngegevens worden hier weergegeven indien beschikbaar"
+        },
+        "EMPTY": {
+          "SUBTITLE": "Alle systemen werken normaal",
+          "TITLE": "Geen waarschuwingen gevonden"
+        },
+        "LOADING": "Waarschuwingen laden...",
+        "RECENT_ALERTS": {
+          "EMPTY": "Geen waarschuwingen gevonden",
+          "HEADER": "Recente waarschuwingen"
+        },
+        "SEVERITY_FILTER": {
+          "LABEL": "Ernst:",
+          "OPTIONS": {
+            "ALL": "Alle ernst",
+            "CRITICAL": "Kritisch",
+            "ERROR": "Fout",
+            "INFORMATION": "Informatie",
+            "WARNING": "Waarschuwing"
+          }
+        },
+        "SORT": {
+          "LABEL": "Soort:",
+          "OPTIONS": {
+            "ACTIVE_FIRST": "Actief eerst",
+            "MOST_OCCURRENCES": "De meeste gebeurtenissen",
+            "MOST_UNIQUE_ISSUES": "Meest unieke problemen",
+            "NEWEST_FIRST": "Nieuwste eerst",
+            "OLDEST_FIRST": "Oudste eerst",
+            "SEVERITY_HIGH_TO_LOW": "Ernst (hoog naar laag)"
+          },
+          "PLACEHOLDER": "Sorteer op"
+        },
+        "SUMMARY": {
+          "CRITICAL": "Kritisch",
+          "ERRORS": "Fouten",
+          "TOTAL_ALERTS": "Totaal waarschuwingen",
+          "WARNINGS": "Waarschuwingen",
+          "TOOLTIPS": {
+            "CRITICAL": "Kritieke waarschuwingen die ernstige systeemfouten of gegevensverlies vertegenwoordigen. \nVereist onmiddellijke aandacht.",
+            "ERRORS": "Standaardfoutwaarschuwingen die bewerkingen aangeven die zijn mislukt, maar die mogelijk geen volledige systeemuitval veroorzaken.",
+            "TOTAL_ALERTS": "Het totale aantal waarschuwingen dat in het systeem is geregistreerd.",
+            "WARNINGS": "Waarschuwingswaarschuwingen die potentiële problemen aangeven, zoals hoge latentie of beperkte query's, voordat deze harde fouten worden."
+          }
+        }
+      },
+      "EVENT_FLOW": {
+        "CARDS": {
+          "CALLS_PER_SEC": "oproepen/sec",
+          "EVENTS_PER_SEC": "gebeurtenissen/sec",
+          "REQUESTS_PER_SEC": "verzoeken/sec",
+          "TOTAL_DEPENDENCIES": "Totale afhankelijkheden",
+          "TOTAL_EVENTS": "Totaal aantal evenementen",
+          "TOTAL_REQUESTS": "Totaal aantal verzoeken"
+        },
+        "CHART": {
+          "HEADER": "Doorvoer in de loop van de tijd",
+          "LOADING": "Doorvoergegevens laden...",
+          "NO_DATA": "Geen doorvoergegevens beschikbaar",
+          "NO_DATA_SUBTITLE": "Doorvoerstatistieken worden hier weergegeven zodra de gegevens zijn verzameld.",
+          "Y_AXIS": "Bewerkingen per seconde"
+        },
+        "CHART_LABELS": {
+          "DEPENDENCIES_PER_SEC": "Afhankelijkheden/sec",
+          "EVENTS_PER_SEC": "Gebeurtenissen/sec",
+          "REQUESTS_PER_SEC": "Verzoeken/sec"
+        },
+        "LEGEND": {
+          "DEPENDENCIES": "Afhankelijkheden per seconde",
+          "EVENTS": "Gebeurtenissen per seconde",
+          "REQUESTS": "Verzoeken per seconde"
+        },
+        "METRICS": {
+          "AVG_DEPENDENCIES_PER_SEC": "Gem. afhankelijkheden/sec",
+          "AVG_EVENTS_PER_SEC": "Gem. gebeurtenissen/sec",
+          "AVG_REQUESTS_PER_SEC": "Gem. verzoeken/sec",
+          "PEAK": "Piek:",
+          "REAL_TIME_THROUGHPUT": "Realtime doorvoer",
+          "TOTAL_OPERATIONS": "Totale operaties",
+          "TOOLTIPS": {
+            "AVG_DEPENDENCIES_PER_SEC": "Het gemiddelde aantal oproepen naar externe systemen (databases, API's, opslag) per seconde.",
+            "AVG_EVENTS_PER_SEC": "Het gemiddelde aantal aangepaste gebeurtenissen of berichten dat intern per seconde wordt verwerkt.",
+            "AVG_REQUESTS_PER_SEC": "Het gemiddelde aantal binnenkomende HTTP-verzoeken dat per seconde door het systeem wordt verwerkt.",
+            "TOTAL_OPERATIONS": "Het gecombineerde totaal van alle verzoeken, gebeurtenissen en afhankelijkheden gedurende het geselecteerde tijdsbereik."
+          }
+        },
+        "TITLE": "Gebeurtenisstroom"
+      },
+      "INGESTION": {
+        "ERROR_MESSAGE": "Kan opnamestatistieken niet laden.",
+        "LAST_UPDATED": "Laatst bijgewerkt:",
+        "METRICS": {
+          "AVG_WORKER_DURATION": "Gem. werknemersduur",
+          "CONNECTED_DEVICES": "Verbonden apparaten",
+          "DEVICES_BACKLOG": "Apparatenachterstand > 1000",
+          "EVENTHUB_INCOMING": "EventHub inkomend",
+          "EVENTHUB_OUTGOING": "EventHub Uitgaand",
+          "MAX_WORKER_DURATION": "Maximale duur van de werknemer",
+          "PENDING_MESSAGES": "Berichten in behandeling",
+          "TOOLTIPS": {
+            "AVG_WORKER_DURATION": "De gemiddelde tijd die de wachtrijwerker nodig had om een ​​bericht te verwerken (van Azure Monitor).",
+            "CONNECTED_DEVICES": "Het aantal IoT-apparaten dat momenteel is verbonden en hartslagsignalen verzendt.",
+            "DEVICES_BACKLOG": "Het aantal apparaten met een ernstige achterstand (meer dan 1000 openstaande berichten).",
+            "EVENTHUB_INCOMING": "Het totale aantal berichten dat door de Event Hub is ontvangen van verbonden apparaten.",
+            "EVENTHUB_OUTGOING": "Het totale aantal berichten dat met succes is verwerkt en uit de Event Hub is gerouteerd.",
+            "MAX_WORKER_DURATION": "De langste tijd die de wachtrijwerker nodig had om één bericht te verwerken (van Azure Monitor).",
+            "PENDING_MESSAGES": "Het aantal berichten dat momenteel in de wachtrij staat en wacht op verwerking. \nHoge cijfers duiden op verwerkingsvertragingen."
+          }
+        },
+        "TABLE": {
+          "COLUMNS": {
+            "BACKLOG": "Achterstand >1000",
+            "CONNECTED_DEVICES": "Verbonden apparaten",
+            "INCOMING": "Inkomend",
+            "OUTGOING": "Uitgaand",
+            "PENDING": "In behandeling",
+            "QUEUE_LAG_AVG": "Wachtrijvertraging gemiddeld (ms)",
+            "QUEUE_LAG_MAX": "Wachtrijvertraging max. (ms)",
+            "TIMESTAMP": "Tijdstempel",
+            "WORKER_AVG": "Gemiddelde werknemer (ms)",
+            "WORKER_MAX": "Werknemer Max (ms)"
+          },
+          "COLUMN_TOOLTIPS": {
+            "BACKLOG": "Apparaten met ernstige achterstanden (>1000 berichten)",
+            "CONNECTED_DEVICES": "Actieve apparaten die hartslagen verzenden",
+            "INCOMING": "Berichten die Event Hub binnenkomen",
+            "OUTGOING": "Berichten verwerkt via Event Hub",
+            "PENDING": "Huidige achterstand van onverwerkte berichten",
+            "QUEUE_LAG_AVG": "Gemiddelde tijd dat berichten in de wachtrij stonden voordat ze werden opgehaald (ADX)",
+            "QUEUE_LAG_MAX": "Maximale tijd dat een enkel bericht in de wachtrij wachtte voordat het werd opgehaald (ADX)",
+            "WORKER_AVG": "Gemiddelde tijd die de wachtrijmedewerker nodig had om een ​​bericht te verwerken (Azure Monitor)",
+            "WORKER_MAX": "Maximale tijd die de wachtrijmedewerker nodig had om één bericht te verwerken (Azure Monitor)"
+          }
+        },
+        "TIMELINE": {
+          "HEADER": "Inname tijdlijn",
+          "LOADING": "Opnamestatistieken laden...",
+          "NO_DATA": "Geen innamegegevens beschikbaar",
+          "NO_DATA_SUBTITLE": "Statistieken worden hier weergegeven zodra telemetrie beschikbaar is."
+        },
+        "TITLE": "Innamestatistieken"
+      },
+      "SHARED": {
+        "REFRESH": "Vernieuwen",
+        "SELECT_TIME_RANGE": "Selecteer tijdsbereik",
+        "SERVICE_STATUS": {
+          "CRITICAL": "Ervaren van ernstige problemen, hoge uitvalpercentages of downtime.",
+          "DEFAULT": "De status kon niet worden vastgesteld.",
+          "HEALTHY": "Normaal werkend zonder significante fouten of latentie.",
+          "UNKNOWN": "Er is geen activiteit geregistreerd in het geselecteerde tijdsbereik.",
+          "WARNING": "Ervaren enkele fouten of verhoogde latentie, maar nog steeds functioneel."
+        },
+        "TIME_RANGE_LABEL": "Tijdbereik:"
+      },
+      "SYSTEM_OVERVIEW": {
+        "AZURE_QUICK_STATUS": {
+          "COLUMNS": {
+            "AVG_DURATION": "Gem. duur",
+            "EXECUTIONS": "Executies",
+            "FUNCTION_NAME": "Functienaam",
+            "STATUS": "Status",
+            "SUCCESS_RATE": "Succespercentage"
+          },
+          "HEADER": "Snelle status van Azure Functions"
+        },
+        "CONNECTION": {
+          "CONNECTED": "Realtime gegevens verbonden",
+          "LOST": "Verbinding verbroken - gegevens in de cache worden weergegeven"
+        },
+        "LOADING": "Systeemstatusgegevens laden...",
+        "METRICS": {
+          "ACROSS_ALL_SERVICES": "Over alle diensten heen",
+          "AVG_ERROR_RATE": "Gem. foutpercentage",
+          "AVG_RESPONSE_TIME": "Gem. responstijd",
+          "HEALTHY_SERVICES": "Gezonde diensten",
+          "RUNNING_NORMALLY": "Normaal verlopen",
+          "SERVICES_MONITORED": "Diensten gecontroleerd",
+          "SYSTEM_LATENCY": "Systeemlatentie",
+          "TOTAL_SERVICES": "Totale diensten",
+          "TOOLTIPS": {
+            "AVG_ERROR_RATE": "Het gemiddelde percentage mislukte bewerkingen voor alle geïntegreerde services.",
+            "AVG_RESPONSE_TIME": "De gemiddelde latentie voor alle bijgehouden succesvolle bewerkingen in het systeem.",
+            "HEALTHY_SERVICES": "Het aantal services dat momenteel een goede status rapporteert zonder fouten of latentiewaarschuwingen.",
+            "TOTAL_SERVICES": "Het totale aantal unieke services dat momenteel door het systeem wordt bewaakt."
+          }
+        },
+        "SERVICE_TABLE": {
+          "COLUMNS": {
+            "AVG_RESPONSE": "Gem. reactie",
+            "ERROR_RATE": "Foutpercentage",
+            "OPERATIONS": "Operaties",
+            "P95": "P95",
+            "SERVICE": "Dienst",
+            "STATUS": "Status",
+            "TYPE": "Type",
+            "UPTIME": "Uptime"
+          },
+          "EMPTY": {
+            "FETCHING": "Servicegegevens ophalen...",
+            "NO_DATA": "Geen servicegegevens beschikbaar"
+          },
+          "HEADER": "Servicestatus",
+          "COLUMN_TOOLTIPS": {
+            "AVG_RESPONSE": "De gemiddelde tijd die de service nodig heeft om bewerkingen te verwerken",
+            "ERROR_RATE": "Percentage bewerkingen dat tot fouten of defecten heeft geleid",
+            "OPERATIONS": "Totaalvolume van geregistreerde handelingen binnen het tijdsbereik",
+            "P95": "De latentie van het 95e percentiel: 95% van de verzoeken is sneller voltooid dan deze keer",
+            "SERVICE": "Naam van de backend-service",
+            "STATUS": "Huidige gezondheidstoestand bepaald door uitvalpercentages en latentie",
+            "TYPE": "Categorie van de service (bijvoorbeeld Compute, Storage, Database)",
+            "UPTIME": "Percentage bewerkingen dat met succes is voltooid"
+          }
+        },
+        "TITLE": "Overzicht systeemstatus"
+      }
+    },
+    "SHARED": {
+      "ARIA": {
+        "ADD_NEW_ITEM": "Nieuw artikel toevoegen",
+        "EXPORT_DATA_AS_CSV": "Gegevens exporteren als CSV",
+        "EXPORT_TO_CSV": "Exporteren naar CSV",
+        "GRID_ACTIONS": "Rasteracties",
+        "REFRESH_GRID_DATA": "Rastergegevens vernieuwen",
+        "REFRESH_TREE_TABLE_DATA": "Ververs de boomtabelgegevens",
+        "TOGGLE_FILTERS": "Schakel tussen filters",
+        "TREE_TABLE_ACTIONS": "Boomtabelacties",
+        "BULK_IMPORT": "Bulkimport",
+        "EXPORTING": "Gegevens exporteren, even geduld a.u.b...."
+      },
+      "NAVIGATION_PANEL": {
+        "GO_TO_CLIENT": "Ga naar de geselecteerde klant",
+        "NAVIGATE_TO_CLIENT": "Navigeer naar de geselecteerde klant",
+        "COLLAPSE_COMPANY_STRUCTURE": "Bedrijfsstructuur instorten",
+        "EXPAND_COMPANY_STRUCTURE": "Bedrijfsstructuur uitbreiden",
+        "TOGGLE_BUTTON_TEXT": "BEDRIJFSSTRUCTUUR"
+      },
+      "TOOLTIPS": {
+        "EXPORT_CSV": "CSV exporteren",
+        "FILTER": "Filter"
+      },
+      "SECTIONS": {
+        "CHANGES": "Veranderingen",
+        "CUSTOM": "Aangepast",
+        "FEATURES": "Functies",
+        "INFORMATION": "Informatie",
+        "LIMITS": "Grenzen",
+        "SETTINGS": "Instellingen",
+        "STATISTICS": "Statistieken"
+      },
+      "CONTACTS_SECTION": {
+        "ARIA": {
+          "EDIT": "Contactgegevens bewerken",
+          "ID_CARD_ICON": "Identiteitskaart icoon"
+        },
+        "DESCRIPTION": "Geef contactgegevens op",
+        "TITLE": "Contactgegevens"
+      },
+      "FEATURE_SECTION": {
+        "ARIA": {
+          "ICON": "Functiepictogram"
+        }
+      },
+      "FEED": {
+        "CHANGES": {
+          "ADDED": "{{naam}} '{{newValue}}' toegevoegd",
+          "FROM": "van",
+          "MODIFIED": "{{naam}} gewijzigd van '{{oudeWaarde}}' in '{{nieuweWaarde}}'",
+          "REMOVED": "verwijderd {{naam}} '{{oldValue}}'",
+          "TO": "naar",
+          "USER": "Gebruiker"
+        },
+        "LOADING": "Wijzigingen laden...",
+        "LOADING_MORE": "Meer laden...",
+        "LOAD_MORE": "Laad meer",
+        "NO_MORE_CHANGES": "Geen wijzigingen meer om te laden"
+      },
+      "FORM_SECTION": {
+        "ARIA": {
+          "EDIT": "Entiteitsdetails bewerken",
+          "SLIDERS_ICON": "Schuifregelaars verticale pictogram"
+        }
+      },
+      "INFO_SECTION": {
+        "ARIA": {
+          "BOOK_ICON": "Boek open pictogram"
+        },
+        "DESCRIPTION": "De volgende aanvullende informatie is vereist."
+      },
+      "LIMITS": {
+        "COLUMNS": {
+          "ACTIVE": "Actief (ingeschakeld)",
+          "ENTITY_TYPE": "Entiteitstype",
+          "MAX": "Max (harde limiet)",
+          "TOTAL": "Totaal (gecontracteerd)"
+        },
+        "EMPTY": "Er is geen limietconfiguratie gevonden voor deze entiteit.",
+        "TITLE": "Entiteitslimieten",
+        "UNLIMITED": "Onbeperkt",
+        "VALIDATION": {
+          "MIN_VALUE": "Moet >= {{waarde}} zijn"
+        }
+      },
+      "OIDC_ISSUERS": {
+        "ARIA": {
+          "DELETE_ISSUER": "Uitgever verwijderen",
+          "EDIT": "Externe authenticatie bewerken",
+          "KEY_ICON": "Sleutelpictogram"
+        },
+        "DESCRIPTION": "Om te authenticeren bij een externe OpenId Connect-uitgever, voegt u de uitgever hieronder toe.",
+        "FIELDS": {
+          "CLIENT_ID": "Klant-ID",
+          "CLIENT_ID_DESCRIPTION": "De client-ID die is opgegeven door uw Open ID Connect-uitgever.",
+          "CLIENT_SECRET": "Klantgeheim",
+          "CLIENT_SECRET_DESCRIPTION": "Het clientgeheim is OPTIONEEL en is niet vereist voor standaardaanmelding via internet of mobiel.",
+          "ISSUER": "Uitgever",
+          "ISSUERS": "Emittenten",
+          "ISSUER_DESCRIPTION": "Het eindpunt van de uitgever, d.w.z. https://accounts.google.com/",
+          "NAME": "Naam",
+          "NAME_DESCRIPTION": "Een beschrijvende naam voor deze uitgevende instelling. \nHet wordt weergegeven op een knop op het inlogscherm."
+        },
+        "MODAL": {
+          "DESCRIPTION": "Vul de volgende velden in, verkregen van de OpenID Connect-uitgever.",
+          "TITLE": "Gegevens van de uitgever"
+        },
+        "TITLE": "Externe authenticatie"
+      },
+      "ASSET_LIST": {
+        "ARIA": {
+          "DELETE": "Geselecteerd item verwijderen",
+          "DELETE_TOOLTIP": "Activa verwijderen"
+        }
+      },
+      "BULK_IMPORT": {
+        "COLUMNS": {
+          "FIELD": "Veld",
+          "MESSAGE": "Bericht",
+          "ROW": "Rij"
+        },
+        "DESCRIPTION": "Upload een CSV-bestand om apparaten, simkaarten en activa in bulk te importeren. \nHet bestand moet het sjabloonformaat volgen.",
+        "ERRORS_TITLE": "Foutdetails",
+        "FAILED": "Mislukt",
+        "NOTE_BODY": "De maximale bestandsgrootte is 10 MB. \nDe sjabloon wordt gedownload als Excel-bestand (.xlsx) met vervolgkeuzelijsten.",
+        "NOTE_FORMAT_WARNING": "Sla het op in CSV-formaat voordat u het uploadt!",
+        "NOTE_LABEL": "Opmerking:",
+        "RESULTS_TITLE": "Resultaten importeren",
+        "SELECTED_FILE": "Geselecteerd bestand: {{name}} ({{size}} KB)",
+        "SUCCESSFUL": "Succesvol",
+        "TITLE": "Instructies voor bulkimport",
+        "TOTAL_REQUESTED": "Totaal gevraagd",
+        "UPLOADING": "Uploaden en verwerken..."
+      },
+      "INFORMATION": {
+        "DESCRIPTION": "De volgende aanvullende informatie is vereist.",
+        "TITLE": "Informatie"
+      },
+      "LOGO": {
+        "ALT": "Logo",
+        "ARIA": {
+          "EDIT": "Bewerk {{sleutel}}",
+          "REMOVE": "Verwijder {{sleutel}}"
+        },
+        "CHANGES_PENDING": "Wijzigingen in behandeling - worden geüpload tijdens het opslaan",
+        "UPLOAD_ON_SAVE": "{{samenvatting}} wordt geüpload wanneer u de wijzigingen opslaat."
+      },
+      "USER_LIST": {
+        "ARIA": {
+          "MOVE": "Verplaats het geselecteerde item",
+          "MOVE_TOOLTIP": "Gebruiker verplaatsen"
+        }
+      }
+    },
+    "DETAILS_PANEL": {
+      "ARIA": {
+        "BOX_ICON": "Pictogram van het paneel Details",
+        "CLOSE": "Sluit het detailpaneel"
+      },
+      "CHANGE_STATE_TITLE": "Wijzig status in"
+    },
+    "DISTRIBUTORS": {
+      "ADDRESS": {
+        "ARIA": {
+          "EDIT": "Adres bewerken",
+          "ID_CARD_ICON": "Identiteitskaart icoon"
+        },
+        "DESCRIPTION": "Vul de volgende adresgegevens in.",
+        "TITLE": "Adres"
+      },
+      "COLUMNS": {
+        "ASSET": "Activa",
+        "ASSETTAG": "Labels",
+        "CLIENT": "Klanten",
+        "COMPANION_CAMERA": "Begeleidende camera-apparaten",
+        "DEVICE": "Apparaten",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "SIMCARD": "SIM-kaarten",
+        "STATE": "Staat",
+        "USER": "Gebruikers",
+        "VENDOR": "Verkopers",
+        "WEBSITE": "Website"
+      },
+      "CUSTOMIZE": {
+        "DESCRIPTION": "Wanneer gebruikers een van de onderstaande domeinen bezoeken, wordt de software aangepast met de volgende instellingen.",
+        "FIELDS": {
+          "DOMAINS": "Domeinen",
+          "LANGUAGE": "Taal",
+          "LOGO": "Logo",
+          "LOGO_DESCRIPTION": "De afbeelding wordt opnieuw gesampled naar 800 x 333 pixels en wordt gebruikt in rapporten.",
+          "THEME": "Thema",
+          "WEB_LOGO": "Weblogo",
+          "WEB_LOGO_DESCRIPTION": "De afbeelding wordt opnieuw gesampled naar 240 x 100 pixels. \nVoor betere resultaten moet u uw afbeelding vooraf schalen in een grafisch programma voordat u deze uploadt."
+        },
+        "TITLE": "Pas aan",
+        "ARIA": {
+          "EDIT": "Distributeur aanpassen",
+          "PAINT_ROLLER_ICON": "Verfroller pictogram",
+          "TITLE": "Aanpassing van distributeurs"
+        },
+        "INHERITED": "Geërfd",
+        "PLACEHOLDERS": {
+          "SELECT_LANGUAGE": "Selecteer taal",
+          "SELECT_THEME": "Selecteer thema"
+        }
+      },
+      "DETAILS": {
+        "ARIA": {
+          "BUILDING_ICON": "Pictogram van het gebouw",
+          "EDIT": "Distributiegegevens bewerken"
+        },
+        "DESCRIPTION": "Configureer verschillende distributeurgegevens.",
+        "TITLE": "Distributeurgegevens",
+        "FIELDS": {
+          "NAME": "Naam",
+          "TAGS": "Labels",
+          "WEBSITE": "Website"
+        }
+      },
+      "NOTIFICATION_SETTINGS": {
+        "ARIA": {
+          "AT_ICON": "Bij icoon",
+          "EDIT": "Meldingsinstellingen bewerken"
+        },
+        "DESCRIPTION": "Kies uit de volgende opties",
+        "FIELDS": {
+          "EMAIL_PROVIDER": "Standaard e-mailprovider"
+        },
+        "TITLE": "Meldingsinstellingen"
+      },
+      "SETTINGS": {
+        "ARIA": {
+          "COG_ICON": "Kogge icoon"
+        },
+        "DESCRIPTION": "Kies uit de volgende instellingen.",
+        "FIELDS": {
+          "EMAIL_PROVIDERS": "Beschikbare e-mailproviders",
+          "MAPSETS": "Beschikbare kaartensets"
+        },
+        "TITLE": "Instellingen"
+      },
+      "STATISTICS": {
+        "ARIA": {
+          "DATE_RANGE": "Datumbereik"
+        },
+        "NO_DATA": "Geen gegevens",
+        "TITLE": "Statistieken van distributeurs"
+      },
+      "TITLE": "Distributeurs",
+      "ERRORS": {
+        "LOAD_FAILED": "Kan distributeurgegevens niet laden"
+      },
+      "SSL_CERTIFICATES": {
+        "ARIA": {
+          "BUILDING_ICON": "Pictogram van het gebouw"
+        },
+        "DESCRIPTION": "De volgende aangepaste domeinen zijn geregistreerd voor deze klant.",
+        "FIELDS": {
+          "DOMAINS": "Domeinen"
+        },
+        "TITLE": "SSL-certificaten"
+      }
+    },
+    "MAP_SETS": {
+      "DETAILS": {
+        "ARIA": {
+          "EDIT": "Bewerk de details van de kaartenset"
+        },
+        "DESCRIPTION": "Configureer hieronder kaartlagen, projecties, zoomdrempels en servers.",
+        "TITLE": "Details van de kaartset",
+        "FIELDS": {
+          "LAYERS": "Lagen",
+          "NAME": "Naam",
+          "OVERLAYS": "Overlays"
+        },
+        "MODAL": {
+          "DESCRIPTION": {
+            "LAYER": "Configureer verschillende details over uw laag.",
+            "OVERLAY": "Configureer verschillende details over uw overlay."
+          },
+          "FIELDS": {
+            "ATTRIBUTION": "Toeschrijving",
+            "IMAGE_TYPE": "Type tegelafbeelding",
+            "LAYER_NAME": "Laagnaam",
+            "MAX_ZOOM": "Maximale zoom",
+            "MIN_ZOOM": "Minimale zoom",
+            "NAME": "Naam",
+            "ORDER": "Volgorde",
+            "OVERLAYS": "Overlays",
+            "PROJECTION": "Projectie",
+            "SERVERS": "Servers",
+            "SERVER_TYPE": "Servertype"
+          },
+          "TITLE": {
+            "LAYER": "Nieuwe laag",
+            "OVERLAY": "Nieuwe overlay"
+          },
+          "LAYER_DISPLAY": "Servertype: {{serverType}}, Zoom: {{minZoom}} - {{maxZoom}}",
+          "VALIDATION": {
+            "SERVERS_REQUIRED": "Er is minimaal één server-URL vereist"
+          }
+        }
+      },
+      "COLUMNS": {
+        "NAME": "Naam",
+        "STATE": "Staat"
+      },
+      "WIZARD": {
+        "CONFIRMATION": {
+          "LAYERS_CONFIGURED": "Lagen geconfigureerd:",
+          "LAYER_COUNT": "{{count}} laag(en)",
+          "OVERLAYS_CONFIGURED": "Overlays geconfigureerd:",
+          "OVERLAY_COUNT": "{{count}} overlay(s)"
+        }
+      },
+      "TITLE": "Kaartsets"
+    },
+    "EXPORT_TASKS": {
+      "COLUMNS": {
+        "ASSETS": "Activa",
+        "CLIENT": "Cliënt",
+        "DOCUMENTS": "Documenten",
+        "MODE": "Modus",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "STATE": "Staat"
+      },
+      "DETAILS": {
+        "CREDENTIALS": {
+          "API_KEY": "API-sleutel",
+          "NONE": "Geen legitimatie beschikbaar.",
+          "PASSWORD": "Wachtwoord",
+          "S3_POLICY": "U moet het volgende AWS IAM-beleid toepassen op de bucket die u heeft opgegeven, zodat de exporttaak naar de bucket kan schrijven:",
+          "TITLE": "Referenties",
+          "USERNAME": "Gebruikersnaam",
+          "NONE_FOR_TASK": "Er zijn geen referenties beschikbaar voor deze exporttaak."
+        },
+        "DESCRIPTION": "Geef uw exporttaak een naam en selecteer de doelclient.",
+        "FIELDS": {
+          "CLIENT": "Cliënt",
+          "MODE": "Modus",
+          "NAME": "Naam"
+        },
+        "TITLE": "Taakdetails exporteren",
+        "ARIA": {
+          "EDIT": "Bewerk de details van de exporttaak",
+          "EXPORT_TASK_ICON": "taakpictogram exporteren"
+        }
+      },
+      "DOCUMENT_TYPES": {
+        "CHANGES": "Meldingen over entiteitswijzigingen",
+        "CRASH_DATA": "Crashgegevens",
+        "EVENT": "Evenementen",
+        "TELEMETRY": "Telemetrie",
+        "TRIP": "Reizen"
+      },
+      "ENDPOINT_TYPES": {
+        "HTTP": "HTTP",
+        "S3": "S3"
+      },
+      "MODES": {
+        "FIREHOSE": "Brandslang",
+        "FTP": "FTP",
+        "HTTP": "HTTP",
+        "STREAM": "Streamen"
+      },
+      "SETTINGS": {
+        "DESCRIPTION": "Configureer uw exporttaakinstellingen.",
+        "FIELDS": {
+          "ACCESS_KEY": "Toegangssleutel",
+          "ACCESS_KEY_DESCRIPTION": "(Optioneel) Een door de gebruiker gedefinieerde toegangssleutel die wordt doorgegeven in de header 'x-amz-firehose-access-key'",
+          "ASSETS": "Activa",
+          "BUCKET_ARN": "Emmer ARN",
+          "BUCKET_ARN_DESCRIPTION": "De S3-bucket ARN in het formaat 'arn:aws:s3:::mijn-bucket-naam'",
+          "CLIENTS": "Klanten",
+          "DOCUMENTS": "Documenten",
+          "DOCUMENT_VERSION": "Documentversie",
+          "ENCODING": "Inhoudscodering",
+          "ENDPOINT_TYPE": "Eindpunttype",
+          "PARAMS": "Parameters",
+          "PARAMS_DESCRIPTION": "(Optioneel) Parameters in de notatie 'sleutel=waarde', gescheiden door nieuwe regels",
+          "PREFIX": "Voorvoegsel",
+          "URL": "Bestemmings-URL",
+          "URL_DESCRIPTION": "De bestemmings-URL in de notatie 'https://example.com/myapi/'",
+          "ACCESS_KEY_HINT": "Optionele toegangssleutel gebruikt voor authenticatie",
+          "BUCKET_ARN_HINT": "De ARN van de S3-bucket waaraan gegevens moeten worden geleverd",
+          "CLIENT_COUNT": "{{count}} klant(en)",
+          "DOCUMENT_TYPES": "Documenttypen",
+          "ENDPOINT": "Eindpunt",
+          "PARAMS_HINT": "Aanvullende HTTP-parameters",
+          "URL_HINT": "Alleen https:// eindpunten worden ondersteund"
+        },
+        "TITLE": "Instellingen",
+        "ARIA": {
+          "EDIT": "Instellingen voor exporttaken bewerken",
+          "SETTINGS_ICON": "pictogram voor taakinstellingen exporteren"
+        },
+        "SECTION_TITLE": "Taakinstellingen exporteren"
+      },
+      "DOCUMENT_VERSIONS": {
+        "V1": "v1 (verouderd)",
+        "V2": "v2 (nieuwste)"
+      },
+      "ENCODING_OPTIONS": {
+        "DISABLED": "Gehandicapt",
+        "GZIP": "GZIP"
+      }
+    },
+    "VENDORS": {
+      "COLUMNS": {
+        "ASSET": "Activa",
+        "ASSET_TAG": "Labels",
+        "CLIENT": "Klanten",
+        "COMPANION_CAMERA": "Begeleidende camera-apparaten",
+        "DEVICE": "Apparaten",
+        "GROUP": "Groep",
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "SIMCARD": "SIM-kaarten",
+        "STATE": "Staat",
+        "USER": "Gebruikers",
+        "WEBSITE": "Website"
+      },
+      "CUSTOMIZE": {
+        "DESCRIPTION": "Wanneer gebruikers een van de onderstaande domeinen bezoeken, wordt de software aangepast met de volgende instellingen.",
+        "FIELDS": {
+          "DOMAINS": "Domeinen",
+          "LANGUAGE": "Taal",
+          "LOGIN": "Inloggen bericht",
+          "LOGIN_DESCRIPTION": "Markdown-syntaxis wordt ondersteund voor het opmaken van tekst.",
+          "LOGO": "Logo",
+          "LOGO_DESCRIPTION": "De afbeelding wordt opnieuw gesampled naar 800 x 333 pixels en wordt gebruikt in rapporten.",
+          "THEME": "Thema",
+          "WEB_LOGO": "Weblogo",
+          "WEB_LOGO_DESCRIPTION": "De afbeelding wordt opnieuw gesampled naar 240 x 100 pixels. \nVoor betere resultaten moet u uw afbeelding vooraf schalen in een grafisch programma voordat u deze uploadt."
+        },
+        "TITLE": "Pas aan"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Configureer verschillende leveranciersgegevens.",
+        "FIELDS": {
+          "GROUP": "Groep",
+          "NAME": "Naam",
+          "TAGS": "Labels",
+          "WEBSITE": "Website"
+        },
+        "TITLE": "Leveranciersgegevens"
+      },
+      "EMAIL": {
+        "DESCRIPTION": "Om alle systeem-e-mails via uw eigen domein te laten routeren, schakelt u het onderstaande gedeelte in en voert u uw eigen e-mailservergegevens in.",
+        "FIELDS": {
+          "CUSTOM_EMAIL": "Aangepaste e-mail",
+          "DISABLED": "Gehandicapt",
+          "ENABLED": "Ingeschakeld",
+          "ENABLE_SSL": "Schakel SSL in",
+          "FROM_ADDRESS": "Van Adres",
+          "FROM_NAME": "Van Naam",
+          "PASSWORD": "Wachtwoord",
+          "SMTP_PORT": "SMTP-poort",
+          "SMTP_SERVER": "SMTP-server",
+          "USERNAME": "Gebruikersnaam"
+        },
+        "TITLE": "E-mailinstellingen"
+      },
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "Kies uit de volgende opties",
+        "FIELDS": {
+          "EMAIL_PROVIDER": "Standaard e-mailprovider"
+        },
+        "TITLE": "Meldingsinstellingen"
+      },
+      "SETTINGS": {
+        "DESCRIPTION": "Kies uit de volgende instellingen.",
+        "FIELDS": {
+          "DEVICETYPES": "Apparaattypen",
+          "EMAIL_PROVIDERS": "Beschikbare e-mailproviders",
+          "MAPSET": "Standaard kaartenset",
+          "MAPSETS": "Beschikbare kaartensets"
+        },
+        "TITLE": "Instellingen"
+      },
+      "TITLE": "Verkopers"
+    },
+    "DEVICE_TYPES": {
+      "COLUMNS": {
+        "MODIFIED": "Gewijzigd",
+        "NAME": "Naam",
+        "SHORT_NAME": "Korte naam",
+        "STATUS": "Status",
+        "TAG": "Label"
+      },
+      "TITLE": "Apparaattypen"
+    },
+    "CONTACTS": {
+      "DETAILS": {
+        "TITLE": "Contactdetails",
+        "DESCRIPTION": "Configureer verschillende details over uw contact.",
+        "ARIA": {
+          "CONTACT_ICON": "Contactpictogram",
+          "EDIT_CONTACT": "Contactdetails bewerken"
+        },
+        "EMPTY": "Geen contactgegevens beschikbaar."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Contactdetails",
+          "CONFIRMATION": "Bevestiging"
+        }
+      },
+      "ERRORS": {
+        "EMAIL_DUPLICATE": "E-mail \"{{email}}\" wordt al gebruikt door \"{{name}}\".",
+        "MOBILE_DUPLICATE": "Mobiel nummer \"{{mobile}}\" wordt al gebruikt door \"{{name}}\".",
+        "PHONE_DUPLICATE": "Kantoortelefoon \"{{phone}}\" wordt al gebruikt door \"{{name}}\"."
+      },
+      "GRID": {
+        "COLUMNS": {
+          "NAME": "Naam",
+          "TYPE": "Type",
+          "EMAIL": "E-mail",
+          "MOBILE": "Mobiel",
+          "OFFICE_PHONE": "Kantoortelefoon",
+          "NOTES": "Notities",
+          "NEW": "Nieuw contact"
+        }
+      }
+    }
+  },
+  "AUTH": {
+    "CONTEXT_SELECTION": {
+      "CHECKING_PERMISSIONS": "Rechten controleren...",
+      "ERROR_SELECT_ACCOUNT": "Kan account niet selecteren. \nProbeer het opnieuw.",
+      "ERROR_SELECT_CLIENT": "Kan klant niet selecteren.",
+      "ERROR_UNABLE_TO_PROCEED": "Kan niet doorgaan. \nNeem contact op met de ondersteuning.",
+      "LOADING_CLIENTS": "Klanten laden...",
+      "LOADING_THEME": "Themavoorbeeld laden...",
+      "NOTICE_DEFAULT_CLIENT": "Doorgaan met uw standaardclient.",
+      "NOTICE_SUMMARY": "Kennisgeving",
+      "NO_PERMISSION_DESCRIPTION": "Uw account heeft geen toestemming om klanten te vermelden. \nNeem contact op met uw beheerder voor toegang.",
+      "NO_PERMISSION_TITLE": "Geen toestemming om klanten te bekijken",
+      "PREPARING_ACCOUNT": "Uw rekening voorbereiden...",
+      "PREPARING_EXPERIENCE": "Je ervaring voorbereiden...",
+      "STEP_SELECT_ACCOUNT": "Selecteer Account",
+      "STEP_SELECT_CLIENT": "Selecteer Klant",
+      "WIZARD_HEADER": "Contextselectie",
+      "SWITCHING_ACCOUNT": "Van account wisselen..."
+    },
+    "FORGOT_PASSWORD": {
+      "BACK_TO_LOGIN": "Terug naar Inloggen",
+      "BUTTON": "Wachtwoord opnieuw instellen",
+      "DESCRIPTION": "Vul hieronder uw e-mailadres in en wij sturen u per e-mail instructies voor het opnieuw instellen van uw wachtwoord.",
+      "EMAIL": "E-mailadres",
+      "SUCCESS_DESCRIPTION": "Als er een account bestaat met de gebruikersnaam {{username}}, ontvangt u binnenkort een e-mail voor het opnieuw instellen van uw wachtwoord. \nControleer uw inbox en volg de instructies om uw wachtwoord opnieuw in te stellen.",
+      "SUCCESS_TITLE": "Controleer uw e-mail",
+      "TITLE": "Wachtwoord vergeten",
+      "TOAST_SUCCESS": "Instructies voor het opnieuw instellen van het wachtwoord verzonden."
+    },
+    "LOGIN": {
+      "API_URL": "API-URL",
+      "AUTHENTICATING": "Authenticeren met uw beveiligde token...",
+      "BUTTON": "Login",
+      "COPYRIGHT": "Auteursrecht {{year}}. \nAlle rechten voorbehouden.",
+      "FORGOT_PASSWORD": "Wachtwoord vergeten?",
+      "LOGGING_IN": "Inloggen",
+      "PASSWORD": "Wachtwoord",
+      "TITLE": "Welkom terug",
+      "TITLE_WITH_OWNER": "Welkom bij {{ownerName}}",
+      "TOKEN_ERROR": "Tokenverificatie mislukt. \nLog in met uw gebruikersnaam en wachtwoord.",
+      "USERNAME": "Gebruikersnaam"
+    },
+    "RESET_PASSWORD": {
+      "DESCRIPTION": "Werk uw accountgegevens bij en voer een nieuw wachtwoord voor uw account in.",
+      "FIELDS": {
+        "EMAIL": "E-mailadres",
+        "MOBILE": "Mobiel nummer",
+        "NAME": "Naam",
+        "PASSWORD": "Nieuw wachtwoord",
+        "TIMEZONE": "Tijdzone"
+      },
+      "TITLE": "Welkom",
+      "VALIDATION": {
+        "MOBILE_PATTERN": "Mobiel nummer mag alleen cijfers bevatten"
+      }
+    },
+    "SELECT_CLIENT": {
+      "HEADING": "Selecteer een account"
+    }
+  },
+  "NAV": {
+    "GROUPS": {
+      "ADMIN": "Configuratie",
+      "DEVELOPMENT": "Ontwikkeling",
+      "HISTORY": "Historische activiteit",
+      "STATUS": "Recente activiteit",
+      "SYSTEM": "Systeem"
+    },
+    "MENU": {
+      "ACCOUNT_NAVIGATION": "Accountnavigatie",
+      "CLIENTS": "Klanten",
+      "LOGOUT": "Uitloggen",
+      "PROFILE": "Profiel",
+      "SWITCH_ACCOUNT": "Van account wisselen",
+      "USER_FALLBACK": "Gebruiker"
+    },
+    "SIDEBAR": {
+      "NO_PERMISSION_SWITCH": "Geen toestemming om van client te wisselen",
+      "SWITCH_CLIENT": "Van klant wisselen",
+      "TOGGLE": {
+        "COLLAPSE": "Zijbalk samenvouwen",
+        "EXPAND": "Vouw zijbalk uit"
+      }
+    }
+  },
+  "FEATURES": {
+    "EXTERNAL_TAB": {
+      "TITLE": "Externe inhoud"
+    }
+  },
+  "LAYOUT": {
+    "FLUTTER": {
+      "EMBEDDED_TITLE": "Ingebouwde Flutter-applicatie"
+    },
+    "MAIN": {
+      "IFRAME_TITLE": "Externe toepassing",
+      "QA_BANNER": {
+        "ACTIVE": "QA TESTMODUS ACTIEF",
+        "MANAGE": "Beheren",
+        "RESET": "Opnieuw instellen",
+        "SIMULATING": "Simuleren: {{profile}}",
+        "MODE_LABEL": "QA-testmodus:",
+        "SIMULATING_FOR": "Er worden momenteel machtigingen gesimuleerd voor"
+      }
+    }
+  },
+  "DEVELOPMENT": {
+    "ANALYTICAL_REPORT": {
+      "CONFLICT_MODAL": {
+        "MESSAGE": "Uw bewerkingen kunnen niet worden opgeslagen omdat dit rapport is bijgewerkt in een andere sessie (bijvoorbeeld een ander geopend tabblad). \nKies hoe u het probleem wilt oplossen.",
+        "OVERWRITE": "Bewaar mijn bewerkingen",
+        "RELOAD": "Herlaad hun versie",
+        "TITLE": "Dit rapport is elders gewijzigd"
+      },
+      "EDIT_FRAME": {
+        "ARIA": {
+          "ASK_AI_TITLE": "Vraag de AI om dit blok te veranderen",
+          "DRAG_REORDER": "Sleep om de volgorde te wijzigen",
+          "REMOVE_TITLE": "Verwijder dit blok",
+          "RESTORE_TITLE": "Herstel dit blok"
+        },
+        "ASK_AI_LABEL": "Vraag AI om te veranderen",
+        "COMING_SOON_LABEL": "Binnenkort beschikbaar",
+        "HIDDEN_LABEL": "Verborgen",
+        "MAP_BLOCK_LABEL": "Kaartblok",
+        "RESTORE_LABEL": "Herstellen"
+      },
+      "EDIT_POPOVER": {
+        "PLACEHOLDER": "Beschrijf de verandering… b.v. \nzorg ervoor dat het aantal gebeurtenissen per voertuig telt"
+      },
+      "FILTERS": {
+        "ADDITIONAL_COLUMNS": {
+          "TITLE": "Extra kolommen toevoegen",
+          "STANDARD": "Standaard",
+          "CUSTOM_FIELDS": "Aangepaste velden",
+          "INITIAL": "Initieel",
+          "FINAL": "Definitief",
+          "VENDOR": "Leverancier",
+          "CLIENT": "Klant",
+          "NO_OPTIONS": "Geen opties beschikbaar"
+        },
+        "ALERT": {
+          "PICK_ALERTS_PLACEHOLDER": "Kies een of meer waarschuwingen",
+          "SELECT_SCOPE_PLACEHOLDER": "Selecteer filterbereik",
+          "TITLE": "Waarschuwingsfilter"
+        },
+        "IDLING": {
+          "TITLE": "Overmatig stationair filter"
+        },
+        "SHARED": {
+          "DURATION_LABEL": "Duur (min):",
+          "EVENT_THRESHOLD_HELP": "Laat dit leeg om alle gebeurtenissen weer te geven. \nEen waarde toont alleen gebeurtenissen die groter zijn dan deze waarde.",
+          "SHOW_ALL_PLACEHOLDER": "Toon alles"
+        },
+        "SPEEDING": {
+          "DISTANCE_LABEL": "Afstand (km):",
+          "TITLE": "Oversnelheidsfilter"
+        },
+        "STOPPING": {
+          "HELP_TEXT": "Laat de duur leeg om alle stops weer te geven. \nEen waarde toont alleen stops die langer zijn dan deze.",
+          "IGNITION_OFF": "Ontsteking uit",
+          "SPEED": "Snelheid",
+          "STOP_TYPE_LABEL": "Stoptype:",
+          "TITLE": "Stoppen met filteren"
+        },
+        "UTILIZATION": {
+          "HELP_TEXT": "Werkuren maakt gebruik van het geconfigureerde schema van elk activum. \nLaat Doel leeg om de kolommen Doel en Afstandsgebruik % weg te laten.",
+          "MODE_LABEL": "Modus:",
+          "NO_TARGET_PLACEHOLDER": "Geen doel",
+          "SELECT_PERIOD_PLACEHOLDER": "Selecteer periodebasis",
+          "TARGET_LABEL": "Doel (km):",
+          "TITLE": "Gebruik"
+        }
+      }
+    }
+  }
+}
