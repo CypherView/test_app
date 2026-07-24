@@ -1,0 +1,4082 @@
+{
+  "SHARED": {
+    "THEME": {
+      "PRIMARY_COLOR": "Primärfarbe",
+      "NAVIGATION_COLOR": "Navigationsfarbe",
+      "NAVIGATION_ACTIVE_STATE": "Aktiver Navigationsstatus",
+      "HEADER_COLOR": "Header-Farbe",
+      "HEADER_ACTIVE_COLOR": "Aktive Header-Farbe",
+      "BACKGROUND": "Hintergrund",
+      "FOREGROUND": "Vordergrund",
+      "LEFT_BORDER": "Linker Rand",
+      "RIGHT_BORDER": "Rechter Rand",
+      "INVERT": "Invertieren",
+      "ACCENT": "Akzent",
+      "LOADING_THEME": "Thema wird geladen..."
+    },
+    "COMMON": {
+      "BUTTONS": {
+        "SAVE": "Speichern",
+        "CANCEL": "Abbrechen",
+        "DELETE": "Löschen",
+        "EDIT": "Bearbeiten",
+        "ADD": "Hinzufügen",
+        "CLOSE": "Schließen",
+        "BACK": "Zurück",
+        "NEXT": "Weiter",
+        "CONFIRM": "Bestätigen",
+        "RESET": "Zurücksetzen",
+        "SEARCH": "Suchen",
+        "CLEAR": "Leeren",
+        "IMPORT": "Importieren",
+        "EXPORT": "Exportieren",
+        "DOWNLOAD": "Herunterladen",
+        "UPLOAD": "Hochladen",
+        "REFRESH": "Aktualisieren",
+        "VIEW": "Anzeigen",
+        "CREATE": "Erstellen",
+        "UPDATE": "Aktualisieren",
+        "DISCARD": "Verwerfen",
+        "FINISH": "Fertigstellen",
+        "OK": "OK",
+        "DISABLE": "Deaktivieren",
+        "REMOVE": "Entfernen",
+        "BACK_TO_LOGIN": "Zurück zum Anmelden",
+        "BULK_IMPORT": "Massenimport",
+        "EXPORTING": "Exportieren"
+      },
+      "STATUS": {
+        "ACTIVE": "Aktiv",
+        "INACTIVE": "Inaktiv",
+        "PENDING": "Ausstehend",
+        "COMPLETED": "Abgeschlossen",
+        "FAILED": "Fehlgeschlagen",
+        "SUCCESS": "Erfolgreich",
+        "ERROR": "Fehler",
+        "LOADING": "Wird geladen",
+        "NO_DATA": "Keine Daten",
+        "NO_RESULTS": "Keine Ergebnisse gefunden",
+        "UNKNOWN": "Unbekannt",
+        "ENABLED": "Aktiviert",
+        "DISABLED": "Deaktiviert",
+        "SUSPENDED": "Gesperrt",
+        "DELETED": "Gelöscht",
+        "UNAVAILABLE": "Nicht verfügbar"
+      },
+      "ERRORS": {
+        "TITLE": "Fehler",
+        "LOAD_FAILED": "Laden fehlgeschlagen",
+        "SAVE_FAILED": "Speichern fehlgeschlagen",
+        "DELETE_FAILED": "Löschen fehlgeschlagen",
+        "UNEXPECTED": "Unerwarteter Fehler",
+        "SESSION_EXPIRED": "Sitzung abgelaufen",
+        "NO_PERMISSION": "Keine Berechtigung"
+      },
+      "VALIDATION": {
+        "REQUIRED": "Dieses Feld ist erforderlich",
+        "INVALID_EMAIL": "Ungültige E-Mail-Adresse",
+        "MIN_LENGTH": "Mindestlänge ist {{min}} Zeichen",
+        "MAX_LENGTH": "Maximallänge ist {{max}} Zeichen",
+        "PATTERN": "Ungültiges Format",
+        "MUST_BE_NUMBER": "Muss eine Zahl sein",
+        "MUST_BE_POSITIVE": "Muss eine positive Zahl sein",
+        "INVALID_FORMAT": "Ungültiges Format",
+        "INVALID_PHONE": "Ungültige Telefonnummer (7–15 Ziffern erforderlich)"
+      },
+      "SEARCH": "Suchen...",
+      "COLUMN_SELECTOR": {
+        "TITLE": "Spalten anzeigen",
+        "PLACEHOLDER": "Spalten zur Anzeige auswählen",
+        "REQUIRED": "Erforderlich"
+      },
+      "ARIA": {
+        "SELECTED_ITEMS": "Ausgewählte Elemente",
+        "TOGGLE_SELECTOR": "Auswahl umschalten",
+        "CLEAR_SELECTION": "Auswahl löschen",
+        "REMOVE_ITEM": "{{name}} entfernen"
+      },
+      "MESSAGES": {
+        "SHOWING_X_OF_Y_ITEMS": "Es werden {{limit}} von {{count}} Einträgen angezeigt.",
+        "TYPE_MORE_TO_NARROW_RESULTS": "Weitere Zeichen eingeben, um die Ergebnisse einzuschränken.",
+        "REFINE_SEARCH": "Suche verfeinern, um Ergebnisse einzuschränken.",
+        "SUCCESS": "Erfolg",
+        "ERROR": "Fehler",
+        "ERROR_GENERIC": "Ein Fehler ist aufgetreten"
+      },
+      "WIZARD": {
+        "COMPLETION_TEXT": "Sie haben alle erforderlichen Informationen angegeben und wir sind bereit, Ihre(n) {{entity}} zu erstellen.",
+        "FINISH_PROMPT": "Klicken Sie auf Fertig stellen, um diesen {{entity}} zu erstellen.",
+        "TITLE": "{{entity}}-Assistent"
+      },
+      "DIALOG": {
+        "APPLY": "Übernehmen",
+        "OK": "OK",
+        "ADD": "Hinzufügen",
+        "EDIT": "Bearbeiten",
+        "CANCEL": "Abbrechen",
+        "SAVE": "Speichern",
+        "NEXT": "Weiter",
+        "BACK": "Zurück",
+        "FINISH": "Fertig stellen",
+        "RETRY": "Wiederholen",
+        "UPDATE": "Aktualisieren",
+        "REFRESH": "Neu laden",
+        "CLOSE": "Schließen",
+        "DOWNLOAD_ITEM": "{{subject}} herunterladen",
+        "DOWNLOAD": "Herunterladen",
+        "CONFIRMATION": "Bestätigung",
+        "ERROR": "Fehler",
+        "DISMISS": "Schließen",
+        "ABORT": "Abbrechen",
+        "SHARE": "Teilen",
+        "DELETE": "Löschen",
+        "ALERT": "Warnung",
+        "INFORMATION": "Information",
+        "SUCCESS": "Erfolgreich",
+        "DELETE_CONFIRMATION": "Löschbestätigung",
+        "UNDO": "Rückgängig",
+        "REDO": "Wiederholen",
+        "VIEW": "Anzeigen",
+        "COPY": "Kopieren",
+        "COPIED": "In die Zwischenablage kopiert",
+        "GOT_IT": "Verstanden",
+        "TIP": "Hinweis",
+        "CLEAR": "Löschen",
+        "SEND": "Senden",
+        "VIDEO": "Video anfordern"
+      },
+      "FORMS": {
+        "SHARED": {
+          "REQUIRED": "{{field}} ist erforderlich.",
+          "INCOMPLETE": "{{field}} ist unvollständig.",
+          "LOOKUP_FAILED": "Die Werte für dieses Feld konnten nicht geladen werden.",
+          "ENTER": "Geben Sie {{field}} ein"
+        },
+        "TEXT": {
+          "MIN": "{{field}} muss mindestens {{min}} Zeichen lang sein.",
+          "MAX": "{{field}} darf nicht länger als {{max}} Zeichen sein."
+        },
+        "NUMBER": {
+          "MIN": "{{field}} muss größer oder gleich {{min}} sein.",
+          "MAX": "{{field}} muss kleiner oder gleich {{max}} sein."
+        },
+        "MIN_MAX": {
+          "MIN": "Min",
+          "MAX": "Max",
+          "MIN_LARGER_THAN_MAX": "Der Mindestwert darf den Höchstwert nicht überschreiten."
+        },
+        "CHECKBOX": {
+          "YES": "Ja",
+          "NO": "Nein"
+        },
+        "CHECKLIST": {
+          "EMPTY": "Keine Einträge gefunden.",
+          "MULTI_SELECTION": "Alle auswählen/abwählen",
+          "SELECT_ALL": "Alle auswählen",
+          "DESELECT_ALL": "Alle abwählen",
+          "SEARCH_LIST": "Checkliste durchsuchen...",
+          "DESCRIPTION": "Weitere Ergebnisse wurden aus dieser Liste entfernt. Bitte grenzen Sie Ihre Suchkriterien ein."
+        },
+        "TAGS": {
+          "PLACEHOLDER": "Tags eingeben..."
+        },
+        "ASSET_FILTER": {
+          "PLACEHOLDER": "Asset- oder Fahrzeugname eingeben...",
+          "DESCRIPTION": "Geben Sie entweder einen Asset- / Fahrzeugnamen oder den Namen einer Asset-Gruppe ein.",
+          "GROUP_DESCRIPTION": {
+            "ANY": "beliebiger {{assetType}}",
+            "COST_CENTRE": "beliebiger {{assetType}} in Kostenstelle \"{{name}}\"",
+            "CATEGORY": "beliebiger {{assetType}} in Kategorie \"{{name}}\"",
+            "GROUP": "beliebiger {{assetType}} in Gruppe \"{{name}}\""
+          },
+          "GROUP_TREE": {
+            "COST_CENTRE": "In Kostenstelle",
+            "CATEGORY": "In Kategorie",
+            "GROUP": "In Gruppe"
+          },
+          "TRUNCATED_MESSAGE": "Es werden {{limit}} von {{count}} Einträgen angezeigt. Verwenden Sie die Suche, um Ihre Ergebnisse einzugrenzen.",
+          "NO_ASSETS": "Keine verfügbaren Assets",
+          "ASSETS": "Assets",
+          "GROUPS": "Gruppen"
+        },
+        "LABEL_FILTER": {
+          "PLACEHOLDER": "Labelname eingeben...",
+          "DESCRIPTION": "Wählen Sie eine oder mehrere Bezeichnungen aus."
+        },
+        "SEARCH_SELECT": {
+          "PLACEHOLDER": "Name eingeben...",
+          "TRUNCATED_MESSAGE": "Es werden {{limit}} von {{count}} Einträgen angezeigt. Verwenden Sie die Suche, um Ihre Ergebnisse einzugrenzen."
+        },
+        "CLIENT_FILTER": {
+          "PLACEHOLDER": "Kundenname eingeben...",
+          "DESCRIPTION_MULTIPLE": "Geben Sie einen Kundennamen ein oder geben Sie \"beliebig\" ein, um alle Kunden auszuwählen.",
+          "DESCRIPTION_SINGLE": "Geben Sie einen Kundennamen ein.",
+          "CLIENT": "Kunde",
+          "ANY_CLIENT": "Beliebiger Kunde"
+        },
+        "VENDOR_FILTER": {
+          "PLACEHOLDER": "Lieferantenname eingeben...",
+          "DESCRIPTION_MULTIPLE": "Geben Sie einen Lieferantennamen ein oder geben Sie \"beliebig\" ein, um alle Lieferanten auszuwählen.",
+          "DESCRIPTION_SINGLE": "Geben Sie einen Lieferantennamen ein.",
+          "VENDOR": "Lieferant",
+          "ANY_VENDOR": "Beliebiger Lieferant"
+        },
+        "DISTRIBUTOR_FILTER": {
+          "PLACEHOLDER": "Händlername eingeben...",
+          "DESCRIPTION_MULTIPLE": "Geben Sie einen Händlernamen ein oder geben Sie \"beliebig\" ein, um alle Händler auszuwählen.",
+          "DESCRIPTION_SINGLE": "Geben Sie einen Händlernamen ein.",
+          "DISTRIBUTOR": "Händler",
+          "ANY_DISTRIBUTOR": "Beliebiger Händler"
+        },
+        "USER_FILTER": {
+          "PLACEHOLDER": "Benutzername eingeben..."
+        },
+        "DEVICE_FILTER": {
+          "PLACEHOLDER": "Gerätename eingeben..."
+        },
+        "ZONE_FILTER": {
+          "PLACEHOLDER": "Geofence-Name eingeben...",
+          "DESCRIPTION": "Geben Sie entweder einen Geofence-Namen oder den Namen einer Geofence-Gruppe ein.",
+          "GROUP_DESCRIPTION": {
+            "ANY": "beliebiger {{zoneType}}",
+            "COST_CENTRE": "beliebiger {{zoneType}} in Kostenstelle \"{{name}}\"",
+            "GROUP": "beliebiger {{zoneType}} in Gruppe \"{{name}}\""
+          },
+          "GROUP_TREE": {
+            "COST_CENTRE": "In Kostenstelle",
+            "GROUP": "In Gruppe"
+          }
+        },
+        "DAYTIME": {
+          "INVALID_TIME": "Ungültige Zeiteingabe",
+          "OPTIONS": {
+            "TODAY": "Heute",
+            "YESTERDAY": "Gestern",
+            "2_DAYS_AGO": "Vor 2 Tagen",
+            "3_DAYS_AGO": "Vor 3 Tagen"
+          }
+        },
+        "URL": {
+          "INVALID_PATTERN": "{{field}} muss mit \"http://\" oder \"https://\" beginnen."
+        }
+      },
+      "SELECTION": {
+        "TITLE": "{{type}} auswählen",
+        "SEARCH": "{{type}} suchen...",
+        "LOADING": "{{type}} wird geladen...",
+        "NO_ITEMS": "Keine {{type}} gefunden.",
+        "SELECTED_ITEMS": "Ausgewählte Artikel"
+      },
+      "NONE": "Keine",
+      "DEFAULT": "Standard",
+      "UNKNOWN": "Unbekannt",
+      "NA": "N / A",
+      "NOT_PROVIDED": "Nicht angegeben",
+      "EM_DASH": "—"
+    },
+    "ASSET_FILTER": {
+      "LEGEND": "Asset-Filter",
+      "PLACEHOLDER": "Asset- oder Fahrzeugname eingeben...",
+      "TABS": {
+        "ASSETS": "Assets",
+        "GROUPS": "Gruppen"
+      },
+      "NO_ASSETS_AVAILABLE": "Keine Assets verfügbar",
+      "NO_GROUPS": "Keine Gruppen verfügbar",
+      "NO_ASSETS": "Keine Assets gefunden"
+    },
+    "ZONE_FILTER": {
+      "LEGEND": "Zonen-Filter",
+      "PLACEHOLDER": "Zonenname eingeben...",
+      "TABS": {
+        "ZONES": "Zonen",
+        "GROUPS": "Gruppen"
+      },
+      "NO_ZONES_AVAILABLE": "Keine Zonen verfügbar",
+      "NO_GROUPS": "Keine Gruppen verfügbar",
+      "NO_ZONES": "Keine Zonen gefunden"
+    },
+    "CLIENT_SELECTOR": {
+      "SEARCH_ACCOUNTS": "Konten suchen",
+      "ACCOUNTS_AVAILABLE": "{{count}} Konten verfügbar",
+      "AVAILABLE_ACCOUNTS": "Verfügbare Konten",
+      "SELECT_ACCOUNT_ARIA": "{{name}}{{ownerInfo}} auswählen",
+      "OWNER_INFO": ", {{ownerType}}: {{ownerName}}"
+    },
+    "CLIENT_SELECTION_FORM": {
+      "SEARCH_CLIENTS": "Kunden suchen",
+      "CLIENTS_FOUND": "{{count}} Kunden gefunden",
+      "RECENTLY_USED": "Zuletzt verwendet",
+      "ALL_CLIENTS": "Alle Kunden",
+      "AVAILABLE_CLIENTS": "Verfügbare Kunden",
+      "RECENTLY_USED_CLIENTS_ARIA": "Zuletzt verwendete Kunden",
+      "SELECT_RECENT_CLIENT_ARIA": "Zuletzt verwendeten Kunden auswählen: {{name}}",
+      "SELECT_CLIENT_ARIA": "{{name}}{{ownerInfo}} auswählen",
+      "OWNER_INFO": ", im Besitz von {{ownerName}}"
+    },
+    "UNAUTHORIZED": {
+      "ACCESS_DENIED": "Zugriff verweigert",
+      "NO_PERMISSION_MESSAGE": "Sie haben keine Berechtigung, auf diese Ressource zuzugreifen.",
+      "REASON": "Grund:",
+      "RETURN_HOME": "Zur Startseite zurückkehren",
+      "NO_PERMISSIONS_ASSIGNED": "Keine Berechtigungen zugewiesen"
+    },
+    "IMAGE_EDITOR": {
+      "TITLE": "Bildeditor",
+      "UPLOAD_IMAGE": "Bild hochladen",
+      "DRAG_DROP_HELP": "Ziehen Sie ein Bild von Ihrem Computer hierher oder fügen Sie ein Bild aus der Zwischenablage ein.",
+      "UPLOAD_DIFFERENT_IMAGE": "Anderes Bild hochladen",
+      "PREVIEW": "Vorschau",
+      "PREVIEW_HELP": "Verwenden Sie die Zuschneidesteuerungen, um den sichtbaren Bildbereich anzupassen. Die Vorschau unten zeigt, wie Ihr Bild nach dem Zuschneiden und Skalieren aussehen wird.",
+      "REMOVE_IMAGE": "Bild entfernen"
+    },
+    "CHART": {
+      "TITLES": {
+        "DEVICES": "Geräte",
+        "ASSETS": "Assets",
+        "CLIENTS": "Kunden",
+        "VENDORS": "Lieferanten",
+        "DISTRIBUTORS": "Händler",
+        "USERS": "Benutzer",
+        "COMPANION_CAMERAS": "Companion-Kamerageräte",
+        "RECORDS": "Datensätze",
+        "BYTES": "Bytes",
+        "CONNECTIONS": "Verbindungen",
+        "MINUTES": "Online-Zeit"
+      },
+      "RANGES": {
+        "24H": "24 Stunden",
+        "7D": "7 Tage",
+        "30D": "30 Tage",
+        "60D": "60 Tage",
+        "90D": "90 Tage"
+      },
+      "ERRORS": {
+        "NO_INFORMATION": "Keine Informationen verfügbar",
+        "UNEXPECTED_ERROR": "Statistiken konnten nicht abgerufen werden"
+      }
+    },
+    "CONTACTS": {
+      "TYPES": {
+        "Emergency": "Notfall",
+        "Administrative": "Verwaltung",
+        "Technical": "Technisch",
+        "Operational": "Betrieb",
+        "Management": "Management",
+        "Owner": "Eigentümer"
+      }
+    }
+  },
+  "ADMIN": {
+    "CLIENTS": {
+      "TABS": {
+        "DETAILS": "Details",
+        "ASSETS": "Assets",
+        "GEOFENCES": "Geofences",
+        "ALERTS": "Warnmeldungen",
+        "HARDWARE": "Hardware",
+        "DEVICES": "Geräte",
+        "ASSET_TAGS": "Asset-Tags",
+        "SIM_CARDS": "SIM-Karten",
+        "PROVIDERS": "Anbieter",
+        "SMS_GATEWAYS": "SMS-Gateways",
+        "PROFILES": "Profile",
+        "IO_TYPES": "E/A-Typen",
+        "DEVICE_CONFIG_PROFILES": "Gerätekonfigurationsprofile",
+        "ASSET_RATING_PROFILES": "Asset-Bewertungsprofile",
+        "ASSET_STATE_PROFILES": "Asset-Zustandsprofile",
+        "OVERSPEED_PROFILES": "Geschwindigkeitsüberschreitungsprofile",
+        "ROAD_PROFILES": "Straßenprofile",
+        "GEO_LOCK_PROFILES": "Geo-Sperrprofile",
+        "CUSTOM_FIELDS": "Benutzerdefinierte Felder",
+        "ORGANIZATION": "Organisation",
+        "COST_CENTRES": "Kostenstellen",
+        "ASSET_GROUPS": "Asset-Gruppen",
+        "CATEGORIES": "Kategorien",
+        "GEOFENCE_GROUPS": "Geofence-Gruppen",
+        "ACCOUNTS": "Konten",
+        "USERS": "Benutzer",
+        "USER_ROLES": "Benutzerrollen",
+        "CONTACTS": "Kontakte"
+      },
+      "GRID": {
+        "ASSETS": "Vermögenswerte",
+        "ASSET_TAGS": "Schlagworte",
+        "COMPANION_CAMERA_DEVICES": "Begleitkamerageräte",
+        "DEVICES": "Geräte",
+        "GROUP": "Gruppe",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "SIM_CARDS": "SIM-Karten",
+        "STATE": "Zustand",
+        "USERS": "Benutzer",
+        "WEBSITE": "Webseite"
+      },
+      "DETAILS": {
+        "TITLE": "Kundendetails",
+        "DESCRIPTION": "Verschiedene Kundendetails konfigurieren.",
+        "FIELDS": {
+          "NAME": "Name",
+          "WEBSITE": "Website",
+          "GROUP": "Gruppe",
+          "TIMEZONE": "Zeitzone",
+          "PIN": "PIN",
+          "TAGS": "Tags"
+        },
+        "ARIA": {
+          "BUILDING_ICON": "Gebäudesymbol",
+          "EDIT_CLIENT_DETAILS": "Kundendaten bearbeiten"
+        }
+      },
+      "SETTINGS": {
+        "TITLE": "Einstellungen",
+        "DESCRIPTION": "Wählen Sie aus den folgenden Einstellungen.",
+        "FIELDS": {
+          "DEVICE_TYPES": "Gerätetypen",
+          "MAP_SET": "Kartenset"
+        },
+        "ARIA": {
+          "COG_ICON": "Zahnrad-Symbol",
+          "EDIT": "Bearbeiten Sie die Client-Einstellungen"
+        }
+      },
+      "NOTIFICATION_SETTINGS": {
+        "TITLE": "Benachrichtigungseinstellungen",
+        "DESCRIPTION": "Wählen Sie aus den folgenden Optionen.",
+        "FIELDS": {
+          "EMAIL_PROVIDER": "E-Mail-Anbieter"
+        },
+        "ARIA": {
+          "AT_ICON": "Am Symbol",
+          "EDIT": "Benachrichtigungseinstellungen bearbeiten"
+        }
+      },
+      "ADDRESS": {
+        "TITLE": "Adresse",
+        "DESCRIPTION": "Füllen Sie die folgenden Adressinformationen aus.",
+        "FIELDS": {
+          "ADDRESS": "Adresse",
+          "CITY": "Stadt",
+          "STATE": "Bundesland",
+          "CODE": "PLZ",
+          "COUNTRY": "Land"
+        },
+        "ARIA": {
+          "EDIT_ADDRESS": "Adresse bearbeiten",
+          "ID_CARD_ICON": "Ausweissymbol"
+        }
+      },
+      "SSL_CERTIFICATES": {
+        "TITLE": "SSL-Zertifikate",
+        "DESCRIPTION": "Für diesen Kunden wurden die folgenden benutzerdefinierten Domänen registriert.",
+        "FIELDS": {
+          "DOMAINS": "Domänen"
+        }
+      },
+      "MEASUREMENT_UNITS": {
+        "TITLE": "Maßeinheiten",
+        "DESCRIPTION": "Passen Sie die Maßeinheiten für diesen Kunden an.",
+        "FIELDS": {
+          "DATE": "Datum",
+          "TIME": "Uhrzeit",
+          "DISTANCE": "Entfernung",
+          "ALTITUDE": "Höhe",
+          "SPEED": "Geschwindigkeit",
+          "VOLUME": "Volumen",
+          "WEIGHT": "Gewicht",
+          "AREA": "Fläche",
+          "TEMPERATURE": "Temperatur"
+        },
+        "VALUES": {
+          "ACRES": "Acres",
+          "CELSIUS": "Celsius",
+          "CUBIC_FEET": "Kubikfuß",
+          "CUBIC_METRES": "Kubikmeter",
+          "FAHRENHEIT": "Fahrenheit",
+          "FEET": "Fuß",
+          "GALLONS": "Gallonen (UK)",
+          "GALLONS_US": "Gallonen (US)",
+          "HECTARES": "Hektar",
+          "INCHES": "Zoll",
+          "KILOGRAMS": "Kilogramm",
+          "KILOMETRES": "Kilometer",
+          "KILOMETRES_PER_HOUR": "Kilometer pro Stunde",
+          "KNOTS": "Knoten",
+          "LITRES": "Liter",
+          "METRES": "Meter",
+          "METRES_PER_SECOND": "Meter pro Sekunde",
+          "MILES": "Meilen",
+          "MILES_PER_HOUR": "Meilen pro Stunde",
+          "NAUTICAL_MILES": "Seemeilen",
+          "OUNCES": "Unzen (UK)",
+          "OUNCES_US": "Unzen (US)",
+          "POUNDS": "Pfund",
+          "SQUARE_FEET": "Quadratfuß",
+          "SQUARE_INCHES": "Quadratzoll",
+          "SQUARE_KILOMETRES": "Quadratkilometer",
+          "SQUARE_MILES": "Quadratmeilen",
+          "SQUARE_YARDS": "Quadratyards",
+          "SQUARE_METRES": "Quadratmeter",
+          "TONNES": "Tonnen",
+          "YARDS": "Yards",
+          "HHMMSS": "HH:mm:ss",
+          "HMMSS": "H:mm:ss",
+          "HMMSSA": "h:mm:ss AM/PM",
+          "YYYY_MM_DD_1": "yyyy/mm/dd",
+          "YYYY_MM_DD_2": "yyyy.mm.dd",
+          "YYYY_MM_DD_3": "yyyy-mm-dd",
+          "DD_MM_YYYY_1": "dd/mm/yyyy",
+          "DD_MM_YYYY_2": "dd.mm.yyyy",
+          "DD_MM_YYYY_3": "dd-mm-yyyy",
+          "D_M_YYYY_1": "d/m/yyyy",
+          "D_M_YYYY_2": "d.m.yyyy",
+          "D_M_YYYY_3": "d-m-yyyy",
+          "MM_DD_YYYY_1": "mm/dd/yyyy",
+          "M_D_YYYY_1": "m/d/yyyy"
+        },
+        "ARIA": {
+          "EDIT": "Maßeinheiten bearbeiten",
+          "GAUGE_ICON": "Messgerät-Symbol"
+        }
+      },
+      "SHIFT": {
+        "TITLE": "Schichten",
+        "DESCRIPTION": "Tagesschichten für diesen Kunden hinzufügen.",
+        "FIELDS": {
+          "DAILY_SHIFT": "Schichten"
+        },
+        "MODAL": {
+          "TITLE": "Schicht",
+          "ADD_DESCRIPTION": "Eine Schicht zum Kunden hinzufügen",
+          "EDIT_DESCRIPTION": "Aktuelle Schicht beim Kunden bearbeiten",
+          "FIELDS": {
+            "NAME": "Name",
+            "START": "Startzeit",
+            "END": "Endzeit"
+          }
+        }
+      },
+      "TITLE": "Kunden",
+      "CUSTOMIZE": {
+        "DESCRIPTION": "Wenn Benutzer eine der folgenden Domänen besuchen, wird die Software mit den folgenden Einstellungen angepasst.",
+        "RESET_COLOR": "Auf Standarddesign-Grundeinstellungen zurücksetzen",
+        "TITLE": "Anpassen",
+        "FIELDS": {
+          "DOMAINS": "Domänen",
+          "LANGUAGE": "Sprache",
+          "THEME": "Design",
+          "LOGO": "Logo",
+          "LOGO_DESCRIPTION": "Das Bild wird auf 800 x 333 Pixel neu berechnet und in Berichten verwendet.",
+          "WEB_LOGO": "Web-Logo",
+          "WEB_LOGO_DESCRIPTION": "Das Bild wird auf 240 x 100 Pixel neu berechnet. Für bessere Ergebnisse sollten Sie Ihr Bild vor dem Hochladen in einem Grafikprogramm vorher skalieren.",
+          "LOGIN_MESSAGE": "Anmeldenachricht",
+          "LOGIN_MESSAGE_DESCRIPTION": "Markdown-Syntax wird zum Formatieren von Text unterstützt."
+        },
+        "ARIA": {
+          "EDIT": "Kunden anpassen",
+          "PAINT_ROLLER_ICON": "Farbroller-Symbol",
+          "TITLE": "Kundenanpassung"
+        }
+      },
+      "STATISTICS": {
+        "ARIA": {
+          "DATE_RANGE": "Datumsbereich"
+        },
+        "TITLE": "Kundenstatistiken"
+      }
+    },
+    "USERS": {
+      "GRID": {
+        "NAME": "Name",
+        "STATE": "Status",
+        "MODIFIED": "Geändert",
+        "EMAIL_ADDRESS": "E-Mail-Adresse",
+        "MOBILE_NUMBER": "Mobilnummer",
+        "COST_CENTRE": "Kostenstelle",
+        "TIMEZONE": "Zeitzone",
+        "LANGUAGE": "Sprache"
+      },
+      "RESET": {
+        "TIP": "Benutzerkonto zurücksetzen",
+        "CONFIRM": "Dadurch wird der Benutzer gesperrt und erhält eine E-Mail mit Anweisungen zur Kontowiederherstellung.",
+        "ERROR": "Beim Zurücksetzen des Kontos ist ein Fehler aufgetreten.",
+        "ERROR_EMAIL": "Das Benutzerpasswort wurde erfolgreich zurückgesetzt, aber die E-Mail zur Kontowiederherstellung konnte nicht gesendet werden. Sie sollten versuchen, das Konto erneut zurückzusetzen."
+      },
+      "INVITE": {
+        "TIP": "Neuen Benutzer einladen",
+        "ERROR_EMAIL": "Der Benutzer wurde erfolgreich erstellt, aber die Einladungs-E-Mail zur Kontoerstellung konnte nicht gesendet werden. Sie sollten das Konto zurücksetzen, um es erneut zu versuchen."
+      },
+      "DETAILS": {
+        "TITLE": "Benutzerdetails",
+        "TITLE_ALT": "Meine Details",
+        "TITLE_PROFILE": "Benutzerprofil",
+        "DESCRIPTION": "Füllen Sie die folgenden persönlichen Angaben für den Benutzer aus.",
+        "DESCRIPTION_ALT": "Füllen Sie die folgenden persönlichen Angaben für sich selbst aus.",
+        "PROFILE_PHOTO": "Profilfoto",
+        "FIELDS": {
+          "NAME": "Name",
+          "EMAIL_ADDRESS": "E-Mail-Adresse",
+          "MOBILE_NUMBER": "Mobilnummer",
+          "PASSWORD": "Passwort",
+          "PASSWORD_LENGTH": "Muss {{length}} Zeichen oder mehr haben",
+          "PASSWORD_ALPHANUMERIC": "Muss sowohl Buchstaben als auch Zahlen enthalten",
+          "PASSWORD_MIXED_CASE": "Muss sowohl Klein- als auch Großbuchstaben enthalten",
+          "PASSWORD_SYMBOLS": "Muss ein oder mehrere nicht-alphanumerische Sonderzeichen enthalten",
+          "COST_CENTRE": "Kostenstelle",
+          "TIMEZONE": "Zeitzone",
+          "LANGUAGE": "Sprache",
+          "DEFAULT_CLIENT": "Standardkunde",
+          "SEND_INVITE": "Einladung senden",
+          "SEND_INVITE_DESCRIPTION": "Wenn aktiviert, erhält der Benutzer eine E-Mail mit einer Einladung zur Aktivierung seines Kontos."
+        }
+      },
+      "ROLES": {
+        "TITLE": "Benutzerrollen",
+        "DESCRIPTION": "Wählen Sie aus den folgenden Benutzerrollen.",
+        "FIELDS": {
+          "ROLES": "Rollen"
+        }
+      },
+      "CLIENT_PERMISSIONS": {
+        "TITLE": "Kundenberechtigungen",
+        "DESCRIPTION": "Sie können diesen Benutzer auf bestimmte Kunden und Assets einschränken, indem Sie diese in der folgenden Liste angeben.",
+        "FIELDS": {
+          "CLIENTS": "Kunden",
+          "CLIENT": "Kunde",
+          "ASSETS": "Assets"
+        },
+        "MODALS": {
+          "CLIENT": {
+            "TITLE": "Kundenberechtigungen",
+            "DESCRIPTION": "Geben Sie hier Berechtigungen für einen bestimmten Kunden an."
+          }
+        }
+      },
+      "ASSET_PERMISSIONS": {
+        "TITLE": "Asset-Berechtigungen",
+        "DESCRIPTION": "Sie können diesen Benutzer auf bestimmte Assets einschränken, indem Sie diese in der folgenden Liste angeben.",
+        "FIELDS": {
+          "ASSETS": "Assets"
+        }
+      },
+      "NOTIFY": {
+        "TITLE": "Benachrichtigungen",
+        "DESCRIPTION": "Konfigurieren Sie Benachrichtigungsaktionen und erlaubte SMS-Zeiten.",
+        "ACTIONS": {
+          "NONE": "Keine",
+          "EMAIL": "E-Mail",
+          "SMS": "SMS",
+          "EMAILSMS": "E-Mail & SMS"
+        },
+        "FIELDS": {
+          "SMS_FROM": "SMS ab",
+          "SMS_TO": "SMS bis",
+          "LOW_ACTION": "Niedrige Priorität",
+          "MEDIUM_ACTION": "Mittlere Priorität",
+          "HIGH_ACTION": "Hohe Priorität"
+        }
+      },
+      "SESSIONS": {
+        "TITLE": "Aktive Sitzungen",
+        "MESSAGES": {
+          "CURRENT_SESSION": "Aktuelle Sitzung",
+          "CONFIRM_DELETE": "Möchten Sie die ausgewählte Sitzung wirklich zwangsweise abmelden?",
+          "UNEXPECTED_ERROR": "Ein unerwarteter Fehler ist aufgetreten"
+        }
+      },
+      "OIDC_TAGS": {
+        "TITLE": "Externe Authentifizierung",
+        "DESCRIPTION": "Verknüpfen Sie den Benutzer mit einem oder mehreren externen OpenID-Connect-Anbietern, indem Sie die für jeden Anbieter eindeutige Abonnenten-ID eingeben.",
+        "DESCRIPTION_OWN": "Verknüpfen Sie Ihr Konto mit einem oder mehreren externen OpenID-Connect-Anbietern.",
+        "FIELDS": {
+          "LINK": "Mit {{issuer}} verknüpfen"
+        },
+        "ERRORS": {
+          "LINK_EMAIL": "Die von {{issuer}} abgerufene E-Mail-Adresse stimmt nicht mit der E-Mail-Adresse dieses Benutzers überein.",
+          "LINK_FIELDS": "Die E-Mail-Adresse und Abonnenten-ID konnten nicht von {{issuer}} abgerufen werden."
+        }
+      },
+      "OTP": {
+        "TITLE": "Einmalpasswörter",
+        "DESCRIPTION": "Einmalpasswort-Registrierungen verwalten.",
+        "FIELDS": {
+          "TYPES": "Registriert in",
+          "NAME": "Name"
+        },
+        "CLEAR_TOKENS": "OTP-Token löschen",
+        "TYPES": {
+          "TOTP": "Zeitbasiertes Einmalpasswort"
+        },
+        "MODALS": {
+          "CLEAR": {
+            "DESCRIPTION": "Möchten Sie Ihre zwischengespeicherten OTP-Token auf diesem Computer wirklich löschen? Sie müssen sich beim nächsten Anmelden erneut mit Multi-Faktor-Authentifizierung anmelden."
+          },
+          "DELETE": {
+            "DESCRIPTION": "Möchten Sie diese OTP-Registrierung wirklich löschen? Der Benutzer muss sich beim nächsten Login erneut für OTP registrieren."
+          },
+          "ADD_OTP": {
+            "TITLE": " OTP-Registrierung",
+            "DESCRIPTION": "Scannen Sie den folgenden QR-Code in Ihrer Authentifizierungs-App auf Ihrem Mobiltelefon und geben Sie dann den erhaltenen Code ein."
+          }
+        }
+      },
+      "API_KEYS": {
+        "TITLE": "API-Schlüssel",
+        "DESCRIPTION": "Generieren Sie API-Schlüssel, um dieses Benutzerkonto mit Drittanbietersystemen zu verknüpfen.",
+        "FIELDS": {
+          "KEYS": "Schlüssel",
+          "NAME": "Name"
+        },
+        "MODALS": {
+          "NEW": {
+            "TITLE": "Neuer API-Schlüssel",
+            "DESCRIPTION": "Geben Sie einen beschreibenden Namen für Ihren neuen API-Schlüssel ein."
+          },
+          "DETAILS": {
+            "TITLE": "API-Schlüssel-Details",
+            "DESCRIPTION": "Ihr API-Schlüssel wird unten angezeigt. Er wird nur einmal angezeigt und kann nicht wiederhergestellt werden. Kopieren und speichern Sie den Wert sicher, bevor Sie diese Meldung schließen."
+          },
+          "DELETE": {
+            "DESCRIPTION": "Möchten Sie diesen API-Schlüssel wirklich löschen? Jeder, der diesen Schlüssel verwendet, verliert sofort den Zugriff."
+          }
+        }
+      },
+      "TITLE": "Benutzer"
+    },
+    "USER_ROLES": {
+      "GRID": {
+        "NAME": "Name",
+        "DESCRIPTION": "Beschreibung",
+        "MODIFIED": "Geändert"
+      },
+      "DETAILS": {
+        "TITLE": "Rollendetails",
+        "DESCRIPTION": "Diese Benutzerrolle beschreiben.",
+        "FIELDS": {
+          "NAME": "Name",
+          "DESCRIPTION": "Beschreibung"
+        }
+      },
+      "RIGHTS": {
+        "TITLE": "Zugriffsrechte",
+        "DESCRIPTION": "Wählen Sie aus den folgenden Zugriffsrechten."
+      },
+      "INLINE_POLICIES": {
+        "TITLE": "Inline-Richtlinien",
+        "DESCRIPTION": "Fügen Sie dieser Benutzerrolle benutzerdefinierte Inline-Richtlinien hinzu.",
+        "FIELDS": {
+          "POLICIES": "Richtlinien",
+          "NAME": "Name",
+          "STATEMENTS": "Anweisungen"
+        },
+        "MODAL": {
+          "TITLE": "Inline-Richtlinie",
+          "DESCRIPTION": "Füllen Sie die folgenden Felder für Ihre Inline-Richtlinie aus."
+        }
+      },
+      "TITLE": "Benutzerrollen",
+      "DESCRIPTION": "Wählen Sie aus den folgenden Benutzerrollen."
+    },
+    "ASSETS": {
+      "ANALOG_TRIGGERS": {
+        "DESCRIPTION": "Definieren Sie, wann für dieses Asset Analog- und Temperaturereignisse generiert werden.",
+        "FIELDS": {
+          "ANALOGS": "Analoga",
+          "ANALOG_DESCRIPTION": "Bereich von {{minRange}} bis {{maxRange}} mit einer Entprellung von {{rangeDebounce}} Positionen.",
+          "ANALOG_INPUT": "Analoger Eingang",
+          "DROP_AMOUNT": "Drop-Betrag",
+          "INCREASE_AMOUNT": "Betrag erhöhen",
+          "MAX_RANGE": "Maximale Reichweite",
+          "MIN_RANGE": "Mindestbereich",
+          "RANGE_DEBOUNCE": "Bereichsentprellung",
+          "TEMPERATURES": "Temperaturen",
+          "TEMPERATURE_DESCRIPTION": "Bereich von {{minRange}} bis {{maxRange}} mit einer Entprellung von {{rangeDebounce}} Positionen.",
+          "TEMPERATURE_INPUT": "Analoger Eingang"
+        },
+        "MODALS": {
+          "ANALOG": {
+            "DESCRIPTION": "Ein Ereignis wird generiert, wenn der angegebene Bereich verletzt wird oder ein plötzlicher Abfall oder Anstieg erkannt wird, der den angegebenen Beträgen entspricht.",
+            "TITLE": "Analoger Ereignisauslöser"
+          },
+          "TEMPERATURE": {
+            "DESCRIPTION": "Wenn der angegebene Bereich verletzt wird, wird ein Ereignis generiert.",
+            "TITLE": "Temperaturereignisauslöser"
+          }
+        },
+        "TITLE": "Analoge Trigger",
+        "ARIA": {
+          "ASSET_ANALOG_TRIGGER_ICON": "Asset-Analog-Trigger-Symbol: {{icon}}",
+          "EDIT_ASSET_ANALOG_TRIGGER_ICON": "Symbol für analogen Asset-Auslöser bearbeiten"
+        }
+      },
+      "CATEGORIES": {
+        "DESCRIPTION": "Assets können mehreren benutzerdefinierten Kategorien angehören.",
+        "TITLE": "Kategorien",
+        "NO_CATEGORIES": "No categories selected",
+        "ARIA": {
+          "ASSET_CATEGORY_ICON": "Symbol der Asset-Kategorie: {{icon}}",
+          "EDIT_ASSET_CATEGORY_ICON": "Symbol „Asset-Kategorie bearbeiten“."
+        }
+      },
+      "COLUMNS": {
+        "ASSET_TAG": "Asset-Tag",
+        "CAMERAS": "Kameras",
+        "COST_CENTRE": "Kostenstelle",
+        "DEVICES": "Geräte",
+        "DEVICE_IDS": "Geräte-IDs",
+        "GROUPS": "Gruppen",
+        "LINKED_FROM": "Vom Client verlinkt",
+        "LINKED_TO": "Mit Kunden verknüpft",
+        "LINK_ENDED": "(endete {{time}})",
+        "LINK_ENDS": "(endet {{time}})",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "SHARED_WITH": "Geteilt mit",
+        "STATE": "Zustand",
+        "TAGS": "Schlagworte",
+        "TYPE": "Typ",
+        "SHARED_FROM": "Geteilt von",
+        "SHARED_TO": "Geteilt an",
+        "VOICE_NUMBER": "Sprachnummer"
+      },
+      "CONTACTS": {
+        "DESCRIPTION": "Die folgenden Kontakte werden mit diesem Asset verknüpft.",
+        "FIELDS": {
+          "CONTACTS": "Kontakte",
+          "EMAIL": "E-Mail-Adresse",
+          "NAME": "Name",
+          "PHONE": "Telefonnummer",
+          "MOBILE": "Handynummer",
+          "NOTES": "Notizen",
+          "TYPE": "Typ"
+        },
+        "MODAL": {
+          "DESCRIPTION": "Vervollständigen Sie die folgenden Informationen für Ihren Asset-Kontakt.",
+          "TITLE": "Vermögenskontakt"
+        },
+        "MODAL_ADD": "Add Contact",
+        "MODAL_EDIT": "Edit Contact",
+        "MESSAGES": {
+          "UPDATED": "Contacts updated successfully"
+        },
+        "TITLE": "Kontakte",
+        "ARIA": {
+          "ASSET_CONTACT_ICON": "Asset-Kontaktsymbol: {{icon}}",
+          "DELETE_CONTACT": "Kontakt löschen",
+          "EDIT_ASSET_CONTACT_ICON": "Symbol „Asset-Kontakt bearbeiten“.",
+          "GO_TO_CONTACT": "Zum Kontakt gehen",
+          "GO_TO_CONTACT_NAME": "Zu {{name}} gehen",
+          "REMOVE_CONTACT_NAME": "{{name}} entfernen"
+        },
+        "PICKER_PLACEHOLDER": "Kontakte auswählen…",
+        "MODAL_CREATE": "Neuer Kontakt",
+        "EMPTY_PICKER": "Noch keine Kontakte hinzugefügt. Suchen Sie oben, um einen hinzuzufügen.",
+        "EMPTY_VIEW": "Diesem Asset sind keine Kontakte hinzugefügt."
+      },
+      "COUNTERS": {
+        "HOURS": {
+          "DESCRIPTION": "Passen Sie den Motorstundenwert unten an.",
+          "TITLE": "Motorstunden"
+        },
+        "ODOMETER": {
+          "DESCRIPTION": "Passen Sie den Kilometerzählerwert unten an.",
+          "TITLE": "Kilometerzähler"
+        },
+        "DATE": "Datum",
+        "WARNINGS": {
+          "UNAVAILABLE": "Zählerwerte sind derzeit nicht verfügbar und können nicht aktualisiert werden. \nDies kann daran liegen, dass dem Asset kein Gerät zugewiesen ist oder keine Telemetriedaten verfügbar sind."
+        },
+        "ARIA": {
+          "ASSET_COUNTER_ICON": "Asset-Zählersymbol: {{icon}}",
+          "EDIT_ASSET_COUNTER_ICON": "Symbol „Asset-Zähler bearbeiten“."
+        }
+      },
+      "CURFEW_EVENTS": {
+        "DESCRIPTION": "Definieren Sie die Arbeitszeiten dieses Assets, um Ereignisse zu Verstößen gegen die Ausgangssperre zu generieren.",
+        "FIELDS": {
+          "CURFEWS": "Arbeitszeit",
+          "CURFEW_DESCRIPTION": "Zwischen {{from}} und {{to}} an {{days}}.",
+          "DAYS": "Tage",
+          "FROM": "Aus",
+          "TIMEZONE": "Zeitzone",
+          "TO": "Zu"
+        },
+        "MODALS": {
+          "CURFEW": {
+            "DESCRIPTION": "Ein Ereignis wird generiert, wenn sich die Anlage außerhalb der angegebenen Arbeitszeiten bewegt.",
+            "TITLE": "Arbeitszeit"
+          }
+        },
+        "TITLE": "Arbeitszeit",
+        "ARIA": {
+          "ASSET_CURFEW_ICON": "Symbol „Asset-Sperrstunde“: {{icon}}",
+          "EDIT_ASSET_CURFEW_ICON": "Symbol für die Sperrstunde des Assets bearbeiten"
+        }
+      },
+      "DETAILS": {
+        "AVATAR": {
+          "DELETE_ERROR": "Beim Versuch, den Asset-Avatar zu löschen, ist ein Fehler aufgetreten: {{error}}",
+          "DELETE_SUCCESS": "Der Asset-Avatar wurde erfolgreich gelöscht.",
+          "DELETING_DETAIL": "Asset-Avatar wird gelöscht. \nBitte warten.",
+          "DELETING_TITLE": "Asset-Avatar wird gelöscht",
+          "PERMISSION_DENIED_DELETE": "Sie sind nicht berechtigt, diesen Avatar zu löschen.",
+          "PERMISSION_DENIED_UPLOAD": "Sie sind nicht berechtigt, einen Avatar hochzuladen.",
+          "UPLOAD_FAILED": "Beim Versuch, das Bild hochzuladen, ist ein Fehler aufgetreten: {{error}}",
+          "UPLOAD_FAILED_TITLE": "Hochladen fehlgeschlagen",
+          "UPLOAD_SUCCESS": "Bild erfolgreich hochgeladen.",
+          "UPLOAD_SUCCESS_TITLE": "Hochladen erfolgreich"
+        },
+        "COLORS": {
+          "BLUE": "Blau",
+          "GRAY": "Grau",
+          "GREEN": "Grün",
+          "LIGHTBLUE": "Hellblau",
+          "OLIVE": "Olive",
+          "ORANGE": "Orange",
+          "PINK": "Rosa",
+          "PURPLE": "Lila",
+          "RED": "Rot",
+          "TEAL": "Blaugrün",
+          "WHITE": "Weiß",
+          "YELLOW": "Gelb"
+        },
+        "CONTACTS_TYPES": {
+          "ADMINISTRATIVE": "Administrativ",
+          "EMERGENCY": "Notfall",
+          "OPERATIONAL": "Betriebsbereit",
+          "OTHER": "Andere",
+          "OWNER": "Eigentümer",
+          "TECHNICAL": "Technisch"
+        },
+        "DESCRIPTION": "Die folgenden Informationen sind zur Identifizierung Ihres Vermögenswerts erforderlich.",
+        "FIELDS": {
+          "ASSET_TAG": "Asset-Tag",
+          "COLOR": "Farbe",
+          "COST_CENTRE": "Kostenstelle",
+          "GROUPS": "Gruppen",
+          "NAME": "Name",
+          "PHOTO": "Asset-Foto",
+          "STATE": "Zustand",
+          "TAGS": "Schlagworte",
+          "TYPE": "Typ",
+          "ICON_NAME": "Symbolname",
+          "PARENT_ASSET": "Übergeordnetes Asset",
+          "SHARED_FROM": "Geteilt von"
+        },
+        "ICON_OPTIONS": {
+          "AIRPLANE": "Flugzeug",
+          "AMBULANCE": "Krankenwagen",
+          "AMBULANCE_SMALL": "Krankenwagen (klein)",
+          "BOAT": "Boot",
+          "BUS": "Bus",
+          "CAR": "Auto",
+          "CEMENT_MIXER": "Betonmischer",
+          "CONTAINER": "Container",
+          "DEFAULT": "Standard",
+          "DUMP_TRUCK": "Kipper",
+          "EXCAVATOR": "Bagger",
+          "HAUL_TRUCK": "Transportwagen",
+          "LAWN_MOWER": "Rasenmäher",
+          "MAN": "Mann",
+          "MOTORCYCLE": "Motorrad",
+          "PARCEL": "Paket",
+          "PICKUP_TRUCK": "Pickup-Truck",
+          "SCHOOL_BUS": "Schulbus",
+          "SCHOOL_BUS_SMALL": "Schulbus (klein)",
+          "TRACTOR": "Traktor",
+          "TRAILER": "Anhänger",
+          "TRUCK": "LKW",
+          "TRUCK_SMALL": "LKW (klein)",
+          "VAN": "Van",
+          "VAN_SMALL": "Van (klein)"
+        },
+        "PRIVACY_MODE": {
+          "AD_HOC_PRIVACY_MODE": "Dieses Asset befindet sich derzeit im Ad-hoc-Datenschutzmodus und endet um",
+          "DISABLE": "Deaktivieren Sie den Ad-hoc-Datenschutzmodus",
+          "ENABLE": "Aktivieren Sie den Ad-hoc-Datenschutzmodus",
+          "INDEFINITE_AD_HOC_PRIVACY_MODE": "Dieses Asset befindet sich derzeit in einem unbefristeten Ad-hoc-Datenschutzmodus.",
+          "MODAL": {
+            "DESCRIPTION": "Sie sind dabei, den Datenschutzmodus zu aktivieren. Geben Sie ggf. die Bedingungen für die automatische Beendigung des Datenschutzmodus an.",
+            "FIELDS": {
+              "CONDITION": "Zustand",
+              "ENDS_IN": "Endet in",
+              "NONE": "Keine, der Datenschutz bleibt bestehen, bis er manuell entfernt wird",
+              "ONE_HOUR": "1 Stunde",
+              "TIME_DURATION": "Zeitdauer",
+              "TWELVE_HOURS": "12 Stunden",
+              "TWENTY_FOUR_HOURS": "24 Stunden"
+            },
+            "NAME": "Aktivieren Sie den Datenschutzmodus"
+          },
+          "REMOVE_PRIVACY_MODE": "Möchten Sie den Datenschutzmodus wirklich von diesem Asset entfernen?"
+        },
+        "TITLE": "Asset-Details",
+        "ARIA": {
+          "ASSET_ICON": "Asset-Symbol: {{icon}}",
+          "ASSET_IMAGE": "Asset-Bild",
+          "EDIT_ASSET_DETAILS": "Bearbeiten Sie die Asset-Details",
+          "EDIT_ASSET_ICON": "Symbol „Asset bearbeiten“.",
+          "SHARED_FROM": "Geteilt von {{client}}",
+          "UPLOAD_ASSET_IMAGE": "Asset-Bild hochladen"
+        }
+      },
+      "EVENT_TRIGGERS": {
+        "DESCRIPTION": "Definieren Sie, wann Geschwindigkeits-, Leerlauf- und Trip-Limit-Ereignisse für dieses Asset generiert werden.",
+        "FIELDS": {
+          "EXCESSIVE_IDLE": "Übermäßiger Leerlauf",
+          "MAX_INACTIVE_TIME": "Maximale inaktive Zeit",
+          "MAX_SPEED": "Maximale Geschwindigkeit",
+          "MAX_TRIP_DISTANCE": "Maximale Reisedistanz",
+          "MAX_TRIP_TIME": "Maximale Reisezeit",
+          "MINUTES": "Minuten",
+          "OVERSPEED_PROFILE": "Übergeschwindigkeitsprofil",
+          "SPEED_TOLERANCE": "Geschwindigkeitstoleranz"
+        },
+        "TITLE": "Ereignisauslöser",
+        "ARIA": {
+          "ASSET_EVENT_TRIGGER_ICON": "Symbol für Asset-Ereignisauslöser: {{icon}}",
+          "EDIT_ASSET_EVENT_TRIGGER_ICON": "Symbol zum Bearbeiten des Asset-Ereignisauslösers"
+        }
+      },
+      "LABELS": {
+        "DESCRIPTION": "Konfigurieren Sie Beschriftungen, die standardmäßig auf Daten aus diesem Asset angewendet werden.",
+        "FIELDS": {
+          "DEFAULT_TRIP_LABELS": "Standard-Reisebezeichnungen",
+          "DEFAULT_TRIP_LABELS_DESCRIPTION": "Die oben angegebenen Beschriftungen werden standardmäßig auf neue Reisen angewendet."
+        },
+        "TITLE": "Standardbeschriftungen",
+        "ARIA": {
+          "ASSET_LABEL_ICON": "Asset-Label-Symbol: {{icon}}",
+          "EDIT_ASSET_LABEL_ICON": "Symbol „Asset-Label bearbeiten“."
+        }
+      },
+      "PROFILES": {
+        "DESCRIPTION": "Wählen Sie aus den folgenden Profilen.",
+        "FIELDS": {
+          "ASSET_RATING": "Vermögensbewertung",
+          "ASSET_STATE": "Vermögensstatus",
+          "GEO_LOCK_PROFILE": "Geo-Sperrprofil",
+          "PRIVACY_PROFILE": "Datenschutzprofil",
+          "ROAD_PROFILE": "Straßenprofil"
+        },
+        "TITLE": "Profile",
+        "ARIA": {
+          "ASSET_PROFILE_ICON": "Asset-Profilsymbol: {{icon}}",
+          "EDIT_ASSET_PROFILE_ICON": "Symbol „Asset-Profil bearbeiten“.",
+          "EDIT": "Bearbeiten Sie Asset-Profile",
+          "VERIFIED_ICON": "Verifiziertes Symbol"
+        }
+      },
+      "REMINDERS": {
+        "DESCRIPTION": "Legen Sie Erinnerungen für Assets fest.",
+        "FIELDS": {
+          "DAILY": "Täglich",
+          "DAY": "Tag",
+          "DAYS": "Tage",
+          "EVERY": "Jeder",
+          "MODE": "Modus",
+          "MONTHS": "Monate",
+          "MONTHLY": "Monatlich",
+          "NAME": "Name",
+          "NONE": "Nach jeder Erinnerung",
+          "REMINDERS": "Erinnerungen",
+          "RESET": "Zurücksetzen",
+          "RESET_COUNTER": "Zähler zurücksetzen",
+          "STARTING_AT": "Beginnend bei",
+          "TIMEZONE": "Zeitzone",
+          "WEEKDAYS": "Wochentags",
+          "WEEKLY": "Wöchentlich"
+        },
+        "HOURS": {
+          "DESCRIPTION": "Motorstunden-Erinnerungen erstellen ein Ereignis (und optional eine Warnung), wenn der angegebene Motorstundenwert erreicht ist.",
+          "FIELDS": {
+            "ONCE": "Zu bestimmten Zeiten",
+            "REPEATING": "Alle X Stunden",
+            "STARTING_AT_DESCRIPTION": "Legen Sie die Stunden fest, ab denen Erinnerungen beginnen sollen",
+            "TRIGGER_VALUE": {
+              "ONCE": "Motorstunden",
+              "REPEATING": "Std"
+            }
+          },
+          "TITLE": "Erinnerung an die Betriebsstunden des Motors"
+        },
+        "ODO": {
+          "DESCRIPTION": "Kilometerzähler-Erinnerungen erzeugen ein Ereignis (und optional eine Warnung), wenn der angegebene Kilometerzählerwert erreicht wird.",
+          "FIELDS": {
+            "ONCE": "Bei spezifischem Kilometerzähler",
+            "REPEATING": "Alle X {{Einheit}}",
+            "STARTING_AT_DESCRIPTION": "Legen Sie den Kilometerzählerwert fest, ab dem Erinnerungen beginnen sollen",
+            "TRIGGER_VALUE": {
+              "ONCE": "Kilometerzähler",
+              "REPEATING": "{{Einheit}}"
+            }
+          },
+          "TITLE": "Kilometerzähler-Erinnerung"
+        },
+        "TIME": {
+          "DESCRIPTION": "Zeitbasierte Erinnerungen erstellen ein Ereignis (und optional eine Warnung), wenn das angegebene Datum und die angegebene Uhrzeit erreicht sind.",
+          "FIELDS": {
+            "ONCE": "Zu einem bestimmten Datum/zu einer bestimmten Uhrzeit",
+            "REPEATING": "Alle X Tage",
+            "TRIGGER_VALUE": {
+              "ONCE": "Datum",
+              "REPEATING": "Tage"
+            }
+          },
+          "TITLE": "Zeitbasierte Erinnerung"
+        },
+        "TITLE": "Erinnerungen",
+        "MESSAGES": {
+          "DELETED": "Erinnerung gelöscht",
+          "DELETED_DETAIL": "Erinnerung „{{name}}“ wurde zum Löschen markiert.",
+          "SAVE_ERROR": "Erinnerungen konnten nicht gespeichert werden",
+          "SAVE_SUCCESS": "Erinnerungen wurden erfolgreich aktualisiert"
+        },
+        "MODAL_ADD": "{{type}} hinzufügen",
+        "ARIA": {
+          "ASSET_REMINDER_ICON": "Asset-Erinnerungssymbol: {{icon}}",
+          "EDIT_ASSET_REMINDER_ICON": "Symbol „Asset-Erinnerung bearbeiten“.",
+          "CLOCK_ICON": "Uhrsymbol",
+          "DELETE_REMINDER": "Erinnerung löschen",
+          "EDIT": "Erinnerungen bearbeiten"
+        },
+        "BUTTONS": {
+          "ADD_REMINDER": "Erinnerung hinzufügen"
+        }
+      },
+      "SHARING": {
+        "DESCRIPTION": "Fügen Sie unten Unternehmen hinzu, mit denen Sie dieses Asset teilen möchten.",
+        "FIELDS": {
+          "PIN": "STIFT",
+          "SHARED_WITH": "Geteilt mit"
+        },
+        "MODAL": {
+          "DESCRIPTION": "Geben Sie die PIN-Nummer des Unternehmens ein, mit dem Sie dieses Asset teilen möchten. \nWenn Sie den PIN-Code nicht kennen, wenden Sie sich an das betreffende Unternehmen und fragen Sie nach der PIN.",
+          "INVALID_PIN_MESSAGE": "Die eingegebene PIN ist ungültig.",
+          "TITLE": "Vermögenswert teilen",
+          "CLIENT_FOUND": "Kunde gefunden:",
+          "SEARCHING": "Auf der Suche nach einem Kunden..."
+        },
+        "TITLE": "Teilen",
+        "CONFIRM": {
+          "HEADER": "Freigabe entfernen",
+          "MESSAGE": "Sind Sie sicher, dass Sie die Freigabe mit {{name}} entfernen möchten?"
+        },
+        "MESSAGES": {
+          "ALREADY_SHARED": "Bereits geteilt",
+          "ALREADY_SHARED_DETAIL": "Asset ist bereits mit {{name}} geteilt",
+          "UPDATE_FAILED": "Die Freigabeeinstellungen konnten nicht aktualisiert werden",
+          "UPDATE_SUCCESS": "Freigabeeinstellungen erfolgreich aktualisiert"
+        },
+        "VALIDATIONS": {
+          "CLIENT_NOT_FOUND": "Für diese PIN wurde kein Kunde gefunden",
+          "PIN_MIN_LENGTH": "Die PIN muss mindestens 3 Zeichen lang sein"
+        },
+        "ARIA": {
+          "ASSET_SHARING_ICON": "Symbol zum Teilen von Assets: {{icon}}",
+          "EDIT_ASSET_SHARING_ICON": "Symbol zur Asset-Freigabe bearbeiten",
+          "DELETE_ITEM": "Freigabe entfernen",
+          "EDIT": "Bearbeiten Sie die Asset-Freigabe",
+          "SHARE_ICON": "Symbol „Teilen“."
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "CATEGORIES": "Kategorien",
+          "DETAILS": "Asset-Details",
+          "INFO": "Info"
+        }
+      },
+      "ZONES": {
+        "BORDER_VALUES": {
+          "COUNTRY": "Land",
+          "STATE": "Staat/Provinz"
+        },
+        "DESCRIPTION": "Lösen Sie geografische Ereignisse basierend auf Geofence-, Routen- und Grenzänderungen aus.",
+        "FIELDS": {
+          "BORDERS": "Grenzen",
+          "BORDERS_DESCRIPTION": "Wenn der Vermögenswert eine dieser Grenzen überschreitet, wird ein Ereignis generiert.",
+          "ZONES": "Geofences"
+        },
+        "TITLE": "Geografische Auslöser",
+        "ARIA": {
+          "ASSET_ZONE_ICON": "Asset-Zonen-Symbol: {{icon}}",
+          "EDIT_ASSET_ZONE_ICON": "Symbol „Asset-Zone bearbeiten“.",
+          "EDIT": "Bearbeiten Sie Asset-Zonen"
+        }
+      },
+      "MOVE": {
+        "FIELDS": {
+          "DESTINATION_CLIENT": "Ziel-Client",
+          "INCLUDE_DEVICE": "Gerät einschließen",
+          "INCLUDE_SIMCARD": "SIM-Karte einschließen"
+        },
+        "MOVE_ASSET": "Asset verschieben",
+        "MOVE_ASSET_DESCRIPTION": "Wählen Sie den Zielmandanten aus, in den Sie dieses Asset verschieben möchten. \nDas Asset wird in den neuen Mandanten kopiert und dann in diesem Mandanten gelöscht.",
+        "TIP": "Asset verschieben"
+      },
+      "KEY_TELEMATICS": {
+        "BUTTONS": {
+          "PROCEED": "Fortfahren",
+          "PROCEED_ANYWAY": "Fahren Sie trotzdem fort",
+          "SIGN_IN_DIFFERENT": "Melden Sie sich mit einem anderen Konto an",
+          "SWITCH_ACCOUNT": "Konto wechseln"
+        },
+        "CONFIRM": {
+          "CHECKING": "Entitäten werden überprüft...",
+          "CONFLICT_ERROR": "Es gibt Konflikte, die vor dem Fortfahren gelöst werden müssen.",
+          "DIFFERENT_CLIENT": "ein anderer Kunde",
+          "OWNED_BY": "Im Besitz von",
+          "REVIEW": "Überprüfen Sie die folgenden Änderungen, bevor Sie fortfahren.",
+          "VERIFY_ERROR": "Entitäten konnten nicht überprüft werden. \nSie können trotzdem fortfahren, es kann jedoch zu Konflikten kommen."
+        },
+        "CREDENTIALS": {
+          "ACTIVE_ACCOUNT": "Aktives Konto",
+          "CONNECTED": "Anbindung an Key Telematics",
+          "CONNECTING": "Verbinden...",
+          "DESCRIPTION": "Geben Sie Ihre Key Telematics-Anmeldeinformationen ein, um fortzufahren.",
+          "FIELDS": {
+            "PASSWORD": "Passwort",
+            "PASSWORD_PLACEHOLDER": "Geben Sie Ihr Passwort ein",
+            "USERNAME": "Benutzername",
+            "USERNAME_PLACEHOLDER": "Geben Sie Ihren Benutzernamen ein"
+          },
+          "MULTIPLE_ACCOUNTS": "Mehrere Konten gefunden. \nBitte wählen Sie eine aus, um fortzufahren.",
+          "TITLE": "Melden Sie sich bei Key Telematics an"
+        },
+        "MAP_DEPS": {
+          "DESCRIPTION": "Ordnen Sie CypherView-Entitäten ihren Key Telematics-Entsprechungen zu.",
+          "NO_DEPS": "Für dieses Asset sind keine Abhängigkeiten zuzuordnen.",
+          "TITLE": "Abhängigkeiten zuordnen"
+        },
+        "SELECT_CLIENT": {
+          "DESCRIPTION": "Suchen Sie nach dem Key Telematics-Client, mit dem dieses Asset synchronisiert werden soll.",
+          "TITLE": "Wählen Sie Key Telematics Client aus"
+        },
+        "SYNCING": "Asset wird mit Key Telematics synchronisiert..."
+      },
+      "ODO_HOUR_CHANGES": {
+        "ARIA": {
+          "DELETE_CHANGE": "Änderung löschen",
+          "EDIT": "Bearbeiten",
+          "EDIT_CHANGE": "Änderung bearbeiten"
+        },
+        "BUTTONS": {
+          "ADD_CHANGE": "Änderung hinzufügen"
+        },
+        "COLUMNS": {
+          "ACTIONS": "Aktionen",
+          "CREATED_BY": "Erstellt von",
+          "DATE": "Datum"
+        },
+        "EMPTY": "Keine Änderungen aufgezeichnet."
+      },
+      "BULK_IMPORT_TITLE": "Massenimport von Assets",
+      "TITLE": "Vermögenswerte"
+    },
+    "ASSET_CATEGORIES": {
+      "COLUMNS": {
+        "ASSETS": "Vermögenswerte",
+        "MODIFIED": "Geändert",
+        "NAME": "Name"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Die folgenden Informationen sind erforderlich, um Ihre Vermögenskategorie zu identifizieren.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Elternteil"
+        },
+        "TITLE": "Kategoriedetails"
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details zur Asset-Kategorie"
+        }
+      },
+      "ARIA": {
+        "ASSET_CATEGORY_ICON": "Symbol der Asset-Kategorie: {{icon}}",
+        "EDIT_ASSET_CATEGORY_DETAILS": "Bearbeiten Sie die Details der Asset-Kategorie"
+      },
+      "TITLE": "Kategorien"
+    },
+    "ASSET_GROUPS": {
+      "COLUMNS": {
+        "ASSETS": "Vermögenswerte",
+        "MODIFIED": "Geändert",
+        "NAME": "Name"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Die folgenden Informationen sind erforderlich, um Ihre Vermögensgruppe zu identifizieren.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Elternteil"
+        },
+        "PARENT_OPTIONS": {
+          "ROOT": "Wurzel"
+        },
+        "TITLE": "Details zur Asset-Gruppe"
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details zur Asset-Gruppe"
+        }
+      },
+      "ARIA": {
+        "EDIT_ASSET_GROUP_DETAILS": "Bearbeiten Sie die Details der Asset-Gruppe"
+      },
+      "TITLE": "Asset-Gruppen"
+    },
+    "ASSET_STATE_PROFILES": {
+      "COLUMNS": {
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "STATE": "Zustand"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Konfigurieren Sie die Statusänderungsauslöser für Ihr Asset-Statusprofil.",
+        "FIELDS": {
+          "COLOR": "Staatsfarbe",
+          "FILTER": "Ereignisfilter",
+          "NAME": "Name",
+          "RADIUS": "Radius",
+          "RADIUS_DESCRIPTION": "Definiert die Dicke der auf der Karte gezeichneten Auslöselinie für Anwendungen, bei denen die Abdeckung wichtig ist.",
+          "RADIUS_UNIT": "Meter",
+          "STATE": "Staatsname",
+          "STATES": "Staaten"
+        },
+        "MODALS": {
+          "STATE": {
+            "DESCRIPTION": "Wählen Sie einen Statusnamen und eine Farbe und konfigurieren Sie den Ereignisfilter, um diesen Status auszulösen.",
+            "TITLE": "Auslöser für Zustandsänderung"
+          }
+        },
+        "TITLE": "Details zum Asset-Statusprofil"
+      },
+      "WARNINGS": {
+        "ITEM_LENGTH": "Damit das Asset-Statusprofil nützlich ist, sind mindestens zwei Staaten erforderlich."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details zum Asset-Statusprofil"
+        }
+      },
+      "ARIA": {
+        "ASSET_STATE_PROFILE_ICON": "Symbol für das Asset-Statusprofil: {{icon}}",
+        "EDIT_ASSET_STATE_PROFILE_DETAILS": "Bearbeiten Sie die Details des Asset-Statusprofils"
+      },
+      "TITLE": "Asset-Statusprofile"
+    },
+    "ASSET_RATING_PROFILES": {
+      "COLUMNS": {
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "STATE": "Zustand"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Konfigurieren Sie die Bewertungsstrafen für Ihr Asset-Bewertungsprofil.",
+        "FIELDS": {
+          "COST": "Kosten",
+          "FILTER": "Ereignisfilter",
+          "MAX_PENALTY": "Maximale Strafe",
+          "NAME": "Name",
+          "PENALTIES": "Strafen",
+          "PENALTY": "Strafe"
+        },
+        "MODALS": {
+          "STATE": {
+            "DESCRIPTION": "Wählen Sie den Schweregrad der Strafe und konfigurieren Sie den Ereignisfilter, um diese Strafe auszulösen.",
+            "TITLE": "Wertungsstrafe"
+          }
+        },
+        "TITLE": "Details zum Asset-Rating-Profil"
+      },
+      "WARNINGS": {
+        "ITEM_LENGTH": "Damit das Asset-Rating-Profil nützlich ist, ist mindestens eine Strafe erforderlich."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details zum Asset-Rating-Profil"
+        }
+      },
+      "ARIA": {
+        "ASSET_RATING_PROFILE_ICON": "Symbol für das Asset-Bewertungsprofil: {{icon}}",
+        "EDIT_ASSET_RATING_PROFILE_DETAILS": "Bearbeiten Sie die Details des Asset-Rating-Profils"
+      },
+      "TITLE": "Asset-Rating-Profile"
+    },
+    "ASSET_TAGS": {
+      "COLUMNS": {
+        "ASSET": "Vermögenswert",
+        "ASSET_TAG_TYPE": "Tag-Typ",
+        "MODE": "Modus",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "SERIAL_NUMBER": "Seriennummer",
+        "STATE": "Zustand"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Die folgenden Informationen sind erforderlich, um Ihr Asset-Tag zu identifizieren.",
+        "FIELDS": {
+          "ASSET_TAG_TYPE": "Tag-Typ",
+          "MODE": "Modus",
+          "NAME": "Name",
+          "SERIAL_NUMBER": "Seriennummer"
+        },
+        "TITLE": "Details zum Asset-Tag"
+      },
+      "MODES": {
+        "FIXED": "Behoben",
+        "MOVABLE": "Beweglich",
+        "STOCK": "Aktie"
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details zum Asset-Tag"
+        }
+      },
+      "ARIA": {
+        "ASSET_TAG_ICON": "Asset-Tag-Symbol: {{icon}}",
+        "EDIT_ASSET_TAG_DETAILS": "Bearbeiten Sie die Asset-Tag-Details"
+      },
+      "TITLE": "Asset-Tags"
+    },
+    "ZONES": {
+      "COLUMNS": {
+        "COST_CENTRE": "Kostenstelle",
+        "GROUP": "Gruppe",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "STATE": "Zustand",
+        "TYPE": "Typ"
+      },
+      "COORDS": {
+        "DESCRIPTION": "Geben Sie den Breiten- und Längengrad des Geofence ein, den Sie erstellen möchten.",
+        "FIELDS": {
+          "LATITUDE": "Breite",
+          "LONGITUDE": "Länge",
+          "RADIUS": "Radius",
+          "SHAPE": "Form"
+        },
+        "SHAPES": {
+          "HEXAGON": "Hexagon",
+          "OCTAGON": "Achteck",
+          "SQUARE": "Quadrat",
+          "TRIANGLE": "Dreieck"
+        },
+        "TITLE": "Geofence-Koordinaten",
+        "ARIA": {
+          "EDIT": "Geofence-Koordinaten bearbeiten",
+          "MAP_MARKER_ICON": "Kartenmarkierungssymbol"
+        }
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Konfigurieren Sie Ihre Geofence-Details.",
+        "FIELDS": {
+          "COST_CENTRE": "Kostenstelle",
+          "GROUP": "Gruppe",
+          "NAME": "Name",
+          "RADIUS": "Annäherungswarnung",
+          "SPEED": "Geschwindigkeitsbegrenzung",
+          "TYPE": "Typ"
+        },
+        "TITLE": "Geofence-Details",
+        "TYPES": {
+          "KEEP_IN": "Bleiben Sie drin",
+          "NO_GO": "Nein",
+          "LOCATION": "Standort",
+          "ROUTE": "Route"
+        },
+        "ARIA": {
+          "EDIT": "Geofence-Details bearbeiten",
+          "MAP_ICON": "Kartensymbol"
+        }
+      },
+      "MAP": {
+        "TITLE": "Geofence-Karte",
+        "ARIA": {
+          "EDIT": "Geofence-Karte bearbeiten"
+        },
+        "DESCRIPTION": "Geofence-Grenze auf der Karte anzeigen und bearbeiten."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "COORDINATES": "Geofence-Koordinaten",
+          "DETAILS": "Geofence-Details"
+        }
+      },
+      "TITLE": "Geofences"
+    },
+    "ZONE_GROUPS": {
+      "COLUMNS": {
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "ZONES": "Geofences"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Die folgenden Informationen sind erforderlich, um Ihre Geofence-Gruppe zu identifizieren.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Elternteil"
+        },
+        "PARENT_OPTIONS": {
+          "ROOT": "Wurzel"
+        },
+        "TITLE": "Details zur Geofence-Gruppe",
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die Details der Geofence-Gruppe"
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Details zur Geofence-Gruppe"
+        }
+      },
+      "TITLE": "Geofence-Gruppen"
+    },
+    "ENTITIES": {
+      "ACCESS_GROUP": "Kostenstelle",
+      "ACCOUNT": "Konto",
+      "ACCOUNTS": "Konten",
+      "ALERT": "Alarm",
+      "ALERTS": "Warnungen",
+      "ANALYTICS": "Armaturenbrett",
+      "ANALYTICS_BASE_REPORT": "Basisbericht",
+      "ANALYTICS_BASE_REPORTS": "Basisberichte",
+      "ASSET": "Vermögenswert",
+      "ASSETS": "Vermögenswerte",
+      "ASSETS_AND_VEHICLES": "Vermögenswerte und Fahrzeuge",
+      "ASSET_CATEGORIES": "Kategorien",
+      "ASSET_CATEGORY": "Kategorie",
+      "ASSET_GROUP": "Asset-Gruppe",
+      "ASSET_GROUPS": "Asset-Gruppen",
+      "ASSET_RATING_PROFILE": "Asset-Rating-Profil",
+      "ASSET_RATING_PROFILES": "Asset-Rating-Profile",
+      "ASSET_STATE_PROFILE": "Vermögensstatusprofil",
+      "ASSET_STATE_PROFILES": "Asset-Statusprofile",
+      "ASSET_TAG": "Asset-Tag",
+      "ASSET_TAGS": "Asset-Tags",
+      "CLIENT": "Kunde",
+      "CLIENTS": "Kunden",
+      "CLIENT_GROUPS": "Kundengruppen",
+      "COMPANY_GROUP": "Unternehmensgruppe",
+      "COMPANY_GROUPS": "Unternehmensgruppen",
+      "CONTACTS": "Kontakte",
+      "CONTACTS_COUNT": "{{count}} Kontakte",
+      "COST_CENTRE": "Kostenstelle",
+      "COST_CENTRES": "Kostenstellen",
+      "CUSTOM_FIELD": "Benutzerdefiniertes Feld",
+      "CUSTOM_FIELDS": "Benutzerdefinierte Felder",
+      "DASHBOARD": "Armaturenbrett",
+      "DASHBOARDS": "Dashboards",
+      "DASHBOARD_TEMPLATE": "Dashboard-Vorlage",
+      "DASHBOARD_TEMPLATES": "Dashboard-Vorlagen",
+      "DEVICE": "Gerät",
+      "DEVICES": "Geräte",
+      "DEVICE_CONFIG_PROFILE": "Gerätekonfigurationsprofil",
+      "DEVICE_CONFIG_PROFILES": "Gerätekonfigurationsprofile",
+      "DEVICE_PROVIDER": "Geräteanbieter",
+      "DEVICE_PROVIDERS": "Geräteanbieter",
+      "DEVICE_TYPE": "Gerätetyp",
+      "DEVICE_TYPES": "Gerätetypen",
+      "DISTRIBUTOR": "Verteiler",
+      "DISTRIBUTORS": "Vertriebspartner",
+      "EMAIL_PROVIDER": "E-Mail-Anbieter",
+      "EMAIL_PROVIDERS": "E-Mail-Anbieter",
+      "EVENT": "Ereignis",
+      "EVENTS": "Veranstaltungen",
+      "EXPORT_TASK": "Aufgabe exportieren",
+      "EXPORT_TASKS": "Aufgaben exportieren",
+      "FUEL_CARD": "Tankkarte",
+      "FUEL_CARDS": "Tankkarten",
+      "GEO_LOCK_PROFILE": "Geo-Sperrprofil",
+      "GEO_LOCK_PROFILES": "Geo-Sperrprofile",
+      "HARDWARE": "Hardware",
+      "INPUT_OUTPUT_TYPE": "E/A-Typ",
+      "IO_TYPE": "E/A-Typ",
+      "IO_TYPES": "I/O-Typen",
+      "LABEL": "Etikett",
+      "LABELS": "Etiketten",
+      "MAP_SET": "Kartensatz",
+      "MAP_SETS": "Kartensätze",
+      "MEDIA": "Medien",
+      "ORGANIZATION": "Organisation",
+      "OVERSPEED_PROFILE": "Übergeschwindigkeitsprofil",
+      "OVERSPEED_PROFILES": "Übergeschwindigkeitsprofile",
+      "PRIVACY_PROFILE": "Datenschutzprofil",
+      "PRIVACY_PROFILES": "Datenschutzprofile",
+      "PROFILES": "Profile",
+      "PROVIDERS": "Anbieter",
+      "REMINDER": "Erinnerung",
+      "REPORT_TEMPLATE": "Berichtsvorlage",
+      "REPORT_TEMPLATES": "Berichtsvorlagen",
+      "ROAD_PROFILE": "Straßenprofil",
+      "ROAD_PROFILES": "Straßenprofile",
+      "SCHEDULED_REPORT": "Geplanter Bericht",
+      "SCHEDULED_REPORTS": "Geplante Berichte",
+      "SIM_CARD": "SIM-Karte",
+      "SIM_CARDS": "SIM-Karten",
+      "SMS_GATEWAY_PROVIDER": "SMS-Gateway",
+      "SMS_GATEWAY_PROVIDERS": "SMS-Gateways",
+      "SSL_CERTIFICATE": "SSL-Zertifikat",
+      "SSL_CERTIFICATES": "SSL-Zertifikate",
+      "SYSTEM": "System",
+      "SYSTEM_HEALTH": "Systemgesundheit",
+      "TASK": "Aufgabe",
+      "TASKS": "Aufgaben",
+      "THEME": "Thema",
+      "THEMES": "Themen",
+      "THEME_CONFIG": "Theme-Konfiguration",
+      "USER": "Benutzer",
+      "USER_ROLE": "Benutzerrolle",
+      "USER_ROLES": "Benutzerrollen",
+      "USERS": "Benutzer",
+      "VENDOR": "Verkäufer",
+      "VENDORS": "Anbieter",
+      "VENDOR_GROUPS": "Anbietergruppen",
+      "WIDGET": "Widget",
+      "WIDGETS": "Widgets",
+      "ZONE": "Geofence",
+      "ZONES": "Geofences",
+      "ZONE_GROUP": "Geofence-Gruppe",
+      "ZONE_GROUPS": "Geofence-Gruppen",
+      "CONTACT": "Kontakt"
+    },
+    "DEVICES": {
+      "CONFIG_PROFILES": {
+        "COLUMNS": {
+          "DEVICE_TYPE": "Typ",
+          "MODIFIED": "Geändert",
+          "NAME": "Name",
+          "STATE": "Zustand"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Konfigurieren Sie Ihr Gerätekonfigurationsprofil.",
+          "FIELDS": {
+            "DEVICE_TYPE": "Gerätetyp",
+            "NAME": "Name"
+          },
+          "TITLE": "Details zur Gerätekonfiguration",
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie die Details des Gerätekonfigurationsprofils",
+            "MICROCHIP_ICON": "Symbol für das Gerätekonfigurationsprofil"
+          }
+        },
+        "MESSAGES": {
+          "NO_BULK": "Die Massenaktualisierung ist nicht verfügbar, wenn Ihre Massenauswahl verschiedene Arten von Gerätehardware enthält."
+        },
+        "PARAMETERS": {
+          "DESCRIPTION": "Konfigurieren Sie unten verschiedene Geräteparameter.",
+          "FIELDS": {
+            "ACTIVE_INPUT": "Aktiver Eingang",
+            "HOURS_INPUT": "Stundeneingabe",
+            "IDLING_INPUT": "Leerlaufeingang",
+            "IDLING_INPUT_INVERT": "Leerlaufeingang umkehren",
+            "INPUTS_OUTPUTS": "Eingabe/Ausgabe",
+            "IO_TYPE": "E/A-Typ"
+          },
+          "TITLE": "Geräteparameter",
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie die Details der Geräteparameter",
+            "WRENCH_ICON": "Symbol für Gerätekonfigurationsprofilparameter"
+          }
+        }
+      },
+      "IO_TYPES": {
+        "COLUMNS": {
+          "MODIFIED": "Geändert",
+          "NAME": "Name",
+          "STATE": "Zustand",
+          "TYPE": "Typ"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Die folgenden Informationen sind erforderlich, um Ihren I/O-Typ zu konfigurieren.",
+          "FIELDS": {
+            "ACTIVE_TEXT": "Aktiver Text",
+            "FILTER": "Filter",
+            "INACTIVE_TEXT": "Inaktiver Text",
+            "LOOKUPS": "Nachschlagen",
+            "LOOKUPS_DESCRIPTION": "Werte im CSV-Format einfügen, z. B. „Schlüssel“, „Wert“",
+            "NAME": "Name",
+            "RATE_MULTIPLIER": "Ratenmultiplikator",
+            "RATE_TYPE": "Tariftyp",
+            "RATE_UNIT": "Tarifeinheit",
+            "TYPE": "Typ",
+            "UNIT": "Einheit",
+            "SMOOTHING_TYPE": "Glättungstyp"
+          },
+          "TITLE": "Details zum E/A-Typ",
+          "ARIA": {
+            "EDIT": "Details zum E/A-Typ bearbeiten",
+            "ICON": "I/O-Typ-Symbol"
+          }
+        },
+        "RATE_TYPES": {
+          "HOUR_PER_VAL": "Stunden pro Wert",
+          "KM_PER_VAL": "Kilometer pro Wert",
+          "MILE_PER_VAL": "Meilen pro Wert",
+          "NONE": "Keiner",
+          "VAL_PER_HOUR": "Wert pro Stunde",
+          "VAL_PER_KM": "Wert pro Kilometer",
+          "VAL_PER_MILE": "Wert pro Meile"
+        },
+        "SMOOTHING_TYPES": {
+          "MOVING_AVERAGE_10": "Gleitender Durchschnitt (10 Proben)",
+          "MOVING_AVERAGE_20": "Gleitender Durchschnitt (20 Proben)",
+          "MOVING_AVERAGE_5": "Gleitender Durchschnitt (5 Proben)",
+          "NONE": "Keiner"
+        },
+        "TYPES": {
+          "ANALOG_INPUT": "Analoger Eingang",
+          "CAMERA_INPUT": "Kameraeingang",
+          "CAN_INPUT": "CAN-Eingang",
+          "COUNTER_INPUT": "Zählereingang",
+          "DIGITAL_INPUT": "Digitaler Eingang",
+          "DIGITAL_OUTPUT": "Digitaler Ausgang",
+          "TEMPERATURE_INPUT": "Temperatureingabe",
+          "VALUE_INPUT": "Werteingabe"
+        },
+        "TOAST_SUCCESS": "E/A-Typ erfolgreich aktualisiert.",
+        "TITLE": "I/O-Typen"
+      },
+      "PROVIDERS": {
+        "COLUMNS": {
+          "MODIFIED": "Geändert",
+          "NAME": "Name",
+          "STATE": "Zustand",
+          "TYPE": "Typ"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Die folgenden Informationen werden benötigt, um Ihren Geräteanbieter zu konfigurieren.",
+          "FIELDS": {
+            "NAME": "Name",
+            "TYPE": "Typ"
+          },
+          "TITLE": "Details zum Geräteanbieter",
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie die Details des Geräteanbieters"
+          }
+        },
+        "PARAMETERS": {
+          "DESCRIPTION": "Konfigurieren Sie die folgenden Parameter, die für die Kommunikation mit dem Upstream-Anbieter erforderlich sind.",
+          "TITLE": "Parameter",
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie die Parameter des Geräteanbieters",
+            "WRENCH_ICON": "Schraubenschlüssel-Symbol"
+          }
+        },
+        "TITLE": "Geräteanbieter"
+      },
+      "TYPES": {
+        "CACHED": {
+          "DESCRIPTION": "Wenn eine Eingabe zwischengespeichert wird, wird ihr letzter Wert zwischengespeichert und für jede nachfolgende Telemetrienachricht wiederholt, bis ein neuer Wert empfangen wird.",
+          "FIELDS": {
+            "CACHED_FIELDS": "Eingaben"
+          },
+          "TITLE": "Zwischengespeicherte Eingaben",
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie zwischengespeicherte Felder",
+            "ICON": "Symbol für zwischengespeicherte Felder"
+          },
+          "SECTION_DESCRIPTION": "Zwischengespeicherte Felder für diesen Gerätetyp verwalten",
+          "SECTION_TITLE": "Zwischengespeicherte Felder"
+        },
+        "COLUMNS": {
+          "MODIFIED": "Geändert",
+          "NAME": "Name",
+          "STATE": "Zustand"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Zur Konfiguration Ihres Gerätetyps sind folgende Angaben erforderlich.",
+          "FIELDS": {
+            "NAME": "Name",
+            "PARENT": "Elternteil",
+            "SHORT_NAME": "Kurzname",
+            "TAG": "Etikett",
+            "DEVICE_PROVIDER": "Geräteanbieter"
+          },
+          "TITLE": "Details zum Gerätetyp",
+          "META": {
+            "CREATED": "Erstellungsdatum",
+            "ENTITY_TYPE": "Entitätstyp",
+            "MODIFIED": "Änderungsdatum",
+            "VERSION": "Version"
+          },
+          "PROVIDER": {
+            "ACTIVE": "Aktiv",
+            "DESCRIPTION": "Dieser Gerätetyp erfordert die Auswahl des Geräteanbieters während der Konfiguration.",
+            "ID": "AUSWEIS",
+            "TITLE": "Anbieterintegration"
+          },
+          "VALIDATION": {
+            "TAG_PATTERN": "Das Tag darf nur Buchstaben, Zahlen, Bindestriche, Punkte und Unterstriche enthalten"
+          },
+          "ARIA": {
+            "BUILDING_ICON": "Gebäudesymbol",
+            "EDIT": "Bearbeiten Sie die Details der Gerätetypen"
+          }
+        },
+        "FEATURES": {
+          "DESCRIPTION": "Fügen Sie die Funktionen hinzu, die dieses Gerät unterstützt.",
+          "FIELDS": {
+            "FEATURES": "Merkmale",
+            "TYPE": "Typ"
+          },
+          "MODAL": {
+            "DESCRIPTION": "Wählen Sie die Funktion aus und konfigurieren Sie sie unten.",
+            "TITLE": "Gerätefunktion"
+          },
+          "TITLE": "Gerätefunktionen",
+          "CONFIRM": {
+            "DISABLE": "Sind Sie sicher, dass Sie „{{name}}“ deaktivieren möchten?"
+          },
+          "ERRORS": {
+            "DUPLICATE_MESSAGE": "Diese Funktion ist bereits aktiviert.",
+            "DUPLICATE_TITLE": "Doppelte Funktion"
+          },
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie Funktionen",
+            "ICON": "Funktionssymbol"
+          }
+        },
+        "IO": {
+          "FIELDS": {
+            "ITEMS": "Artikel",
+            "OPTIONAL": "Optional",
+            "REQUIRED": "Erforderlich"
+          },
+          "MODAL": {
+            "DESCRIPTION": "Geben Sie den Namen der Eingabe ein, wie er im Telemetriedatensatz erscheint. \nNur alphanumerische Kleinbuchstaben und Unterstriche.",
+            "FIELDS": {
+              "VALUE": "Wert",
+              "INPUT_NAME": "Geben Sie den Namen ein",
+              "INPUT_PLACEHOLDER": "Eingabenamen eingeben...",
+              "OPTIONAL_HINT": "Wenn diese Eingabe aktiviert ist, ist sie optional. \nBei Deaktivierung ist diese Eingabe erforderlich."
+            },
+            "TITLE": "Eingabe hinzufügen"
+          },
+          "COLUMNS": {
+            "NAME": "Name",
+            "STATUS": "Erforderlich/Optional"
+          },
+          "CONFIRM": {
+            "DELETE": "Sind Sie sicher, dass Sie „{{name}}“ löschen möchten?"
+          },
+          "DIGITAL_OUTPUT": {
+            "CAN_PULSE": "Kann pulsieren",
+            "CAN_PULSE_HINT": "Wenn dieser Ausgang aktiviert ist, kann er für eine bestimmte Dauer pulsieren.",
+            "CAN_TOGGLE": "Kann umschalten",
+            "CAN_TOGGLE_HINT": "Wenn dieser Ausgang aktiviert ist, kann er ein-/ausgeschaltet werden.",
+            "MAX_PULSE": "Maximale Impulssekunden",
+            "MAX_PULSE_HINT": "Maximale Impulsdauer in Sekunden.",
+            "MIN_PULSE": "Min. Impulssekunden",
+            "MIN_PULSE_HINT": "Mindestimpulsdauer in Sekunden."
+          },
+          "EMPTY": "Für diesen Gerätetyp sind derzeit keine {{title}} konfiguriert.",
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie {{title}}",
+            "ICON": "Symbol {{title}}"
+          }
+        },
+        "IO_ANALOGS": {
+          "DESCRIPTION": "Fügen Sie die auf diesem Gerät verfügbaren Analogeingänge hinzu.",
+          "TITLE": "Analoge Eingänge"
+        },
+        "IO_CAMERAS": {
+          "DESCRIPTION": "Fügen Sie die Kameraeingänge hinzu, die auf diesem Gerät verfügbar sind.",
+          "TITLE": "Kameraeingänge"
+        },
+        "IO_CANS": {
+          "DESCRIPTION": "Fügen Sie die CAN-Bus-Eingänge hinzu, die auf diesem Gerät verfügbar sind.",
+          "TITLE": "CAN-Bus-Eingänge"
+        },
+        "IO_COUNTERS": {
+          "DESCRIPTION": "Fügen Sie die auf diesem Gerät verfügbaren Zählereingänge hinzu.",
+          "TITLE": "Zählereingänge"
+        },
+        "IO_DIGITALS": {
+          "DESCRIPTION": "Fügen Sie die digitalen Eingänge hinzu, die auf diesem Gerät verfügbar sind.",
+          "TITLE": "Digitale Eingänge"
+        },
+        "IO_OUTPUTS": {
+          "DESCRIPTION": "Fügen Sie die digitalen Ausgänge hinzu, die auf diesem Gerät verfügbar sind.",
+          "TITLE": "Digitale Ausgänge"
+        },
+        "IO_TEMPERATURES": {
+          "DESCRIPTION": "Fügen Sie die Temperatureingänge hinzu, die auf diesem Gerät verfügbar sind.",
+          "TITLE": "Temperatureingänge"
+        },
+        "IO_VALUES": {
+          "DESCRIPTION": "Fügen Sie die Werteingaben hinzu, die auf diesem Gerät verfügbar sind.",
+          "TITLE": "Werteingaben"
+        },
+        "ACCESSORIES": {
+          "CONFIRM": {
+            "REMOVE": "Sind Sie sicher, dass Sie „{{name}}“ entfernen möchten?"
+          },
+          "DESCRIPTION": "Konfigurieren Sie Gerätezubehör wie Tag-Lesegeräte, Sensoren und andere Peripheriegeräte.",
+          "EMPTY": "Kein Zubehör konfiguriert",
+          "ERRORS": {
+            "DUPLICATE_MESSAGE": "Dieser Zubehörschlüssel wird bereits verwendet.",
+            "DUPLICATE_TITLE": "Doppeltes Zubehör"
+          },
+          "MODAL": {
+            "FIELDS": {
+              "KEY": "Zubehörschlüssel",
+              "KEY_HINT": "Eindeutige Kennung für dieses Zubehör (z. B. „mritagreader“)",
+              "KEY_PLACEHOLDER": "Zubehörschlüssel eingeben...",
+              "NAME": "Anzeigename",
+              "NAME_HINT": "Für Menschen lesbarer Name für dieses Zubehör",
+              "NAME_PLACEHOLDER": "Anzeigenamen eingeben..."
+            },
+            "TITLE": "Zubehör hinzufügen"
+          },
+          "TITLE": "Zubehör",
+          "ARIA": {
+            "EDIT": "Zubehör bearbeiten",
+            "ICON": "Zubehör-Symbol"
+          }
+        },
+        "ERRORS": {
+          "LOAD_DEVICE_TYPES": "Gerätetypen konnten nicht abgerufen werden.",
+          "LOAD_PROVIDERS": "Geräteanbieter konnten nicht abgerufen werden.",
+          "TOAST_SUCCESS": "Gerätetyp erfolgreich aktualisiert."
+        },
+        "SETTINGS": {
+          "CONFIRM": {
+            "REMOVE": "Sind Sie sicher, dass Sie „{{name}}“ entfernen möchten?"
+          },
+          "DESCRIPTION": "Konfigurieren Sie benutzerdefinierte Einstellungsfelder für diesen Gerätetyp.",
+          "EMPTY": "Keine Einstellungen konfiguriert",
+          "ERRORS": {
+            "DUPLICATE_MESSAGE": "Diese Einstellungs-ID wird bereits verwendet.",
+            "DUPLICATE_TITLE": "Doppelte Einstellung"
+          },
+          "INVALID": "Ungültige Einstellungsdefinition",
+          "MODAL": {
+            "FIELDS": {
+              "DEFAULT": "Standardwert",
+              "DEFAULT_HINT": "Standardwert, wenn das Feld leer ist",
+              "DEFAULT_PLACEHOLDER": "Standardwert eingeben...",
+              "DESCRIPTION": "Beschreibung",
+              "DESCRIPTION_HINT": "Zusätzliche Beschreibung für das Feld",
+              "DESCRIPTION_PLACEHOLDER": "Beschreibung eingeben...",
+              "ID": "Feld-ID",
+              "ID_HINT": "Eindeutiger Bezeichner für dieses Feld",
+              "ID_PLACEHOLDER": "Feld-ID eingeben...",
+              "MAX": "Maximaler Wert",
+              "MAX_HINT": "Maximal zulässiger Wert für Zahlenfelder",
+              "MAX_PLACEHOLDER": "Maximalwert eingeben...",
+              "MIN": "Mindestwert",
+              "MIN_HINT": "Minimal zulässiger Wert für Zahlenfelder",
+              "MIN_PLACEHOLDER": "Mindestwert eingeben...",
+              "PLACEHOLDER_HINT": "Im Feld angezeigter Platzhaltertext",
+              "PLACEHOLDER_LABEL": "Platzhalter",
+              "PLACEHOLDER_PLACEHOLDER": "Platzhaltertext eingeben...",
+              "TITLE_HINT": "Anzeigename für dieses Feld",
+              "TITLE_LABEL": "Feldtitel",
+              "TITLE_PLACEHOLDER": "Feldtitel eingeben...",
+              "TYPE": "Feldtyp",
+              "TYPE_HINT": "Wählen Sie den Eingabetyp für dieses Feld aus",
+              "UNIT": "Einheit",
+              "UNIT_HINT": "Maßeinheit für Zahlenfelder",
+              "UNIT_PLACEHOLDER": "z. B. Millimeter, Sekunden usw.",
+              "WIDTH": "Feldbreite",
+              "WIDTH_HINT": "Anzeigebreite für das Eingabefeld",
+              "WIDTH_PLACEHOLDER": "Feldbreite eingeben..."
+            },
+            "TITLE": "Einstellungsfeld hinzufügen",
+            "TYPES": {
+              "BOOLEAN": "Boolescher Wert",
+              "COMBO": "Kombination/Dropdown",
+              "NUMBER": "Nummer",
+              "TEXT": "Text"
+            }
+          },
+          "TITLE": "Einstellungen",
+          "ARIA": {
+            "EDIT": "Einstellungen bearbeiten",
+            "ICON": "Symbol „Einstellungen“."
+          }
+        },
+        "ACCESSORY": {
+          "ACCORDION": {
+            "FEATURES": "Merkmale",
+            "IO_CAPABILITIES": "IO-Fähigkeiten",
+            "SETTINGS_DEFINITION": "Einstellungsdefinition"
+          },
+          "DESCRIPTION": "Konfigurieren Sie die Zubehöreinstellungen und -funktionen von {{title}}.",
+          "EDIT_ARIA": "Bearbeiten Sie {{title}}",
+          "EMPTY_CONTENT": "Für dieses {{title}}-Zubehör wurden keine E/A-Funktionen, Features oder Einstellungen konfiguriert.",
+          "ICON_ARIA": "Symbol {{title}}",
+          "NO_DATA": "Für {{title}} sind keine Daten verfügbar."
+        },
+        "FEATURE": {
+          "ACCORDION": {
+            "SETTINGS": "Einstellungen",
+            "WEBHOOKS": "Webhooks"
+          },
+          "DESCRIPTION": "Konfigurieren Sie {{title}}-Funktionseinstellungen und Webhooks.",
+          "EDIT_ARIA": "Bearbeiten Sie {{title}}",
+          "EMPTY_CONTENT": "Für diese {{title}}-Funktion wurden keine Einstellungen oder Webhooks konfiguriert.",
+          "ICON_ARIA": "Symbol {{title}}",
+          "NO_DATA": "Für {{title}} sind keine Daten verfügbar."
+        },
+        "SETTING": {
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie {{title}}",
+            "ICON": "Symbol {{title}}"
+          },
+          "DESCRIPTION": "Konfigurieren Sie die Einstellungen und Eigenschaften des Feldes {{title}}.",
+          "NO_DATA": "Für {{title}} sind keine Daten verfügbar."
+        }
+      },
+      "IO": {
+        "CALIBRATION": {
+          "DESCRIPTION": "Vervollständigen Sie die folgenden Kalibrierungswerte für Ihr IO.",
+          "FIELDS": {
+            "ENABLE_LIVE_STREAM": "Live-Streaming",
+            "INPUT": "Eingang",
+            "INVERT": "Umkehren",
+            "MAX_VALUE": "Maximaler Wert",
+            "MAX_VOLTS": "Max. Volt",
+            "MIN_VALUE": "Mindestwert",
+            "MIN_VOLTS": "Min. Volt",
+            "MULTIPLIER": "Multiplikator",
+            "PULSED": "Gepulst"
+          },
+          "TITLE": "{{type}} Kalibrierung",
+          "MODAL_DESCRIPTION": "Konfigurieren Sie Kalibrierungseinstellungen für Ihr IO"
+        },
+        "CUSTOM": "Brauch",
+        "CUSTOM_MODAL": {
+          "DESCRIPTION": "Geben Sie unten den Namen der benutzerdefinierten Eingabe ein, die Sie verwenden möchten.",
+          "FIELDS": {
+            "INPUT": "Eingang"
+          },
+          "TITLE": "Benutzerdefinierte Eingabe"
+        },
+        "PRESET": {
+          "DEFAULT": "Standard",
+          "EMULATE": "Emulieren",
+          "IGNITION": "Zündung",
+          "IGNITION_WIRE": "Zündkabel",
+          "MOVEMENT": "Bewegungserkennung",
+          "SPEED": "Geschwindigkeit"
+        },
+        "WHITELIST_WARNING": "Diese Eingabe ist nicht in Ihrer IO-Auswahl enthalten und wird daher nicht aufgezeichnet. \nWählen Sie es oben im Abschnitt „IO-Auswahl“ aus, wenn Sie es verwenden möchten.",
+        "ARIA": {
+          "CONFIGURE": "Konfigurieren Sie {{name}}",
+          "EDIT": "Bearbeiten Sie {{name}}",
+          "ICON": "Eingabe-/Ausgabesymbol"
+        },
+        "DESCRIPTION": "Konfigurieren Sie {{name}} mit Kalibrierungseinstellungen",
+        "FIELDS": {
+          "SELECT_CONFIGURATION": "Konfiguration auswählen"
+        }
+      },
+      "ACCESSORIES": {
+        "ARIA": {
+          "COG_ICON": "Zahnrad-Symbol",
+          "EDIT": "Bearbeiten Sie die Details zum Gerätezubehör"
+        },
+        "DESCRIPTION": "Aktivieren und konfigurieren Sie dieses Zubehör unten.",
+        "FIELDS": {
+          "ENABLED": "Ermöglicht",
+          "NO": "NEIN",
+          "YES": "Ja"
+        }
+      },
+      "COLUMNS": {
+        "ASSET": "Vermögenswert",
+        "CONFIG_PROFILE": "Konfigurationsprofil",
+        "DEVICE_TYPE": "Typ",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "SIM_CARD": "SIM-Karte",
+        "STATE": "Zustand",
+        "DEVICE_REMARKS": "Gerätebemerkungen",
+        "DEVICE_SERIAL": "Geräteseriennummer"
+      },
+      "DETAILS": {
+        "ARIA": {
+          "EDIT": "Gerätedetails bearbeiten",
+          "MICROCHIP_ICON": "Mikrochip-Symbol"
+        },
+        "DESCRIPTION": "Konfigurieren Sie verschiedene Details zu Ihrem Gerät.",
+        "FIELDS": {
+          "CONFIG_PROFILE": "Konfiguration",
+          "DEVICE_TYPE": "Gerätetyp",
+          "MANUAL_CONFIG": "Manuell konfiguriert",
+          "PROVIDER": "Geräteanbieter",
+          "SERIAL_NUMBER": "Seriennummer"
+        },
+        "TITLE": "Gerätedetails"
+      },
+      "IO_BITMAPS": {
+        "ARIA": {
+          "DELETE": "Bitmap löschen",
+          "EDIT": "Bearbeiten Sie Bitmap-IO-Eigenschaften.",
+          "SQUARE_BINARY_ICON": "quadratisches binäres Symbol"
+        },
+        "DESCRIPTION": "Mithilfe von E/A-Bitmaps können Sie neue Eingaben aus zusammengesetzten Werten erstellen. \nKonfigurieren Sie diese unten.",
+        "EMPTY": "Es wurden noch keine Bitmaps hinzugefügt. \nKlicken Sie auf „Hinzufügen“, um eine Bitmap zu erstellen.",
+        "FIELDS": {
+          "INPUTS": "Eingaben",
+          "SOURCE_BITMASK": "Bitmaske",
+          "SOURCE_BITMASK_DESCRIPTION": "Bitmaske, die nach der Verschiebung auf den Wert angewendet werden soll, im Hex-Format (d. h. 0x01)",
+          "SOURCE_BITSHIFT": "Bitshift",
+          "SOURCE_BITSHIFT_DESCRIPTION": "Anzahl der Bits, um die der Quelleingabewert nach rechts verschoben wird",
+          "SOURCE_INPUT": "Quelleneingabe",
+          "TARGET_INPUT": "Zieleingabe",
+          "TARGET_TYPE": "Zieltyp"
+        },
+        "MODAL": {
+          "DESCRIPTION": "Geben Sie die Details für Ihre neue Bitmap-Eingabe an.",
+          "TITLE": "Bitmapped IO-Eigenschaften"
+        },
+        "TITLE": "Bitmap-IO"
+      },
+      "IO_WHITELIST": {
+        "ARIA": {
+          "EDIT": "IO-Auswahl bearbeiten",
+          "LIST_ICON": "Listensymbol"
+        },
+        "DESCRIPTION": "Wählen Sie aus, welche der verschiedenen auf dem Gerät verfügbaren Ein- und Ausgänge Sie erfasst und beibehalten möchten.",
+        "TITLE": "IO-Auswahl"
+      },
+      "LINKED": {
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie verknüpfte Entitäten",
+          "LINK_ICON": "Link-Symbol"
+        },
+        "DESCRIPTION": "Die folgenden Entitäten sind mit diesem Gerät verknüpft.",
+        "FIELDS": {
+          "ASSET": "Vermögenswert",
+          "SIM_CARD": {
+            "PLACEHOLDER": "Geben Sie den Namen der SIM-Karte ein...",
+            "TITLE": "SIM-Karte"
+          }
+        },
+        "TITLE": "Verknüpfte Entitäten",
+        "WARNING": {
+          "ASSET_MULTIPLE_DEVICE": "Dem verknüpften Asset sind mehrere Geräte zugewiesen"
+        }
+      },
+      "PARAMETERS": {
+        "ADD_SECONDARY": "Fügen Sie einen sekundären Leerlaufzustand hinzu",
+        "AND": "UND",
+        "ARIA": {
+          "EDIT": "Geräteparameter bearbeiten",
+          "WRENCH_ICON": "Schraubenschlüssel-Symbol"
+        },
+        "DESCRIPTION": "Konfigurieren Sie unten verschiedene Geräteparameter.",
+        "FIELDS": {
+          "ACTIVE_INPUT": "Aktiver Eingang",
+          "HOURS_INPUT": "Stundeneingabe",
+          "IDLING_INPUT": "Leerlaufeingang",
+          "IDLING_INPUT_INVERT": "Leerlaufeingang umkehren",
+          "INPUTS_OUTPUTS": "Eingabe/Ausgabe",
+          "IO_TYPE": "E/A-Typ"
+        },
+        "REMOVE_SECONDARY_HINT": "UND-Bedingung und Schwellenwert entfernen",
+        "REMOVE_SECONDARY_LABEL": "Sekundäre Bedingung entfernen",
+        "TITLE": "Geräteparameter"
+      },
+      "BULK_IMPORT_TITLE": "Massenimport von Geräten",
+      "TITLE": "Geräte"
+    },
+    "PROFILES": {
+      "CUSTOM_FIELDS": {
+        "COLUMNS": {
+          "ENTITY": "Gilt für",
+          "NAME": "Name",
+          "TYPE": "Typ"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Wählen Sie eine der folgenden Optionen für Ihr benutzerdefiniertes Feld.",
+          "FIELDS": {
+            "ENTITY": "Gilt für",
+            "ID": "Ausweis",
+            "NAME": "Name",
+            "REQUIRED": "Erforderlich",
+            "TYPE": "Typ",
+            "VALUES": "Werte",
+            "VALUES_DESCRIPTION": "Platzieren Sie jeden Wert in einer neuen Zeile."
+          },
+          "TITLE": "Benutzerdefinierte Felddetails",
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie die Details benutzerdefinierter Felder",
+            "MOBILE_ICON": "Symbol für benutzerdefiniertes Feld"
+          }
+        },
+        "TYPES": {
+          "CHECKBOX": "Ja/Nein",
+          "COMBO": "Auswahl",
+          "DATE": "Datum",
+          "DATETIME": "Datum",
+          "MEMO": "Memo",
+          "TEXT": "Text",
+          "URL": "URL"
+        },
+        "TITLE": "Benutzerdefinierte Felder"
+      },
+      "GEO_LOCK": {
+        "COLUMNS": {
+          "MODIFIED": "Geändert",
+          "NAME": "Name",
+          "STATE": "Zustand"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Verwenden Sie ein Geo-Sperrprofil, um ein Fahrzeug zu bestimmten Zeiten automatisch zu sperren.",
+          "FIELDS": {
+            "DAYS": "Tage",
+            "FROM": "Aus",
+            "FROM_TO": "{{von}} bis {{bis}}",
+            "ITEMS": "Mal",
+            "NAME": "Name",
+            "RADIUS": "Radius",
+            "TIMEZONE": "Zeitzone",
+            "TO": "Zu"
+          },
+          "MODALS": {
+            "TIME": {
+              "DESCRIPTION": "Konfigurieren Sie die Wochentage und Uhrzeiten, an denen die Sperre aktiv ist.",
+              "TITLE": "Geo-Sperrzeiten"
+            }
+          },
+          "TITLE": "Details zum Geo-Sperrprofil",
+          "WIZARD": {
+            "STEPS": {
+              "DETAILS": "Details zum Geo-Sperrprofil"
+            }
+          },
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie die Details des Geo-Sperrprofils",
+            "LOCK_ICON": "Schlosssymbol"
+          }
+        },
+        "WARNINGS": {
+          "ITEM_LENGTH": "Damit das Geo-Lock-Profil sinnvoll ist, ist mindestens eine Zeiteingabe erforderlich."
+        },
+        "TITLE": "Geo-Sperrprofile"
+      },
+      "OVERSPEED": {
+        "COLUMNS": {
+          "MODIFIED": "Geändert",
+          "NAME": "Name",
+          "STATE": "Zustand"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Konfigurieren Sie die Bänder, die zur Einstufung der Schwere von Geschwindigkeitsüberschreitungen verwendet werden.",
+          "FIELDS": {
+            "DESCRIPTION_MIN_AND_MAX": "Geschwindigkeitsüberschreitungen {{min}}–{{max}} % über der Geschwindigkeitsbegrenzung",
+            "DESCRIPTION_MIN_ONLY": "Geschwindigkeitsüberschreitungen {{min}} % plus Überschreitung der Geschwindigkeitsbegrenzung",
+            "ITEMS": "Bands",
+            "MIN": "Übergeschwindigkeit",
+            "NAME": "Name",
+            "OFFSET": "Versatz"
+          },
+          "MODALS": {
+            "STATE": {
+              "DESCRIPTION": "Konfigurieren Sie die Bandwerte, auf denen Geschwindigkeitsüberschreitungen abgeglichen werden sollen",
+              "TITLE": "Übergeschwindigkeitsband"
+            }
+          },
+          "TITLE": "Details zum Übergeschwindigkeitsprofil",
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie die Details des Übergeschwindigkeitsprofils",
+            "GAUGE_ICON": "Messgerät-Symbol"
+          }
+        },
+        "WARNINGS": {
+          "ITEM_LENGTH": "Damit das Übergeschwindigkeitsprofil nützlich ist, ist mindestens ein Übergeschwindigkeitsband erforderlich."
+        },
+        "WIZARD": {
+          "STEPS": {
+            "DETAILS": "Details zum Übergeschwindigkeitsprofil"
+          }
+        },
+        "TITLE": "Übergeschwindigkeitsprofile"
+      },
+      "ROAD": {
+        "COLUMNS": {
+          "MODIFIED": "Geändert",
+          "NAME": "Name",
+          "STATE": "Zustand"
+        },
+        "DETAILS": {
+          "DESCRIPTION": "Konfigurieren Sie unten die Straßenmodifikatoren, die Sie auf dieses Profil anwenden möchten.",
+          "FIELDS": {
+            "FILTER": "Filter",
+            "ITEMS": "Geschwindigkeitsmodifikatoren",
+            "NAME": "Name",
+            "SPEED": "Neue Geschwindigkeitsbegrenzung",
+            "UNIT": "Einheit"
+          },
+          "MODALS": {
+            "MODIFIER": {
+              "DESCRIPTION": "Erstellen Sie einen Filter, der bestimmten geografischen Bedingungen entspricht, und legen Sie eine neue Geschwindigkeitsbegrenzung für Ihre Anlagen fest.",
+              "TITLE": "Straßengeschwindigkeitsmodifikator"
+            }
+          },
+          "TITLE": "Details zum Straßenprofil",
+          "ARIA": {
+            "EDIT": "Bearbeiten Sie die Details des Straßenprofils"
+          }
+        },
+        "WIZARD": {
+          "STEPS": {
+            "DESCRIPTION": "Erstellen Sie einen Filter, der bestimmten geografischen Bedingungen entspricht, und legen Sie eine neue Geschwindigkeitsbegrenzung für Ihre Anlagen fest.",
+            "DETAILS": "Straßenprofilmodifikator"
+          }
+        },
+        "TITLE": "Straßenprofile"
+      }
+    },
+    "ALERTS": {
+      "ACTIONS": {
+        "CAMERA": "Kamera",
+        "LABELS": "Etiketten",
+        "LABEL_CURRENT_TRIP": "Beschriften Sie die aktuelle Reise",
+        "LABEL_CURRENT_TRIP_DESCRIPTION": "Fügen Sie der aktuellen Reise die folgenden Labels hinzu: {{labels}}",
+        "LABEL_MODAL": {
+          "DESCRIPTION": "Wählen Sie die Beschriftungen aus, die auf die aktuelle Reise angewendet werden sollen, wenn diese Warnung ausgelöst wird.",
+          "FIELDS": {
+            "LABELS": "Etiketten"
+          },
+          "TITLE": "Beschriftungen hinzufügen"
+        },
+        "REQUEST_VIDEO": "Video anfordern",
+        "REQUEST_VIDEO_DESCRIPTION": "{{duration}} Sekunden (mit {{offset}} Sekunden Offset) von {{cameras}}"
+      },
+      "COLUMNS": {
+        "COST_CENTRE": "Kostenstelle",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "PRIORITY": "Priorität",
+        "STATE": "Zustand"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Konfigurieren Sie die Filter- und Benachrichtigungseinstellungen für Ihre Warnung.",
+        "FIELDS": {
+          "ACTIONS": "Aktionen",
+          "COST_CENTRE": "Kostenstelle",
+          "FILTER": "Ereignisfilter",
+          "ICON": "Symbol",
+          "ICON_DESCRIPTION": "Wählen Sie ein Symbol aus, um diese Warnung darzustellen",
+          "NAME": "Name",
+          "NOTIFY": "Benachrichtigen",
+          "PRIORITY": "Priorität"
+        },
+        "TITLE": "Warnungsdetails"
+      },
+      "NOTIFY": {
+        "ME": "Mich",
+        "ROLE": "Benutzerrolle",
+        "ROLES": "Benutzer mit einer bestimmten Rolle",
+        "USER": "Benutzer",
+        "USERS": "Bestimmter Benutzer"
+      },
+      "PRIORITIES": {
+        "HIGH": "Hoch",
+        "LOW": "Niedrig",
+        "MEDIUM": "Medium"
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Warnungsdetails"
+        }
+      },
+      "ARIA": {
+        "ALERT_ICON": "Benachrichtigungssymbol: {{icon}}",
+        "ALERT_NOTIFICATION_ICON": "Symbol für Benachrichtigungsbenachrichtigung",
+        "EDIT_ALERT_DETAILS": "Bearbeiten Sie die Benachrichtigungsdetails"
+      },
+      "IMPORT_VENDOR_ALERTS": "Lieferantenwarnungen importieren",
+      "TITLE": "Warnungen"
+    },
+    "COMPANY_GROUPS": {
+      "COLUMNS": {
+        "MODIFIED": "Geändert",
+        "NAME": "Name"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Zur Identifizierung Ihrer Unternehmensgruppe sind folgende Angaben erforderlich.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Elternteil"
+        },
+        "TITLE": "Details zur Unternehmensgruppe",
+        "PARENT_OPTIONS": {
+          "ROOT": "Wurzel"
+        },
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die Details der Unternehmensgruppe"
+        }
+      },
+      "EMAIL_CUSTOMIZATION": {
+        "DEFAULT_TEMPLATE_NAME": "Standard",
+        "FIELDS": {
+          "BODY": "Körper",
+          "SUBJECT": "Thema",
+          "TEMPLATE": "Vorlage"
+        },
+        "FORGOT_PASSWORD": {
+          "BODY": "Sie erhalten diese E-Mail, weil Sie Ihre E-Mail-Adresse eingegeben und auf den Link „Passwort vergessen“ unter {{siteUrl}} geklickt haben.\n\n\nUm Ihr Passwort zurückzusetzen, öffnen Sie den folgenden Link in Ihrem Browser: {{resetUrl}}\n\n\nSie können diese Meldung getrost ignorieren, wenn Sie Ihr Passwort nicht zurücksetzen möchten.",
+          "DESCRIPTION": "Passen Sie den Text an, der gesendet wird, wenn ein Benutzer sein eigenes Passwort mit der Aktion „Passwort vergessen“ zurücksetzt.",
+          "SUBJECT": "Passwort zurückgesetzt bei {{siteUrl}}",
+          "TITLE": "E-Mail-Passwort vergessen"
+        },
+        "USER_INVITE": {
+          "BODY": "Sie erhalten diese E-Mail, weil für Sie ein Konto unter {{siteUrl}} erstellt wurde.\n\n\nUm Ihr Profil zu vervollständigen und ein Passwort festzulegen, öffnen Sie den folgenden Link in Ihrem Browser: {{resetUrl}}\n\n\nSie können diese Meldung getrost ignorieren, wenn Sie den Kontoerstellungsprozess nicht abschließen möchten.",
+          "DESCRIPTION": "Passen Sie den Text an, der in der Einladungs-E-Mail für neue Benutzer gesendet wird.",
+          "SUBJECT": "Kontoerstellung bei {{siteUrl}}",
+          "TITLE": "Benutzereinladungs-E-Mail"
+        },
+        "USER_RESET": {
+          "BODY": "Sie erhalten diese E-Mail, weil Ihr Konto von einem Administrator unter {{siteUrl}} zurückgesetzt wurde.\n\n\nUm Ihr Konto wiederherzustellen und ein neues Passwort festzulegen, öffnen Sie den folgenden Link in Ihrem Browser: {{resetUrl}}\n\n\nSie können diese Nachricht getrost ignorieren, wenn Sie Ihr Konto nicht wiederherstellen möchten.",
+          "DESCRIPTION": "Passen Sie den Text an, der gesendet wird, wenn ein Administrator ein Benutzerkonto zurücksetzt.",
+          "SUBJECT": "Kontowiederherstellung bei {{siteUrl}}",
+          "TITLE": "E-Mail zum Zurücksetzen des Benutzerkontos"
+        }
+      },
+      "TITLE": "Unternehmensgruppen"
+    },
+    "COST_CENTRES": {
+      "COLUMNS": {
+        "ASSETS": "Vermögenswerte",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "USERS": "Benutzer"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Zur Identifizierung Ihrer Kostenstelle sind folgende Angaben erforderlich.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Elternteil"
+        },
+        "TITLE": "Kostenstellendetails",
+        "ARIA": {
+          "EDIT": "Kostenstellendetails bearbeiten"
+        }
+      },
+      "TITLE": "Kostenstellen"
+    },
+    "EMAIL_PROVIDERS": {
+      "COLUMNS": {
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "STATE": "Zustand",
+        "TYPE": "Typ"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Die folgenden Informationen sind erforderlich, um Ihren E-Mail-Anbieter zu konfigurieren.",
+        "FIELDS": {
+          "NAME": "Name",
+          "TYPE": "Typ"
+        },
+        "TITLE": "Details zum E-Mail-Anbieter",
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die Details des E-Mail-Anbieters"
+        }
+      },
+      "PARAMETERS": {
+        "DESCRIPTION": "Konfigurieren Sie die folgenden Parameter, die für die Kommunikation mit dem E-Mail-Anbieter erforderlich sind.",
+        "TITLE": "Parameter",
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die Parameter des E-Mail-Anbieters",
+          "WRENCH_ICON": "Schraubenschlüssel-Symbol"
+        }
+      },
+      "TITLE": "E-Mail-Anbieter"
+    },
+    "SIM_CARDS": {
+      "COLUMNS": {
+        "DESCRIPTION": "Beschreibung",
+        "DEVICE": "Gerät",
+        "MODIFIED": "Geändert",
+        "NETWORK": "Netzwerk",
+        "NUMBER": "Nummer",
+        "SERIAL_NUMBER": "Seriennummer",
+        "STATE": "Zustand"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Konfigurieren Sie verschiedene Details zu Ihrer SIM-Karte.",
+        "FIELDS": {
+          "DESCRIPTION": "Beschreibung",
+          "DEVICE": "Gerät",
+          "NETWORK": "Netzwerk",
+          "NUMBER": "Nummer",
+          "SERIAL_NUMBER": "Seriennummer",
+          "STATE": "Zustand"
+        },
+        "TITLE": "Details zur SIM-Karte",
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die SIM-Kartendetails",
+          "MOBILE_ICON": "Mobiles Symbol"
+        }
+      },
+      "TITLE": "SIM-Karten"
+    },
+    "SMS_GATEWAY_PROVIDERS": {
+      "COLUMNS": {
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "STATE": "Zustand",
+        "TYPE": "Typ"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Die folgenden Informationen sind erforderlich, um Ihren SMS-Gateway-Anbieter zu konfigurieren.",
+        "FIELDS": {
+          "NAME": "Name",
+          "TYPE": "Typ"
+        },
+        "TITLE": "Details zum SMS-Gateway",
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die Details des SMS-Gateway-Anbieters"
+        }
+      },
+      "PARAMETERS": {
+        "DESCRIPTION": "Konfigurieren Sie die folgenden Parameter, die für die Kommunikation mit dem Upstream-Anbieter erforderlich sind.",
+        "TITLE": "Parameter",
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die Parameter des SMS-Gateway-Anbieters",
+          "WRENCH_ICON": "Schraubenschlüssel-Symbol"
+        }
+      },
+      "TITLE": "SMS-Gateway"
+    },
+    "THEMES": {
+      "COLUMNS": {
+        "BASE_THEME": "Basisthema",
+        "DESCRIPTION": "Beschreibung",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "STATE": "Zustand"
+      },
+      "DETAILS": {
+        "CLONE": "Klon",
+        "CSS": "Benutzerdefiniertes CSS",
+        "DESCRIPTION": "Geben Sie Ihrem Thema einen eindeutigen Namen und eine eindeutige Beschreibung.",
+        "FIELDS": {
+          "BASE_THEME": "Basisthema",
+          "CSS_SRC": "Benutzerdefinierter CSS-Link",
+          "CUSTOM_TAGS": "Benutzerdefinierte Tags",
+          "DESCRIPTION": "Beschreibung",
+          "NAME": "Name",
+          "WEB_LOGO": "Web-Logo",
+          "WEB_LOGO_DESCRIPTION": "Das Bild wird auf 240 x 100 Pixel neu abgetastet. \nFür bessere Ergebnisse sollten Sie Ihr Bild vor dem Hochladen in einem Grafikprogramm vorskalieren."
+        },
+        "JSON": "JSON",
+        "MODALS": {
+          "CUSTOM_TAG": {
+            "DESCRIPTION": "Geben Sie die Details für ein HTML-Tag ein, das an der von Ihnen gewählten Stelle in die Seite eingefügt wird.",
+            "FIELDS": {
+              "LOCATION": "Standort",
+              "LOCATION_BODY": "Körper",
+              "LOCATION_HEADER": "Kopfzeile",
+              "NAME": "Name",
+              "TAG_ATTRIBUTES": "Tag-Attribute",
+              "TAG_ATTRIBUTES_DESCRIPTION": "Eine Liste von Tag-Attributen, eines pro Zeile, im Format: attr=\"value\"",
+              "TAG_CONTENTS": "Tag-Inhalte",
+              "TAG_TYPE": "Tag-Typ"
+            },
+            "TITLE": "Benutzerdefiniertes HTML-Tag"
+          }
+        },
+        "TITLE": "Themendetails"
+      },
+      "SETTINGS": {
+        "ACCORDION": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Akkordeon"
+        },
+        "BUTTON": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Taste"
+        },
+        "COLOR": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Farbe"
+        },
+        "CONTENT": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Inhalt"
+        },
+        "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+        "FEED": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Füttern"
+        },
+        "FIELDS": {
+          "ACTIVE": {
+            "BACKGROUND": {
+              "COLOR": "Aktiver Hintergrund"
+            },
+            "BORDER": {
+              "COLOR": "Aktiver Rand",
+              "SHADOW": "Aktiver Schatten"
+            },
+            "FONT": {
+              "COLOR": "Aktive Schriftart"
+            },
+            "INDICATOR": {
+              "COLOR": "Indikatorfarbe",
+              "STYLE": "Aktiver Indikator"
+            },
+            "STYLE": "Aktiver Stil",
+            "TAB": {
+              "BACKGROUND": {
+                "COLOR": "Aktiver Tab-Hintergrund"
+              },
+              "FONT": {
+                "COLOR": "Aktive Tab-Schriftart"
+              }
+            }
+          },
+          "BACKGROUND": {
+            "COLOR": "Hintergrundfarbe",
+            "TITLE": "Hintergrund"
+          },
+          "BORDER": {
+            "COLOR": "Randfarbe",
+            "RADIUS": "Grenzradius",
+            "SHADOW": "Schatten",
+            "WIDTH": "Randbreite"
+          },
+          "CONTENT": "Inhalt",
+          "DANGER": {
+            "COLOR": "Gefahr"
+          },
+          "FONT": {
+            "COLOR": "Schriftfarbe",
+            "FAMILY": "Schriftfamilie",
+            "SIZE": "Schriftgröße",
+            "TITLE": "Schriftart",
+            "TRANSFORM": "Schriftartenkoffer",
+            "WEIGHT": "Schriftstärke"
+          },
+          "FOOTER": {
+            "BACKGROUND": {
+              "COLOR": "Fußzeilenhintergrund"
+            },
+            "BORDER": {
+              "COLOR": "Farbe des Fußzeilenrahmens"
+            },
+            "FONT": {
+              "COLOR": "Schriftfarbe der Fußzeile",
+              "SIZE": "Schriftgröße der Fußzeile",
+              "TRANSFORM": "Fußzeilen-Schriftart",
+              "WEIGHT": "Schriftstärke der Fußzeile"
+            }
+          },
+          "GUTTER": {
+            "WIDTH": "Dachrinnengröße"
+          },
+          "HEADER": {
+            "BACKGROUND": {
+              "COLOR": "Header-Hintergrund"
+            },
+            "BORDER": {
+              "COLOR": "Farbe des Kopfzeilenrahmens"
+            },
+            "FONT": {
+              "COLOR": "Schriftfarbe der Kopfzeile",
+              "SIZE": "Schriftgröße der Kopfzeile",
+              "TRANSFORM": "Schriftart für Kopfzeile",
+              "WEIGHT": "Schriftstärke der Kopfzeile"
+            }
+          },
+          "HOVER": {
+            "BORDER": {
+              "COLOR": "Hover-Grenze",
+              "SHADOW": "Schwebeschatten"
+            }
+          },
+          "ICON": {
+            "PACK": "Icon-Paket"
+          },
+          "INACTIVE": {
+            "BACKGROUND": {
+              "COLOR": "Inaktiver Hintergrund"
+            },
+            "FONT": {
+              "COLOR": "Inaktive Schriftart"
+            }
+          },
+          "INFO": {
+            "COLOR": "Info"
+          },
+          "LABEL": {
+            "FONT": {
+              "COLOR": "Schriftfarbe der Beschriftung",
+              "FAMILY": "Beschriftungsschriftfamilie",
+              "SIZE": "Schriftgröße der Beschriftung"
+            }
+          },
+          "LOGO": {
+            "BACKGROUND": {
+              "COLOR": "Logo-Hintergrund"
+            },
+            "STYLE": "Logo-Stil"
+          },
+          "MAIN": "Hauptsächlich",
+          "NOTIFY": {
+            "COLOR": "Benachrichtigen"
+          },
+          "PALETTE": "Palette",
+          "POSITION": "Position",
+          "PRIMARY": {
+            "COLOR": "Primär",
+            "CONTRAST": "Primärkontrast"
+          },
+          "SECONDARY": {
+            "COLOR": "Sekundär",
+            "CONTRAST": "Sekundärkontrast"
+          },
+          "SEPARATOR": {
+            "WIDTH": "Trennbreite"
+          },
+          "SHADOW": "Schatten",
+          "SIZE": "Größe",
+          "STYLE": "Stil",
+          "SUB_NAV": {
+            "BACKGROUND": {
+              "COLOR": "Hintergrund der Subnavigation"
+            },
+            "FONT": {
+              "COLOR": "Subnavigation-Schriftfarbe"
+            }
+          },
+          "SUCCESS": {
+            "COLOR": "Erfolg"
+          },
+          "WARNING": {
+            "COLOR": "Warnung"
+          }
+        },
+        "FOOTER": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Fußzeile"
+        },
+        "GRAPH": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Graph"
+        },
+        "HEADER": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Kopfzeile"
+        },
+        "INPUT": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Eingang"
+        },
+        "LIST": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Liste"
+        },
+        "LOADER": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "STYLE": {
+            "PULSE": "Impuls",
+            "RAINBOW": "Regenbogen",
+            "SPINNER": "Spinner",
+            "UNEVEN_LINES": "Unebene Linien"
+          },
+          "TITLE": "Lader"
+        },
+        "MAIN": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Hauptsächlich"
+        },
+        "MODAL": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Modal"
+        },
+        "NAVIGATION": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Navigation"
+        },
+        "SIDEBAR": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Seitenleiste"
+        },
+        "SUBHEADER": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Untertitel"
+        },
+        "TAB": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Tab"
+        },
+        "TABLE": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Tisch"
+        },
+        "TITLE": "Theme-Einstellungen",
+        "TOPNAVIGATION": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Top-Navigation"
+        },
+        "TREE": {
+          "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+          "TITLE": "Baum"
+        },
+        "VALUES": {
+          "AUTO": "Auto",
+          "BACKGROUND-COLOR": "{{group}} Hintergrund",
+          "BLACK": "Schwarz",
+          "BORDER-COLOR": "{{group}} Rand",
+          "CUSTOM": "Brauch",
+          "DARKEN": "Verdunkeln {{group}} {{variable}} {{percentage}} %",
+          "FONT-COLOR": "{{group}} Schriftfarbe",
+          "FONT-FAMILY": "{{group}} Schriftart",
+          "FONT-WEIGHT": "{{group}} Gewicht",
+          "INHERIT": "Erben",
+          "LIGHTEN": "Erleichtern Sie {{group}} {{variable}} {{percentage}} %",
+          "NONE": "Keiner",
+          "OFF_BLACK": "Off-Black",
+          "OFF_WHITE": "Cremefarben",
+          "TRANSPARENT": "Transparent",
+          "WHITE": "Weiß"
+        }
+      },
+      "STYLE": {
+        "DESCRIPTION": "Passen Sie Ihr Design an, indem Sie die folgenden Einstellungen anpassen.",
+        "TITLE": "Stileinstellungen"
+      },
+      "TITLE": "Themen"
+    },
+    "SYSTEM_HEALTH": {
+      "AZURE_FUNCTIONS": {
+        "COLD_START": {
+          "ALL_OPTIMAL": "Alle Funktionen laufen optimal",
+          "COLUMNS": {
+            "AVG_COLD": "Durchschnittlich kalt",
+            "AVG_WARM": "Durchschnittlich warm",
+            "COLD_STARTS": "Kaltstarts",
+            "FUNCTION": "Funktion",
+            "IMPACT": "Auswirkungen",
+            "RATE": "Rate"
+          },
+          "DETAILS_BY_FUNCTION": "Details zum Kaltstart nach Funktion",
+          "NO_COLD_STARTS": "Keine Kaltstarts erkannt",
+          "SUMMARY": {
+            "AVG_RATE": "Durchschnittliche Kaltstartrate",
+            "FUNCTIONS_ANALYZED": "Analysierte Funktionen",
+            "HEADER": "Zusammenfassung des Kaltstarts",
+            "TOTAL": "Gesamtkaltstarts"
+          },
+          "TOP_FUNCTIONS": "Top-Funktionen nach Kaltstartrate"
+        },
+        "DEPENDENCIES": {
+          "FAILED_CALLS": "Fehlgeschlagene Anrufe",
+          "NO_DATA": "Keine Abhängigkeitsdaten verfügbar",
+          "OVERALL_ERROR_RATE": "Gesamtfehlerrate",
+          "TABLE": {
+            "COLUMNS": {
+              "AVG_DURATION": "Durchschnittliche Dauer",
+              "CALLS": "Anrufe",
+              "DEPENDENCY": "Abhängigkeit",
+              "ERROR_RATE": "Fehlerrate",
+              "FAILED": "Fehlgeschlagen",
+              "FUNCTION": "Funktion",
+              "TYPE": "Typ"
+            }
+          },
+          "TOTAL_CALLS": "Gesamtzahl der Abhängigkeitsaufrufe"
+        },
+        "EXPANDED": {
+          "DEPENDENCIES": "Abhängigkeiten",
+          "DETAILED_METRICS_SUFFIX": "- Detaillierte Kennzahlen",
+          "DURATION_METRICS": "Dauermetriken",
+          "EXECUTION_STATISTICS": "Ausführungsstatistik",
+          "LABELS": {
+            "ERROR_RATE": "Fehlerrate:",
+            "FAILED": "Fehlgeschlagen:",
+            "MAX": "Maximal:",
+            "MIN": "Min.:",
+            "P50": "P50:",
+            "P99": "P99:",
+            "TOTAL": "Gesamt:"
+          },
+          "NO_DEPENDENCIES": "Keine Abhängigkeiten verfolgt"
+        },
+        "LOADING": "Azure Functions-Daten werden geladen...",
+        "METRICS": {
+          "AVG_SUCCESS_RATE": "Durchschnittliche Erfolgsquote",
+          "COLD_STARTS": "Kaltstarts",
+          "TOTAL_EXECUTIONS": "Gesamtzahl der Ausführungen",
+          "TOTAL_FUNCTIONS": "Gesamtfunktionen",
+          "TOOLTIPS": {
+            "AVG_SUCCESS_RATE": "Der durchschnittliche Prozentsatz nicht fehlgeschlagener Ausführungen über alle Funktionen hinweg.",
+            "COLD_STARTS": "Die Anzahl der Ausführungen, bei denen es zu einer Kaltstartverzögerung kam (die Funktion musste vor der Ausführung in Azure gestartet werden).",
+            "TOTAL_EXECUTIONS": "Die aggregierte Gesamtzahl der Ausführungen für alle Azure-Funktionen zusammen.",
+            "TOTAL_FUNCTIONS": "Die Anzahl eindeutiger Azure-Funktionen, die innerhalb des Zeitraums bereitgestellt und erkannt wurden."
+          }
+        },
+        "TABLE": {
+          "COLUMNS": {
+            "AVG_DURATION": "Durchschnittliche Dauer",
+            "EXECUTIONS": "Hinrichtungen",
+            "FUNCTION_NAME": "Funktionsname",
+            "LAST_EXECUTION": "Letzte Hinrichtung",
+            "P95_DURATION": "P95 Dauer",
+            "STATUS": "Status",
+            "SUCCESS_RATE": "Erfolgsquote"
+          },
+          "EMPTY": {
+            "LOADING": "Funktionsdaten werden geladen...",
+            "NO_DATA": "Keine Funktionsdaten verfügbar"
+          },
+          "COLUMN_TOOLTIPS": {
+            "AVG_DURATION": "Durchschnittliche Zeit, die die Funktion zum Abschluss benötigt",
+            "EXECUTIONS": "Gesamtvolumen der Läufe",
+            "FUNCTION_NAME": "Name der ausgeführten Azure-Funktion",
+            "LAST_EXECUTION": "Zeitstempel der zuletzt aufgezeichneten Ausführung",
+            "P95_DURATION": "Ausführungszeit im 95. Perzentil (langsamer als der Durchschnitt)",
+            "STATUS": "Gesundheitszustand basierend auf Fehlerraten",
+            "SUCCESS_RATE": "Prozentsatz der erfolgreichen Ausführungen"
+          }
+        },
+        "TABS": {
+          "COLD_START": "Kaltstartanalyse",
+          "DEPENDENCIES": "Abhängigkeiten",
+          "OVERVIEW": "Funktionsübersicht",
+          "TIMELINE": "Ausführungszeitplan"
+        },
+        "TIMELINE": {
+          "GRANULARITY_LABEL": "Granularität:",
+          "LOADING": "Timeline-Daten werden geladen...",
+          "NO_DATA": "Keine Zeitleistendaten verfügbar",
+          "OPTIONS": {
+            "FIFTEEN_MINUTES": "15 Minuten",
+            "FIVE_MINUTES": "5 Minuten",
+            "ONE_HOUR": "1 Stunde",
+            "ONE_MINUTE": "1 Minute",
+            "THIRTY_MINUTES": "30 Minuten"
+          }
+        },
+        "TITLE": "Leistung von Azure Functions"
+      },
+      "CONTAINER": {
+        "TABS": {
+          "AZURE_FUNCTIONS": "Azure-Funktionen",
+          "DATA_STORAGE": "Datenspeicherung",
+          "ERRORS_AND_ALERTS": "Fehler",
+          "EVENT_FLOW": "Ereignisfluss",
+          "INGESTION": "Einnahme",
+          "SYSTEM_OVERVIEW": "Systemübersicht"
+        }
+      },
+      "DATA_STORAGE": {
+        "EXPANDED": {
+          "DETAILED_METRICS_SUFFIX": "- Detaillierte Kennzahlen",
+          "LABELS": {
+            "AVG_LATENCY": "Durchschnittliche Latenz:",
+            "ERROR_RATE": "Fehlerrate:",
+            "FAILED": "Fehlgeschlagen:",
+            "LAST_ACTIVITY": "Letzte Aktivität:",
+            "MAX": "Maximal:",
+            "MIN": "Min.:",
+            "P50": "P50:",
+            "P95": "P95:",
+            "P99": "P99:",
+            "SUCCESSFUL": "Erfolgreich:",
+            "SUCCESS_RATE": "Erfolgsquote:",
+            "THROUGHPUT": "Durchsatz:",
+            "TOTAL": "Gesamt:"
+          },
+          "LATENCY_PERCENTILES": "Latenzperzentile",
+          "OPERATION_STATISTICS": "Betriebsstatistik",
+          "PERFORMANCE_SUMMARY": "Leistungsübersicht"
+        },
+        "METRICS": {
+          "TOTAL_OPERATIONS": "Gesamtoperationen",
+          "TOTAL_SUCCESS_RATE": "Gesamterfolgsquote",
+          "TOOLTIPS": {
+            "TOTAL_OPERATIONS": "Die Gesamtzahl der Speichervorgänge (Lesen, Schreiben, Löschen) über alle verbundenen Speicherdienste hinweg.",
+            "TOTAL_SUCCESS_RATE": "Der Prozentsatz der Speichervorgänge, die ohne Fehler erfolgreich abgeschlossen wurden."
+          }
+        },
+        "TABLE": {
+          "COLUMNS": {
+            "AVG_LATENCY": "Durchschnittliche Latenz",
+            "LAST_ACTIVITY": "Letzte Aktivität",
+            "OPERATIONS": "Operationen",
+            "P95_LATENCY": "P95 Latenz",
+            "STATUS": "Status",
+            "STORAGE_TYPE": "Speichertyp",
+            "SUCCESS_RATE": "Erfolgsquote",
+            "TARGET": "Ziel",
+            "THROUGHPUT": "Durchsatz"
+          },
+          "EMPTY": {
+            "LOADING": "Speicherdaten werden geladen...",
+            "NO_DATA": "Keine Speicherdaten verfügbar"
+          },
+          "HEADER": "Speicherübersicht",
+          "COLUMN_TOOLTIPS": {
+            "AVG_LATENCY": "Durchschnittliche Zeit, die zum Abschließen eines Vorgangs benötigt wird",
+            "LAST_ACTIVITY": "Zeitstempel des zuletzt aufgezeichneten Vorgangs",
+            "OPERATIONS": "Gesamtzahl der Vorgänge für diese bestimmte Ressource",
+            "P95_LATENCY": "95. Perzentil-Abfrage-/Operationszeit",
+            "STATUS": "Aktueller Gesundheitszustand der Speicherressource",
+            "STORAGE_TYPE": "Typ der Speicherressource (z. B. Azure Blob, Cosmos DB)",
+            "SUCCESS_RATE": "Prozentsatz erfolgreicher Vorgänge für diese Ressource",
+            "TARGET": "Die spezifische Ressourceninstanz oder der Tabellenname",
+            "THROUGHPUT": "Durchschnittliche Anzahl der pro Sekunde abgeschlossenen Vorgänge"
+          }
+        },
+        "TITLE": "Datenspeicherung"
+      },
+      "ERRORS_AND_ALERTS": {
+        "ALERT": {
+          "AFFECTED_OPERATIONS_LABEL": "Betroffene Vorgänge",
+          "AFFECTED_RESOURCE_LABEL": "Betroffene Ressource",
+          "DETAILS_LABEL": "Einzelheiten:",
+          "DURATION": {
+            "DAYS": "Tage",
+            "HOURS": "Std.",
+            "MIN": "min"
+          },
+          "DURATION_LABEL": "Dauer",
+          "FIRST_OCCURRENCE_LABEL": "Erstes Vorkommen",
+          "ID_LABEL": "Alarm-ID:",
+          "LAST_OCCURRENCE_LABEL": "Letztes Vorkommen",
+          "MESSAGE_LABEL": "Nachricht:",
+          "SAMPLE_ERROR_LABEL": "Beispielfehler:",
+          "SOURCE_LABEL": "Quelle",
+          "UNIQUE_ISSUES_LABEL": "Einzigartige Probleme"
+        },
+        "ALERT_STATUS": {
+          "ACTIVE": "Das Problem ist derzeit noch andauernd und aktiv.",
+          "DEFAULT": "Status konnte nicht ermittelt werden.",
+          "RECENT": "Das Problem ist kürzlich aufgetreten, ist aber möglicherweise derzeit nicht aktiv.",
+          "RESOLVED": "Das Problem wurde behoben und ist nicht mehr aktiv."
+        },
+        "CHART": {
+          "HEADER": "Fehlerzeitleiste nach Dienst",
+          "LOADING": "Fehlerzeitleiste wird geladen...",
+          "NO_DATA": "Keine Fehlerdaten verfügbar",
+          "NO_DATA_SUBTITLE": "Sofern verfügbar, werden hier Fehlerzeitleistendaten angezeigt"
+        },
+        "EMPTY": {
+          "SUBTITLE": "Alle Systeme funktionieren normal",
+          "TITLE": "Keine Warnungen gefunden"
+        },
+        "LOADING": "Benachrichtigungen werden geladen...",
+        "RECENT_ALERTS": {
+          "EMPTY": "Keine Warnungen gefunden",
+          "HEADER": "Aktuelle Warnungen"
+        },
+        "SEVERITY_FILTER": {
+          "LABEL": "Schwere:",
+          "OPTIONS": {
+            "ALL": "Alle Schweregrade",
+            "CRITICAL": "Kritisch",
+            "ERROR": "Fehler",
+            "INFORMATION": "Information",
+            "WARNING": "Warnung"
+          }
+        },
+        "SORT": {
+          "LABEL": "Sortieren:",
+          "OPTIONS": {
+            "ACTIVE_FIRST": "Zuerst aktiv",
+            "MOST_OCCURRENCES": "Die meisten Vorkommen",
+            "MOST_UNIQUE_ISSUES": "Die einzigartigsten Probleme",
+            "NEWEST_FIRST": "Das Neueste zuerst",
+            "OLDEST_FIRST": "Älteste zuerst",
+            "SEVERITY_HIGH_TO_LOW": "Schweregrad (hoch bis niedrig)"
+          },
+          "PLACEHOLDER": "Sortieren nach"
+        },
+        "SUMMARY": {
+          "CRITICAL": "Kritisch",
+          "ERRORS": "Fehler",
+          "TOTAL_ALERTS": "Gesamtzahl der Warnungen",
+          "WARNINGS": "Warnungen",
+          "TOOLTIPS": {
+            "CRITICAL": "Kritische Warnungen, die auf schwerwiegende Systemausfälle oder Datenverluste hinweisen. \nErfordert sofortige Aufmerksamkeit.",
+            "ERRORS": "Standardfehlerwarnungen, die auf Vorgänge hinweisen, die fehlgeschlagen sind, aber möglicherweise nicht zu vollständigen Systemausfällen führen.",
+            "TOTAL_ALERTS": "Die Gesamtzahl der im System aufgezeichneten Warnungen.",
+            "WARNINGS": "Warnmeldungen weisen auf potenzielle Probleme wie hohe Latenz oder gedrosselte Abfragen hin, bevor sie zu schwerwiegenden Fehlern werden."
+          }
+        }
+      },
+      "EVENT_FLOW": {
+        "CARDS": {
+          "CALLS_PER_SEC": "Anrufe/Sek",
+          "EVENTS_PER_SEC": "Ereignisse/Sek",
+          "REQUESTS_PER_SEC": "Anfragen/Sek",
+          "TOTAL_DEPENDENCIES": "Gesamtabhängigkeiten",
+          "TOTAL_EVENTS": "Gesamtzahl der Ereignisse",
+          "TOTAL_REQUESTS": "Gesamtzahl der Anfragen"
+        },
+        "CHART": {
+          "HEADER": "Durchsatz im Zeitverlauf",
+          "LOADING": "Durchsatzdaten werden geladen...",
+          "NO_DATA": "Keine Durchsatzdaten verfügbar",
+          "NO_DATA_SUBTITLE": "Sobald die Daten erfasst wurden, werden hier Durchsatzmetriken angezeigt.",
+          "Y_AXIS": "Operationen pro Sekunde"
+        },
+        "CHART_LABELS": {
+          "DEPENDENCIES_PER_SEC": "Abhängigkeiten/Sek",
+          "EVENTS_PER_SEC": "Ereignisse/Sek",
+          "REQUESTS_PER_SEC": "Anfragen/Sek"
+        },
+        "LEGEND": {
+          "DEPENDENCIES": "Abhängigkeiten pro Sekunde",
+          "EVENTS": "Ereignisse pro Sekunde",
+          "REQUESTS": "Anfragen pro Sekunde"
+        },
+        "METRICS": {
+          "AVG_DEPENDENCIES_PER_SEC": "Durchschnittliche Abhängigkeiten/Sek",
+          "AVG_EVENTS_PER_SEC": "Durchschnittliche Ereignisse/Sek",
+          "AVG_REQUESTS_PER_SEC": "Durchschnittliche Anfragen/Sek",
+          "PEAK": "Gipfel:",
+          "REAL_TIME_THROUGHPUT": "Durchsatz in Echtzeit",
+          "TOTAL_OPERATIONS": "Gesamtoperationen",
+          "TOOLTIPS": {
+            "AVG_DEPENDENCIES_PER_SEC": "Die durchschnittliche Anzahl der Aufrufe an externe Systeme (Datenbanken, APIs, Speicher) pro Sekunde.",
+            "AVG_EVENTS_PER_SEC": "Die durchschnittliche Anzahl benutzerdefinierter Ereignisse oder Nachrichten, die pro Sekunde intern verarbeitet werden.",
+            "AVG_REQUESTS_PER_SEC": "Die durchschnittliche Anzahl eingehender HTTP-Anfragen, die das System pro Sekunde verarbeitet.",
+            "TOTAL_OPERATIONS": "Die Gesamtsumme aller Anfragen, Ereignisse und Abhängigkeiten im ausgewählten Zeitraum."
+          }
+        },
+        "TITLE": "Ereignisfluss"
+      },
+      "INGESTION": {
+        "ERROR_MESSAGE": "Aufnahmemetriken können nicht geladen werden.",
+        "LAST_UPDATED": "Letzte Aktualisierung:",
+        "METRICS": {
+          "AVG_WORKER_DURATION": "Durchschnittliche Arbeitsdauer",
+          "CONNECTED_DEVICES": "Verbundene Geräte",
+          "DEVICES_BACKLOG": "Geräterückstand > 1000",
+          "EVENTHUB_INCOMING": "EventHub Eingehend",
+          "EVENTHUB_OUTGOING": "EventHub Ausgehend",
+          "MAX_WORKER_DURATION": "Maximale Arbeitsdauer",
+          "PENDING_MESSAGES": "Ausstehende Nachrichten",
+          "TOOLTIPS": {
+            "AVG_WORKER_DURATION": "Die durchschnittliche Zeit, die der Warteschlangenarbeiter für die Verarbeitung einer Nachricht (von Azure Monitor) benötigte.",
+            "CONNECTED_DEVICES": "Die Anzahl der aktuell verbundenen IoT-Geräte, die Heartbeat-Signale senden.",
+            "DEVICES_BACKLOG": "Die Anzahl der Geräte mit einem erheblichen Rückstand (mehr als 1000 ausstehende Nachrichten).",
+            "EVENTHUB_INCOMING": "Die Gesamtzahl der Nachrichten, die der Event Hub von verbundenen Geräten empfängt.",
+            "EVENTHUB_OUTGOING": "Die Gesamtzahl der erfolgreich verarbeiteten und aus dem Event Hub weitergeleiteten Nachrichten.",
+            "MAX_WORKER_DURATION": "Die längste Zeit, die der Warteschlangenarbeiter für die Verarbeitung einer einzelnen Nachricht (von Azure Monitor) benötigt hat.",
+            "PENDING_MESSAGES": "Die Anzahl der Nachrichten, die sich derzeit in der Warteschlange befinden und auf die Verarbeitung warten. \nHohe Zahlen deuten auf Verzögerungen bei der Bearbeitung hin."
+          }
+        },
+        "TABLE": {
+          "COLUMNS": {
+            "BACKLOG": "Rückstand >1000",
+            "CONNECTED_DEVICES": "Verbundene Geräte",
+            "INCOMING": "Eingehend",
+            "OUTGOING": "Ausgehend",
+            "PENDING": "Ausstehend",
+            "QUEUE_LAG_AVG": "Durchschnittliche Warteschlangenverzögerung (ms)",
+            "QUEUE_LAG_MAX": "Max. Warteschlangenverzögerung (ms)",
+            "TIMESTAMP": "Zeitstempel",
+            "WORKER_AVG": "Arbeiter-Durchschnitt (ms)",
+            "WORKER_MAX": "Maximaler Arbeiter (ms)"
+          },
+          "COLUMN_TOOLTIPS": {
+            "BACKLOG": "Geräte mit schwerwiegenden Rückständen (>1000 Nachrichten)",
+            "CONNECTED_DEVICES": "Aktive Geräte, die Heartbeats senden",
+            "INCOMING": "Nachrichten, die in Event Hub eingehen",
+            "OUTGOING": "Über Event Hub verarbeitete Nachrichten",
+            "PENDING": "Aktueller Rückstand an unverarbeiteten Nachrichten",
+            "QUEUE_LAG_AVG": "Durchschnittliche Zeit, die Nachrichten in der Warteschlange warteten, bevor sie abgeholt wurden (ADX)",
+            "QUEUE_LAG_MAX": "Maximale Zeit, die eine einzelne Nachricht in der Warteschlange wartete, bevor sie abgeholt wurde (ADX)",
+            "WORKER_AVG": "Durchschnittliche Zeit, die der Warteschlangenarbeiter für die Verarbeitung einer Nachricht benötigte (Azure Monitor)",
+            "WORKER_MAX": "Maximale Zeit, die der Warteschlangenarbeiter für die Verarbeitung einer einzelnen Nachricht benötigte (Azure Monitor)"
+          }
+        },
+        "TIMELINE": {
+          "HEADER": "Zeitleiste der Aufnahme",
+          "LOADING": "Aufnahmemetriken werden geladen...",
+          "NO_DATA": "Es liegen keine Daten zur Einnahme vor",
+          "NO_DATA_SUBTITLE": "Sobald Telemetrie verfügbar ist, werden hier Messwerte angezeigt."
+        },
+        "TITLE": "Aufnahmemetriken"
+      },
+      "SHARED": {
+        "REFRESH": "Aktualisieren",
+        "SELECT_TIME_RANGE": "Wählen Sie den Zeitbereich aus",
+        "SERVICE_STATUS": {
+          "CRITICAL": "Es treten schwerwiegende Probleme, hohe Ausfallraten oder Ausfallzeiten auf.",
+          "DEFAULT": "Status konnte nicht ermittelt werden.",
+          "HEALTHY": "Normaler Betrieb ohne nennenswerte Fehler oder Latenz.",
+          "UNKNOWN": "Im ausgewählten Zeitraum wurde keine Aktivität aufgezeichnet.",
+          "WARNING": "Es treten einige Fehler oder eine erhöhte Latenz auf, aber es funktioniert immer noch."
+        },
+        "TIME_RANGE_LABEL": "Zeitbereich:"
+      },
+      "SYSTEM_OVERVIEW": {
+        "AZURE_QUICK_STATUS": {
+          "COLUMNS": {
+            "AVG_DURATION": "Durchschnittliche Dauer",
+            "EXECUTIONS": "Hinrichtungen",
+            "FUNCTION_NAME": "Funktionsname",
+            "STATUS": "Status",
+            "SUCCESS_RATE": "Erfolgsquote"
+          },
+          "HEADER": "Schnellstatus von Azure Functions"
+        },
+        "CONNECTION": {
+          "CONNECTED": "Echtzeitdaten verbunden",
+          "LOST": "Verbindung verloren – zwischengespeicherte Daten werden angezeigt"
+        },
+        "LOADING": "Systemzustandsdaten werden geladen...",
+        "METRICS": {
+          "ACROSS_ALL_SERVICES": "Über alle Dienste hinweg",
+          "AVG_ERROR_RATE": "Durchschnittliche Fehlerrate",
+          "AVG_RESPONSE_TIME": "Durchschnittliche Reaktionszeit",
+          "HEALTHY_SERVICES": "Gesunde Dienstleistungen",
+          "RUNNING_NORMALLY": "Läuft normal",
+          "SERVICES_MONITORED": "Dienste überwacht",
+          "SYSTEM_LATENCY": "Systemlatenz",
+          "TOTAL_SERVICES": "Gesamtleistungen",
+          "TOOLTIPS": {
+            "AVG_ERROR_RATE": "Der durchschnittliche Prozentsatz fehlgeschlagener Vorgänge für alle integrierten Dienste.",
+            "AVG_RESPONSE_TIME": "Die durchschnittliche Latenz aller verfolgten erfolgreichen Vorgänge im System.",
+            "HEALTHY_SERVICES": "Die Anzahl der Dienste, die derzeit einen fehlerfreien Status ohne Fehler oder Latenzwarnungen melden.",
+            "TOTAL_SERVICES": "Die Gesamtzahl der eindeutigen Dienste, die derzeit vom System überwacht werden."
+          }
+        },
+        "SERVICE_TABLE": {
+          "COLUMNS": {
+            "AVG_RESPONSE": "Durchschnittliche Antwort",
+            "ERROR_RATE": "Fehlerrate",
+            "OPERATIONS": "Operationen",
+            "P95": "P95",
+            "SERVICE": "Service",
+            "STATUS": "Status",
+            "TYPE": "Typ",
+            "UPTIME": "Betriebszeit"
+          },
+          "EMPTY": {
+            "FETCHING": "Servicedetails werden abgerufen...",
+            "NO_DATA": "Keine Servicedaten verfügbar"
+          },
+          "HEADER": "Dienstintegritätsstatus",
+          "COLUMN_TOOLTIPS": {
+            "AVG_RESPONSE": "Durchschnittliche Zeit, die der Dienst für die Verarbeitung von Vorgängen benötigt",
+            "ERROR_RATE": "Prozentsatz der Vorgänge, die zu Fehlern oder Störungen geführt haben",
+            "OPERATIONS": "Gesamtvolumen der innerhalb des Zeitraums erfassten Vorgänge",
+            "P95": "Die 95. Perzentil-Latenz – 95 % der Anfragen wurden schneller als zu diesem Zeitpunkt abgeschlossen",
+            "SERVICE": "Name des Backend-Dienstes",
+            "STATUS": "Aktueller Gesundheitszustand, bestimmt durch Fehlerraten und Latenz",
+            "TYPE": "Kategorie des Dienstes (z. B. Computing, Storage, Datenbank)",
+            "UPTIME": "Prozentsatz der Vorgänge, die erfolgreich abgeschlossen wurden"
+          }
+        },
+        "TITLE": "Übersicht über den Systemzustand"
+      }
+    },
+    "SHARED": {
+      "ARIA": {
+        "ADD_NEW_ITEM": "Neues Element hinzufügen",
+        "EXPORT_DATA_AS_CSV": "Daten als CSV exportieren",
+        "EXPORT_TO_CSV": "Als CSV exportieren",
+        "GRID_ACTIONS": "Rasteraktionen",
+        "REFRESH_GRID_DATA": "Rasterdaten aktualisieren",
+        "REFRESH_TREE_TABLE_DATA": "Baumtabellendaten aktualisieren",
+        "TOGGLE_FILTERS": "Filter umschalten",
+        "TREE_TABLE_ACTIONS": "Baumtabellenaktionen",
+        "BULK_IMPORT": "Massenimport",
+        "EXPORTING": "Daten werden exportiert, bitte warten..."
+      },
+      "NAVIGATION_PANEL": {
+        "GO_TO_CLIENT": "Gehen Sie zum ausgewählten Kunden",
+        "NAVIGATE_TO_CLIENT": "Navigieren Sie zum ausgewählten Kunden",
+        "COLLAPSE_COMPANY_STRUCTURE": "Unternehmensstruktur zusammenbrechen",
+        "EXPAND_COMPANY_STRUCTURE": "Unternehmensstruktur erweitern",
+        "TOGGLE_BUTTON_TEXT": "UNTERNEHMENSSTRUKTUR"
+      },
+      "TOOLTIPS": {
+        "EXPORT_CSV": "CSV exportieren",
+        "FILTER": "Filter"
+      },
+      "SECTIONS": {
+        "CHANGES": "Änderungen",
+        "CUSTOM": "Brauch",
+        "FEATURES": "Merkmale",
+        "INFORMATION": "Information",
+        "LIMITS": "Grenzen",
+        "SETTINGS": "Einstellungen",
+        "STATISTICS": "Statistiken"
+      },
+      "CONTACTS_SECTION": {
+        "ARIA": {
+          "EDIT": "Kontaktdaten bearbeiten",
+          "ID_CARD_ICON": "Ausweissymbol"
+        },
+        "DESCRIPTION": "Geben Sie Kontaktinformationen an",
+        "TITLE": "Kontaktdaten"
+      },
+      "FEATURE_SECTION": {
+        "ARIA": {
+          "ICON": "Funktionssymbol"
+        }
+      },
+      "FEED": {
+        "CHANGES": {
+          "ADDED": "{{name}} '{{newValue}}' hinzugefügt",
+          "FROM": "aus",
+          "MODIFIED": "{{name}} von '{{oldValue}}' in '{{newValue}}' geändert",
+          "REMOVED": "{{name}} '{{oldValue}}' entfernt",
+          "TO": "Zu",
+          "USER": "Benutzer"
+        },
+        "LOADING": "Änderungen werden geladen...",
+        "LOADING_MORE": "Mehr laden...",
+        "LOAD_MORE": "Mehr laden",
+        "NO_MORE_CHANGES": "Keine weiteren Änderungen zum Laden"
+      },
+      "FORM_SECTION": {
+        "ARIA": {
+          "EDIT": "Entitätsdetails bearbeiten",
+          "SLIDERS_ICON": "Vertikales Schieberegler-Symbol"
+        }
+      },
+      "INFO_SECTION": {
+        "ARIA": {
+          "BOOK_ICON": "Symbol „Buch öffnen“."
+        },
+        "DESCRIPTION": "Die folgenden ergänzenden Informationen sind erforderlich."
+      },
+      "LIMITS": {
+        "COLUMNS": {
+          "ACTIVE": "Aktiv (Aktiviert)",
+          "ENTITY_TYPE": "Entitätstyp",
+          "MAX": "Max (hartes Limit)",
+          "TOTAL": "Gesamt (vertraglich vereinbart)"
+        },
+        "EMPTY": "Für diese Entität wurde keine Grenzwertkonfiguration gefunden.",
+        "TITLE": "Entitätsgrenzen",
+        "UNLIMITED": "Unbegrenzt",
+        "VALIDATION": {
+          "MIN_VALUE": "Muss >= {{value}} sein"
+        }
+      },
+      "OIDC_ISSUERS": {
+        "ARIA": {
+          "DELETE_ISSUER": "Emittent löschen",
+          "EDIT": "Bearbeiten Sie die externe Authentifizierung",
+          "KEY_ICON": "Schlüsselsymbol"
+        },
+        "DESCRIPTION": "Um sich bei einem externen OpenId Connect-Aussteller zu authentifizieren, fügen Sie den Aussteller unten hinzu.",
+        "FIELDS": {
+          "CLIENT_ID": "Kunden-ID",
+          "CLIENT_ID_DESCRIPTION": "Die von Ihrem Open ID Connect-Aussteller bereitgestellte Client-ID.",
+          "CLIENT_SECRET": "Client-Geheimnis",
+          "CLIENT_SECRET_DESCRIPTION": "Das Client-Geheimnis ist OPTIONAL und für die standardmäßige Web- oder Mobilanmeldung nicht erforderlich.",
+          "ISSUER": "Emittent",
+          "ISSUERS": "Emittenten",
+          "ISSUER_DESCRIPTION": "Der Aussteller-Endpunkt, also https://accounts.google.com/",
+          "NAME": "Name",
+          "NAME_DESCRIPTION": "Ein beschreibender Name für diesen Emittenten. \nEs wird auf einer Schaltfläche auf dem Anmeldebildschirm angezeigt."
+        },
+        "MODAL": {
+          "DESCRIPTION": "Füllen Sie die folgenden Felder aus, die Sie vom OpenID Connect-Aussteller erhalten haben.",
+          "TITLE": "Angaben zum Emittenten"
+        },
+        "TITLE": "Externe Authentifizierung"
+      },
+      "ASSET_LIST": {
+        "ARIA": {
+          "DELETE": "Ausgewähltes Element löschen",
+          "DELETE_TOOLTIP": "Asset löschen"
+        }
+      },
+      "BULK_IMPORT": {
+        "COLUMNS": {
+          "FIELD": "Feld",
+          "MESSAGE": "Nachricht",
+          "ROW": "Reihe"
+        },
+        "DESCRIPTION": "Laden Sie eine CSV-Datei hoch, um Geräte, SIM-Karten und Assets in großen Mengen zu importieren. \nDie Datei sollte dem Vorlagenformat entsprechen.",
+        "ERRORS_TITLE": "Fehlerdetails",
+        "FAILED": "Fehlgeschlagen",
+        "NOTE_BODY": "Die maximale Dateigröße beträgt 10 MB. \nDie Vorlage wird als Excel-Datei (.xlsx) mit Dropdown-Validierungen heruntergeladen.",
+        "NOTE_FORMAT_WARNING": "Bitte speichern Sie es vor dem Hochladen im CSV-Format!",
+        "NOTE_LABEL": "Notiz:",
+        "RESULTS_TITLE": "Ergebnisse importieren",
+        "SELECTED_FILE": "Ausgewählte Datei: {{name}} ({{size}} KB)",
+        "SUCCESSFUL": "Erfolgreich",
+        "TITLE": "Anweisungen zum Massenimport",
+        "TOTAL_REQUESTED": "Insgesamt angefordert",
+        "UPLOADING": "Hochladen und Bearbeiten..."
+      },
+      "INFORMATION": {
+        "DESCRIPTION": "Die folgenden ergänzenden Informationen sind erforderlich.",
+        "TITLE": "Information"
+      },
+      "LOGO": {
+        "ALT": "Logo",
+        "ARIA": {
+          "EDIT": "Bearbeiten {{key}}",
+          "REMOVE": "{{key}} entfernen"
+        },
+        "CHANGES_PENDING": "Ausstehende Änderungen – werden beim Speichern hochgeladen",
+        "UPLOAD_ON_SAVE": "{{summary}} wird hochgeladen, wenn Sie Änderungen speichern."
+      },
+      "USER_LIST": {
+        "ARIA": {
+          "MOVE": "Ausgewähltes Element verschieben",
+          "MOVE_TOOLTIP": "Benutzer verschieben"
+        }
+      }
+    },
+    "DETAILS_PANEL": {
+      "ARIA": {
+        "BOX_ICON": "Symbol für das Bedienfeld „Details“.",
+        "CLOSE": "Detailbereich schließen"
+      },
+      "CHANGE_STATE_TITLE": "Status ändern in"
+    },
+    "DISTRIBUTORS": {
+      "ADDRESS": {
+        "ARIA": {
+          "EDIT": "Adresse bearbeiten",
+          "ID_CARD_ICON": "Ausweissymbol"
+        },
+        "DESCRIPTION": "Vervollständigen Sie die folgenden Adressinformationen.",
+        "TITLE": "Adresse"
+      },
+      "COLUMNS": {
+        "ASSET": "Vermögenswerte",
+        "ASSETTAG": "Schlagworte",
+        "CLIENT": "Kunden",
+        "COMPANION_CAMERA": "Begleitkamerageräte",
+        "DEVICE": "Geräte",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "SIMCARD": "SIM-Karten",
+        "STATE": "Zustand",
+        "USER": "Benutzer",
+        "VENDOR": "Anbieter",
+        "WEBSITE": "Webseite"
+      },
+      "CUSTOMIZE": {
+        "DESCRIPTION": "Wenn Benutzer eine der unten aufgeführten Domänen besuchen, wird die Software mit den folgenden Einstellungen angepasst.",
+        "FIELDS": {
+          "DOMAINS": "Domänen",
+          "LANGUAGE": "Sprache",
+          "LOGO": "Logo",
+          "LOGO_DESCRIPTION": "Das Bild wird auf 800 x 333 Pixel neu abgetastet und in Berichten verwendet.",
+          "THEME": "Thema",
+          "WEB_LOGO": "Web-Logo",
+          "WEB_LOGO_DESCRIPTION": "Das Bild wird auf 240 x 100 Pixel neu abgetastet. \nFür bessere Ergebnisse sollten Sie Ihr Bild vor dem Hochladen in einem Grafikprogramm vorskalieren."
+        },
+        "TITLE": "Anpassen",
+        "ARIA": {
+          "EDIT": "Verteiler anpassen",
+          "PAINT_ROLLER_ICON": "Farbroller-Symbol",
+          "TITLE": "Anpassung des Vertriebspartners"
+        },
+        "INHERITED": "Geerbt",
+        "PLACEHOLDERS": {
+          "SELECT_LANGUAGE": "Sprache auswählen",
+          "SELECT_THEME": "Thema auswählen"
+        }
+      },
+      "DETAILS": {
+        "ARIA": {
+          "BUILDING_ICON": "Gebäudesymbol",
+          "EDIT": "Bearbeiten Sie die Händlerdetails"
+        },
+        "DESCRIPTION": "Konfigurieren Sie verschiedene Händlerdetails.",
+        "TITLE": "Händlerdetails",
+        "FIELDS": {
+          "NAME": "Name",
+          "TAGS": "Schlagworte",
+          "WEBSITE": "Webseite"
+        }
+      },
+      "NOTIFICATION_SETTINGS": {
+        "ARIA": {
+          "AT_ICON": "Am Symbol",
+          "EDIT": "Benachrichtigungseinstellungen bearbeiten"
+        },
+        "DESCRIPTION": "Wählen Sie aus den folgenden Optionen",
+        "FIELDS": {
+          "EMAIL_PROVIDER": "Standard-E-Mail-Anbieter"
+        },
+        "TITLE": "Benachrichtigungseinstellungen"
+      },
+      "SETTINGS": {
+        "ARIA": {
+          "COG_ICON": "Zahnrad-Symbol"
+        },
+        "DESCRIPTION": "Wählen Sie aus den folgenden Einstellungen.",
+        "FIELDS": {
+          "EMAIL_PROVIDERS": "Verfügbare E-Mail-Anbieter",
+          "MAPSETS": "Verfügbare Kartensätze"
+        },
+        "TITLE": "Einstellungen"
+      },
+      "STATISTICS": {
+        "ARIA": {
+          "DATE_RANGE": "Datumsbereich"
+        },
+        "NO_DATA": "Keine Daten",
+        "TITLE": "Vertriebsstatistiken"
+      },
+      "TITLE": "Vertriebspartner",
+      "ERRORS": {
+        "LOAD_FAILED": "Die Verteilerdaten konnten nicht geladen werden"
+      },
+      "SSL_CERTIFICATES": {
+        "ARIA": {
+          "BUILDING_ICON": "Gebäudesymbol"
+        },
+        "DESCRIPTION": "Die folgenden benutzerdefinierten Domänen wurden für diesen Client registriert.",
+        "FIELDS": {
+          "DOMAINS": "Domänen"
+        },
+        "TITLE": "SSL-Zertifikate"
+      }
+    },
+    "MAP_SETS": {
+      "DETAILS": {
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die Details des Kartensatzes"
+        },
+        "DESCRIPTION": "Konfigurieren Sie unten Kartenebenen, Projektionen, Zoomschwellenwerte und Server.",
+        "TITLE": "Details zum Kartensatz",
+        "FIELDS": {
+          "LAYERS": "Schichten",
+          "NAME": "Name",
+          "OVERLAYS": "Überlagerungen"
+        },
+        "MODAL": {
+          "DESCRIPTION": {
+            "LAYER": "Konfigurieren Sie verschiedene Details zu Ihrem Layer.",
+            "OVERLAY": "Konfigurieren Sie verschiedene Details zu Ihrem Overlay."
+          },
+          "FIELDS": {
+            "ATTRIBUTION": "Namensnennung",
+            "IMAGE_TYPE": "Kachelbildtyp",
+            "LAYER_NAME": "Layername",
+            "MAX_ZOOM": "Maximaler Zoom",
+            "MIN_ZOOM": "Min. Zoom",
+            "NAME": "Name",
+            "ORDER": "Befehl",
+            "OVERLAYS": "Überlagerungen",
+            "PROJECTION": "Vorsprung",
+            "SERVERS": "Server",
+            "SERVER_TYPE": "Servertyp"
+          },
+          "TITLE": {
+            "LAYER": "Neue Ebene",
+            "OVERLAY": "Neues Overlay"
+          },
+          "LAYER_DISPLAY": "Servertyp: {{serverType}}, Zoom: {{minZoom}} - {{maxZoom}}",
+          "VALIDATION": {
+            "SERVERS_REQUIRED": "Es ist mindestens eine Server-URL erforderlich"
+          }
+        }
+      },
+      "COLUMNS": {
+        "NAME": "Name",
+        "STATE": "Zustand"
+      },
+      "WIZARD": {
+        "CONFIRMATION": {
+          "LAYERS_CONFIGURED": "Konfigurierte Ebenen:",
+          "LAYER_COUNT": "{{count}} Ebene(n)",
+          "OVERLAYS_CONFIGURED": "Konfigurierte Overlays:",
+          "OVERLAY_COUNT": "{{count}} Overlay(s)"
+        }
+      },
+      "TITLE": "Kartensätze"
+    },
+    "EXPORT_TASKS": {
+      "COLUMNS": {
+        "ASSETS": "Vermögenswerte",
+        "CLIENT": "Kunde",
+        "DOCUMENTS": "Unterlagen",
+        "MODE": "Modus",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "STATE": "Zustand"
+      },
+      "DETAILS": {
+        "CREDENTIALS": {
+          "API_KEY": "API-Schlüssel",
+          "NONE": "Kein Ausweis verfügbar.",
+          "PASSWORD": "Passwort",
+          "S3_POLICY": "Sie müssen die folgende AWS IAM-Richtlinie auf den von Ihnen angegebenen Bucket anwenden, damit die Exportaufgabe in den Bucket schreiben kann:",
+          "TITLE": "Anmeldeinformationen",
+          "USERNAME": "Benutzername",
+          "NONE_FOR_TASK": "Für diese Exportaufgabe sind keine Anmeldeinformationen verfügbar."
+        },
+        "DESCRIPTION": "Benennen Sie Ihre Exportaufgabe und wählen Sie den Zielmandanten aus.",
+        "FIELDS": {
+          "CLIENT": "Kunde",
+          "MODE": "Modus",
+          "NAME": "Name"
+        },
+        "TITLE": "Aufgabendetails exportieren",
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die Details der Exportaufgabe",
+          "EXPORT_TASK_ICON": "Symbol für Exportaufgabe"
+        }
+      },
+      "DOCUMENT_TYPES": {
+        "CHANGES": "Benachrichtigungen über Entitätsänderungen",
+        "CRASH_DATA": "Absturzdaten",
+        "EVENT": "Veranstaltungen",
+        "TELEMETRY": "Telemetrie",
+        "TRIP": "Ausflüge"
+      },
+      "ENDPOINT_TYPES": {
+        "HTTP": "HTTP",
+        "S3": "S3"
+      },
+      "MODES": {
+        "FIREHOSE": "Feuerwehrschlauch",
+        "FTP": "FTP",
+        "HTTP": "HTTP",
+        "STREAM": "Streaming"
+      },
+      "SETTINGS": {
+        "DESCRIPTION": "Konfigurieren Sie Ihre Exportaufgabeneinstellungen.",
+        "FIELDS": {
+          "ACCESS_KEY": "Zugriffsschlüssel",
+          "ACCESS_KEY_DESCRIPTION": "(Optional) Ein benutzerdefinierter Zugriffsschlüssel, der im Header „x-amz-firehose-access-key“ übergeben wird",
+          "ASSETS": "Vermögenswerte",
+          "BUCKET_ARN": "Bucket-ARN",
+          "BUCKET_ARN_DESCRIPTION": "Der S3-Bucket-ARN im Format „arn:aws:s3:::my-bucket-name“",
+          "CLIENTS": "Kunden",
+          "DOCUMENTS": "Unterlagen",
+          "DOCUMENT_VERSION": "Dokumentversion",
+          "ENCODING": "Inhaltskodierung",
+          "ENDPOINT_TYPE": "Endpunkttyp",
+          "PARAMS": "Parameter",
+          "PARAMS_DESCRIPTION": "(Optional) Parameter im Format „Schlüssel=Wert“, getrennt durch neue Zeilen",
+          "PREFIX": "Präfix",
+          "URL": "Ziel-URL",
+          "URL_DESCRIPTION": "Die Ziel-URL im Format „https://example.com/myapi/“",
+          "ACCESS_KEY_HINT": "Optionaler Zugriffsschlüssel, der zur Authentifizierung verwendet wird",
+          "BUCKET_ARN_HINT": "Der ARN des S3-Buckets, an den Daten übermittelt werden sollen",
+          "CLIENT_COUNT": "{{count}} Kunden",
+          "DOCUMENT_TYPES": "Dokumenttypen",
+          "ENDPOINT": "Endpunkt",
+          "PARAMS_HINT": "Zusätzliche HTTP-Parameter",
+          "URL_HINT": "Es werden nur https://-Endpunkte unterstützt"
+        },
+        "TITLE": "Einstellungen",
+        "ARIA": {
+          "EDIT": "Bearbeiten Sie die Einstellungen der Exportaufgabe",
+          "SETTINGS_ICON": "Symbol „Aufgabeneinstellungen exportieren“."
+        },
+        "SECTION_TITLE": "Aufgabeneinstellungen exportieren"
+      },
+      "DOCUMENT_VERSIONS": {
+        "V1": "v1 (Legacy)",
+        "V2": "v2 (Neueste)"
+      },
+      "ENCODING_OPTIONS": {
+        "DISABLED": "Deaktiviert",
+        "GZIP": "GZIP"
+      }
+    },
+    "VENDORS": {
+      "COLUMNS": {
+        "ASSET": "Vermögenswerte",
+        "ASSET_TAG": "Schlagworte",
+        "CLIENT": "Kunden",
+        "COMPANION_CAMERA": "Begleitkamerageräte",
+        "DEVICE": "Geräte",
+        "GROUP": "Gruppe",
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "SIMCARD": "SIM-Karten",
+        "STATE": "Zustand",
+        "USER": "Benutzer",
+        "WEBSITE": "Webseite"
+      },
+      "CUSTOMIZE": {
+        "DESCRIPTION": "Wenn Benutzer eine der unten aufgeführten Domänen besuchen, wird die Software mit den folgenden Einstellungen angepasst.",
+        "FIELDS": {
+          "DOMAINS": "Domänen",
+          "LANGUAGE": "Sprache",
+          "LOGIN": "Anmeldenachricht",
+          "LOGIN_DESCRIPTION": "Für die Gestaltung von Text wird die Markdown-Syntax unterstützt.",
+          "LOGO": "Logo",
+          "LOGO_DESCRIPTION": "Das Bild wird auf 800 x 333 Pixel neu abgetastet und in Berichten verwendet.",
+          "THEME": "Thema",
+          "WEB_LOGO": "Web-Logo",
+          "WEB_LOGO_DESCRIPTION": "Das Bild wird auf 240 x 100 Pixel neu abgetastet. \nFür bessere Ergebnisse sollten Sie Ihr Bild vor dem Hochladen in einem Grafikprogramm vorskalieren."
+        },
+        "TITLE": "Anpassen"
+      },
+      "DETAILS": {
+        "DESCRIPTION": "Konfigurieren Sie verschiedene Lieferantendetails.",
+        "FIELDS": {
+          "GROUP": "Gruppe",
+          "NAME": "Name",
+          "TAGS": "Schlagworte",
+          "WEBSITE": "Webseite"
+        },
+        "TITLE": "Anbieterdetails"
+      },
+      "EMAIL": {
+        "DESCRIPTION": "Damit alle System-E-Mails über Ihre eigene Domain weitergeleitet werden, aktivieren Sie den Abschnitt unten und geben Sie die Details Ihres eigenen E-Mail-Servers ein.",
+        "FIELDS": {
+          "CUSTOM_EMAIL": "Benutzerdefinierte E-Mail",
+          "DISABLED": "Deaktiviert",
+          "ENABLED": "Ermöglicht",
+          "ENABLE_SSL": "Aktivieren Sie SSL",
+          "FROM_ADDRESS": "Absenderadresse",
+          "FROM_NAME": "Von Name",
+          "PASSWORD": "Passwort",
+          "SMTP_PORT": "SMTP-Port",
+          "USERNAME": "Benutzername",
+          "SMTP_SERVER": "SMTP-Server"
+        },
+        "TITLE": "E-Mail-Einstellungen"
+      },
+      "NOTIFICATIONS": {
+        "DESCRIPTION": "Wählen Sie aus den folgenden Optionen",
+        "FIELDS": {
+          "EMAIL_PROVIDER": "Standard-E-Mail-Anbieter"
+        },
+        "TITLE": "Benachrichtigungseinstellungen"
+      },
+      "SETTINGS": {
+        "DESCRIPTION": "Wählen Sie aus den folgenden Einstellungen.",
+        "FIELDS": {
+          "DEVICETYPES": "Gerätetypen",
+          "EMAIL_PROVIDERS": "Verfügbare E-Mail-Anbieter",
+          "MAPSET": "Standardkartensatz",
+          "MAPSETS": "Verfügbare Kartensätze"
+        },
+        "TITLE": "Einstellungen"
+      },
+      "TITLE": "Anbieter"
+    },
+    "DEVICE_TYPES": {
+      "COLUMNS": {
+        "MODIFIED": "Geändert",
+        "NAME": "Name",
+        "SHORT_NAME": "Kurzname",
+        "STATUS": "Status",
+        "TAG": "Etikett"
+      },
+      "TITLE": "Gerätetypen"
+    },
+    "CONTACTS": {
+      "DETAILS": {
+        "TITLE": "Kontaktdetails",
+        "DESCRIPTION": "Konfigurieren Sie verschiedene Details zu Ihrem Kontakt.",
+        "ARIA": {
+          "CONTACT_ICON": "Kontaktsymbol",
+          "EDIT_CONTACT": "Kontaktdetails bearbeiten"
+        },
+        "EMPTY": "Keine Kontaktdetails verfügbar."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Kontaktdetails",
+          "CONFIRMATION": "Bestätigung"
+        }
+      },
+      "ERRORS": {
+        "EMAIL_DUPLICATE": "E-Mail \"{{email}}\" wird bereits von \"{{name}}\" verwendet.",
+        "MOBILE_DUPLICATE": "Mobilnummer \"{{mobile}}\" wird bereits von \"{{name}}\" verwendet.",
+        "PHONE_DUPLICATE": "Bürotelefon \"{{phone}}\" wird bereits von \"{{name}}\" verwendet."
+      },
+      "GRID": {
+        "COLUMNS": {
+          "NAME": "Name",
+          "TYPE": "Typ",
+          "EMAIL": "E-Mail",
+          "MOBILE": "Mobil",
+          "OFFICE_PHONE": "Bürotelefon",
+          "NOTES": "Notizen",
+          "NEW": "Neuer Kontakt"
+        }
+      }
+    },
+    "APP_STORE": {
+      "LISTING_PREVIEW": {
+        "TITLE": "Marktplatz-Vorschau",
+        "EDIT_MODE": "Bearbeitungsmodus",
+        "APP_NAME_PLACEHOLDER": "App-Name",
+        "BY": "Von",
+        "YOU": "Sie",
+        "SHORT_DESCRIPTION_PLACEHOLDER": "Die Kurzbeschreibung erscheint hier…",
+        "ABOUT": "Über diese App",
+        "FULL_DESCRIPTION_PLACEHOLDER": "Die vollständige Beschreibung erscheint hier…",
+        "INTEGRATES_WITH": "Integriert sich mit",
+        "PERMISSIONS_REQUIRED": "Erforderliche Berechtigungen",
+        "NO_PERMISSIONS": "Keine Berechtigungen angegeben",
+        "HEALTH_ENABLED": "Zustandsüberwachung aktiviert",
+        "HEALTH_NONE": "Keine Zustandsprüfung konfiguriert"
+      },
+      "PERMISSIONS_PICKER": {
+        "NONE_REQUIRED": "Keine Berechtigungen erforderlich",
+        "SCOPE": "Bereich",
+        "TARGET": "Ziel",
+        "ACTIONS": "Aktionen",
+        "NONE_ADDED": "Noch keine Berechtigungen hinzugefügt",
+        "REMOVE": "Entfernen",
+        "ADD_NEW": "Berechtigung hinzufügen",
+        "SELECT_TARGET": "Ziel auswählen…",
+        "SELECT_ACTIONS": "Aktionen auswählen…",
+        "ADD": "+ Hinzufügen",
+        "VALIDATION": "Bitte wählen Sie ein Ziel und mindestens eine Aktion aus."
+      },
+      "DEVELOPER_CONSOLE": {
+        "TOTAL_INSTALLS": "Installationen gesamt",
+        "ACTIVE": "Aktiv",
+        "AVG_RATING": "Durchschnittsbewertung",
+        "EST_MONTHLY_REVENUE": "Geschätzter Monatsumsatz",
+        "FREE": "Kostenlos",
+        "API_CREDENTIALS": "API-Anmeldedaten",
+        "CLIENT_ID": "Client-ID",
+        "COPIED": "Kopiert!",
+        "COPY_CLIENT_ID": "Client-ID kopieren",
+        "LOADING_VERSIONS": "Versionsverlauf wird geladen…",
+        "VERSION_HISTORY": "Versionsverlauf",
+        "VERSION_PREFIX": "v",
+        "BUMP_MAJOR": "Major",
+        "BUMP_MINOR": "Minor",
+        "BUMP_PATCH": "Patch",
+        "HIDE_CHANGES": "Änderungen ausblenden",
+        "SHOW_CHANGES": "Änderungen anzeigen",
+        "NO_FIELD_CHANGES": "Keine erfassten Feldänderungen.",
+        "FIELD": "Feld",
+        "BEFORE": "Vorher",
+        "AFTER": "Nachher",
+        "INSTALLERS": "Installierer",
+        "NO_INSTALLATIONS": "Noch keine Installationen.",
+        "ORGANISATION": "Organisation",
+        "STATUS": "Status",
+        "INSTALLED": "Installiert",
+        "ENABLED": "Aktiviert",
+        "DISABLED": "Deaktiviert",
+        "INVITE_LINKS": "Einladungslinks",
+        "GENERATE_INVITE": "Einladung generieren",
+        "NO_INVITES": "Noch keine Einladungslinks. Generieren Sie einen, um Zugriff zu teilen.",
+        "TOKEN": "Token",
+        "CREATED": "Erstellt",
+        "EXPIRES": "Läuft ab",
+        "COPY_TOKEN": "Token kopieren",
+        "REVOKE_INVITE": "Einladung widerrufen"
+      },
+      "FEE": {
+        "FREE": "Kostenlos",
+        "PER_INSTALL": "{{amount}} / Installation",
+        "PER_ACTIVE_DEVICE": "{{amount}} / aktives Gerät"
+      },
+      "INSTALL": {
+        "CONFIRM_HEADER": "Installationskosten bestätigen",
+        "FEE_MESSAGE": "Diese App kostet <strong>{{label}}</strong>. Mit der Installation stimmen Sie dieser Preisgestaltung zu.",
+        "FEE_ESTIMATE": " Basierend auf Ihren <strong>{{count}} aktiven Geräten</strong> betragen Ihre geschätzten Kosten <strong>{{total}}</strong>.",
+        "AGREE_INSTALL": "Zustimmen und installieren",
+        "CANCEL": "Abbrechen",
+        "FEE_CHANGED_HEADER": "Die Tarifbedingungen haben sich geändert",
+        "FEE_CHANGED_MESSAGE": "Die neue Preisgestaltung ist <strong>{{label}}</strong>. Mit dem Akzeptieren stimmen Sie der aktualisierten Preisgestaltung zu.",
+        "ACCEPT": "Akzeptieren",
+        "PERMISSION_BLOCK_HEADER": "Unzureichende Berechtigungen",
+        "PERMISSION_BLOCK_INTRO": "Ihrem Konto fehlen von dieser App benötigte Berechtigungen:",
+        "PERMISSION_BLOCK_FOOTER": "Wenden Sie sich an Ihren Administrator, damit diese Berechtigungen zugewiesen werden.",
+        "OK": "OK",
+        "ERROR_ESTIMATE": "Could not load cost estimate.",
+        "ERROR_INSTALL": "Could not install the app. Please try again.",
+        "ERROR_UNINSTALL": "Could not uninstall the app. Please try again.",
+        "ERROR_TOGGLE": "Could not update app status. Please try again.",
+        "CONFIG_TITLE": "Configure App Sidebar Installation",
+        "CONFIG_SUBHEADER": "Customize how this app appears in the sidebar external tabs",
+        "CONFIG_ICON_LABEL": "Sidebar Icon",
+        "CONFIG_ICON_HINT": "Material icon name or URL for the sidebar tab",
+        "CONFIG_SECTION_LABEL": "Sidebar Section",
+        "CONFIG_SECTION_HINT": "UI section where the sidebar tab will appear",
+        "CONFIG_ORDER_LABEL": "Sidebar Display Order",
+        "CONFIG_ORDER_HINT": "Lower numbers appear first in the sidebar"
+      }
+    }
+  },
+  "AUTH": {
+    "CONTEXT_SELECTION": {
+      "CHECKING_PERMISSIONS": "Berechtigungen werden überprüft...",
+      "ERROR_SELECT_ACCOUNT": "Konto konnte nicht ausgewählt werden. \nBitte versuchen Sie es erneut.",
+      "ERROR_SELECT_CLIENT": "Client konnte nicht ausgewählt werden.",
+      "ERROR_UNABLE_TO_PROCEED": "Fortfahren nicht möglich. \nBitte wenden Sie sich an den Support.",
+      "LOADING_CLIENTS": "Kunden werden geladen...",
+      "LOADING_THEME": "Theme-Vorschau wird geladen...",
+      "NOTICE_DEFAULT_CLIENT": "Fahren Sie mit Ihrem Standard-Client fort.",
+      "NOTICE_SUMMARY": "Beachten",
+      "NO_PERMISSION_DESCRIPTION": "Ihr Konto ist nicht berechtigt, Kunden aufzulisten. \nFür den Zugriff wenden Sie sich bitte an Ihren Administrator.",
+      "NO_PERMISSION_TITLE": "Keine Berechtigung zum Anzeigen von Clients",
+      "PREPARING_ACCOUNT": "Ihr Konto wird vorbereitet...",
+      "PREPARING_EXPERIENCE": "Bereiten Sie Ihr Erlebnis vor...",
+      "STEP_SELECT_ACCOUNT": "Wählen Sie Konto aus",
+      "STEP_SELECT_CLIENT": "Wählen Sie Kunde aus",
+      "WIZARD_HEADER": "Kontextauswahl",
+      "SWITCHING_ACCOUNT": "Konto wechseln..."
+    },
+    "FORGOT_PASSWORD": {
+      "BACK_TO_LOGIN": "Zurück zum Anmelden",
+      "BUTTON": "Passwort zurücksetzen",
+      "DESCRIPTION": "Geben Sie unten Ihre E-Mail-Adresse ein und wir senden Ihnen die Anweisungen zum Zurücksetzen Ihres Passworts per E-Mail.",
+      "EMAIL": "E-Mail-Adresse",
+      "SUCCESS_DESCRIPTION": "Wenn ein Konto mit dem Benutzernamen {{username}} existiert, erhalten Sie in Kürze eine E-Mail zum Zurücksetzen des Passworts. \nBitte überprüfen Sie Ihren Posteingang und befolgen Sie die Anweisungen zum Zurücksetzen Ihres Passworts.",
+      "SUCCESS_TITLE": "Überprüfen Sie Ihre E-Mail",
+      "TITLE": "Passwort vergessen",
+      "TOAST_SUCCESS": "Anweisungen zum Zurücksetzen des Passworts gesendet."
+    },
+    "LOGIN": {
+      "API_URL": "API-URL",
+      "AUTHENTICATING": "Authentifizierung mit Ihrem sicheren Token...",
+      "BUTTON": "Login",
+      "COPYRIGHT": "Urheberrecht {{year}}. \nAlle Rechte vorbehalten.",
+      "FORGOT_PASSWORD": "Passwort vergessen?",
+      "LOGGING_IN": "Anmelden",
+      "PASSWORD": "Passwort",
+      "TITLE": "Willkommen zurück",
+      "TITLE_WITH_OWNER": "Willkommen bei {{ownerName}}",
+      "TOKEN_ERROR": "Die Token-Authentifizierung ist fehlgeschlagen. \nBitte melden Sie sich mit Ihrem Benutzernamen und Passwort an.",
+      "USERNAME": "Benutzername"
+    },
+    "RESET_PASSWORD": {
+      "DESCRIPTION": "Bitte aktualisieren Sie Ihre Kontodaten und geben Sie ein neues Passwort für Ihr Konto ein.",
+      "FIELDS": {
+        "EMAIL": "E-Mail-Adresse",
+        "MOBILE": "Handynummer",
+        "NAME": "Name",
+        "PASSWORD": "Neues Passwort",
+        "TIMEZONE": "Zeitzone"
+      },
+      "TITLE": "Willkommen",
+      "VALIDATION": {
+        "MOBILE_PATTERN": "Die Mobiltelefonnummer darf nur Zahlen enthalten"
+      }
+    },
+    "SELECT_CLIENT": {
+      "HEADING": "Wählen Sie ein Konto aus"
+    }
+  },
+  "NAV": {
+    "GROUPS": {
+      "ADMIN": "Konfiguration",
+      "DEVELOPMENT": "Entwicklung",
+      "HISTORY": "Historische Aktivität",
+      "STATUS": "Letzte Aktivität",
+      "SYSTEM": "System"
+    },
+    "MENU": {
+      "ACCOUNT_NAVIGATION": "Kontonavigation",
+      "CLIENTS": "Kunden",
+      "LOGOUT": "Abmelden",
+      "PROFILE": "Profil",
+      "SWITCH_ACCOUNT": "Konto wechseln",
+      "USER_FALLBACK": "Benutzer"
+    },
+    "SIDEBAR": {
+      "NO_PERMISSION_SWITCH": "Keine Berechtigung zum Wechseln des Clients",
+      "SWITCH_CLIENT": "Client wechseln",
+      "TOGGLE": {
+        "COLLAPSE": "Seitenleiste einklappen",
+        "EXPAND": "Erweitern Sie die Seitenleiste"
+      }
+    }
+  },
+  "FEATURES": {
+    "EXTERNAL_TAB": {
+      "TITLE": "Externer Inhalt"
+    }
+  },
+  "LAYOUT": {
+    "FLUTTER": {
+      "EMBEDDED_TITLE": "Eingebettete Flutter-Anwendung"
+    },
+    "MAIN": {
+      "IFRAME_TITLE": "Externe Anwendung",
+      "QA_BANNER": {
+        "ACTIVE": "QS-TESTMODUS AKTIV",
+        "MANAGE": "Verwalten",
+        "RESET": "Zurücksetzen",
+        "SIMULATING": "Simulation: {{profile}}",
+        "MODE_LABEL": "QA-Testmodus:",
+        "SIMULATING_FOR": "Derzeit werden Berechtigungen für simuliert"
+      }
+    }
+  },
+  "DEVELOPMENT": {
+    "ANALYTICAL_REPORT": {
+      "CONFLICT_MODAL": {
+        "MESSAGE": "Ihre Änderungen konnten nicht gespeichert werden, da dieser Bericht in einer anderen Sitzung aktualisiert wurde (z. B. in einem anderen geöffneten Tab). \nWählen Sie, wie Sie das Problem beheben möchten.",
+        "OVERWRITE": "Behalte meine Änderungen",
+        "RELOAD": "Laden Sie ihre Version neu",
+        "TITLE": "Dieser Bericht wurde an anderer Stelle geändert"
+      },
+      "EDIT_FRAME": {
+        "ARIA": {
+          "ASK_AI_TITLE": "Bitten Sie die KI, diesen Block zu ändern",
+          "DRAG_REORDER": "Zum Neuanordnen ziehen",
+          "REMOVE_TITLE": "Entfernen Sie diesen Block",
+          "RESTORE_TITLE": "Stellen Sie diesen Block wieder her"
+        },
+        "ASK_AI_LABEL": "Fordern Sie die KI auf, sich zu ändern",
+        "COMING_SOON_LABEL": "Demnächst verfügbar",
+        "HIDDEN_LABEL": "Versteckt",
+        "MAP_BLOCK_LABEL": "Kartenblock",
+        "RESTORE_LABEL": "Wiederherstellen"
+      },
+      "EDIT_POPOVER": {
+        "PLACEHOLDER": "Beschreiben Sie die Änderung… z.B. \nStellen Sie sicher, dass die Ereignisse pro Fahrzeug gezählt werden"
+      },
+      "FILTERS": {
+        "ADDITIONAL_COLUMNS": {
+          "TITLE": "Zusätzliche Spalten hinzufügen",
+          "STANDARD": "Standard",
+          "CUSTOM_FIELDS": "Benutzerdefinierte Felder",
+          "INITIAL": "Initial",
+          "FINAL": "Final",
+          "VENDOR": "Lieferant",
+          "CLIENT": "Kunde",
+          "NO_OPTIONS": "Keine Optionen verfügbar"
+        },
+        "ALERT": {
+          "PICK_ALERTS_PLACEHOLDER": "Wählen Sie eine oder mehrere Benachrichtigungen aus",
+          "SELECT_SCOPE_PLACEHOLDER": "Wählen Sie den Filterbereich aus",
+          "TITLE": "Alarmfilter"
+        },
+        "IDLING": {
+          "TITLE": "Übermäßiger Leerlauffilter"
+        },
+        "SHARED": {
+          "DURATION_LABEL": "Dauer (Min.):",
+          "EVENT_THRESHOLD_HELP": "Lassen Sie das Feld leer, um alle Ereignisse anzuzeigen. \nEin Wert zeigt nur Ereignisse an, die größer als dieser Wert sind.",
+          "SHOW_ALL_PLACEHOLDER": "Alle anzeigen"
+        },
+        "SPEEDING": {
+          "DISTANCE_LABEL": "Entfernung (km):",
+          "TITLE": "Übergeschwindigkeitsfilter"
+        },
+        "STOPPING": {
+          "HELP_TEXT": "Lassen Sie die Dauer leer, um alle Stopps anzuzeigen. \nEin Wert zeigt nur Stopps an, die länger sind als er.",
+          "IGNITION_OFF": "Zündung aus",
+          "SPEED": "Geschwindigkeit",
+          "STOP_TYPE_LABEL": "Stopptyp:",
+          "TITLE": "Filter stoppen"
+        },
+        "UTILIZATION": {
+          "HELP_TEXT": "„Arbeitszeiten“ verwendet den konfigurierten Zeitplan jedes Assets. \nLassen Sie „Ziel“ leer, um die Spalten „Ziel“ und „Entfernungsauslastung %“ wegzulassen.",
+          "MODE_LABEL": "Modus:",
+          "NO_TARGET_PLACEHOLDER": "Kein Ziel",
+          "SELECT_PERIOD_PLACEHOLDER": "Wählen Sie die Periodenbasis aus",
+          "TARGET_LABEL": "Ziel (km):",
+          "TITLE": "Verwendung"
+        }
+      }
+    }
+  }
+}

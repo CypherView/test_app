@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207.22 207.23" fill="currentColor">
+  <!-- Rounded square: final transform resolves to (205.81-154, 273.61-170) = (51.81, 103.61) -->
+  <rect width="51.81" height="51.81" rx="25.91" ry="25.91" x="51.81" y="103.61"/>
+  <!-- Top-left arc: paths have translate(154 170), outer g has translate(-154 -170) → net zero -->
+  <path d="M51.81,103.61h-51.81C0.00883,46.399244,46.379247,0.019875,103.59,0l.02,51.81c-28.60835,0-51.8,23.19165-51.8,51.8Z" fill-rule="evenodd"/>
+  <!-- Bottom-right arc -->
+  <path d="M155.41,103.61h51.81c-.004415,57.218107-46.381895,103.60454-103.6,103.62l-.01-51.81c28.60652-.004417,51.795583-23.19348,51.8-51.8Z" fill-rule="evenodd"/>
+</svg>

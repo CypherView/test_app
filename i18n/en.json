@@ -1,0 +1,4091 @@
+{
+  "SHARED": {
+    "THEME": {
+      "PRIMARY_COLOR": "Primary Color",
+      "NAVIGATION_COLOR": "Navigation Color",
+      "NAVIGATION_ACTIVE_STATE": "Navigation Active State",
+      "HEADER_COLOR": "Header Color",
+      "HEADER_ACTIVE_COLOR": "Header Active Color",
+      "BACKGROUND": "Background",
+      "FOREGROUND": "Foreground",
+      "LEFT_BORDER": "Left Border",
+      "RIGHT_BORDER": "Right Border",
+      "INVERT": "Invert",
+      "ACCENT": "Accent",
+      "LOADING_THEME": "Loading theme..."
+    },
+    "COMMON": {
+      "BUTTONS": {
+        "SAVE": "Save",
+        "CANCEL": "Cancel",
+        "DELETE": "Delete",
+        "EDIT": "Edit",
+        "ADD": "Add",
+        "CLOSE": "Close",
+        "BACK": "Back",
+        "NEXT": "Next",
+        "CONFIRM": "Confirm",
+        "RESET": "Reset",
+        "SEARCH": "Search",
+        "CLEAR": "Clear",
+        "IMPORT": "Import",
+        "EXPORT": "Export",
+        "EXPORTING": "Exporting",
+        "DOWNLOAD": "Download",
+        "UPLOAD": "Upload",
+        "REFRESH": "Refresh",
+        "VIEW": "View",
+        "CREATE": "Create",
+        "UPDATE": "Update",
+        "DISCARD": "Discard",
+        "FINISH": "Finish",
+        "OK": "Ok",
+        "REMOVE": "Remove",
+        "DISABLE": "Disable",
+        "BACK_TO_LOGIN": "Back to Login",
+        "BULK_IMPORT": "Bulk Import"
+      },
+      "STATUS": {
+        "ACTIVE": "Active",
+        "INACTIVE": "Inactive",
+        "PENDING": "Pending",
+        "COMPLETED": "Completed",
+        "FAILED": "Failed",
+        "SUCCESS": "Success",
+        "ERROR": "Error",
+        "LOADING": "Loading",
+        "NO_DATA": "No Data",
+        "NO_RESULTS": "No results found",
+        "UNKNOWN": "Unknown",
+        "ENABLED": "Enabled",
+        "DISABLED": "Disabled",
+        "SUSPENDED": "Suspended",
+        "DELETED": "Deleted",
+        "UNAVAILABLE": "Unavailable"
+      },
+      "ERRORS": {
+        "TITLE": "Error",
+        "LOAD_FAILED": "Load Failed",
+        "SAVE_FAILED": "Save Failed",
+        "DELETE_FAILED": "Delete Failed",
+        "UNEXPECTED": "Unexpected Error",
+        "SESSION_EXPIRED": "Session Expired",
+        "NO_PERMISSION": "No Permission"
+      },
+      "VALIDATION": {
+        "REQUIRED": "This field is required",
+        "INVALID_EMAIL": "Invalid email address",
+        "MIN_LENGTH": "Minimum length is {{min}} characters",
+        "MAX_LENGTH": "Maximum length is {{max}} characters",
+        "PATTERN": "Invalid format",
+        "MUST_BE_NUMBER": "Must be a number",
+        "MUST_BE_POSITIVE": "Must be a positive number",
+        "INVALID_FORMAT": "Invalid format",
+        "INVALID_PHONE": "Invalid phone number (7-15 digits required)"
+      },
+      "SEARCH": "Search...",
+      "COLUMN_SELECTOR": {
+        "TITLE": "Show Columns",
+        "PLACEHOLDER": "Select columns to display",
+        "REQUIRED": "Required"
+      },
+      "ARIA": {
+        "SELECTED_ITEMS": "Selected items",
+        "TOGGLE_SELECTOR": "Toggle selector",
+        "CLEAR_SELECTION": "Clear selection",
+        "REMOVE_ITEM": "Remove {{name}}"
+      },
+      "MESSAGES": {
+        "SHOWING_X_OF_Y_ITEMS": "Showing {{limit}} of {{count}} items.",
+        "TYPE_MORE_TO_NARROW_RESULTS": "Type more to narrow results.",
+        "REFINE_SEARCH": "Refine search to narrow results.",
+        "SUCCESS": "Success",
+        "ERROR": "Error",
+        "ERROR_GENERIC": "An error occurred"
+      },
+      "WIZARD": {
+        "TITLE": "{{entity}} Wizard",
+        "COMPLETION_TEXT": "You've completed all of the information required and we're ready to create your {{entity}}.",
+        "FINISH_PROMPT": "Click finish to create this {{entity}}."
+      },
+      "DIALOG": {
+        "APPLY": "Apply",
+        "OK": "OK",
+        "ADD": "Add",
+        "EDIT": "Edit",
+        "CANCEL": "Cancel",
+        "SAVE": "Save",
+        "NEXT": "Next",
+        "BACK": "Back",
+        "FINISH": "Finish",
+        "RETRY": "Retry",
+        "UPDATE": "Update",
+        "REFRESH": "Refresh",
+        "CLOSE": "Close",
+        "DOWNLOAD_ITEM": "Download {{subject}}",
+        "DOWNLOAD": "Download",
+        "CONFIRMATION": "Confirmation",
+        "ERROR": "Error",
+        "DISMISS": "Dismiss",
+        "ABORT": "Abort",
+        "SHARE": "Share",
+        "DELETE": "Delete",
+        "ALERT": "Alert",
+        "INFORMATION": "Information",
+        "SUCCESS": "Success",
+        "DELETE_CONFIRMATION": "Delete Confirmation",
+        "UNDO": "Undo",
+        "REDO": "Redo",
+        "VIEW": "View",
+        "COPY": "Copy",
+        "COPIED": "Copied to Clipboard",
+        "GOT_IT": "Got It",
+        "TIP": "Tip",
+        "CLEAR": "Clear",
+        "SEND": "Send",
+        "VIDEO": "Request Video"
+      },
+      "FORMS": {
+        "SHARED": {
+          "REQUIRED": "{{field}} is required.",
+          "INCOMPLETE": "{{field}} is incomplete.",
+          "LOOKUP_FAILED": "We were unable to load the values for this field.",
+          "ENTER": "Enter {{field}}"
+        },
+        "TEXT": {
+          "MIN": "{{field}} must be at least {{min}} characters long.",
+          "MAX": "{{field}} cannot exceed {{max}} characters."
+        },
+        "NUMBER": {
+          "MIN": "{{field}} must be greater than or equal to {{min}}",
+          "MAX": "{{field}} must be less than or equal to {{max}}."
+        },
+        "MIN_MAX": {
+          "MIN": "Min",
+          "MAX": "Max",
+          "MIN_LARGER_THAN_MAX": "Min value cannot exceed max value."
+        },
+        "CHECKBOX": {
+          "YES": "Yes",
+          "NO": "No"
+        },
+        "CHECKLIST": {
+          "EMPTY": "No items found.",
+          "MULTI_SELECTION": "Select/Deselect All",
+          "SELECT_ALL": "Select All",
+          "DESELECT_ALL": "Deselect All",
+          "SEARCH_LIST": "Search checklist...",
+          "DESCRIPTION": "Additional results have been truncated from this list. Please narrow down your search criteria."
+        },
+        "TAGS": {
+          "PLACEHOLDER": "Enter tags..."
+        },
+        "ASSET_FILTER": {
+          "PLACEHOLDER": "Enter asset or vehicle name...",
+          "DESCRIPTION": "Enter either an asset / vehicle name or the name of an asset group.",
+          "GROUP_DESCRIPTION": {
+            "ANY": "any {{assetType}}",
+            "COST_CENTRE": "any {{assetType}} in cost centre \"{{name}}\"",
+            "CATEGORY": "any {{assetType}} in category \"{{name}}\"",
+            "GROUP": "any {{assetType}} in group \"{{name}}\""
+          },
+          "GROUP_TREE": {
+            "COST_CENTRE": "In Cost Centre",
+            "CATEGORY": "In Category",
+            "GROUP": "In Group"
+          },
+          "TRUNCATED_MESSAGE": "Showing {{limit}} of {{count}} items. Use the search to refine your results.",
+          "NO_ASSETS": "No available assets",
+          "ASSETS": "Assets",
+          "GROUPS": "Groups"
+        },
+        "LABEL_FILTER": {
+          "PLACEHOLDER": "Enter label name...",
+          "DESCRIPTION": "Select one or more labels."
+        },
+        "SEARCH_SELECT": {
+          "PLACEHOLDER": "Enter name...",
+          "TRUNCATED_MESSAGE": "Showing {{limit}} of {{count}} items. Use the search to refine your results."
+        },
+        "CLIENT_FILTER": {
+          "PLACEHOLDER": "Enter client name...",
+          "DESCRIPTION_MULTIPLE": "Enter a client name, or type \"any\" to select all clients.",
+          "DESCRIPTION_SINGLE": "Enter a client name.",
+          "CLIENT": "Client",
+          "ANY_CLIENT": "Any Client"
+        },
+        "VENDOR_FILTER": {
+          "PLACEHOLDER": "Enter vendor name...",
+          "DESCRIPTION_MULTIPLE": "Enter a vendor name, or type \"any\" to select all vendors.",
+          "DESCRIPTION_SINGLE": "Enter a vendor name.",
+          "VENDOR": "vendor",
+          "ANY_VENDOR": "Any vendor"
+        },
+        "DISTRIBUTOR_FILTER": {
+          "PLACEHOLDER": "Enter distributor name...",
+          "DESCRIPTION_MULTIPLE": "Enter a distributor name, or type \"any\" to select all distributors.",
+          "DESCRIPTION_SINGLE": "Enter a distributor name.",
+          "DISTRIBUTOR": "distributor",
+          "ANY_DISTRIBUTOR": "Any distributor"
+        },
+        "USER_FILTER": {
+          "PLACEHOLDER": "Enter user name..."
+        },
+        "DEVICE_FILTER": {
+          "PLACEHOLDER": "Enter device name..."
+        },
+        "ZONE_FILTER": {
+          "PLACEHOLDER": "Enter geofence name...",
+          "DESCRIPTION": "Enter either a geofence name or the name of a geofence group.",
+          "GROUP_DESCRIPTION": {
+            "ANY": "any {{zoneType}}",
+            "COST_CENTRE": "any {{zoneType}} in cost centre \"{{name}}\"",
+            "GROUP": "any {{zoneType}} in group \"{{name}}\""
+          },
+          "GROUP_TREE": {
+            "COST_CENTRE": "In Cost Centre",
+            "GROUP": "In Group"
+          }
+        },
+        "DAYTIME": {
+          "INVALID_TIME": "Invalid time input",
+          "OPTIONS": {
+            "TODAY": "Today",
+            "YESTERDAY": "Yesterday",
+            "2_DAYS_AGO": "2 days ago",
+            "3_DAYS_AGO": "3 days ago"
+          }
+        },
+        "URL": {
+          "INVALID_PATTERN": "{{field}} must begin with \"http://\" or \"https://\""
+        }
+      },
+      "SELECTION": {
+        "TITLE": "Select {{type}}",
+        "SEARCH": "Search {{type}}...",
+        "LOADING": "Loading {{type}}...",
+        "NO_ITEMS": "No {{type}} found.",
+        "SELECTED_ITEMS": "Selected items"
+      },
+      "NONE": "None",
+      "DEFAULT": "Default",
+      "UNKNOWN": "Unknown",
+      "NOT_PROVIDED": "Not provided",
+      "NA": "N/A",
+      "EM_DASH": "—"
+    },
+    "ASSET_FILTER": {
+      "LEGEND": "Asset filter",
+      "PLACEHOLDER": "Enter asset or vehicle name...",
+      "TABS": {
+        "ASSETS": "Assets",
+        "GROUPS": "Groups"
+      },
+      "NO_ASSETS_AVAILABLE": "No assets available",
+      "NO_GROUPS": "No groups available",
+      "NO_ASSETS": "No assets found"
+    },
+    "ZONE_FILTER": {
+      "LEGEND": "Zone filter",
+      "PLACEHOLDER": "Enter zone name...",
+      "TABS": {
+        "ZONES": "Zones",
+        "GROUPS": "Groups"
+      },
+      "NO_ZONES_AVAILABLE": "No zones available",
+      "NO_GROUPS": "No groups available",
+      "NO_ZONES": "No zones found"
+    },
+    "CLIENT_SELECTOR": {
+      "SEARCH_ACCOUNTS": "Search accounts",
+      "ACCOUNTS_AVAILABLE": "{{count}} accounts available",
+      "AVAILABLE_ACCOUNTS": "Available accounts",
+      "SELECT_ACCOUNT_ARIA": "Select {{name}}{{ownerInfo}}",
+      "OWNER_INFO": ", {{ownerType}}: {{ownerName}}"
+    },
+    "CLIENT_SELECTION_FORM": {
+      "SEARCH_CLIENTS": "Search clients",
+      "CLIENTS_FOUND": "{{count}} clients found",
+      "RECENTLY_USED": "Recently used",
+      "ALL_CLIENTS": "All clients",
+      "AVAILABLE_CLIENTS": "Available clients",
+      "RECENTLY_USED_CLIENTS_ARIA": "Recently used clients",
+      "SELECT_RECENT_CLIENT_ARIA": "Select recently used client: {{name}}",
+      "SELECT_CLIENT_ARIA": "Select {{name}}{{ownerInfo}}",
+      "OWNER_INFO": ", owned by {{ownerName}}"
+    },
+    "UNAUTHORIZED": {
+      "ACCESS_DENIED": "Access denied",
+      "NO_PERMISSION_MESSAGE": "You don't have permission to access this resource.",
+      "REASON": "Reason:",
+      "RETURN_HOME": "Return to Home",
+      "NO_PERMISSIONS_ASSIGNED": "No permissions assigned"
+    },
+    "IMAGE_EDITOR": {
+      "TITLE": "Image Editor",
+      "UPLOAD_IMAGE": "Upload image",
+      "DRAG_DROP_HELP": "Drag and drop an image from your computer, or paste an image from your clipboard.",
+      "UPLOAD_DIFFERENT_IMAGE": "Upload different image",
+      "PREVIEW": "Preview",
+      "PREVIEW_HELP": "Use the crop controls to adjust the visible image area. The preview below shows what your image will look like once cropped and resized.",
+      "REMOVE_IMAGE": "Remove image"
+    },
+    "CHART": {
+      "TITLES": {
+        "DEVICES": "Devices",
+        "ASSETS": "Assets",
+        "CLIENTS": "Clients",
+        "VENDORS": "Vendors",
+        "DISTRIBUTORS": "Distributors",
+        "USERS": "Users",
+        "COMPANION_CAMERAS": "Companion Camera Devices",
+        "RECORDS": "Records",
+        "BYTES": "Bytes",
+        "CONNECTIONS": "Connections",
+        "MINUTES": "Online Time"
+      },
+      "RANGES": {
+        "24H": "24 Hours",
+        "7D": "7 Days",
+        "30D": "30 Days",
+        "60D": "60 Days",
+        "90D": "90 Days"
+      },
+      "ERRORS": {
+        "NO_INFORMATION": "No information available",
+        "UNEXPECTED_ERROR": "Unable to retrieve statistics"
+      }
+    },
+    "CONTACTS": {
+      "TYPES": {
+        "Emergency": "Emergency",
+        "Administrative": "Administrative",
+        "Technical": "Technical",
+        "Operational": "Operational",
+        "Management": "Management",
+        "Owner": "Owner"
+      }
+    }
+  },
+  "ADMIN": {
+    "CLIENTS": {
+      "TITLE": "Clients",
+      "TABS": {
+        "DETAILS": "Details",
+        "ASSETS": "Assets",
+        "GEOFENCES": "Geofences",
+        "ALERTS": "Alerts",
+        "HARDWARE": "Hardware",
+        "DEVICES": "Devices",
+        "ASSET_TAGS": "Asset Tags",
+        "SIM_CARDS": "SIM Cards",
+        "PROVIDERS": "Providers",
+        "SMS_GATEWAYS": "SMS Gateways",
+        "PROFILES": "Profiles",
+        "IO_TYPES": "I/O Types",
+        "DEVICE_CONFIG_PROFILES": "Device Config Profiles",
+        "ASSET_RATING_PROFILES": "Asset Rating Profiles",
+        "ASSET_STATE_PROFILES": "Asset State Profiles",
+        "OVERSPEED_PROFILES": "Overspeed Profiles",
+        "ROAD_PROFILES": "Road Profiles",
+        "GEO_LOCK_PROFILES": "Geo Lock Profiles",
+        "CUSTOM_FIELDS": "Custom Fields",
+        "ORGANIZATION": "Organization",
+        "COST_CENTRES": "Cost Centres",
+        "ASSET_GROUPS": "Asset Groups",
+        "CATEGORIES": "Categories",
+        "GEOFENCE_GROUPS": "Geofence Groups",
+        "ACCOUNTS": "Accounts",
+        "USERS": "Users",
+        "USER_ROLES": "User Roles",
+        "CONTACTS": "Contacts"
+      },
+      "GRID": {
+        "NAME": "Name",
+        "WEBSITE": "Website",
+        "GROUP": "Group",
+        "STATE": "State",
+        "ASSETS": "Assets",
+        "ASSET_TAGS": "Tags",
+        "DEVICES": "Devices",
+        "SIM_CARDS": "SIM Cards",
+        "COMPANION_CAMERA_DEVICES": "Companion Camera Devices",
+        "USERS": "Users",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Client Details",
+        "DESCRIPTION": "Configure various client details.",
+        "FIELDS": {
+          "NAME": "Name",
+          "WEBSITE": "Website",
+          "GROUP": "Group",
+          "TIMEZONE": "Time Zone",
+          "PIN": "PIN",
+          "TAGS": "Tags"
+        },
+        "ARIA": {
+          "BUILDING_ICON": "Building icon",
+          "EDIT_CLIENT_DETAILS": "Edit client details"
+        }
+      },
+      "SETTINGS": {
+        "TITLE": "Settings",
+        "DESCRIPTION": "Choose from the following settings.",
+        "FIELDS": {
+          "MAP_SET": "Map Set",
+          "DEVICE_TYPES": "Device Types"
+        },
+        "ARIA": {
+          "COG_ICON": "Cog icon",
+          "EDIT": "Edit client settings"
+        }
+      },
+      "NOTIFICATION_SETTINGS": {
+        "TITLE": "Notification Settings",
+        "DESCRIPTION": "Choose from the following options",
+        "FIELDS": {
+          "EMAIL_PROVIDER": "Email Provider"
+        },
+        "ARIA": {
+          "AT_ICON": "At icon",
+          "EDIT": "Edit notification settings"
+        }
+      },
+      "ADDRESS": {
+        "TITLE": "Address",
+        "DESCRIPTION": "Complete the following address information.",
+        "FIELDS": {
+          "ADDRESS": "Address",
+          "CITY": "City",
+          "STATE": "State",
+          "CODE": "Code",
+          "COUNTRY": "Country"
+        },
+        "ARIA": {
+          "ID_CARD_ICON": "ID card icon",
+          "EDIT_ADDRESS": "Edit address"
+        }
+      },
+      "SSL_CERTIFICATES": {
+        "TITLE": "SSL Certificates",
+        "DESCRIPTION": "The following custom domains have been registered for this client.",
+        "FIELDS": {
+          "DOMAINS": "Domains"
+        }
+      },
+      "MEASUREMENT_UNITS": {
+        "TITLE": "Measurement Units",
+        "DESCRIPTION": "Customize the measurement units for this client.",
+        "FIELDS": {
+          "DATE": "Date",
+          "TIME": "Time",
+          "DISTANCE": "Distance",
+          "ALTITUDE": "Altitude",
+          "SPEED": "Speed",
+          "VOLUME": "Volume",
+          "WEIGHT": "Weight",
+          "AREA": "Area",
+          "TEMPERATURE": "Temperature"
+        },
+        "VALUES": {
+          "ACRES": "Acres",
+          "CELSIUS": "Celsius",
+          "CUBIC_FEET": "Cubic Feet",
+          "CUBIC_METRES": "Cubic Metres",
+          "FAHRENHEIT": "Fahrenheit",
+          "FEET": "Feet",
+          "GALLONS": "Gallons (UK)",
+          "GALLONS_US": "Gallons (US)",
+          "HECTARES": "Hectares",
+          "INCHES": "Inches",
+          "KILOGRAMS": "Kilograms",
+          "KILOMETRES": "Kilometres",
+          "KILOMETRES_PER_HOUR": "Kilometres Per Hour",
+          "KNOTS": "Knots",
+          "LITRES": "Litres",
+          "METRES": "Metres",
+          "METRES_PER_SECOND": "Metres Per Second",
+          "MILES": "Miles",
+          "MILES_PER_HOUR": "Miles Per Hour",
+          "NAUTICAL_MILES": "Nautical Miles",
+          "OUNCES": "Ounces (UK)",
+          "OUNCES_US": "Ounces (US)",
+          "POUNDS": "Pounds",
+          "SQUARE_FEET": "Square Feet",
+          "SQUARE_INCHES": "Square Inches",
+          "SQUARE_KILOMETRES": "Square Kilometres",
+          "SQUARE_MILES": "Square Miles",
+          "SQUARE_YARDS": "Square Yards",
+          "SQUARE_METRES": "Square Metres",
+          "TONNES": "Tonnes",
+          "YARDS": "Yards",
+          "HHMMSS": "HH:mm:ss",
+          "HMMSS": "H:mm:ss",
+          "HMMSSA": "h:mm:ss AM/PM",
+          "YYYY_MM_DD_1": "yyyy/mm/dd",
+          "YYYY_MM_DD_2": "yyyy.mm.dd",
+          "YYYY_MM_DD_3": "yyyy-mm-dd",
+          "DD_MM_YYYY_1": "dd/mm/yyyy",
+          "DD_MM_YYYY_2": "dd.mm.yyyy",
+          "DD_MM_YYYY_3": "dd-mm-yyyy",
+          "D_M_YYYY_1": "d/m/yyyy",
+          "D_M_YYYY_2": "d.m.yyyy",
+          "D_M_YYYY_3": "d-m-yyyy",
+          "MM_DD_YYYY_1": "mm/dd/yyyy",
+          "M_D_YYYY_1": "m/d/yyyy"
+        },
+        "ARIA": {
+          "GAUGE_ICON": "Gauge icon",
+          "EDIT": "Edit measurement units"
+        }
+      },
+      "SHIFT": {
+        "TITLE": "Shifts",
+        "DESCRIPTION": "Add daily shifts for this client.",
+        "FIELDS": {
+          "DAILY_SHIFT": "Shifts"
+        },
+        "MODAL": {
+          "TITLE": "Shift",
+          "ADD_DESCRIPTION": "Add a shift to client",
+          "EDIT_DESCRIPTION": "Edit current shift on client",
+          "FIELDS": {
+            "NAME": "Name",
+            "START": "Start Time",
+            "END": "End Time"
+          }
+        }
+      },
+      "CUSTOMIZE": {
+        "DESCRIPTION": "When users visit one of the domains below, the software will be customized with the following settings.",
+        "RESET_COLOR": "Reset to base theme defaults",
+        "TITLE": "Customize",
+        "FIELDS": {
+          "DOMAINS": "Domains",
+          "LANGUAGE": "Language",
+          "THEME": "Theme",
+          "LOGO": "Logo",
+          "LOGO_DESCRIPTION": "The image will be resampled to 800 x 333 pixels and will be used on reports.",
+          "WEB_LOGO": "Web Logo",
+          "WEB_LOGO_DESCRIPTION": "The image will be resampled to 240 x 100 pixels. For better results you should pre-scale your image in a graphics program before uploading.",
+          "LOGIN_MESSAGE": "Login Message",
+          "LOGIN_MESSAGE_DESCRIPTION": "Markdown syntax is supported for styling text."
+        },
+        "ARIA": {
+          "TITLE": "Client Customization",
+          "PAINT_ROLLER_ICON": "Paint roller icon",
+          "EDIT": "Customize client"
+        }
+      },
+      "STATISTICS": {
+        "TITLE": "Client Statistics",
+        "ARIA": {
+          "DATE_RANGE": "Date range"
+        }
+      }
+    },
+    "DISTRIBUTORS": {
+      "TITLE": "Distributors",
+      "COLUMNS": {
+        "NAME": "Name",
+        "WEBSITE": "Website",
+        "STATE": "State",
+        "VENDOR": "Vendors",
+        "CLIENT": "Clients",
+        "ASSET": "Assets",
+        "ASSETTAG": "Tags",
+        "DEVICE": "Devices",
+        "SIMCARD": "SIM Cards",
+        "COMPANION_CAMERA": "Companion Camera Devices",
+        "USER": "Users",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Distributor Details",
+        "DESCRIPTION": "Configure various distributor details.",
+        "FIELDS": {
+          "NAME": "Name",
+          "WEBSITE": "Website",
+          "TAGS": "Tags"
+        },
+        "ARIA": {
+          "BUILDING_ICON": "Building icon",
+          "EDIT": "Edit distributor details"
+        }
+      },
+      "ADDRESS": {
+        "TITLE": "Address",
+        "DESCRIPTION": "Complete the following address information.",
+        "ARIA": {
+          "ID_CARD_ICON": "ID card icon",
+          "EDIT": "Edit address"
+        }
+      },
+      "NOTIFICATION_SETTINGS": {
+        "TITLE": "Notification Settings",
+        "DESCRIPTION": "Choose from the following options",
+        "FIELDS": {
+          "EMAIL_PROVIDER": "Default Email Provider"
+        },
+        "ARIA": {
+          "AT_ICON": "At icon",
+          "EDIT": "Edit notification settings"
+        }
+      },
+      "SETTINGS": {
+        "TITLE": "Settings",
+        "DESCRIPTION": "Choose from the following settings.",
+        "FIELDS": {
+          "MAPSETS": "Available Map Sets",
+          "EMAIL_PROVIDERS": "Available Email Providers"
+        },
+        "ARIA": {
+          "COG_ICON": "Cog icon"
+        }
+      },
+      "CUSTOMIZE": {
+        "TITLE": "Customize",
+        "DESCRIPTION": "When users visit one of the domains below, the software will be customized with the following settings.",
+        "FIELDS": {
+          "DOMAINS": "Domains",
+          "LANGUAGE": "Language",
+          "THEME": "Theme",
+          "LOGO": "Logo",
+          "LOGO_DESCRIPTION": "The image will be resampled to 800 x 333 pixels and will be used on reports.",
+          "WEB_LOGO": "Web Logo",
+          "WEB_LOGO_DESCRIPTION": "The image will be resampled to 240 x 100 pixels. For better results you should pre-scale your image in a graphics program before uploading."
+        },
+        "ARIA": {
+          "TITLE": "Distributor Customization",
+          "PAINT_ROLLER_ICON": "Paint roller icon",
+          "EDIT": "Customize distributor"
+        },
+        "INHERITED": "Inherited",
+        "PLACEHOLDERS": {
+          "SELECT_LANGUAGE": "Select language",
+          "SELECT_THEME": "Select theme"
+        }
+      },
+      "SSL_CERTIFICATES": {
+        "TITLE": "SSL Certificates",
+        "DESCRIPTION": "The following custom domains have been registered for this client.",
+        "FIELDS": {
+          "DOMAINS": "Domains"
+        },
+        "ARIA": {
+          "BUILDING_ICON": "Building icon"
+        }
+      },
+      "STATISTICS": {
+        "TITLE": "Distributor Statistics",
+        "NO_DATA": "No data",
+        "ARIA": {
+          "DATE_RANGE": "Date range"
+        }
+      },
+      "ERRORS": {
+        "LOAD_FAILED": "Failed to load distributor data"
+      }
+    },
+    "VENDORS": {
+      "TITLE": "Vendors",
+      "COLUMNS": {
+        "NAME": "Name",
+        "WEBSITE": "Website",
+        "GROUP": "Group",
+        "STATE": "State",
+        "CLIENT": "Clients",
+        "ASSET": "Assets",
+        "ASSET_TAG": "Tags",
+        "DEVICE": "Devices",
+        "SIMCARD": "SIM Cards",
+        "COMPANION_CAMERA": "Companion Camera Devices",
+        "USER": "Users",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Vendor Details",
+        "DESCRIPTION": "Configure various vendor details.",
+        "FIELDS": {
+          "NAME": "Name",
+          "WEBSITE": "Website",
+          "GROUP": "Group",
+          "TAGS": "Tags"
+        }
+      },
+      "SETTINGS": {
+        "TITLE": "Settings",
+        "DESCRIPTION": "Choose from the following settings.",
+        "FIELDS": {
+          "MAPSETS": "Available Map Sets",
+          "MAPSET": "Default Map Set",
+          "EMAIL_PROVIDERS": "Available Email Providers",
+          "DEVICETYPES": "Device Types"
+        }
+      },
+      "NOTIFICATIONS": {
+        "TITLE": "Notification Settings",
+        "DESCRIPTION": "Choose from the following options",
+        "FIELDS": {
+          "EMAIL_PROVIDER": "Default Email Provider"
+        }
+      },
+      "EMAIL": {
+        "TITLE": "Email Settings",
+        "DESCRIPTION": "To have all system emails routed via your own domain, enable the section below and enter your own email server details.",
+        "FIELDS": {
+          "CUSTOM_EMAIL": "Custom Email",
+          "ENABLED": "Enabled",
+          "DISABLED": "Disabled",
+          "FROM_NAME": "From Name",
+          "FROM_ADDRESS": "From Address",
+          "SMTP_SERVER": "SMTP Server",
+          "SMTP_PORT": "SMTP Port",
+          "USERNAME": "Username",
+          "PASSWORD": "Password",
+          "ENABLE_SSL": "Enable SSL"
+        }
+      },
+      "CUSTOMIZE": {
+        "TITLE": "Customize",
+        "DESCRIPTION": "When users visit one of the domains below, the software will be customized with the following settings.",
+        "FIELDS": {
+          "DOMAINS": "Domains",
+          "LANGUAGE": "Language",
+          "THEME": "Theme",
+          "LOGO": "Logo",
+          "LOGO_DESCRIPTION": "The image will be resampled to 800 x 333 pixels and will be used on reports.",
+          "WEB_LOGO": "Web Logo",
+          "WEB_LOGO_DESCRIPTION": "The image will be resampled to 240 x 100 pixels. For better results you should pre-scale your image in a graphics program before uploading.",
+          "LOGIN": "Login Message",
+          "LOGIN_DESCRIPTION": "Markdown syntax is supported for styling text."
+        }
+      }
+    },
+    "USERS": {
+      "TITLE": "Users",
+      "GRID": {
+        "NAME": "Name",
+        "STATE": "State",
+        "MODIFIED": "Modified",
+        "EMAIL_ADDRESS": "Email Address",
+        "MOBILE_NUMBER": "Mobile Number",
+        "COST_CENTRE": "Cost Centre",
+        "TIMEZONE": "Time Zone",
+        "LANGUAGE": "Language"
+      },
+      "RESET": {
+        "TIP": "Reset user account",
+        "CONFIRM": "This will suspend the user and send an email to them with instructions on how to recover their account.",
+        "ERROR": "An error was encountered while resetting the account.",
+        "ERROR_EMAIL": "The user password was successfully reset, but we were unable to send the account recovery email. You should try resetting the account again."
+      },
+      "INVITE": {
+        "TIP": "Invite a new user",
+        "ERROR_EMAIL": "The user was successfully created, but we were unable to send the account creation invitation email. You should reset the account in order to try again."
+      },
+      "DETAILS": {
+        "TITLE": "User Details",
+        "TITLE_ALT": "My Details",
+        "TITLE_PROFILE": "User Profile",
+        "DESCRIPTION": "Complete the following personal details for the user.",
+        "DESCRIPTION_ALT": "Complete the following personal details for yourself.",
+        "PROFILE_PHOTO": "Profile Photo",
+        "FIELDS": {
+          "NAME": "Name",
+          "EMAIL_ADDRESS": "Email Address",
+          "MOBILE_NUMBER": "Mobile Number",
+          "PASSWORD": "Password",
+          "PASSWORD_LENGTH": "Must be {{length}} characters or more",
+          "PASSWORD_ALPHANUMERIC": "Must contain both letters and numbers",
+          "PASSWORD_MIXED_CASE": "Must contain both lowercase and uppercase letters",
+          "PASSWORD_SYMBOLS": "Must contain one or more non-alphanumeric symbols",
+          "COST_CENTRE": "Cost Centre",
+          "TIMEZONE": "Time Zone",
+          "LANGUAGE": "Language",
+          "DEFAULT_CLIENT": "Default Client",
+          "SEND_INVITE": "Send Invite",
+          "SEND_INVITE_DESCRIPTION": "If enabled, the user will receive an email inviting them to activate their account."
+        }
+      },
+      "ROLES": {
+        "TITLE": "User Roles",
+        "DESCRIPTION": "Select from the following user roles.",
+        "FIELDS": {
+          "ROLES": "Roles"
+        }
+      },
+      "CLIENT_PERMISSIONS": {
+        "TITLE": "Client Permissions",
+        "DESCRIPTION": "You can restrict this user to only particular clients and assets by specifying them in the list below.",
+        "FIELDS": {
+          "CLIENTS": "Clients",
+          "CLIENT": "Client",
+          "ASSETS": "Assets"
+        },
+        "MODALS": {
+          "CLIENT": {
+            "TITLE": "Client Permissions",
+            "DESCRIPTION": "Specify permissions for a specific client here."
+          }
+        }
+      },
+      "ASSET_PERMISSIONS": {
+        "TITLE": "Asset Permissions",
+        "DESCRIPTION": "You can restrict this user to only particular assets by specifying them in the list below.",
+        "FIELDS": {
+          "ASSETS": "Assets"
+        }
+      },
+      "NOTIFY": {
+        "TITLE": "Notifications",
+        "DESCRIPTION": "Configure alert notification actions and allowed SMS times.",
+        "ACTIONS": {
+          "NONE": "None",
+          "EMAIL": "Email",
+          "SMS": "SMS",
+          "EMAILSMS": "Email & SMS"
+        },
+        "FIELDS": {
+          "SMS_FROM": "Allow SMS From",
+          "SMS_TO": "Allow SMS To",
+          "LOW_ACTION": "Low Priority",
+          "MEDIUM_ACTION": "Medium Priority",
+          "HIGH_ACTION": "High Priority"
+        }
+      },
+      "SESSIONS": {
+        "TITLE": "Active Sessions",
+        "MESSAGES": {
+          "CURRENT_SESSION": "current session",
+          "CONFIRM_DELETE": "Are you sure you want to force log out the selected session?",
+          "UNEXPECTED_ERROR": "An unexpected error occurred"
+        }
+      },
+      "OIDC_TAGS": {
+        "TITLE": "External Authentication",
+        "DESCRIPTION": "Link the user with one or more external OpenID Connect providers by entering the subscriber ID unique to each provider.",
+        "DESCRIPTION_OWN": "Link your account with one or more external OpenID Connect providers.",
+        "FIELDS": {
+          "LINK": "Link to {{issuer}}"
+        },
+        "ERRORS": {
+          "LINK_EMAIL": "The email address retrieved from {{issuer}} does not match the email address of this user.",
+          "LINK_FIELDS": "We were unable to retrieve the email & subscriber ID from {{issuer}}."
+        }
+      },
+      "OTP": {
+        "TITLE": "One Time Passwords",
+        "DESCRIPTION": "Manage one time password enrollments.",
+        "FIELDS": {
+          "TYPES": "Enrolled In",
+          "NAME": "Name"
+        },
+        "CLEAR_TOKENS": "Clear OTP Tokens",
+        "TYPES": {
+          "TOTP": "Time-based One Time Password"
+        },
+        "MODALS": {
+          "CLEAR": {
+            "DESCRIPTION": "Are you sure you want to clear your cached OTP tokens on this computer?. You will need to perform multi-factor authentication again when you log in."
+          },
+          "DELETE": {
+            "DESCRIPTION": "Are you sure you want to clear this OTP enrollment? The user will have to re-enroll in OTP on next login."
+          },
+          "ADD_OTP": {
+            "TITLE": " OTP Enrollment",
+            "DESCRIPTION": "Scan the following QR Code in your authenticator app on your mobile phone, and then enter the code that it gives you."
+          }
+        }
+      },
+      "API_KEYS": {
+        "TITLE": "API Keys",
+        "DESCRIPTION": "Generate API keys that can be used to link this user account to third party systems.",
+        "FIELDS": {
+          "KEYS": "Keys",
+          "NAME": "Name"
+        },
+        "MODALS": {
+          "NEW": {
+            "TITLE": "New API Key",
+            "DESCRIPTION": "Enter a descriptive name for your new API key."
+          },
+          "DETAILS": {
+            "TITLE": "API Key Details",
+            "DESCRIPTION": "Your API key is displayed below. This will only be shown to you once and cannot be recovered. Make sure to copy and safely store the value before dismissing this message."
+          },
+          "DELETE": {
+            "DESCRIPTION": "Are you sure you want to delete this API key? Anyone using this key will immediately lose access."
+          }
+        }
+      }
+    },
+    "USER_ROLES": {
+      "TITLE": "User Roles",
+      "DESCRIPTION": "Select from the following user roles.",
+      "GRID": {
+        "NAME": "Name",
+        "DESCRIPTION": "Description",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Role Details",
+        "DESCRIPTION": "Describe this user role.",
+        "FIELDS": {
+          "NAME": "Name",
+          "DESCRIPTION": "Description"
+        }
+      },
+      "RIGHTS": {
+        "TITLE": "Access Rights",
+        "DESCRIPTION": "Select from the following access rights."
+      },
+      "INLINE_POLICIES": {
+        "TITLE": "Inline Policies",
+        "DESCRIPTION": "Add custom inline policies to this user role.",
+        "FIELDS": {
+          "POLICIES": "Policies",
+          "NAME": "Name",
+          "STATEMENTS": "Statements"
+        },
+        "MODAL": {
+          "TITLE": "Inline Policy",
+          "DESCRIPTION": "Complete the following fields for your inline policy"
+        }
+      }
+    },
+    "ASSETS": {
+      "TITLE": "Assets",
+      "BULK_IMPORT_TITLE": "Bulk Import Assets & Devices",
+      "COLUMNS": {
+        "NAME": "Name",
+        "TYPE": "Type",
+        "STATE": "State",
+        "COST_CENTRE": "Cost Centre",
+        "GROUPS": "Groups",
+        "DEVICES": "Devices",
+        "DEVICE_IDS": "Device IDs",
+        "SHARED_WITH": "Shared With",
+        "SHARED_TO": "Shared To",
+        "SHARED_FROM": "Shared From",
+        "VOICE_NUMBER": "Voice Number",
+        "MODIFIED": "Modified",
+        "ASSET_TAG": "Asset Tag",
+        "TAGS": "Tags",
+        "CAMERAS": "Cameras",
+        "LINKED_FROM": "Linked From Client",
+        "LINKED_TO": "Linked To Clients",
+        "LINK_ENDS": "(ends {{time}})",
+        "LINK_ENDED": "(ended {{time}})"
+      },
+      "DETAILS": {
+        "TITLE": "Asset Details",
+        "DESCRIPTION": "The following information is required to identify your asset.",
+        "FIELDS": {
+          "NAME": "Name",
+          "TYPE": "Type",
+          "STATE": "State",
+          "COLOR": "Color",
+          "COST_CENTRE": "Cost Centre",
+          "GROUPS": "Groups",
+          "TAGS": "Tags",
+          "ASSET_TAG": "Asset Tag",
+          "PHOTO": "Asset Photo",
+          "ICON_NAME": "Icon Name",
+          "PARENT_ASSET": "Parent Asset",
+          "SHARED_FROM": "Shared From"
+        },
+        "COLORS": {
+          "BLUE": "Blue",
+          "LIGHTBLUE": "Light Blue",
+          "GREEN": "Green",
+          "OLIVE": "Olive",
+          "ORANGE": "Orange",
+          "PINK": "Pink",
+          "PURPLE": "Purple",
+          "RED": "Red",
+          "TEAL": "Teal",
+          "YELLOW": "Yellow",
+          "WHITE": "White",
+          "GRAY": "Gray"
+        },
+        "PRIVACY_MODE": {
+          "ENABLE": "Enable Ad-Hoc Privacy Mode",
+          "DISABLE": "Disable Ad-Hoc Privacy Mode",
+          "INDEFINITE_AD_HOC_PRIVACY_MODE": "This asset is currently in an indefinite ad-hoc privacy mode.",
+          "AD_HOC_PRIVACY_MODE": "This asset is currently in ad-hoc privacy mode, ends at ",
+          "REMOVE_PRIVACY_MODE": "Are you sure you want to remove privacy mode from this asset?",
+          "MODAL": {
+            "NAME": "Enable Privacy Mode",
+            "DESCRIPTION": "You are about to enable privacy mode, specify the conditions for automatically ending privacy mode, if any.",
+            "FIELDS": {
+              "CONDITION": "Condition",
+              "NONE": "None, privacy lasts until it is manually removed",
+              "TIME_DURATION": "Time duration",
+              "ENDS_IN": "Ends In",
+              "ONE_HOUR": "1 Hour",
+              "TWELVE_HOURS": "12 Hours",
+              "TWENTY_FOUR_HOURS": "24 Hours"
+            }
+          }
+        },
+        "ICON_OPTIONS": {
+          "DEFAULT": "Default",
+          "AIRPLANE": "Airplane",
+          "AMBULANCE_SMALL": "Ambulance (small)",
+          "AMBULANCE": "Ambulance",
+          "BOAT": "Boat",
+          "BUS": "Bus",
+          "CAR": "Car",
+          "CEMENT_MIXER": "Cement Mixer",
+          "CONTAINER": "Container",
+          "DUMP_TRUCK": "Dump Truck",
+          "EXCAVATOR": "Excavator",
+          "HAUL_TRUCK": "Haul Truck",
+          "LAWN_MOWER": "Lawn Mower",
+          "MAN": "Man",
+          "MOTORCYCLE": "Motorcycle",
+          "PARCEL": "Parcel",
+          "PICKUP_TRUCK": "Pickup Truck",
+          "SCHOOL_BUS_SMALL": "School Bus (small)",
+          "SCHOOL_BUS": "School Bus",
+          "TRACTOR": "Tractor",
+          "TRAILER": "Trailer",
+          "TRUCK_SMALL": "Truck (small)",
+          "TRUCK": "Truck",
+          "VAN_SMALL": "Van (small)",
+          "VAN": "Van"
+        },
+        "CONTACTS_TYPES": {
+          "OWNER": "Owner",
+          "EMERGENCY": "Emergency",
+          "ADMINISTRATIVE": "Administrative",
+          "TECHNICAL": "Technical",
+          "OPERATIONAL": "Operational",
+          "OTHER": "Other"
+        },
+        "AVATAR": {
+          "PERMISSION_DENIED_DELETE": "You do not have permission to delete this avatar.",
+          "PERMISSION_DENIED_UPLOAD": "You do not have permission to upload an avatar.",
+          "DELETING_TITLE": "Deleting Asset Avatar",
+          "DELETING_DETAIL": "Deleting Asset Avatar. Please wait.",
+          "DELETE_SUCCESS": "The Asset Avatar was successfully deleted.",
+          "DELETE_ERROR": "An error occurred while trying to delete the asset avatar: {{error}}",
+          "UPLOAD_SUCCESS_TITLE": "Upload Successful",
+          "UPLOAD_SUCCESS": "Image uploaded successfully.",
+          "UPLOAD_FAILED_TITLE": "Upload Failed",
+          "UPLOAD_FAILED": "An error occurred while trying to upload the image: {{error}}"
+        },
+        "ARIA": {
+          "ASSET_ICON": "Asset Icon: {{icon}}",
+          "EDIT_ASSET_ICON": "Edit asset icon",
+          "EDIT_ASSET_DETAILS": "Edit asset details",
+          "SHARED_FROM": "Shared from {{client}}",
+          "UPLOAD_ASSET_IMAGE": "Upload asset image",
+          "ASSET_IMAGE": "Asset Image"
+        }
+      },
+      "CONTACTS": {
+        "TITLE": "Contacts",
+        "DESCRIPTION": "The following contacts will be associated with this asset.",
+        "FIELDS": {
+          "CONTACTS": "Contacts",
+          "NAME": "Name",
+          "PHONE": "Phone Number",
+          "EMAIL": "Email Address",
+          "TYPE": "Type",
+          "MOBILE": "Mobile Number",
+          "NOTES": "Notes"
+        },
+        "MODAL": {
+          "TITLE": "Asset Contact",
+          "DESCRIPTION": "Complete the following information for your asset contact."
+        },
+        "MODAL_ADD": "Add Contact",
+        "MODAL_EDIT": "Edit Contact",
+        "MESSAGES": {
+          "UPDATED": "Contacts updated successfully"
+        },
+        "ARIA": {
+          "ASSET_CONTACT_ICON": "Asset Contact Icon: {{icon}}",
+          "EDIT_ASSET_CONTACT_ICON": "Edit asset contact icon",
+          "DELETE_CONTACT": "Delete Contact",
+          "GO_TO_CONTACT": "Go to contact",
+          "GO_TO_CONTACT_NAME": "Go to {{name}}",
+          "REMOVE_CONTACT_NAME": "Remove {{name}}"
+        },
+        "PICKER_PLACEHOLDER": "Select contacts…",
+        "MODAL_CREATE": "New Contact",
+        "EMPTY_PICKER": "No contacts added yet. Search above to add one.",
+        "EMPTY_VIEW": "No contacts added to this asset."
+      },
+      "EVENT_TRIGGERS": {
+        "TITLE": "Event Triggers",
+        "DESCRIPTION": "Define when speed, idle and trip limit events will be generated for this asset.",
+        "FIELDS": {
+          "MAX_SPEED": "Max Speed",
+          "OVERSPEED_PROFILE": "Overspeed Profile",
+          "SPEED_TOLERANCE": "Speed Tolerance",
+          "EXCESSIVE_IDLE": "Excessive Idle",
+          "MINUTES": "minutes",
+          "MAX_TRIP_DISTANCE": "Max Trip Distance",
+          "MAX_TRIP_TIME": "Max Trip Time",
+          "MAX_INACTIVE_TIME": "Max Inactive Time"
+        },
+        "ARIA": {
+          "ASSET_EVENT_TRIGGER_ICON": "Asset Event Trigger Icon: {{icon}}",
+          "EDIT_ASSET_EVENT_TRIGGER_ICON": "Edit asset event trigger icon"
+        }
+      },
+      "ANALOG_TRIGGERS": {
+        "TITLE": "Analog Triggers",
+        "DESCRIPTION": "Define when analog and temperature events will be generated for this asset.",
+        "FIELDS": {
+          "ANALOGS": "Analogs",
+          "ANALOG_DESCRIPTION": "Range of {{minRange}} to {{maxRange}} with a debounce of {{rangeDebounce}} positions.",
+          "ANALOG_INPUT": "Analog Input",
+          "TEMPERATURES": "Temperatures",
+          "TEMPERATURE_DESCRIPTION": "Range of {{minRange}} to {{maxRange}} with a debounce of {{rangeDebounce}} positions.",
+          "TEMPERATURE_INPUT": "Analog Input",
+          "MIN_RANGE": "Min Range",
+          "MAX_RANGE": "Max Range",
+          "RANGE_DEBOUNCE": "Range Debounce",
+          "DROP_AMOUNT": "Drop Amount",
+          "INCREASE_AMOUNT": "Increase Amount"
+        },
+        "MODALS": {
+          "ANALOG": {
+            "TITLE": "Analog Event Trigger",
+            "DESCRIPTION": "An event will be generated when the specified range is violated, or a sudden drop or increase is detected matching the specified amounts."
+          },
+          "TEMPERATURE": {
+            "TITLE": "Temperature Event Trigger",
+            "DESCRIPTION": "An event will be generated when the specified range is violated."
+          }
+        },
+        "ARIA": {
+          "ASSET_ANALOG_TRIGGER_ICON": "Asset Analog Trigger Icon: {{icon}}",
+          "EDIT_ASSET_ANALOG_TRIGGER_ICON": "Edit asset analog trigger icon"
+        }
+      },
+      "CURFEW_EVENTS": {
+        "TITLE": "Working Hours",
+        "DESCRIPTION": "Define the working hours of this asset in order to generate curfew violation events.",
+        "FIELDS": {
+          "CURFEWS": "Working Hours",
+          "CURFEW_DESCRIPTION": "Between {{from}} to {{to}} on {{days}}.",
+          "FROM": "From",
+          "TO": "To",
+          "TIMEZONE": "Time Zone",
+          "DAYS": "Days"
+        },
+        "MODALS": {
+          "CURFEW": {
+            "TITLE": "Working Hours",
+            "DESCRIPTION": "An event will be generated when the asset moves outside of the specified working hours."
+          }
+        },
+        "ARIA": {
+          "ASSET_CURFEW_ICON": "Asset Curfew Icon: {{icon}}",
+          "EDIT_ASSET_CURFEW_ICON": "Edit asset curfew icon"
+        }
+      },
+      "REMINDERS": {
+        "TITLE": "Reminders",
+        "DESCRIPTION": "Set reminders on asset.",
+        "ODO": {
+          "TITLE": "Odometer Reminder",
+          "DESCRIPTION": "Odometer reminders will create an event (and optional alert) when the specified odometer value is reached.",
+          "FIELDS": {
+            "ONCE": "At specific odometer",
+            "REPEATING": "Every X {{unit}}",
+            "TRIGGER_VALUE": {
+              "ONCE": "Odometer",
+              "REPEATING": "{{unit}}"
+            },
+            "STARTING_AT_DESCRIPTION": "Set the odometer value to start reminders from"
+          }
+        },
+        "HOURS": {
+          "TITLE": "Engine Hours Reminder",
+          "DESCRIPTION": "Engine Hour reminders will create an event (and optional alert) when the specified engine hours value is reached.",
+          "FIELDS": {
+            "ONCE": "At specific hours",
+            "REPEATING": "Every X hours",
+            "TRIGGER_VALUE": {
+              "ONCE": "Engine Hours",
+              "REPEATING": "Hours"
+            },
+            "STARTING_AT_DESCRIPTION": "Set the hours to start reminders from"
+          }
+        },
+        "TIME": {
+          "TITLE": "Time Based Reminder",
+          "DESCRIPTION": "Time based reminders will create an event (and optional alert) when the specified date and time is reached.",
+          "FIELDS": {
+            "ONCE": "At specific date/time",
+            "REPEATING": "Every X days",
+            "TRIGGER_VALUE": {
+              "ONCE": "Date",
+              "REPEATING": "Days"
+            }
+          }
+        },
+        "FIELDS": {
+          "REMINDERS": "Reminders",
+          "NAME": "Name",
+          "MODE": "Mode",
+          "RESET": "Reset",
+          "NONE": "After each reminder",
+          "DAILY": "Daily",
+          "WEEKLY": "Weekly",
+          "MONTHLY": "Monthly",
+          "STARTING_AT": "Starting at",
+          "EVERY": "Every",
+          "RESET_COUNTER": "Reset Counter",
+          "TIMEZONE": "Timezone",
+          "WEEKDAYS": "Weekdays",
+          "MONTHS": "Months",
+          "DAY": "Day",
+          "DAYS": "Days"
+        },
+        "MODAL_ADD": "Add {{type}}",
+        "MESSAGES": {
+          "DELETED": "Reminder Deleted",
+          "DELETED_DETAIL": "Reminder \"{{name}}\" has been marked for deletion.",
+          "SAVE_ERROR": "Failed to save reminders",
+          "SAVE_SUCCESS": "Reminders updated successfully"
+        },
+        "ARIA": {
+          "ASSET_REMINDER_ICON": "Asset Reminder Icon: {{icon}}",
+          "EDIT_ASSET_REMINDER_ICON": "Edit asset reminder icon",
+          "CLOCK_ICON": "Clock icon",
+          "EDIT": "Edit reminders",
+          "DELETE_REMINDER": "Delete Reminder"
+        },
+        "BUTTONS": {
+          "ADD_REMINDER": "Add Reminder"
+        }
+      },
+      "LABELS": {
+        "TITLE": "Default Labels",
+        "DESCRIPTION": "Configure labels that will be applied to data from this asset by default.",
+        "FIELDS": {
+          "DEFAULT_TRIP_LABELS": "Default Trip Labels",
+          "DEFAULT_TRIP_LABELS_DESCRIPTION": "The labels specified above will be applied to new trips by default."
+        },
+        "ARIA": {
+          "ASSET_LABEL_ICON": "Asset Label Icon: {{icon}}",
+          "EDIT_ASSET_LABEL_ICON": "Edit asset label icon"
+        }
+      },
+      "PROFILES": {
+        "TITLE": "Profiles",
+        "DESCRIPTION": "Select from the following profiles.",
+        "FIELDS": {
+          "ASSET_RATING": "Asset Rating",
+          "ASSET_STATE": "Asset State",
+          "ROAD_PROFILE": "Road Profile",
+          "GEO_LOCK_PROFILE": "Geo Lock Profile",
+          "PRIVACY_PROFILE": "Privacy Profile"
+        },
+        "ARIA": {
+          "ASSET_PROFILE_ICON": "Asset Profile Icon: {{icon}}",
+          "EDIT_ASSET_PROFILE_ICON": "Edit asset profile icon",
+          "VERIFIED_ICON": "Verified icon",
+          "EDIT": "Edit asset profiles"
+        }
+      },
+      "ZONES": {
+        "TITLE": "Geographic Triggers",
+        "DESCRIPTION": "Trigger geographic events based on geofence, route and border changes.",
+        "FIELDS": {
+          "ZONES": "Geofences",
+          "BORDERS": "Borders",
+          "BORDERS_DESCRIPTION": "When the asset crosses any of these borders an event will be generated."
+        },
+        "BORDER_VALUES": {
+          "COUNTRY": "Country",
+          "STATE": "State / Province"
+        },
+        "ARIA": {
+          "ASSET_ZONE_ICON": "Asset Zone Icon: {{icon}}",
+          "EDIT_ASSET_ZONE_ICON": "Edit asset zone icon",
+          "EDIT": "Edit asset zones"
+        }
+      },
+      "CATEGORIES": {
+        "TITLE": "Categories",
+        "DESCRIPTION": "Assets can belong to a number of user defined categories.",
+        "NO_CATEGORIES": "No categories selected",
+        "ARIA": {
+          "ASSET_CATEGORY_ICON": "Asset category icon: {{icon}}",
+          "EDIT_ASSET_CATEGORY_ICON": "Edit asset category icon"
+        }
+      },
+      "SHARING": {
+        "TITLE": "Sharing",
+        "DESCRIPTION": "Add companies you'd like to share this asset with below.",
+        "FIELDS": {
+          "SHARED_WITH": "Shared With",
+          "PIN": "PIN"
+        },
+        "MODAL": {
+          "TITLE": "Share Asset",
+          "DESCRIPTION": "Enter the PIN number for the company you would like to share this asset with. If you do not know the PIN code, contact the company in question and ask for their PIN.",
+          "INVALID_PIN_MESSAGE": "Entered PIN is invalid.",
+          "SEARCHING": "Searching for client...",
+          "CLIENT_FOUND": "Client Found:"
+        },
+        "MESSAGES": {
+          "ALREADY_SHARED": "Already Shared",
+          "ALREADY_SHARED_DETAIL": "Asset is already shared with {{name}}",
+          "UPDATE_FAILED": "Failed to update sharing settings",
+          "UPDATE_SUCCESS": "Sharing settings updated successfully"
+        },
+        "CONFIRM": {
+          "HEADER": "Remove Sharing",
+          "MESSAGE": "Are you sure you want to remove sharing with {{name}}?"
+        },
+        "VALIDATIONS": {
+          "PIN_MIN_LENGTH": "PIN must be at least 3 characters",
+          "CLIENT_NOT_FOUND": "No client found for this PIN"
+        },
+        "ARIA": {
+          "ASSET_SHARING_ICON": "Asset sharing icon: {{icon}}",
+          "EDIT_ASSET_SHARING_ICON": "Edit asset sharing icon",
+          "SHARE_ICON": "Share icon",
+          "EDIT": "Edit asset sharing",
+          "DELETE_ITEM": "Remove sharing"
+        }
+      },
+      "COUNTERS": {
+        "ODOMETER": {
+          "TITLE": "Odometer",
+          "DESCRIPTION": "Adjust the odometer value below."
+        },
+        "HOURS": {
+          "TITLE": "Engine Hours",
+          "DESCRIPTION": "Adjust the engine hours value below."
+        },
+        "DATE": "Date",
+        "WARNINGS": {
+          "UNAVAILABLE": "Counter values are currently unavailable and cannot be updated. This may be because the asset has no device assigned or telemetry data is not available."
+        },
+        "ARIA": {
+          "ASSET_COUNTER_ICON": "Asset counter icon: {{icon}}",
+          "EDIT_ASSET_COUNTER_ICON": "Edit asset counter icon"
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Asset Details",
+          "CATEGORIES": "Categories",
+          "INFO": "Info"
+        }
+      },
+      "MOVE": {
+        "TIP": "Move Asset",
+        "MOVE_ASSET": "Move Asset",
+        "MOVE_ASSET_DESCRIPTION": "Select the destination client into which you'd like to move this asset. The asset will be copied to the new client and then deleted in this client.",
+        "FIELDS": {
+          "DESTINATION_CLIENT": "Destination Client",
+          "INCLUDE_DEVICE": "Include Device",
+          "INCLUDE_SIMCARD": "Include SIM Card"
+        }
+      },
+      "ODO_HOUR_CHANGES": {
+        "ARIA": {
+          "EDIT": "Edit",
+          "EDIT_CHANGE": "Edit change",
+          "DELETE_CHANGE": "Delete change"
+        },
+        "COLUMNS": {
+          "DATE": "Date",
+          "CREATED_BY": "Created By",
+          "ACTIONS": "Actions"
+        },
+        "EMPTY": "No changes recorded.",
+        "BUTTONS": {
+          "ADD_CHANGE": "Add Change"
+        }
+      },
+      "KEY_TELEMATICS": {
+        "CREDENTIALS": {
+          "TITLE": "Sign In to Key Telematics",
+          "DESCRIPTION": "Enter your Key Telematics credentials to continue.",
+          "CONNECTED": "Connected to Key Telematics",
+          "ACTIVE_ACCOUNT": "Active Account",
+          "CONNECTING": "Connecting...",
+          "MULTIPLE_ACCOUNTS": "Multiple accounts found. Please select one to continue.",
+          "FIELDS": {
+            "USERNAME": "Username",
+            "USERNAME_PLACEHOLDER": "Enter your username",
+            "PASSWORD": "Password",
+            "PASSWORD_PLACEHOLDER": "Enter your password"
+          }
+        },
+        "SELECT_CLIENT": {
+          "TITLE": "Select Key Telematics Client",
+          "DESCRIPTION": "Search for the Key Telematics client to sync this asset with."
+        },
+        "MAP_DEPS": {
+          "TITLE": "Map Dependencies",
+          "DESCRIPTION": "Map CypherView entities to their Key Telematics equivalents.",
+          "NO_DEPS": "No dependencies to map for this asset."
+        },
+        "CONFIRM": {
+          "CHECKING": "Checking entities...",
+          "REVIEW": "Review the following changes before proceeding.",
+          "OWNED_BY": "Owned by",
+          "DIFFERENT_CLIENT": "a different client",
+          "CONFLICT_ERROR": "There are conflicts that must be resolved before proceeding.",
+          "VERIFY_ERROR": "Failed to verify entities. You may proceed anyway, but conflicts may occur."
+        },
+        "SYNCING": "Syncing asset to Key Telematics...",
+        "BUTTONS": {
+          "SWITCH_ACCOUNT": "Switch Account",
+          "SIGN_IN_DIFFERENT": "Sign in with a different account",
+          "PROCEED": "Proceed",
+          "PROCEED_ANYWAY": "Proceed Anyway"
+        }
+      }
+    },
+    "ASSET_CATEGORIES": {
+      "TITLE": "Categories",
+      "COLUMNS": {
+        "NAME": "Name",
+        "ASSETS": "Assets",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Asset Category Details",
+        "DESCRIPTION": "The following information is required in order to identify your asset category.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Parent"
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Asset Category Details"
+        }
+      },
+      "ARIA": {
+        "ASSET_CATEGORY_ICON": "Asset category icon: {{icon}}",
+        "EDIT_ASSET_CATEGORY_DETAILS": "Edit asset category details"
+      }
+    },
+    "ASSET_GROUPS": {
+      "TITLE": "Asset Groups",
+      "COLUMNS": {
+        "NAME": "Name",
+        "ASSETS": "Assets",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Asset Group Details",
+        "DESCRIPTION": "The following information is required in order to identify your asset group.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Parent"
+        },
+        "PARENT_OPTIONS": {
+          "ROOT": "Root"
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Asset Group Details"
+        }
+      },
+      "ARIA": {
+        "EDIT_ASSET_GROUP_DETAILS": "Edit asset group details"
+      }
+    },
+    "ASSET_STATE_PROFILES": {
+      "TITLE": "Asset State Profiles",
+      "COLUMNS": {
+        "NAME": "Name",
+        "STATE": "State",
+        "MODIFIED": "Modified"
+      },
+      "WARNINGS": {
+        "ITEM_LENGTH": "At least two states are required for the asset state profile to be useful."
+      },
+      "DETAILS": {
+        "TITLE": "Asset State Profile Details",
+        "DESCRIPTION": "Configure the state change triggers for your asset state profile.",
+        "FIELDS": {
+          "NAME": "Name",
+          "STATES": "States",
+          "COLOR": "State Color",
+          "STATE": "State Name",
+          "RADIUS": "Radius",
+          "RADIUS_UNIT": "meters",
+          "RADIUS_DESCRIPTION": "Defines the thickness of the trip line drawn on the map for applications where coverage is important.",
+          "FILTER": "Event Filter"
+        },
+        "MODALS": {
+          "STATE": {
+            "TITLE": "State Change Trigger",
+            "DESCRIPTION": "Choose a state name and color, and configure the event filter to trigger this state."
+          }
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Asset State Profile Details"
+        }
+      },
+      "ARIA": {
+        "ASSET_STATE_PROFILE_ICON": "Asset state profile icon: {{icon}}",
+        "EDIT_ASSET_STATE_PROFILE_DETAILS": "Edit asset state profile details"
+      }
+    },
+    "ASSET_RATING_PROFILES": {
+      "TITLE": "Asset Rating Profiles",
+      "COLUMNS": {
+        "NAME": "Name",
+        "STATE": "State",
+        "MODIFIED": "Modified"
+      },
+      "WARNINGS": {
+        "ITEM_LENGTH": "At least one penalty is required for the asset rating profile to be useful."
+      },
+      "DETAILS": {
+        "TITLE": "Asset Rating Profile Details",
+        "DESCRIPTION": "Configure the rating penalties for your asset rating profile.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PENALTIES": "Penalties",
+          "PENALTY": "Penalty",
+          "MAX_PENALTY": "Max Penalty",
+          "COST": "Cost",
+          "FILTER": "Event Filter"
+        },
+        "MODALS": {
+          "STATE": {
+            "TITLE": "Rating Penalty",
+            "DESCRIPTION": "Choose penalty severity and configure the event filter to trigger this penalty."
+          }
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Asset Rating Profile Details"
+        }
+      },
+      "ARIA": {
+        "ASSET_RATING_PROFILE_ICON": "Asset rating profile icon: {{icon}}",
+        "EDIT_ASSET_RATING_PROFILE_DETAILS": "Edit asset rating profile details"
+      }
+    },
+    "ASSET_TAGS": {
+      "TITLE": "Asset Tags",
+      "COLUMNS": {
+        "NAME": "Name",
+        "SERIAL_NUMBER": "Serial Number",
+        "ASSET_TAG_TYPE": "Tag Type",
+        "MODE": "Mode",
+        "STATE": "State",
+        "ASSET": "Asset",
+        "MODIFIED": "Modified"
+      },
+      "MODES": {
+        "MOVABLE": "Movable",
+        "FIXED": "Fixed",
+        "STOCK": "Stock"
+      },
+      "DETAILS": {
+        "TITLE": "Asset Tag Details",
+        "DESCRIPTION": "The following information is required in order to identify your asset tag.",
+        "FIELDS": {
+          "NAME": "Name",
+          "SERIAL_NUMBER": "Serial Number",
+          "ASSET_TAG_TYPE": "Tag Type",
+          "MODE": "Mode"
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Asset Tag Details"
+        }
+      },
+      "ARIA": {
+        "ASSET_TAG_ICON": "Asset tag icon: {{icon}}",
+        "EDIT_ASSET_TAG_DETAILS": "Edit asset tag details"
+      }
+    },
+    "ZONES": {
+      "TITLE": "Geofences",
+      "COLUMNS": {
+        "NAME": "Name",
+        "COST_CENTRE": "Cost Centre",
+        "GROUP": "Group",
+        "TYPE": "Type",
+        "STATE": "State",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Geofence Details",
+        "DESCRIPTION": "Configure your geofence details.",
+        "FIELDS": {
+          "NAME": "Name",
+          "COST_CENTRE": "Cost Centre",
+          "GROUP": "Group",
+          "TYPE": "Type",
+          "SPEED": "Speed Limit",
+          "RADIUS": "Proximity Warning"
+        },
+        "TYPES": {
+          "LOCATION": "Location",
+          "KEEP_IN": "Keep In",
+          "NO_GO": "No Go",
+          "ROUTE": "Route"
+        },
+        "ARIA": {
+          "MAP_ICON": "Map icon",
+          "EDIT": "Edit geofence details"
+        }
+      },
+      "COORDS": {
+        "TITLE": "Geofence Coordinates",
+        "DESCRIPTION": "Enter the latitude and longitude of the geofence you'd like to create.",
+        "FIELDS": {
+          "LATITUDE": "Latitude",
+          "LONGITUDE": "Longitude",
+          "SHAPE": "Shape",
+          "RADIUS": "Radius"
+        },
+        "SHAPES": {
+          "TRIANGLE": "Triangle",
+          "SQUARE": "Square",
+          "HEXAGON": "Hexagon",
+          "OCTAGON": "Octagon"
+        },
+        "ARIA": {
+          "MAP_MARKER_ICON": "Map marker icon",
+          "EDIT": "Edit geofence coordinates"
+        }
+      },
+      "MAP": {
+        "TITLE": "Geofence Map",
+        "ARIA": {
+          "EDIT": "Edit geofence map"
+        },
+        "DESCRIPTION": "View and edit the geofence boundary on the map."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Geofence Details",
+          "COORDINATES": "Geofence Coordinates"
+        }
+      }
+    },
+    "ZONE_GROUPS": {
+      "TITLE": "Geofence Groups",
+      "COLUMNS": {
+        "NAME": "Name",
+        "ZONES": "Geofences",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Geofence Group Details",
+        "DESCRIPTION": "The following information is required in order to identify your geofence group.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Parent"
+        },
+        "PARENT_OPTIONS": {
+          "ROOT": "Root"
+        },
+        "ARIA": {
+          "EDIT": "Edit geofence group details"
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Geofence Group Details"
+        }
+      }
+    },
+    "ENTITIES": {
+      "CLIENTS": "Clients",
+      "CLIENT": "Client",
+      "CLIENT_GROUPS": "Client Groups",
+      "VENDORS": "Vendors",
+      "VENDOR": "Vendor",
+      "VENDOR_GROUPS": "Vendor Groups",
+      "DISTRIBUTORS": "Distributors",
+      "DISTRIBUTOR": "Distributor",
+      "SYSTEM": "System",
+      "USER": "User",
+      "USERS": "Users",
+      "USER_ROLE": "User Role",
+      "USER_ROLES": "User Roles",
+      "ASSET": "Asset",
+      "ASSETS": "Assets",
+      "ASSETS_AND_VEHICLES": "Assets and vehicles",
+      "COMPANY_GROUP": "Company Group",
+      "COMPANY_GROUPS": "Company Groups",
+      "ASSET_GROUP": "Asset Group",
+      "ASSET_GROUPS": "Asset Groups",
+      "ACCESS_GROUP": "Cost Centre",
+      "COST_CENTRE": "Cost Centre",
+      "COST_CENTRES": "Cost Centres",
+      "ASSET_CATEGORIES": "Asset Categories",
+      "ASSET_CATEGORY": "Asset Category",
+      "ZONE_GROUPS": "Geofence Groups",
+      "ZONE_GROUP": "Geofence Group",
+      "ZONE": "Geofence",
+      "ZONES": "Geofences",
+      "ASSET_TAG": "Asset Tag",
+      "ASSET_TAGS": "Asset Tags",
+      "DASHBOARD": "Dashboard",
+      "DASHBOARDS": "Dashboards",
+      "DASHBOARD_TEMPLATE": "Dashboard Template",
+      "DASHBOARD_TEMPLATES": "Dashboard Templates",
+      "ANALYTICS_BASE_REPORT": "Base Report",
+      "ANALYTICS_BASE_REPORTS": "Base Reports",
+      "WIDGET": "Widget",
+      "WIDGETS": "Widgets",
+      "SIM_CARD": "SIM Card",
+      "SIM_CARDS": "SIM Cards",
+      "FUEL_CARD": "Fuel Card",
+      "FUEL_CARDS": "Fuel Cards",
+      "DEVICE": "Device",
+      "DEVICES": "Devices",
+      "DEVICE_CONFIG_PROFILE": "Device Config Profile",
+      "DEVICE_CONFIG_PROFILES": "Device Config Profiles",
+      "DEVICE_TYPE": "Device Type",
+      "DEVICE_TYPES": "Device Types",
+      "DEVICE_PROVIDER": "Device Provider",
+      "DEVICE_PROVIDERS": "Device Providers",
+      "IO_TYPE": "I/O Type",
+      "IO_TYPES": "I/O Types",
+      "INPUT_OUTPUT_TYPE": "I/O Type",
+      "CUSTOM_FIELD": "Custom Field",
+      "CUSTOM_FIELDS": "Custom Fields",
+      "ASSET_STATE_PROFILE": "Asset State Profile",
+      "ASSET_STATE_PROFILES": "Asset State Profiles",
+      "ASSET_RATING_PROFILE": "Asset Rating Profile",
+      "ASSET_RATING_PROFILES": "Asset Rating Profiles",
+      "OVERSPEED_PROFILE": "Overspeed Profile",
+      "OVERSPEED_PROFILES": "Overspeed Profiles",
+      "GEO_LOCK_PROFILE": "Geo Lock Profile",
+      "GEO_LOCK_PROFILES": "Geo Lock Profiles",
+      "PRIVACY_PROFILE": "Privacy Profile",
+      "PRIVACY_PROFILES": "Privacy Profiles",
+      "ROAD_PROFILE": "Road Profile",
+      "ROAD_PROFILES": "Road Profiles",
+      "MAP_SET": "Map Set",
+      "MAP_SETS": "Map Sets",
+      "REPORT_TEMPLATE": "Report Template",
+      "REPORT_TEMPLATES": "Report Templates",
+      "SMS_GATEWAY_PROVIDER": "SMS Gateway",
+      "SMS_GATEWAY_PROVIDERS": "SMS Gateways",
+      "EMAIL_PROVIDER": "Email Provider",
+      "EMAIL_PROVIDERS": "Email Providers",
+      "SCHEDULED_REPORT": "Scheduled Report",
+      "SCHEDULED_REPORTS": "Scheduled Reports",
+      "SSL_CERTIFICATE": "SSL Certificate",
+      "SSL_CERTIFICATES": "SSL Certificates",
+      "THEME": "Theme",
+      "THEMES": "Themes",
+      "THEME_CONFIG": "Theme Config",
+      "ALERT": "Alert",
+      "ALERTS": "Alerts",
+      "EXPORT_TASK": "Export Task",
+      "EXPORT_TASKS": "Export Tasks",
+      "TASK": "Task",
+      "TASKS": "Tasks",
+      "MEDIA": "Media",
+      "CONTACTS": "Contacts",
+      "CONTACTS_COUNT": "{{count}} contacts",
+      "HARDWARE": "Hardware",
+      "PROFILES": "Profiles",
+      "ORGANIZATION": "Organization",
+      "ANALYTICS": "Dashboard",
+      "ACCOUNT": "Account",
+      "ACCOUNTS": "Accounts",
+      "SYSTEM_HEALTH": "System Health",
+      "PROVIDERS": "Providers",
+      "REMINDER": "Reminder",
+      "EVENTS": "Events",
+      "EVENT": "Event",
+      "LABEL": "Label",
+      "LABELS": "Labels",
+      "CONTACT": "Contact"
+    },
+    "DEVICES": {
+      "TITLE": "Devices",
+      "BULK_IMPORT_TITLE": "Bulk Import Devices",
+      "COLUMNS": {
+        "NAME": "Name",
+        "DEVICE_TYPE": "Type",
+        "STATE": "State",
+        "ASSET": "Asset",
+        "SIM_CARD": "SIM Card",
+        "MODIFIED": "Modified",
+        "CONFIG_PROFILE": "Config Profile",
+        "DEVICE_SERIAL": "Device Serial",
+        "DEVICE_REMARKS": "Device Remarks"
+      },
+      "CONFIG_PROFILES": {
+        "MESSAGES": {
+          "NO_BULK": "Bulk updating is not available if your bulk selection contains different types of device hardware."
+        },
+        "COLUMNS": {
+          "NAME": "Name",
+          "DEVICE_TYPE": "Type",
+          "STATE": "State",
+          "MODIFIED": "Modified"
+        },
+        "DETAILS": {
+          "TITLE": "Device Config Details",
+          "DESCRIPTION": "Configure your device configuration profile.",
+          "FIELDS": {
+            "NAME": "Name",
+            "DEVICE_TYPE": "Device Type"
+          },
+          "ARIA": {
+            "MICROCHIP_ICON": "Device config profile icon",
+            "EDIT": "Edit device config profile details"
+          }
+        },
+        "PARAMETERS": {
+          "TITLE": "Device Parameters",
+          "DESCRIPTION": "Configure various device parameters below.",
+          "FIELDS": {
+            "ACTIVE_INPUT": "Active Input",
+            "HOURS_INPUT": "Hours Input",
+            "IDLING_INPUT": "Idling Input",
+            "IDLING_INPUT_INVERT": "Invert Idling Input",
+            "INPUTS_OUTPUTS": "Input/Output",
+            "IO_TYPE": "I/O Type"
+          },
+          "ARIA": {
+            "WRENCH_ICON": "Device config profile parameters icon",
+            "EDIT": "Edit device parameters details"
+          }
+        }
+      },
+      "TYPES": {
+        "COLUMNS": {
+          "NAME": "Name",
+          "STATE": "State",
+          "MODIFIED": "Modified"
+        },
+        "DETAILS": {
+          "TITLE": "Device Type Details",
+          "DESCRIPTION": "The following information is required in order to configure your device type.",
+          "FIELDS": {
+            "PARENT": "Parent",
+            "NAME": "Name",
+            "SHORT_NAME": "Short Name",
+            "TAG": "Tag",
+            "DEVICE_PROVIDER": "Device Provider"
+          },
+          "PROVIDER": {
+            "TITLE": "Provider Integration",
+            "ACTIVE": "Active",
+            "DESCRIPTION": "This device type requires device provider selection during configuration.",
+            "ID": "ID"
+          },
+          "META": {
+            "CREATED": "Created Date",
+            "MODIFIED": "Modified Date",
+            "ENTITY_TYPE": "Entity Type",
+            "VERSION": "Version"
+          },
+          "VALIDATION": {
+            "TAG_PATTERN": "Tag can only contain letters, numbers, hyphens, dots and underscores"
+          },
+          "ARIA": {
+            "BUILDING_ICON": "Building icon",
+            "EDIT": "Edit device types details"
+          }
+        },
+        "CACHED": {
+          "TITLE": "Cached Inputs",
+          "DESCRIPTION": "When an input is cached, its last value will be cached and repeated for each subsequent telemetry message until a new value is received.",
+          "FIELDS": {
+            "CACHED_FIELDS": "Inputs"
+          },
+          "SECTION_TITLE": "Cached Fields",
+          "SECTION_DESCRIPTION": "Manage cached fields for this device type",
+          "ARIA": {
+            "ICON": "Cached Fields icon",
+            "EDIT": "Edit cached fields"
+          }
+        },
+        "FEATURES": {
+          "TITLE": "Device Features",
+          "DESCRIPTION": "Add the features that this device supports.",
+          "FIELDS": {
+            "FEATURES": "Features",
+            "TYPE": "Type"
+          },
+          "MODAL": {
+            "TITLE": "Device Feature",
+            "DESCRIPTION": "Select the feature and configure it below."
+          },
+          "CONFIRM": {
+            "DISABLE": "Are you sure you want to disable \"{{name}}\"?"
+          },
+          "ERRORS": {
+            "DUPLICATE_TITLE": "Duplicate Feature",
+            "DUPLICATE_MESSAGE": "This feature is already enabled."
+          },
+          "ARIA": {
+            "ICON": "Features icon",
+            "EDIT": "Edit features"
+          }
+        },
+        "IO": {
+          "FIELDS": {
+            "ITEMS": "Items",
+            "REQUIRED": "Required",
+            "OPTIONAL": "Optional"
+          },
+          "COLUMNS": {
+            "NAME": "Name",
+            "STATUS": "Required/Optional"
+          },
+          "CONFIRM": {
+            "DELETE": "Are you sure you want to delete \"{{name}}\"?"
+          },
+          "MODAL": {
+            "TITLE": "Add Input",
+            "DESCRIPTION": "Enter the name of the input as it appears in the telemetry record. Lowercase alphanumerical characters and underscores only.",
+            "FIELDS": {
+              "VALUE": "Value",
+              "INPUT_NAME": "Input Name",
+              "INPUT_PLACEHOLDER": "Enter input name...",
+              "OPTIONAL_HINT": "When enabled, this input is optional. When disabled, this input is required."
+            }
+          },
+          "DIGITAL_OUTPUT": {
+            "CAN_TOGGLE": "Can Toggle",
+            "CAN_TOGGLE_HINT": "When enabled, this output can be toggled on/off.",
+            "CAN_PULSE": "Can Pulse",
+            "CAN_PULSE_HINT": "When enabled, this output can pulse for a specified duration.",
+            "MIN_PULSE": "Min Pulse Seconds",
+            "MIN_PULSE_HINT": "Minimum pulse duration in seconds.",
+            "MAX_PULSE": "Max Pulse Seconds",
+            "MAX_PULSE_HINT": "Maximum pulse duration in seconds."
+          },
+          "EMPTY": "No {{title}} are currently configured for this device type.",
+          "ARIA": {
+            "ICON": "{{title}} icon",
+            "EDIT": "Edit {{title}}"
+          }
+        },
+        "IO_ANALOGS": {
+          "TITLE": "Analog Inputs",
+          "DESCRIPTION": "Add the analog inputs that are available on this device."
+        },
+        "IO_CAMERAS": {
+          "TITLE": "Camera Inputs",
+          "DESCRIPTION": "Add the camera inputs that are available on this device."
+        },
+        "IO_CANS": {
+          "TITLE": "CAN Bus Inputs",
+          "DESCRIPTION": "Add the CAN bus inputs that are available on this device."
+        },
+        "IO_COUNTERS": {
+          "TITLE": "Counter Inputs",
+          "DESCRIPTION": "Add the counter inputs that are available on this device."
+        },
+        "IO_DIGITALS": {
+          "TITLE": "Digital Inputs",
+          "DESCRIPTION": "Add the digital inputs that are available on this device."
+        },
+        "IO_OUTPUTS": {
+          "TITLE": "Digital Outputs",
+          "DESCRIPTION": "Add the digital outputs that are available on this device."
+        },
+        "IO_TEMPERATURES": {
+          "TITLE": "Temperature Inputs",
+          "DESCRIPTION": "Add the temperature inputs that are available on this device."
+        },
+        "IO_VALUES": {
+          "TITLE": "Value Inputs",
+          "DESCRIPTION": "Add the value inputs that are available on this device."
+        },
+        "ERRORS": {
+          "LOAD_DEVICE_TYPES": "Failed to get device types.",
+          "LOAD_PROVIDERS": "Failed to fetch device providers.",
+          "TOAST_SUCCESS": "Device Type updated successfully."
+        },
+        "ACCESSORIES": {
+          "TITLE": "Accessories",
+          "DESCRIPTION": "Configure device accessories like tag readers, sensors, and other peripheral devices.",
+          "EMPTY": "No accessories configured",
+          "CONFIRM": {
+            "REMOVE": "Are you sure you want to remove \"{{name}}\"?"
+          },
+          "MODAL": {
+            "TITLE": "Add Accessory",
+            "FIELDS": {
+              "KEY": "Accessory Key",
+              "KEY_PLACEHOLDER": "Enter accessory key...",
+              "KEY_HINT": "Unique identifier for this accessory (e.g., \"mritagreader\")",
+              "NAME": "Display Name",
+              "NAME_PLACEHOLDER": "Enter display name...",
+              "NAME_HINT": "Human-readable name for this accessory"
+            }
+          },
+          "ERRORS": {
+            "DUPLICATE_TITLE": "Duplicate Accessory",
+            "DUPLICATE_MESSAGE": "This accessory key is already in use."
+          },
+          "ARIA": {
+            "ICON": "Accessories icon",
+            "EDIT": "Edit accessories"
+          }
+        },
+        "SETTINGS": {
+          "TITLE": "Settings",
+          "DESCRIPTION": "Configure custom settings fields for this device type.",
+          "EMPTY": "No settings configured",
+          "INVALID": "Invalid settings definition",
+          "CONFIRM": {
+            "REMOVE": "Are you sure you want to remove \"{{name}}\"?"
+          },
+          "MODAL": {
+            "TITLE": "Add Setting Field",
+            "TYPES": {
+              "TEXT": "Text",
+              "NUMBER": "Number",
+              "COMBO": "Combo/Dropdown",
+              "BOOLEAN": "Boolean"
+            },
+            "FIELDS": {
+              "ID": "Field ID",
+              "ID_PLACEHOLDER": "Enter field ID...",
+              "ID_HINT": "Unique identifier for this field",
+              "TITLE_LABEL": "Field Title",
+              "TITLE_PLACEHOLDER": "Enter field title...",
+              "TITLE_HINT": "Display name for this field",
+              "TYPE": "Field Type",
+              "TYPE_HINT": "Select the input type for this field",
+              "UNIT": "Unit",
+              "UNIT_PLACEHOLDER": "e.g., millimeters, seconds, etc.",
+              "UNIT_HINT": "Unit of measurement for number fields",
+              "MIN": "Minimum Value",
+              "MIN_PLACEHOLDER": "Enter minimum value...",
+              "MIN_HINT": "Minimum allowed value for number fields",
+              "MAX": "Maximum Value",
+              "MAX_PLACEHOLDER": "Enter maximum value...",
+              "MAX_HINT": "Maximum allowed value for number fields",
+              "WIDTH": "Field Width",
+              "WIDTH_PLACEHOLDER": "Enter field width...",
+              "WIDTH_HINT": "Display width for the input field",
+              "DEFAULT": "Default Value",
+              "DEFAULT_PLACEHOLDER": "Enter default value...",
+              "DEFAULT_HINT": "Default value when field is empty",
+              "PLACEHOLDER_LABEL": "Placeholder",
+              "PLACEHOLDER_PLACEHOLDER": "Enter placeholder text...",
+              "PLACEHOLDER_HINT": "Placeholder text shown in the field",
+              "DESCRIPTION": "Description",
+              "DESCRIPTION_PLACEHOLDER": "Enter description...",
+              "DESCRIPTION_HINT": "Additional description for the field"
+            }
+          },
+          "ERRORS": {
+            "DUPLICATE_TITLE": "Duplicate Setting",
+            "DUPLICATE_MESSAGE": "This setting ID is already in use."
+          },
+          "ARIA": {
+            "ICON": "Settings icon",
+            "EDIT": "Edit settings"
+          }
+        },
+        "SETTING": {
+          "DESCRIPTION": "Configure {{title}} field settings and properties.",
+          "NO_DATA": "No data available for {{title}}.",
+          "ARIA": {
+            "ICON": "{{title}} icon",
+            "EDIT": "Edit {{title}}"
+          }
+        },
+        "ACCESSORY": {
+          "DESCRIPTION": "Configure {{title}} accessory settings and capabilities.",
+          "ICON_ARIA": "{{title}} icon",
+          "EDIT_ARIA": "Edit {{title}}",
+          "ACCORDION": {
+            "IO_CAPABILITIES": "IO Capabilities",
+            "SETTINGS_DEFINITION": "Settings Definition",
+            "FEATURES": "Features"
+          },
+          "EMPTY_CONTENT": "No IO capabilities, features, or settings have been configured for this {{title}} accessory.",
+          "NO_DATA": "No data available for {{title}}."
+        },
+        "FEATURE": {
+          "DESCRIPTION": "Configure {{title}} feature settings and webhooks.",
+          "ICON_ARIA": "{{title}} icon",
+          "EDIT_ARIA": "Edit {{title}}",
+          "ACCORDION": {
+            "SETTINGS": "Settings",
+            "WEBHOOKS": "Webhooks"
+          },
+          "EMPTY_CONTENT": "No settings or webhooks have been configured for this {{title}} feature.",
+          "NO_DATA": "No data available for {{title}}."
+        }
+      },
+      "PROVIDERS": {
+        "TITLE": "Device Providers",
+        "COLUMNS": {
+          "NAME": "Name",
+          "STATE": "State",
+          "TYPE": "Type",
+          "MODIFIED": "Modified"
+        },
+        "DETAILS": {
+          "TITLE": "Device Provider Details",
+          "DESCRIPTION": "The following information is required in order to configure your device provider.",
+          "FIELDS": {
+            "NAME": "Name",
+            "TYPE": "Type"
+          },
+          "ARIA": {
+            "EDIT": "Edit device provider details"
+          }
+        },
+        "PARAMETERS": {
+          "TITLE": "Parameters",
+          "DESCRIPTION": "Configure the following parameters that are required to communicate with the up-stream provider.",
+          "FIELDS": {},
+          "ARIA": {
+            "WRENCH_ICON": "Wrench icon",
+            "EDIT": "Edit device provider parameters"
+          }
+        }
+      },
+      "IO_TYPES": {
+        "TITLE": "I/O Types",
+        "COLUMNS": {
+          "NAME": "Name",
+          "STATE": "State",
+          "TYPE": "Type",
+          "MODIFIED": "Modified"
+        },
+        "TYPES": {
+          "DIGITAL_INPUT": "Digital Input",
+          "DIGITAL_OUTPUT": "Digital Output",
+          "ANALOG_INPUT": "Analog Input",
+          "TEMPERATURE_INPUT": "Temperature Input",
+          "CAN_INPUT": "CAN Input",
+          "COUNTER_INPUT": "Counter Input",
+          "CAMERA_INPUT": "Camera Input",
+          "VALUE_INPUT": "Value Input"
+        },
+        "SMOOTHING_TYPES": {
+          "NONE": "None",
+          "MOVING_AVERAGE_5": "Moving Average (5 samples)",
+          "MOVING_AVERAGE_10": "Moving Average (10 samples)",
+          "MOVING_AVERAGE_20": "Moving Average (20 samples)"
+        },
+        "RATE_TYPES": {
+          "NONE": "None",
+          "VAL_PER_KM": "Value Per Kilometer",
+          "KM_PER_VAL": "Kilometer Per Value",
+          "VAL_PER_MILE": "Value Per Mile",
+          "MILE_PER_VAL": "Miles Per Value",
+          "VAL_PER_HOUR": "Value Per Hour",
+          "HOUR_PER_VAL": "Hours Per Value"
+        },
+        "DETAILS": {
+          "TITLE": "I/O Type Details",
+          "DESCRIPTION": "The following information is required in order to configure your I/O type.",
+          "FIELDS": {
+            "NAME": "Name",
+            "TYPE": "Type",
+            "ACTIVE_TEXT": "Active Text",
+            "INACTIVE_TEXT": "Inactive Text",
+            "UNIT": "Unit",
+            "FILTER": "Filter",
+            "RATE_TYPE": "Rate Type",
+            "RATE_UNIT": "Rate Unit",
+            "RATE_MULTIPLIER": "Rate Multiplier",
+            "LOOKUPS": "Lookups",
+            "LOOKUPS_DESCRIPTION": "Paste values in CSV format, i.e. \"key\",\"value\" ",
+            "SMOOTHING_TYPE": "Smoothing Type"
+          },
+          "ARIA": {
+            "ICON": "I/O type icon",
+            "EDIT": "Edit I/O type details"
+          }
+        },
+        "TOAST_SUCCESS": "IO Type updated successfully."
+      },
+      "IO": {
+        "PRESET": {
+          "EMULATE": "Emulate",
+          "DEFAULT": "Default",
+          "IGNITION_WIRE": "Ignition Wire",
+          "IGNITION": "Ignition",
+          "SPEED": "Speed",
+          "MOVEMENT": "Movement Detection"
+        },
+        "CUSTOM": "Custom",
+        "WHITELIST_WARNING": "This input is not included in your IO selection, so will not be recorded. Select it in the IO Selection section above if you wish to use it.",
+        "CALIBRATION": {
+          "TITLE": "{{type}} Calibration",
+          "DESCRIPTION": "Complete the following calibration values for your IO.",
+          "FIELDS": {
+            "INPUT": "Input",
+            "MIN_VOLTS": "Min Volts",
+            "MAX_VOLTS": "Max Volts",
+            "MIN_VALUE": "Min Value",
+            "MAX_VALUE": "Max Value",
+            "MULTIPLIER": "Multiplier",
+            "INVERT": "Invert",
+            "PULSED": "Pulsed",
+            "ENABLE_LIVE_STREAM": "Live Streaming"
+          },
+          "MODAL_DESCRIPTION": "Configure calibration settings for your IO"
+        },
+        "CUSTOM_MODAL": {
+          "TITLE": "Custom Input",
+          "DESCRIPTION": "Enter the name of the custom input you'd like to use below.",
+          "FIELDS": {
+            "INPUT": "Input"
+          }
+        },
+        "DESCRIPTION": "Configure {{name}} with calibration settings",
+        "ARIA": {
+          "ICON": "Input/output icon",
+          "EDIT": "Edit {{name}}",
+          "CONFIGURE": "Configure {{name}}"
+        },
+        "FIELDS": {
+          "SELECT_CONFIGURATION": "Select configuration"
+        }
+      },
+      "IO_WHITELIST": {
+        "TITLE": "IO Selection",
+        "DESCRIPTION": "Select which of the various inputs and outputs available on the device you would like to have captured and persisted.",
+        "ARIA": {
+          "LIST_ICON": "List icon",
+          "EDIT": "Edit IO selection"
+        }
+      },
+      "LINKED": {
+        "TITLE": "Linked Entities",
+        "DESCRIPTION": "The following entities are linked to this device.",
+        "FIELDS": {
+          "ASSET": "Asset",
+          "SIM_CARD": {
+            "TITLE": "SIM Card",
+            "PLACEHOLDER": "Enter SIM card name..."
+          }
+        },
+        "WARNING": {
+          "ASSET_MULTIPLE_DEVICE": "Multiple Devices assigned to linked Asset"
+        },
+        "ARIA": {
+          "LINK_ICON": "Link icon",
+          "EDIT": "Edit linked entities"
+        }
+      },
+      "PARAMETERS": {
+        "TITLE": "Device Parameters",
+        "DESCRIPTION": "Configure various device parameters below.",
+        "FIELDS": {
+          "ACTIVE_INPUT": "Active Input",
+          "HOURS_INPUT": "Hours Input",
+          "IDLING_INPUT": "Idling Input",
+          "IDLING_INPUT_INVERT": "Invert Idling Input",
+          "INPUTS_OUTPUTS": "Input/Output",
+          "IO_TYPE": "I/O Type"
+        },
+        "ARIA": {
+          "WRENCH_ICON": "Wrench icon",
+          "EDIT": "Edit device parameters"
+        },
+        "AND": "AND",
+        "ADD_SECONDARY": "Add secondary idling condition",
+        "REMOVE_SECONDARY_LABEL": "Remove Secondary Condition",
+        "REMOVE_SECONDARY_HINT": "Remove AND condition and threshold"
+      },
+      "ACCESSORIES": {
+        "DESCRIPTION": "Enable and configure this accessory below.",
+        "FIELDS": {
+          "ENABLED": "Enabled",
+          "YES": "Yes",
+          "NO": "No"
+        },
+        "ARIA": {
+          "COG_ICON": "cog icon",
+          "EDIT": "Edit device accessories details"
+        }
+      },
+      "IO_BITMAPS": {
+        "TITLE": "Bitmapped IO",
+        "DESCRIPTION": "You can create new inputs from composite values using I/O bitmaps. Configure these below.",
+        "EMPTY": "No bitmaps added yet. Click \"Add\" to create a bitmap.",
+        "FIELDS": {
+          "INPUTS": "Inputs",
+          "SOURCE_INPUT": "Source Input",
+          "SOURCE_BITMASK": "Bitmask",
+          "SOURCE_BITMASK_DESCRIPTION": "Bitmask to be applied to the value after shifting, in hex format (i.e. 0x01)",
+          "SOURCE_BITSHIFT": "Bitshift",
+          "SOURCE_BITSHIFT_DESCRIPTION": "Number of bits the source input value will be shifted to the right",
+          "TARGET_INPUT": "Target Input",
+          "TARGET_TYPE": "Target Type"
+        },
+        "ARIA": {
+          "SQUARE_BINARY_ICON": "square binary icon",
+          "EDIT": "Edit bitmapped IO properties.",
+          "DELETE": "Delete Bitmap"
+        },
+        "MODAL": {
+          "TITLE": "Bitmapped IO Properties",
+          "DESCRIPTION": "Specify the details for your new bitmapped input."
+        }
+      },
+      "DETAILS": {
+        "TITLE": "Device Details",
+        "DESCRIPTION": "Configure various details about your device.",
+        "FIELDS": {
+          "SERIAL_NUMBER": "Serial Number",
+          "DEVICE_TYPE": "Device Type",
+          "PROVIDER": "Device Provider",
+          "CONFIG_PROFILE": "Configuration",
+          "MANUAL_CONFIG": "Manually Configured"
+        },
+        "ARIA": {
+          "MICROCHIP_ICON": "microchip icon",
+          "EDIT": "Edit device details"
+        }
+      }
+    },
+    "DEVICE_TYPES": {
+      "TITLE": "Device Types",
+      "COLUMNS": {
+        "NAME": "Name",
+        "SHORT_NAME": "Short Name",
+        "TAG": "Tag",
+        "STATUS": "Status",
+        "MODIFIED": "Modified"
+      }
+    },
+    "PROFILES": {
+      "OVERSPEED": {
+        "TITLE": "Overspeed Profiles",
+        "COLUMNS": {
+          "NAME": "Name",
+          "STATE": "State",
+          "MODIFIED": "Modified"
+        },
+        "WARNINGS": {
+          "ITEM_LENGTH": "At least one overspeed band is required for the overspeed profile to be useful."
+        },
+        "DETAILS": {
+          "TITLE": "Overspeed Profile Details",
+          "DESCRIPTION": "Configure the bands which will be used to grade the severity of overspeeding events.",
+          "FIELDS": {
+            "NAME": "Name",
+            "ITEMS": "Bands",
+            "MIN": "Overspeed",
+            "OFFSET": "Offset",
+            "DESCRIPTION_MIN_AND_MAX": "Overspeeding events {{min}}-{{max}}% over the speed limit",
+            "DESCRIPTION_MIN_ONLY": "Overspeeding events {{min}}% plus over the speed limit"
+          },
+          "MODALS": {
+            "STATE": {
+              "TITLE": "Overspeed Band",
+              "DESCRIPTION": "Configure the band values on which to match overspeeding"
+            }
+          },
+          "ARIA": {
+            "GAUGE_ICON": "Gauge icon",
+            "EDIT": "Edit overspeed profile details"
+          }
+        },
+        "WIZARD": {
+          "STEPS": {
+            "DETAILS": "Overspeed Profile Details"
+          }
+        }
+      },
+      "ROAD": {
+        "TITLE": "Road Profiles",
+        "COLUMNS": {
+          "NAME": "Name",
+          "STATE": "State",
+          "MODIFIED": "Modified"
+        },
+        "DETAILS": {
+          "TITLE": "Road Profile Details",
+          "DESCRIPTION": "Configure the road modifiers that you want to apply to this profile below.",
+          "FIELDS": {
+            "ITEMS": "Speed Modifiers",
+            "NAME": "Name",
+            "FILTER": "Filter",
+            "SPEED": "New Speed Limit",
+            "UNIT": "Unit"
+          },
+          "MODALS": {
+            "MODIFIER": {
+              "TITLE": "Road Speed Modifier",
+              "DESCRIPTION": "Create a filter to match certain geographic conditions, and specify a new speed limit for your assets."
+            }
+          },
+          "ARIA": {
+            "EDIT": "Edit road profile details"
+          }
+        },
+        "WIZARD": {
+          "STEPS": {
+            "DETAILS": "Road Profile Modifier",
+            "DESCRIPTION": "Create a filter to match certain geographic conditions, and specify a new speed limit for your assets."
+          }
+        }
+      },
+      "GEO_LOCK": {
+        "TITLE": "Geo Lock Profiles",
+        "COLUMNS": {
+          "NAME": "Name",
+          "STATE": "State",
+          "MODIFIED": "Modified"
+        },
+        "WARNINGS": {
+          "ITEM_LENGTH": "At least one time entry is required for the geo lock profile to be useful."
+        },
+        "DETAILS": {
+          "TITLE": "Geo Lock Profile Details",
+          "DESCRIPTION": "Use a geo lock profile to automatically lock a vehicle in place during certain hours.",
+          "FIELDS": {
+            "NAME": "Name",
+            "RADIUS": "Radius",
+            "ITEMS": "Times",
+            "FROM": "From",
+            "TO": "To",
+            "TIMEZONE": "Time Zone",
+            "DAYS": "Days",
+            "FROM_TO": "{{from}} to {{to}}"
+          },
+          "MODALS": {
+            "TIME": {
+              "TITLE": "Geo Lock Times",
+              "DESCRIPTION": "Configure the days of the week and times in which the lock is active."
+            }
+          },
+          "ARIA": {
+            "LOCK_ICON": "Lock icon",
+            "EDIT": "Edit geo lock profile details"
+          },
+          "WIZARD": {
+            "STEPS": {
+              "DETAILS": "Geo Lock Profile Details"
+            }
+          }
+        }
+      },
+      "CUSTOM_FIELDS": {
+        "TITLE": "Custom Fields",
+        "COLUMNS": {
+          "NAME": "Name",
+          "TYPE": "Type",
+          "ENTITY": "Applies To"
+        },
+        "TYPES": {
+          "TEXT": "Text",
+          "MEMO": "Memo",
+          "COMBO": "Selection",
+          "CHECKBOX": "Yes/No",
+          "DATE": "Date",
+          "DATETIME": "Date & Time",
+          "URL": "URL"
+        },
+        "DETAILS": {
+          "TITLE": "Custom Field Details",
+          "DESCRIPTION": "Select from the following options for your custom field.",
+          "FIELDS": {
+            "ID": "Id",
+            "NAME": "Name",
+            "TYPE": "Type",
+            "ENTITY": "Applies To",
+            "REQUIRED": "Required",
+            "VALUES": "Values",
+            "VALUES_DESCRIPTION": "Place each value on a new line."
+          },
+          "ARIA": {
+            "MOBILE_ICON": "Custom field icon",
+            "EDIT": "Edit custom field details"
+          }
+        }
+      }
+    },
+    "APP_STORE": {
+      "LISTING_PREVIEW": {
+        "TITLE": "Marketplace Preview",
+        "EDIT_MODE": "Edit Mode",
+        "APP_NAME_PLACEHOLDER": "App name",
+        "BY": "By",
+        "YOU": "You",
+        "SHORT_DESCRIPTION_PLACEHOLDER": "Short description will appear here…",
+        "ABOUT": "About this app",
+        "FULL_DESCRIPTION_PLACEHOLDER": "Full description will appear here…",
+        "INTEGRATES_WITH": "Integrates with",
+        "PERMISSIONS_REQUIRED": "Permissions required",
+        "NO_PERMISSIONS": "No permissions declared",
+        "HEALTH_ENABLED": "Health monitoring enabled",
+        "HEALTH_NONE": "No health check configured"
+      },
+      "PERMISSIONS_PICKER": {
+        "NONE_REQUIRED": "No permissions required",
+        "SCOPE": "Scope",
+        "TARGET": "Target",
+        "ACTIONS": "Actions",
+        "NONE_ADDED": "No permissions added yet",
+        "REMOVE": "Remove",
+        "ADD_NEW": "Add new permission",
+        "SELECT_TARGET": "Select target…",
+        "SELECT_ACTIONS": "Select actions…",
+        "ADD": "+ Add",
+        "VALIDATION": "Please select a target and at least one action."
+      },
+      "DEVELOPER_CONSOLE": {
+        "TOTAL_INSTALLS": "Total Installs",
+        "ACTIVE": "Active",
+        "AVG_RATING": "Avg. Rating",
+        "EST_MONTHLY_REVENUE": "Est. Monthly Revenue",
+        "FREE": "Free",
+        "API_CREDENTIALS": "API Credentials",
+        "CLIENT_ID": "Client ID",
+        "COPIED": "Copied!",
+        "COPY_CLIENT_ID": "Copy Client ID",
+        "LOADING_VERSIONS": "Loading version history…",
+        "VERSION_HISTORY": "Version History",
+        "VERSION_PREFIX": "v",
+        "BUMP_MAJOR": "major",
+        "BUMP_MINOR": "minor",
+        "BUMP_PATCH": "patch",
+        "HIDE_CHANGES": "Hide changes",
+        "SHOW_CHANGES": "Show changes vs previous",
+        "NO_FIELD_CHANGES": "No tracked field changes.",
+        "FIELD": "Field",
+        "BEFORE": "Before",
+        "AFTER": "After",
+        "INSTALLERS": "Installers",
+        "NO_INSTALLATIONS": "No installations yet.",
+        "ORGANISATION": "Organisation",
+        "STATUS": "Status",
+        "INSTALLED": "Installed",
+        "ENABLED": "Enabled",
+        "DISABLED": "Disabled",
+        "INVITE_LINKS": "Invite Links",
+        "GENERATE_INVITE": "Generate Invite",
+        "NO_INVITES": "No invite links yet. Generate one to share access.",
+        "TOKEN": "Token",
+        "CREATED": "Created",
+        "EXPIRES": "Expires",
+        "COPY_TOKEN": "Copy token",
+        "REVOKE_INVITE": "Revoke invite"
+      },
+      "FEE": {
+        "FREE": "Free",
+        "PER_INSTALL": "{{amount}} / install",
+        "PER_ACTIVE_DEVICE": "{{amount}} / active device"
+      },
+      "INSTALL": {
+        "CONFIRM_HEADER": "Confirm Installation Cost",
+        "FEE_MESSAGE": "This app costs <strong>{{label}}</strong>. By installing, you agree to this pricing.",
+        "FEE_ESTIMATE": " Based on your <strong>{{count}} active devices</strong>, your estimated cost is <strong>{{total}}</strong>.",
+        "AGREE_INSTALL": "Agree & Install",
+        "CANCEL": "Cancel",
+        "FEE_CHANGED_HEADER": "Fee Terms Have Changed",
+        "FEE_CHANGED_MESSAGE": "The new pricing is <strong>{{label}}</strong>. By accepting, you agree to the updated pricing.",
+        "ACCEPT": "Accept",
+        "PERMISSION_BLOCK_HEADER": "Insufficient Permissions",
+        "PERMISSION_BLOCK_INTRO": "Your account is missing permissions required by this app:",
+        "PERMISSION_BLOCK_FOOTER": "Contact your administrator to have these permissions assigned.",
+        "OK": "OK",
+        "ERROR_ESTIMATE": "Could not load cost estimate.",
+        "ERROR_INSTALL": "Could not install the app. Please try again.",
+        "ERROR_UNINSTALL": "Could not uninstall the app. Please try again.",
+        "ERROR_TOGGLE": "Could not update app status. Please try again.",
+        "CONFIG_TITLE": "Configure App Sidebar Installation",
+        "CONFIG_SUBHEADER": "Customize how this app appears in the sidebar external tabs",
+        "CONFIG_ICON_LABEL": "Sidebar Icon",
+        "CONFIG_ICON_HINT": "Material icon name or URL for the sidebar tab",
+        "CONFIG_SECTION_LABEL": "Sidebar Section",
+        "CONFIG_SECTION_HINT": "UI section where the sidebar tab will appear",
+        "CONFIG_ORDER_LABEL": "Sidebar Display Order",
+        "CONFIG_ORDER_HINT": "Lower numbers appear first in the sidebar"
+      }
+    },
+    "ALERTS": {
+      "TITLE": "Alerts",
+      "IMPORT_VENDOR_ALERTS": "Import Vendor Alerts",
+      "COLUMNS": {
+        "NAME": "Name",
+        "COST_CENTRE": "Cost Centre",
+        "PRIORITY": "Priority",
+        "STATE": "State",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Alert Details",
+        "DESCRIPTION": "Configure the filter and notify settings for your alert.",
+        "FIELDS": {
+          "NAME": "Name",
+          "COST_CENTRE": "Cost Centre",
+          "FILTER": "Event Filter",
+          "PRIORITY": "Priority",
+          "NOTIFY": "Notify",
+          "ACTIONS": "Actions",
+          "ICON": "Icon",
+          "ICON_DESCRIPTION": "Select an icon to represent this alert"
+        }
+      },
+      "PRIORITIES": {
+        "LOW": "Low",
+        "MEDIUM": "Medium",
+        "HIGH": "High"
+      },
+      "NOTIFY": {
+        "ME": "Me",
+        "ROLE": "User Role",
+        "USER": "User",
+        "ROLES": "Users with specific role",
+        "USERS": "Specific user"
+      },
+      "ACTIONS": {
+        "CAMERA": "Camera",
+        "REQUEST_VIDEO": "Request Video",
+        "REQUEST_VIDEO_DESCRIPTION": "{{duration}} seconds (with {{offset}} second offset) from {{cameras}}",
+        "LABELS": "Labels",
+        "LABEL_CURRENT_TRIP": "Label Current Trip",
+        "LABEL_CURRENT_TRIP_DESCRIPTION": "Add the following labels to the current trip: {{labels}}",
+        "LABEL_MODAL": {
+          "TITLE": "Add Labels",
+          "DESCRIPTION": "Choose the labels to apply to the current trip when this alert is triggered.",
+          "FIELDS": {
+            "LABELS": "Labels"
+          }
+        }
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Alert Details"
+        }
+      },
+      "ARIA": {
+        "ALERT_ICON": "Alert icon: {{icon}}",
+        "ALERT_NOTIFICATION_ICON": "Alert notification icon",
+        "EDIT_ALERT_DETAILS": "Edit alert details"
+      }
+    },
+    "EMAIL_PROVIDERS": {
+      "TITLE": "Email Providers",
+      "COLUMNS": {
+        "NAME": "Name",
+        "STATE": "State",
+        "TYPE": "Type",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Email Provider Details",
+        "DESCRIPTION": "The following information is required in order to configure your email provider.",
+        "FIELDS": {
+          "NAME": "Name",
+          "TYPE": "Type"
+        },
+        "ARIA": {
+          "EDIT": "Edit email provider details"
+        }
+      },
+      "PARAMETERS": {
+        "TITLE": "Parameters",
+        "DESCRIPTION": "Configure the following parameters that are required to communicate with the email provider.",
+        "FIELDS": {},
+        "ARIA": {
+          "WRENCH_ICON": "Wrench icon",
+          "EDIT": "Edit email provider parameters"
+        }
+      }
+    },
+    "SMS_GATEWAY_PROVIDERS": {
+      "TITLE": "SMS Gateway",
+      "COLUMNS": {
+        "NAME": "Name",
+        "STATE": "State",
+        "TYPE": "Type",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "SMS Gateway Details",
+        "DESCRIPTION": "The following information is required in order to configure your SMS Gateway provider.",
+        "FIELDS": {
+          "NAME": "Name",
+          "TYPE": "Type"
+        },
+        "ARIA": {
+          "EDIT": "Edit SMS gateway provider details"
+        }
+      },
+      "PARAMETERS": {
+        "TITLE": "Parameters",
+        "DESCRIPTION": "Configure the following parameters that are required to communicate with the up-stream provider.",
+        "FIELDS": {},
+        "ARIA": {
+          "WRENCH_ICON": "Wrench icon",
+          "EDIT": "Edit SMS gateway provider parameters"
+        }
+      }
+    },
+    "COST_CENTRES": {
+      "TITLE": "Cost Centres",
+      "COLUMNS": {
+        "NAME": "Name",
+        "ASSETS": "Assets",
+        "USERS": "Users",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Cost Centre Details",
+        "DESCRIPTION": "The following information is required in order to identify your cost centre.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Parent"
+        },
+        "ARIA": {
+          "EDIT": "Edit cost centre details"
+        }
+      }
+    },
+    "COMPANY_GROUPS": {
+      "TITLE": "Company Groups",
+      "COLUMNS": {
+        "NAME": "Name",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Company Group Details",
+        "DESCRIPTION": "The following information is required in order to identify your company group.",
+        "FIELDS": {
+          "NAME": "Name",
+          "PARENT": "Parent"
+        },
+        "PARENT_OPTIONS": {
+          "ROOT": "Root"
+        },
+        "ARIA": {
+          "EDIT": "Edit company group details"
+        }
+      },
+      "EMAIL_CUSTOMIZATION": {
+        "DEFAULT_TEMPLATE_NAME": "Default",
+        "USER_INVITE": {
+          "TITLE": "User Invite Email",
+          "DESCRIPTION": "Customize the text that will be sent in the new user invitation email.",
+          "SUBJECT": "Account creation at {{siteUrl}}",
+          "BODY": "You're receiving this email because an account was created for you at {{siteUrl}}.\n\nTo complete your profile and set a password, open the following link in your browser: {{resetUrl}}\n\nYou can safely ignore this message if you do not wish to complete the account creation process."
+        },
+        "FORGOT_PASSWORD": {
+          "TITLE": "Forgot Password Email",
+          "DESCRIPTION": "Customize the text that will be sent when a user resets their own password with the forgot password action.",
+          "SUBJECT": "Password reset at {{siteUrl}}",
+          "BODY": "You're receiving this email because you entered your email address and clicked the forgot password link at {{siteUrl}}.\n\nTo reset your password, open the following link in your browser: {{resetUrl}}\n\nYou can safely ignore this message if you do not wish to reset your password."
+        },
+        "USER_RESET": {
+          "TITLE": "User Account Reset Email",
+          "DESCRIPTION": "Customize the text that will be sent when an admin resets a user account.",
+          "SUBJECT": "Account recovery at {{siteUrl}}",
+          "BODY": "You're receiving this email because your account was reset by an administrator at {{siteUrl}}.\n\nTo recover your account and set a new password, open the following link in your browser: {{resetUrl}}\n\nYou can safely ignore this message if you do not wish to recover your account."
+        },
+        "FIELDS": {
+          "TEMPLATE": "Template",
+          "SUBJECT": "Subject",
+          "BODY": "Body"
+        }
+      }
+    },
+    "DETAILS_PANEL": {
+      "ARIA": {
+        "BOX_ICON": "Details panel icon",
+        "CLOSE": "Close details panel"
+      },
+      "CHANGE_STATE_TITLE": "Change State To"
+    },
+    "THEMES": {
+      "TITLE": "Themes",
+      "COLUMNS": {
+        "NAME": "Name",
+        "DESCRIPTION": "Description",
+        "BASE_THEME": "Base Theme",
+        "STATE": "State",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "Theme Details",
+        "DESCRIPTION": "Give your theme a unique name and description.",
+        "FIELDS": {
+          "BASE_THEME": "Base Theme",
+          "NAME": "Name",
+          "DESCRIPTION": "Description",
+          "CSS_SRC": "Custom CSS Link",
+          "CUSTOM_TAGS": "Custom Tags",
+          "WEB_LOGO": "Web Logo",
+          "WEB_LOGO_DESCRIPTION": "The image will be resampled to 240 x 100 pixels. For better results you should pre-scale your image in a graphics program before uploading."
+        },
+        "CLONE": "Clone",
+        "JSON": "JSON",
+        "CSS": "Custom CSS",
+        "MODALS": {
+          "CUSTOM_TAG": {
+            "TITLE": "Custom HTML Tag",
+            "DESCRIPTION": "Enter the details for an HTML tag that will be injected into the page at your chosen location.",
+            "FIELDS": {
+              "NAME": "Name",
+              "LOCATION": "Location",
+              "LOCATION_HEADER": "Header",
+              "LOCATION_BODY": "Body",
+              "TAG_TYPE": "Tag Type",
+              "TAG_CONTENTS": "Tag Contents",
+              "TAG_ATTRIBUTES": "Tag Attributes",
+              "TAG_ATTRIBUTES_DESCRIPTION": "A list of tag attributes, one per line, in the format: attr=\"value\""
+            }
+          }
+        }
+      },
+      "SETTINGS": {
+        "TITLE": "Theme Settings",
+        "DESCRIPTION": "Customize your theme by tweaking the following settings.",
+        "FIELDS": {
+          "MAIN": "Main",
+          "CONTENT": "Content",
+          "STYLE": "Style",
+          "POSITION": "Position",
+          "SHADOW": "Shadow",
+          "SIZE": "Size",
+          "FONT": {
+            "TITLE": "Font",
+            "FAMILY": "Font Family",
+            "SIZE": "Font Size",
+            "COLOR": "Font Color",
+            "WEIGHT": "Font Weight",
+            "TRANSFORM": "Font Case"
+          },
+          "GUTTER": {
+            "WIDTH": "Gutter Size"
+          },
+          "BACKGROUND": {
+            "TITLE": "Background",
+            "COLOR": "Background Color"
+          },
+          "PRIMARY": {
+            "COLOR": "Primary",
+            "CONTRAST": "Primary Contrast"
+          },
+          "SECONDARY": {
+            "COLOR": "Secondary",
+            "CONTRAST": "Secondary Contrast"
+          },
+          "SUCCESS": {
+            "COLOR": "Success"
+          },
+          "INFO": {
+            "COLOR": "Info"
+          },
+          "NOTIFY": {
+            "COLOR": "Notify"
+          },
+          "WARNING": {
+            "COLOR": "Warning"
+          },
+          "DANGER": {
+            "COLOR": "Danger"
+          },
+          "BORDER": {
+            "WIDTH": "Border Width",
+            "COLOR": "Border Color",
+            "RADIUS": "Border Radius",
+            "SHADOW": "Shadow"
+          },
+          "HOVER": {
+            "BORDER": {
+              "COLOR": "Hover Border",
+              "SHADOW": "Hover Shadow"
+            }
+          },
+          "ACTIVE": {
+            "STYLE": "Active Style",
+            "FONT": {
+              "COLOR": "Active Font"
+            },
+            "BACKGROUND": {
+              "COLOR": "Active Background"
+            },
+            "TAB": {
+              "FONT": {
+                "COLOR": "Active Tab Font"
+              },
+              "BACKGROUND": {
+                "COLOR": "Active Tab Background"
+              }
+            },
+            "BORDER": {
+              "COLOR": "Active Border",
+              "SHADOW": "Active Shadow"
+            },
+            "INDICATOR": {
+              "STYLE": "Active Indicator",
+              "COLOR": "Indicator Color"
+            }
+          },
+          "INACTIVE": {
+            "FONT": {
+              "COLOR": "Inactive Font"
+            },
+            "BACKGROUND": {
+              "COLOR": "Inactive Background"
+            }
+          },
+          "HEADER": {
+            "FONT": {
+              "SIZE": "Header Font Size",
+              "COLOR": "Header Font Color",
+              "WEIGHT": "Header Font Weight",
+              "TRANSFORM": "Header Font Case"
+            },
+            "BACKGROUND": {
+              "COLOR": "Header Background"
+            },
+            "BORDER": {
+              "COLOR": "Header Border Color"
+            }
+          },
+          "SUB_NAV": {
+            "FONT": {
+              "COLOR": "Sub nav Font Color"
+            },
+            "BACKGROUND": {
+              "COLOR": "Sub nav Background"
+            }
+          },
+          "FOOTER": {
+            "FONT": {
+              "SIZE": "Footer Font Size",
+              "COLOR": "Footer Font Color",
+              "WEIGHT": "Footer Font Weight",
+              "TRANSFORM": "Footer Font Case"
+            },
+            "BACKGROUND": {
+              "COLOR": "Footer Background"
+            },
+            "BORDER": {
+              "COLOR": "Footer Border Color"
+            }
+          },
+          "SEPARATOR": {
+            "WIDTH": "Separator Width"
+          },
+          "PALETTE": "Palette",
+          "LABEL": {
+            "FONT": {
+              "FAMILY": "Label Font Family",
+              "SIZE": "Label Font Size",
+              "COLOR": "Label Font Color"
+            }
+          },
+          "LOGO": {
+            "STYLE": "Logo Style",
+            "BACKGROUND": {
+              "COLOR": "Logo Background"
+            }
+          },
+          "ICON": {
+            "PACK": "Icon Pack"
+          }
+        },
+        "VALUES": {
+          "AUTO": "Auto",
+          "TRANSPARENT": "Transparent",
+          "WHITE": "White",
+          "BLACK": "Black",
+          "OFF_WHITE": "Off-White",
+          "OFF_BLACK": "Off-Black",
+          "INHERIT": "Inherit",
+          "NONE": "None",
+          "CUSTOM": "Custom",
+          "LIGHTEN": "Lighten {{group}} {{variable}} {{percentage}}%",
+          "DARKEN": "Darken {{group}} {{variable}} {{percentage}}%",
+          "FONT-FAMILY": "{{group}} Font",
+          "FONT-WEIGHT": "{{group}} Weight",
+          "FONT-COLOR": "{{group}} Font Color",
+          "BACKGROUND-COLOR": "{{group}} Background",
+          "BORDER-COLOR": "{{group}} Border"
+        },
+        "LOADER": {
+          "TITLE": "Loader",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings.",
+          "STYLE": {
+            "PULSE": "Pulse",
+            "RAINBOW": "Rainbow",
+            "UNEVEN_LINES": "Uneven Lines",
+            "SPINNER": "Spinner"
+          }
+        },
+        "MAIN": {
+          "TITLE": "Main",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "CONTENT": {
+          "TITLE": "Content",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "NAVIGATION": {
+          "TITLE": "Navigation",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "TOPNAVIGATION": {
+          "TITLE": "Top Navigation",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "HEADER": {
+          "TITLE": "Header",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "SUBHEADER": {
+          "TITLE": "Sub Header",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "FOOTER": {
+          "TITLE": "Footer",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "MODAL": {
+          "TITLE": "Modal",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "SIDEBAR": {
+          "TITLE": "Side Bar",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "COLOR": {
+          "TITLE": "Color",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "BUTTON": {
+          "TITLE": "Button",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "INPUT": {
+          "TITLE": "Input",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "ACCORDION": {
+          "TITLE": "Accordion",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "TABLE": {
+          "TITLE": "Table",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "TREE": {
+          "TITLE": "Tree",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "LIST": {
+          "TITLE": "List",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "TAB": {
+          "TITLE": "Tab",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "FEED": {
+          "TITLE": "Feed",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        },
+        "GRAPH": {
+          "TITLE": "Graph",
+          "DESCRIPTION": "Customize your theme by tweaking the following settings."
+        }
+      },
+      "STYLE": {
+        "TITLE": "Style Settings",
+        "DESCRIPTION": "Customize your theme by tweaking the following settings."
+      }
+    },
+    "SIM_CARDS": {
+      "TITLE": "SIM Cards",
+      "COLUMNS": {
+        "SERIAL_NUMBER": "Serial Number",
+        "NETWORK": "Network",
+        "NUMBER": "Number",
+        "STATE": "State",
+        "DEVICE": "Device",
+        "DESCRIPTION": "Description",
+        "MODIFIED": "Modified"
+      },
+      "DETAILS": {
+        "TITLE": "SIM Card Details",
+        "DESCRIPTION": "Configure various details about your SIM card.",
+        "FIELDS": {
+          "SERIAL_NUMBER": "Serial Number",
+          "NETWORK": "Network",
+          "NUMBER": "Number",
+          "STATE": "State",
+          "DEVICE": "Device",
+          "DESCRIPTION": "Description"
+        },
+        "ARIA": {
+          "MOBILE_ICON": "Mobile icon",
+          "EDIT": "Edit SIM card details"
+        }
+      }
+    },
+    "SYSTEM_HEALTH": {
+      "CONTAINER": {
+        "TABS": {
+          "SYSTEM_OVERVIEW": "System Overview",
+          "AZURE_FUNCTIONS": "Azure Functions",
+          "INGESTION": "Ingestion",
+          "EVENT_FLOW": "Event Flow",
+          "DATA_STORAGE": "Data Storage",
+          "ERRORS_AND_ALERTS": "Errors & Alerts"
+        }
+      },
+      "SHARED": {
+        "TIME_RANGE_LABEL": "Time Range:",
+        "SELECT_TIME_RANGE": "Select time range",
+        "REFRESH": "Refresh",
+        "SERVICE_STATUS": {
+          "HEALTHY": "Operating normally with no significant errors or latency.",
+          "WARNING": "Experiencing some errors or elevated latency, but still functional.",
+          "CRITICAL": "Experiencing severe issues, high failure rates, or downtime.",
+          "UNKNOWN": "No activity recorded in the selected time range.",
+          "DEFAULT": "Status could not be determined."
+        }
+      },
+      "SYSTEM_OVERVIEW": {
+        "TITLE": "System Health Overview",
+        "CONNECTION": {
+          "CONNECTED": "Real-time data connected",
+          "LOST": "Connection lost - showing cached data"
+        },
+        "LOADING": "Loading system health data...",
+        "METRICS": {
+          "TOTAL_SERVICES": "Total Services",
+          "SERVICES_MONITORED": "Services monitored",
+          "HEALTHY_SERVICES": "Healthy Services",
+          "RUNNING_NORMALLY": "Running normally",
+          "AVG_ERROR_RATE": "Avg Error Rate",
+          "ACROSS_ALL_SERVICES": "Across all services",
+          "AVG_RESPONSE_TIME": "Avg Response Time",
+          "SYSTEM_LATENCY": "System latency",
+          "TOOLTIPS": {
+            "TOTAL_SERVICES": "The total number of unique services currently monitored by the system.",
+            "HEALTHY_SERVICES": "The number of services currently reporting a healthy status without errors or latency warnings.",
+            "AVG_ERROR_RATE": "The average percentage of failed operations across all integrated services.",
+            "AVG_RESPONSE_TIME": "The average latency across all tracked successful operations in the system."
+          }
+        },
+        "SERVICE_TABLE": {
+          "HEADER": "Service Health Status",
+          "COLUMNS": {
+            "SERVICE": "Service",
+            "TYPE": "Type",
+            "STATUS": "Status",
+            "UPTIME": "Uptime",
+            "ERROR_RATE": "Error Rate",
+            "OPERATIONS": "Operations",
+            "AVG_RESPONSE": "Avg Response",
+            "P95": "P95"
+          },
+          "COLUMN_TOOLTIPS": {
+            "SERVICE": "Name of the backend service",
+            "TYPE": "Category of the service (e.g., Compute, Storage, Database)",
+            "STATUS": "Current health condition determined by failure rates and latency",
+            "UPTIME": "Percentage of operations that completed successfully",
+            "ERROR_RATE": "Percentage of operations that resulted in errors or faults",
+            "OPERATIONS": "Total volume of operations recorded within the time range",
+            "AVG_RESPONSE": "Average time taken by the service to process operations",
+            "P95": "The 95th percentile latency - 95% of requests completed faster than this time"
+          },
+          "EMPTY": {
+            "FETCHING": "Fetching service details...",
+            "NO_DATA": "No service data available"
+          }
+        },
+        "AZURE_QUICK_STATUS": {
+          "HEADER": "Azure Functions Quick Status",
+          "COLUMNS": {
+            "FUNCTION_NAME": "Function Name",
+            "STATUS": "Status",
+            "EXECUTIONS": "Executions",
+            "SUCCESS_RATE": "Success Rate",
+            "AVG_DURATION": "Avg Duration"
+          }
+        }
+      },
+      "AZURE_FUNCTIONS": {
+        "TITLE": "Azure Functions Performance",
+        "LOADING": "Loading Azure Functions data...",
+        "METRICS": {
+          "TOTAL_FUNCTIONS": "Total Functions",
+          "TOTAL_EXECUTIONS": "Total Executions",
+          "AVG_SUCCESS_RATE": "Avg Success Rate",
+          "COLD_STARTS": "Cold Starts",
+          "TOOLTIPS": {
+            "TOTAL_FUNCTIONS": "The number of unique Azure functions deployed and detected within the time range.",
+            "TOTAL_EXECUTIONS": "The total aggregated number of executions for all Azure functions combined.",
+            "AVG_SUCCESS_RATE": "The average percentage of non-failing executions across all functions.",
+            "COLD_STARTS": "The number of executions that suffered from a cold start delay (the function had to spin up in Azure before executing)."
+          }
+        },
+        "TABS": {
+          "OVERVIEW": "Functions Overview",
+          "TIMELINE": "Execution Timeline",
+          "COLD_START": "Cold Start Analysis",
+          "DEPENDENCIES": "Dependencies"
+        },
+        "TABLE": {
+          "COLUMNS": {
+            "FUNCTION_NAME": "Function Name",
+            "STATUS": "Status",
+            "EXECUTIONS": "Executions",
+            "SUCCESS_RATE": "Success Rate",
+            "AVG_DURATION": "Avg Duration",
+            "P95_DURATION": "P95 Duration",
+            "LAST_EXECUTION": "Last Execution"
+          },
+          "COLUMN_TOOLTIPS": {
+            "FUNCTION_NAME": "Name of the running Azure Function",
+            "STATUS": "Health state based on error rates",
+            "EXECUTIONS": "Total volume of runs",
+            "SUCCESS_RATE": "Percentage of executions that succeed",
+            "AVG_DURATION": "Average time the function takes to complete",
+            "P95_DURATION": "95th percentile execution time (slower than average)",
+            "LAST_EXECUTION": "Timestamp of the most recently recorded execution"
+          },
+          "EMPTY": {
+            "LOADING": "Loading functions data...",
+            "NO_DATA": "No functions data available"
+          }
+        },
+        "EXPANDED": {
+          "DETAILED_METRICS_SUFFIX": "- Detailed Metrics",
+          "EXECUTION_STATISTICS": "Execution Statistics",
+          "DURATION_METRICS": "Duration Metrics",
+          "DEPENDENCIES": "Dependencies",
+          "LABELS": {
+            "TOTAL": "Total:",
+            "FAILED": "Failed:",
+            "ERROR_RATE": "Error Rate:",
+            "MIN": "Min:",
+            "P50": "P50:",
+            "P99": "P99:",
+            "MAX": "Max:"
+          },
+          "NO_DEPENDENCIES": "No dependencies tracked"
+        },
+        "TIMELINE": {
+          "GRANULARITY_LABEL": "Granularity:",
+          "LOADING": "Loading timeline data...",
+          "NO_DATA": "No timeline data available",
+          "OPTIONS": {
+            "ONE_MINUTE": "1 minute",
+            "FIVE_MINUTES": "5 minutes",
+            "FIFTEEN_MINUTES": "15 minutes",
+            "THIRTY_MINUTES": "30 minutes",
+            "ONE_HOUR": "1 hour"
+          }
+        },
+        "COLD_START": {
+          "SUMMARY": {
+            "HEADER": "Cold Start Summary",
+            "TOTAL": "Total Cold Starts",
+            "AVG_RATE": "Avg Cold Start Rate",
+            "FUNCTIONS_ANALYZED": "Functions Analyzed"
+          },
+          "TOP_FUNCTIONS": "Top Functions by Cold Start Rate",
+          "NO_COLD_STARTS": "No cold starts detected",
+          "ALL_OPTIMAL": "All functions are running optimally",
+          "DETAILS_BY_FUNCTION": "Cold Start Details by Function",
+          "COLUMNS": {
+            "FUNCTION": "Function",
+            "COLD_STARTS": "Cold Starts",
+            "RATE": "Rate",
+            "AVG_COLD": "Avg Cold",
+            "AVG_WARM": "Avg Warm",
+            "IMPACT": "Impact"
+          }
+        },
+        "DEPENDENCIES": {
+          "TOTAL_CALLS": "Total Dependency Calls",
+          "FAILED_CALLS": "Failed Calls",
+          "OVERALL_ERROR_RATE": "Overall Error Rate",
+          "TABLE": {
+            "COLUMNS": {
+              "FUNCTION": "Function",
+              "TYPE": "Type",
+              "DEPENDENCY": "Dependency",
+              "CALLS": "Calls",
+              "FAILED": "Failed",
+              "ERROR_RATE": "Error Rate",
+              "AVG_DURATION": "Avg Duration"
+            }
+          },
+          "NO_DATA": "No dependency data available"
+        }
+      },
+      "INGESTION": {
+        "TITLE": "Ingestion Metrics",
+        "LAST_UPDATED": "Last updated:",
+        "ERROR_MESSAGE": "Unable to load ingestion metrics.",
+        "METRICS": {
+          "CONNECTED_DEVICES": "Connected Devices",
+          "EVENTHUB_INCOMING": "EventHub Incoming",
+          "EVENTHUB_OUTGOING": "EventHub Outgoing",
+          "PENDING_MESSAGES": "Pending Messages",
+          "AVG_WORKER_DURATION": "Avg Worker Duration",
+          "MAX_WORKER_DURATION": "Max Worker Duration",
+          "DEVICES_BACKLOG": "Devices Backlog > 1000",
+          "TOOLTIPS": {
+            "CONNECTED_DEVICES": "The number of IoT devices currently connected and sending heartbeat signals.",
+            "EVENTHUB_INCOMING": "The total number of messages received by the Event Hub from connected devices.",
+            "EVENTHUB_OUTGOING": "The total number of messages successfully processed and routed out of the Event Hub.",
+            "PENDING_MESSAGES": "The number of messages currently sitting in the queue waiting to be processed. High numbers indicate processing delays.",
+            "AVG_WORKER_DURATION": "The average time the queue worker took to process a message (from Azure Monitor).",
+            "MAX_WORKER_DURATION": "The longest time the queue worker took to process a single message (from Azure Monitor).",
+            "DEVICES_BACKLOG": "The number of devices having a severe backlog (more than 1000 pending messages)."
+          }
+        },
+        "TIMELINE": {
+          "HEADER": "Ingestion Timeline",
+          "LOADING": "Loading ingestion metrics...",
+          "NO_DATA": "No ingestion data available",
+          "NO_DATA_SUBTITLE": "Metrics will appear here once telemetry is available."
+        },
+        "TABLE": {
+          "COLUMNS": {
+            "TIMESTAMP": "Timestamp",
+            "CONNECTED_DEVICES": "Connected Devices",
+            "INCOMING": "Incoming",
+            "OUTGOING": "Outgoing",
+            "PENDING": "Pending",
+            "WORKER_AVG": "Worker Avg (ms)",
+            "WORKER_MAX": "Worker Max (ms)",
+            "QUEUE_LAG_AVG": "Queue Lag Avg (ms)",
+            "QUEUE_LAG_MAX": "Queue Lag Max (ms)",
+            "BACKLOG": "Backlog >1000"
+          },
+          "COLUMN_TOOLTIPS": {
+            "CONNECTED_DEVICES": "Active devices sending heartbeats",
+            "INCOMING": "Messages entering Event Hub",
+            "OUTGOING": "Messages processed via Event Hub",
+            "PENDING": "Current backlog of unprocessed messages",
+            "WORKER_AVG": "Average time the queue worker took to process a message (Azure Monitor)",
+            "WORKER_MAX": "Maximum time the queue worker took to process a single message (Azure Monitor)",
+            "QUEUE_LAG_AVG": "Average time messages waited in the queue before being picked up (ADX)",
+            "QUEUE_LAG_MAX": "Maximum time any single message waited in the queue before being picked up (ADX)",
+            "BACKLOG": "Devices with severe backlogs (>1000 msgs)"
+          }
+        }
+      },
+      "EVENT_FLOW": {
+        "TITLE": "Event Flow & Throughput",
+        "METRICS": {
+          "AVG_REQUESTS_PER_SEC": "Avg Requests/sec",
+          "AVG_EVENTS_PER_SEC": "Avg Events/sec",
+          "AVG_DEPENDENCIES_PER_SEC": "Avg Dependencies/sec",
+          "TOTAL_OPERATIONS": "Total Operations",
+          "PEAK": "Peak:",
+          "REAL_TIME_THROUGHPUT": "Real-time throughput",
+          "TOOLTIPS": {
+            "AVG_REQUESTS_PER_SEC": "The average number of incoming HTTP requests processed by the system per second.",
+            "AVG_EVENTS_PER_SEC": "The average number of custom events or messages processed per second internally.",
+            "AVG_DEPENDENCIES_PER_SEC": "The average number of calls made to external systems (databases, APIs, storage) per second.",
+            "TOTAL_OPERATIONS": "The combined total of all requests, events, and dependencies over the selected time range."
+          }
+        },
+        "CARDS": {
+          "TOTAL_REQUESTS": "Total Requests",
+          "REQUESTS_PER_SEC": "requests/sec",
+          "TOTAL_EVENTS": "Total Events",
+          "EVENTS_PER_SEC": "events/sec",
+          "TOTAL_DEPENDENCIES": "Total Dependencies",
+          "CALLS_PER_SEC": "calls/sec"
+        },
+        "CHART": {
+          "HEADER": "Throughput Over Time",
+          "LOADING": "Loading throughput data...",
+          "NO_DATA": "No throughput data available",
+          "NO_DATA_SUBTITLE": "Throughput metrics will appear here once data is collected.",
+          "Y_AXIS": "Operations per Second"
+        },
+        "LEGEND": {
+          "REQUESTS": "Requests per second",
+          "EVENTS": "Events per second",
+          "DEPENDENCIES": "Dependencies per second"
+        },
+        "CHART_LABELS": {
+          "REQUESTS_PER_SEC": "Requests/sec",
+          "EVENTS_PER_SEC": "Events/sec",
+          "DEPENDENCIES_PER_SEC": "Dependencies/sec"
+        }
+      },
+      "DATA_STORAGE": {
+        "TITLE": "Data Storage",
+        "METRICS": {
+          "TOTAL_OPERATIONS": "Total Operations",
+          "TOTAL_SUCCESS_RATE": "Total Success Rate",
+          "TOOLTIPS": {
+            "TOTAL_OPERATIONS": "The total number of storage operations (read, write, delete) across all connected storage services.",
+            "TOTAL_SUCCESS_RATE": "The percentage of storage operations that completed successfully without errors."
+          }
+        },
+        "TABLE": {
+          "HEADER": "Storage Overview",
+          "COLUMNS": {
+            "STORAGE_TYPE": "Storage Type",
+            "TARGET": "Target",
+            "STATUS": "Status",
+            "OPERATIONS": "Operations",
+            "SUCCESS_RATE": "Success Rate",
+            "AVG_LATENCY": "Avg Latency",
+            "P95_LATENCY": "P95 Latency",
+            "THROUGHPUT": "Throughput",
+            "LAST_ACTIVITY": "Last Activity"
+          },
+          "COLUMN_TOOLTIPS": {
+            "STORAGE_TYPE": "Type of storage resource (e.g., Azure Blob, Cosmos DB)",
+            "TARGET": "The specific resource instance or table name",
+            "STATUS": "Current health condition of the storage resource",
+            "OPERATIONS": "Total number of operations on this specific resource",
+            "SUCCESS_RATE": "Percentage of successful operations for this resource",
+            "AVG_LATENCY": "Average time taken to complete an operation",
+            "P95_LATENCY": "95th percentile query/operation time",
+            "THROUGHPUT": "Average number of operations completed per second",
+            "LAST_ACTIVITY": "Timestamp of the most recent recorded operation"
+          },
+          "EMPTY": {
+            "LOADING": "Loading storage data...",
+            "NO_DATA": "No storage data available"
+          }
+        },
+        "EXPANDED": {
+          "DETAILED_METRICS_SUFFIX": "- Detailed Metrics",
+          "OPERATION_STATISTICS": "Operation Statistics",
+          "LATENCY_PERCENTILES": "Latency Percentiles",
+          "PERFORMANCE_SUMMARY": "Performance Summary",
+          "LABELS": {
+            "TOTAL": "Total:",
+            "SUCCESSFUL": "Successful:",
+            "FAILED": "Failed:",
+            "ERROR_RATE": "Error Rate:",
+            "MIN": "Min:",
+            "P50": "P50:",
+            "P95": "P95:",
+            "P99": "P99:",
+            "MAX": "Max:",
+            "THROUGHPUT": "Throughput:",
+            "AVG_LATENCY": "Avg Latency:",
+            "SUCCESS_RATE": "Success Rate:",
+            "LAST_ACTIVITY": "Last Activity:"
+          }
+        }
+      },
+      "ERRORS_AND_ALERTS": {
+        "SORT": {
+          "LABEL": "Sort:",
+          "PLACEHOLDER": "Sort by",
+          "OPTIONS": {
+            "NEWEST_FIRST": "Newest First",
+            "OLDEST_FIRST": "Oldest First",
+            "SEVERITY_HIGH_TO_LOW": "Severity (High to Low)",
+            "MOST_OCCURRENCES": "Most Occurrences",
+            "MOST_UNIQUE_ISSUES": "Most Unique Issues",
+            "ACTIVE_FIRST": "Active First"
+          }
+        },
+        "SEVERITY_FILTER": {
+          "LABEL": "Severity:",
+          "OPTIONS": {
+            "ALL": "All Severities",
+            "CRITICAL": "Critical",
+            "ERROR": "Error",
+            "WARNING": "Warning",
+            "INFORMATION": "Information"
+          }
+        },
+        "SUMMARY": {
+          "TOTAL_ALERTS": "Total Alerts",
+          "CRITICAL": "Critical",
+          "ERRORS": "Errors",
+          "WARNINGS": "Warnings",
+          "TOOLTIPS": {
+            "TOTAL_ALERTS": "The total number of alerts recorded in the system.",
+            "CRITICAL": "Critical alerts that represent severe system failures or data loss. Requires immediate attention.",
+            "ERRORS": "Standard error alerts indicating operations that failed but may not cause complete system outages.",
+            "WARNINGS": "Warning alerts indicating potential issues like high latency or throttled queries before they become hard errors."
+          }
+        },
+        "CHART": {
+          "HEADER": "Error Timeline by Service",
+          "LOADING": "Loading error timeline...",
+          "NO_DATA": "No error data available",
+          "NO_DATA_SUBTITLE": "Error timeline data will appear here when available"
+        },
+        "RECENT_ALERTS": {
+          "HEADER": "Recent Alerts",
+          "EMPTY": "No alerts found"
+        },
+        "ALERT": {
+          "ID_LABEL": "Alert ID:",
+          "MESSAGE_LABEL": "Message:",
+          "SAMPLE_ERROR_LABEL": "Sample Error:",
+          "DETAILS_LABEL": "Details:",
+          "SOURCE_LABEL": "Source",
+          "AFFECTED_RESOURCE_LABEL": "Affected Resource",
+          "UNIQUE_ISSUES_LABEL": "Unique Issues",
+          "AFFECTED_OPERATIONS_LABEL": "Affected Operations",
+          "FIRST_OCCURRENCE_LABEL": "First Occurrence",
+          "LAST_OCCURRENCE_LABEL": "Last Occurrence",
+          "DURATION_LABEL": "Duration",
+          "DURATION": {
+            "MIN": "min",
+            "HOURS": "hours",
+            "DAYS": "days"
+          }
+        },
+        "EMPTY": {
+          "TITLE": "No alerts found",
+          "SUBTITLE": "All systems are operating normally"
+        },
+        "LOADING": "Loading alerts...",
+        "ALERT_STATUS": {
+          "ACTIVE": "The issue is currently ongoing and active.",
+          "RECENT": "The issue occurred recently but may not be active right now.",
+          "RESOLVED": "The issue has been resolved and is no longer active.",
+          "DEFAULT": "Status could not be determined."
+        }
+      }
+    },
+    "MAP_SETS": {
+      "TITLE": "Map Sets",
+      "COLUMNS": {
+        "STATE": "State",
+        "NAME": "Name"
+      },
+      "DETAILS": {
+        "TITLE": "Map Set Details",
+        "DESCRIPTION": "Configure map layers, projections, zoom thresholds, and servers below.",
+        "FIELDS": {
+          "NAME": "Name",
+          "LAYERS": "Layers",
+          "OVERLAYS": "Overlays"
+        },
+        "MODAL": {
+          "TITLE": {
+            "LAYER": "New Layer",
+            "OVERLAY": "New Overlay"
+          },
+          "DESCRIPTION": {
+            "LAYER": "Configure various details about your layer.",
+            "OVERLAY": "Configure various details about your overlay."
+          },
+          "FIELDS": {
+            "NAME": "Name",
+            "PROJECTION": "Projection",
+            "MIN_ZOOM": "Min Zoom",
+            "MAX_ZOOM": "Max Zoom",
+            "SERVER_TYPE": "Server Type",
+            "ORDER": "Order",
+            "IMAGE_TYPE": "Tile Image Type",
+            "LAYER_NAME": "Layer Name",
+            "SERVERS": "Servers",
+            "OVERLAYS": "Overlays",
+            "ATTRIBUTION": "Attribution"
+          },
+          "LAYER_DISPLAY": "Server Type: {{serverType}}, Zoom: {{minZoom}} - {{maxZoom}}",
+          "VALIDATION": {
+            "SERVERS_REQUIRED": "At least one server URL is required"
+          }
+        },
+        "ARIA": {
+          "EDIT": "Edit map set details"
+        }
+      },
+      "WIZARD": {
+        "CONFIRMATION": {
+          "LAYERS_CONFIGURED": "Layers Configured:",
+          "LAYER_COUNT": "{{count}} layer(s)",
+          "OVERLAYS_CONFIGURED": "Overlays Configured:",
+          "OVERLAY_COUNT": "{{count}} overlay(s)"
+        }
+      }
+    },
+    "EXPORT_TASKS": {
+      "COLUMNS": {
+        "NAME": "Name",
+        "STATE": "State",
+        "CLIENT": "Client",
+        "MODE": "Mode",
+        "DOCUMENTS": "Documents",
+        "ASSETS": "Assets",
+        "MODIFIED": "Modified"
+      },
+      "MODES": {
+        "HTTP": "HTTP",
+        "FTP": "FTP",
+        "STREAM": "Streaming",
+        "FIREHOSE": "Firehose"
+      },
+      "DOCUMENT_TYPES": {
+        "TELEMETRY": "Telemetry",
+        "EVENT": "Events",
+        "TRIP": "Trips",
+        "CRASH_DATA": "Crash Data",
+        "CHANGES": "Entity Change Notifications"
+      },
+      "ENDPOINT_TYPES": {
+        "S3": "S3",
+        "HTTP": "HTTP"
+      },
+      "DETAILS": {
+        "TITLE": "Export Task Details",
+        "DESCRIPTION": "Name your export task and select the target client.",
+        "ARIA": {
+          "EXPORT_TASK_ICON": "export task icon",
+          "EDIT": "Edit export task details"
+        },
+        "CREDENTIALS": {
+          "TITLE": "Credentials",
+          "NONE": "No credential available.",
+          "NONE_FOR_TASK": "No credentials available for this export task.",
+          "API_KEY": "API Key",
+          "USERNAME": "Username",
+          "PASSWORD": "Password",
+          "S3_POLICY": "You need to apply the following AWS IAM policy to the bucket you've specified in order for the export task to write to the bucket:"
+        },
+        "FIELDS": {
+          "NAME": "Name",
+          "MODE": "Mode",
+          "CLIENT": "Client"
+        }
+      },
+      "SETTINGS": {
+        "TITLE": "Settings",
+        "SECTION_TITLE": "Export Task Settings",
+        "DESCRIPTION": "Configure your export task settings.",
+        "ARIA": {
+          "SETTINGS_ICON": "export task settings icon",
+          "EDIT": "Edit export task settings"
+        },
+        "FIELDS": {
+          "DOCUMENTS": "Documents",
+          "DOCUMENT_VERSION": "Document Version",
+          "ASSETS": "Assets",
+          "CLIENTS": "Clients",
+          "ENDPOINT_TYPE": "Endpoint Type",
+          "BUCKET_ARN": "Bucket ARN",
+          "BUCKET_ARN_DESCRIPTION": "The S3 bucket ARN in the format 'arn:aws:s3:::my-bucket-name'",
+          "URL": "Destination URL",
+          "URL_DESCRIPTION": "The destination url in the format 'https://example.com/myapi/'",
+          "PARAMS": "Parameters",
+          "PARAMS_DESCRIPTION": "(Optional) Parameters in the format 'key=value' separated with new lines",
+          "ACCESS_KEY": "Access Key",
+          "ACCESS_KEY_DESCRIPTION": "(Optional) A user defined access key that will be passed in the 'x-amz-firehose-access-key' header",
+          "ENCODING": "Content Encoding",
+          "PREFIX": "Prefix",
+          "DOCUMENT_TYPES": "Document Types",
+          "ENDPOINT": "Endpoint",
+          "CLIENT_COUNT": "{{count}} client(s)",
+          "BUCKET_ARN_HINT": "The ARN of the S3 bucket to deliver data to",
+          "URL_HINT": "Only https:// endpoints are supported",
+          "ACCESS_KEY_HINT": "Optional access key used for authentication",
+          "PARAMS_HINT": "Additional HTTP parameters"
+        }
+      },
+      "DOCUMENT_VERSIONS": {
+        "V1": "v1 (Legacy)",
+        "V2": "v2 (Latest)"
+      },
+      "ENCODING_OPTIONS": {
+        "DISABLED": "Disabled",
+        "GZIP": "GZIP"
+      }
+    },
+    "SHARED": {
+      "ARIA": {
+        "GRID_ACTIONS": "Grid actions",
+        "ADD_NEW_ITEM": "Add new item",
+        "REFRESH_GRID_DATA": "Refresh grid data",
+        "TOGGLE_FILTERS": "Toggle filters",
+        "EXPORT_TO_CSV": "Export to CSV",
+        "TREE_TABLE_ACTIONS": "Tree Table actions",
+        "REFRESH_TREE_TABLE_DATA": "Refresh tree table data",
+        "EXPORT_DATA_AS_CSV": "Export data as CSV",
+        "EXPORTING": "Exporting data, please wait...",
+        "BULK_IMPORT": "Bulk import"
+      },
+      "TOOLTIPS": {
+        "FILTER": "Filter",
+        "EXPORT_CSV": "Export CSV"
+      },
+      "NAVIGATION_PANEL": {
+        "NAVIGATE_TO_CLIENT": "Navigate to selected client",
+        "GO_TO_CLIENT": "Go to selected client",
+        "EXPAND_COMPANY_STRUCTURE": "Expand company structure",
+        "COLLAPSE_COMPANY_STRUCTURE": "Collapse company structure",
+        "TOGGLE_BUTTON_TEXT": "COMPANY STRUCTURE"
+      },
+      "SECTIONS": {
+        "INFORMATION": "Information",
+        "SETTINGS": "Settings",
+        "LIMITS": "Limits",
+        "FEATURES": "Features",
+        "STATISTICS": "Statistics",
+        "CHANGES": "Changes",
+        "CUSTOM": "Custom"
+      },
+      "OIDC_ISSUERS": {
+        "TITLE": "External Authentication",
+        "DESCRIPTION": "To authenticate with an external OpenId Connect issuer, add the issuer below.",
+        "FIELDS": {
+          "ISSUERS": "Issuers",
+          "NAME": "Name",
+          "NAME_DESCRIPTION": "A descriptive name for this issuer. It will be displayed on a button on the sign in screen.",
+          "ISSUER": "Issuer",
+          "ISSUER_DESCRIPTION": "The issuer endpoint, i.e. https://accounts.google.com/",
+          "CLIENT_ID": "Client ID",
+          "CLIENT_ID_DESCRIPTION": "The Client ID supplied by your Open ID Connect issuer.",
+          "CLIENT_SECRET": "Client Secret",
+          "CLIENT_SECRET_DESCRIPTION": "The client secret is OPTIONAL and is not required for standard web or mobile sign in."
+        },
+        "MODAL": {
+          "TITLE": "Issuer Details",
+          "DESCRIPTION": "Complete the following fields obtained from the OpenID Connect issuer."
+        },
+        "ARIA": {
+          "KEY_ICON": "Key icon",
+          "EDIT": "Edit External Authentication",
+          "DELETE_ISSUER": "Delete Issuer"
+        }
+      },
+      "FORM_SECTION": {
+        "ARIA": {
+          "SLIDERS_ICON": "Sliders vertical icon",
+          "EDIT": "Edit entity details"
+        }
+      },
+      "INFO_SECTION": {
+        "ARIA": {
+          "BOOK_ICON": "Book open icon"
+        },
+        "DESCRIPTION": "The following supplemental information is required."
+      },
+      "FEATURE_SECTION": {
+        "ARIA": {
+          "ICON": "Feature icon"
+        }
+      },
+      "FEED": {
+        "LOADING": "Loading changes...",
+        "LOADING_MORE": "Loading more...",
+        "NO_MORE_CHANGES": "No more changes to load",
+        "LOAD_MORE": "Load More",
+        "CHANGES": {
+          "USER": "User",
+          "ADDED": "added {{name}} '{{newValue}}'",
+          "MODIFIED": "changed {{name}} from '{{oldValue}}' to '{{newValue}}'",
+          "REMOVED": "removed {{name}} '{{oldValue}}'",
+          "FROM": "from",
+          "TO": "to"
+        }
+      },
+      "LIMITS": {
+        "TITLE": "Entity Limits",
+        "COLUMNS": {
+          "ENTITY_TYPE": "Entity Type",
+          "TOTAL": "Total (Contracted)",
+          "ACTIVE": "Active (Enabled)",
+          "MAX": "Max (Hard Limit)"
+        },
+        "UNLIMITED": "Unlimited",
+        "VALIDATION": {
+          "MIN_VALUE": "Must be >= {{value}}"
+        },
+        "EMPTY": "No limits configuration found for this entity."
+      },
+      "CONTACTS_SECTION": {
+        "TITLE": "Contact Details",
+        "DESCRIPTION": "Specify contact information",
+        "ARIA": {
+          "ID_CARD_ICON": "ID card icon",
+          "EDIT": "Edit contact details"
+        }
+      },
+      "LOGO": {
+        "ALT": "Logo",
+        "ARIA": {
+          "EDIT": "Edit {{key}}",
+          "REMOVE": "Remove {{key}}"
+        },
+        "CHANGES_PENDING": "Changes pending - will be uploaded on save",
+        "UPLOAD_ON_SAVE": "{{summary}} will be uploaded when you save changes."
+      },
+      "ASSET_LIST": {
+        "ARIA": {
+          "DELETE_TOOLTIP": "Delete Asset",
+          "DELETE": "Delete selected item"
+        }
+      },
+      "USER_LIST": {
+        "ARIA": {
+          "MOVE_TOOLTIP": "Move User",
+          "MOVE": "Move selected item"
+        }
+      },
+      "BULK_IMPORT": {
+        "TITLE": "Bulk Import Instructions",
+        "DESCRIPTION": "Upload a CSV file to bulk import devices, SIM cards, and assets. The file should follow the template format.",
+        "NOTE_LABEL": "Note:",
+        "NOTE_BODY": "Maximum file size is 10MB. The template is downloaded as an Excel file (.xlsx) with dropdown validations.",
+        "NOTE_FORMAT_WARNING": "Please save it as CSV format before uploading!",
+        "SELECTED_FILE": "Selected file: {{name}} ({{size}} KB)",
+        "UPLOADING": "Uploading and processing...",
+        "RESULTS_TITLE": "Import Results",
+        "TOTAL_REQUESTED": "Total Requested",
+        "SUCCESSFUL": "Successful",
+        "FAILED": "Failed",
+        "ERRORS_TITLE": "Error Details",
+        "COLUMNS": {
+          "ROW": "Row",
+          "FIELD": "Field",
+          "MESSAGE": "Message"
+        }
+      },
+      "INFORMATION": {
+        "TITLE": "Information",
+        "DESCRIPTION": "The following supplemental information is required."
+      }
+    },
+    "CONTACTS": {
+      "DETAILS": {
+        "TITLE": "Contact Details",
+        "DESCRIPTION": "Configure various details about your contact.",
+        "ARIA": {
+          "CONTACT_ICON": "Contact icon",
+          "EDIT_CONTACT": "Edit contact details"
+        },
+        "EMPTY": "No contact details available."
+      },
+      "WIZARD": {
+        "STEPS": {
+          "DETAILS": "Contact Details",
+          "CONFIRMATION": "Confirmation"
+        }
+      },
+      "ERRORS": {
+        "EMAIL_DUPLICATE": "Email \"{{email}}\" is already used by \"{{name}}\".",
+        "MOBILE_DUPLICATE": "Mobile number \"{{mobile}}\" is already used by \"{{name}}\".",
+        "PHONE_DUPLICATE": "Office phone \"{{phone}}\" is already used by \"{{name}}\"."
+      },
+      "GRID": {
+        "COLUMNS": {
+          "NAME": "Name",
+          "TYPE": "Type",
+          "EMAIL": "Email",
+          "MOBILE": "Mobile",
+          "OFFICE_PHONE": "Office Phone",
+          "NOTES": "Notes",
+          "NEW": "New Contact"
+        }
+      }
+    }
+  },
+  "AUTH": {
+    "LOGIN": {
+      "TITLE": "Welcome back",
+      "TITLE_WITH_OWNER": "Welcome to {{ownerName}}",
+      "AUTHENTICATING": "Authenticating with your secure token...",
+      "LOGGING_IN": "Logging in",
+      "TOKEN_ERROR": "Token authentication failed. Please login with your username and password.",
+      "API_URL": "API URL",
+      "USERNAME": "Username",
+      "PASSWORD": "Password",
+      "BUTTON": "Login",
+      "FORGOT_PASSWORD": "Forgotten Password?",
+      "COPYRIGHT": "Copyright {{year}}. All rights reserved."
+    },
+    "FORGOT_PASSWORD": {
+      "TITLE": "Forgot Your Password",
+      "DESCRIPTION": "Enter your email address below and we'll send your password reset instructions by email.",
+      "EMAIL": "Email address",
+      "BUTTON": "Reset Password",
+      "SUCCESS_TITLE": "Check Your Email",
+      "SUCCESS_DESCRIPTION": "If an account exists with the username {{username}}, you will receive a password reset email shortly. Please check your inbox and follow the instructions to reset your password.",
+      "BACK_TO_LOGIN": "Back to Login",
+      "TOAST_SUCCESS": "Password reset instructions sent."
+    },
+    "RESET_PASSWORD": {
+      "TITLE": "Welcome",
+      "DESCRIPTION": "Please update your account details and enter a new password for your account.",
+      "FIELDS": {
+        "NAME": "Name",
+        "EMAIL": "Email Address",
+        "MOBILE": "Mobile Number",
+        "TIMEZONE": "Time Zone",
+        "PASSWORD": "New Password"
+      },
+      "VALIDATION": {
+        "MOBILE_PATTERN": "Mobile number must contain only numbers"
+      }
+    },
+    "CONTEXT_SELECTION": {
+      "WIZARD_HEADER": "Context Selection",
+      "STEP_SELECT_ACCOUNT": "Select Account",
+      "STEP_SELECT_CLIENT": "Select Client",
+      "PREPARING_ACCOUNT": "Preparing your account...",
+      "LOADING_THEME": "Loading theme preview...",
+      "CHECKING_PERMISSIONS": "Checking permissions...",
+      "PREPARING_EXPERIENCE": "Preparing your experience...",
+      "NO_PERMISSION_TITLE": "No Permission to View Clients",
+      "NO_PERMISSION_DESCRIPTION": "Your account does not have permission to list clients. Please contact your administrator for access.",
+      "LOADING_CLIENTS": "Loading clients...",
+      "ERROR_SELECT_ACCOUNT": "Failed to select account. Please try again.",
+      "ERROR_SELECT_CLIENT": "Failed to select client.",
+      "NOTICE_SUMMARY": "Notice",
+      "NOTICE_DEFAULT_CLIENT": "Proceeding with your default client.",
+      "ERROR_UNABLE_TO_PROCEED": "Unable to proceed. Please contact support.",
+      "SWITCHING_ACCOUNT": "Switching account..."
+    },
+    "SELECT_CLIENT": {
+      "HEADING": "Select an Account"
+    }
+  },
+  "NAV": {
+    "SIDEBAR": {
+      "SWITCH_CLIENT": "Switch Client",
+      "NO_PERMISSION_SWITCH": "No permission to switch clients",
+      "TOGGLE": {
+        "EXPAND": "Expand Sidebar",
+        "COLLAPSE": "Collapse Sidebar"
+      }
+    },
+    "MENU": {
+      "SWITCH_ACCOUNT": "Switch Account",
+      "PROFILE": "Profile",
+      "CLIENTS": "Clients",
+      "LOGOUT": "Logout",
+      "ACCOUNT_NAVIGATION": "Account Navigation",
+      "USER_FALLBACK": "User"
+    },
+    "GROUPS": {
+      "STATUS": "Recent Activity",
+      "HISTORY": "Historical Activity",
+      "ADMIN": "Configuration",
+      "SYSTEM": "System",
+      "DEVELOPMENT": "Development"
+    }
+  },
+  "FEATURES": {
+    "EXTERNAL_TAB": {
+      "TITLE": "External Content"
+    }
+  },
+  "LAYOUT": {
+    "MAIN": {
+      "QA_BANNER": {
+        "ACTIVE": "QA TEST MODE ACTIVE",
+        "SIMULATING": "Simulating: {{profile}}",
+        "MANAGE": "Manage",
+        "RESET": "Reset",
+        "MODE_LABEL": "QA Test Mode:",
+        "SIMULATING_FOR": "Currently simulating permissions for"
+      },
+      "IFRAME_TITLE": "External Application"
+    },
+    "FLUTTER": {
+      "EMBEDDED_TITLE": "Embedded Flutter Application"
+    }
+  },
+  "DEVELOPMENT": {
+    "ANALYTICAL_REPORT": {
+      "REPORTS_LIST": {
+        "EMPTY_TITLE": "No reports yet",
+        "EMPTY_HINT": "Reports will appear here once generated",
+        "REPORT_FALLBACK": "Report",
+        "DOWNLOAD_TOOLTIP": "Download report"
+      },
+      "CONFLICT_MODAL": {
+        "TITLE": "This report changed elsewhere",
+        "MESSAGE": "Your edits couldn't be saved because this report was updated in another session (for example, another open tab). Choose how to resolve it.",
+        "RELOAD": "Reload their version",
+        "OVERWRITE": "Keep my edits & overwrite"
+      },
+      "FILTERS": {
+        "ADDITIONAL_COLUMNS": {
+          "TITLE": "Add Additional Columns",
+          "STANDARD": "Standard",
+          "CUSTOM_FIELDS": "Custom Fields",
+          "INITIAL": "Initial",
+          "FINAL": "Final",
+          "VENDOR": "Vendor",
+          "CLIENT": "Client",
+          "NO_OPTIONS": "No options available"
+        },
+        "SHARED": {
+          "DURATION_LABEL": "Duration (min):",
+          "SHOW_ALL_PLACEHOLDER": "Show all",
+          "EVENT_THRESHOLD_HELP": "Leave blank to show all events. A value shows only events greater than it."
+        },
+        "ALERT": {
+          "TITLE": "Alert Filter",
+          "SELECT_SCOPE_PLACEHOLDER": "Select filter scope",
+          "PICK_ALERTS_PLACEHOLDER": "Pick one or more alerts"
+        },
+        "IDLING": {
+          "TITLE": "Excessive Idling Filter"
+        },
+        "SPEEDING": {
+          "TITLE": "Over Speeding Filter",
+          "DISTANCE_LABEL": "Distance (km):"
+        },
+        "STOPPING": {
+          "TITLE": "Stopping Filter",
+          "STOP_TYPE_LABEL": "Stop type:",
+          "IGNITION_OFF": "Ignition Off",
+          "SPEED": "Speed",
+          "HELP_TEXT": "Leave duration blank to show all stops. A value shows only stops longer than it."
+        },
+        "UTILIZATION": {
+          "TITLE": "Utilization",
+          "MODE_LABEL": "Mode:",
+          "SELECT_PERIOD_PLACEHOLDER": "Select period basis",
+          "TARGET_LABEL": "Target (km):",
+          "NO_TARGET_PLACEHOLDER": "No target",
+          "HELP_TEXT": "Working Hours uses each asset's configured schedule. Leave Target blank to omit the Target and Distance Utilization % columns."
+        }
+      },
+      "EDIT_FRAME": {
+        "ASK_AI_LABEL": "Ask AI to change",
+        "HIDDEN_LABEL": "Hidden",
+        "RESTORE_LABEL": "Restore",
+        "MAP_BLOCK_LABEL": "Map Block",
+        "COMING_SOON_LABEL": "Coming Soon",
+        "ARIA": {
+          "DRAG_REORDER": "Drag to reorder",
+          "ASK_AI_TITLE": "Ask the AI to change this block",
+          "REMOVE_TITLE": "Remove this block",
+          "RESTORE_TITLE": "Restore this block"
+        }
+      },
+      "EDIT_POPOVER": {
+        "PLACEHOLDER": "Describe the change… e.g. make it event count per vehicle"
+      }
+    }
+  }
+}

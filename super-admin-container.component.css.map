@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/super-admin/super-admin-container/super-admin-container.component.scss"],
+  "sourcesContent": [":host {\n  @apply block;\n}\n\n:host(.content-scrollable-inactive) {\n  @apply h-full overflow-hidden;\n}\n"],
+  "mappings": ";AACE;AAAA,WAAA;AAAA;AAIA,MAAA,CAAA;AAAA,UAAA;AAAA,YAAA;AAAA;",
+  "names": []
+}
