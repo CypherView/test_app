@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/alerts/alert-details-section/alert-details-section.component.scss"],
+  "sourcesContent": [".custom-multi-select {\n  border: 1px solid #ccc;\n  padding: 8px;\n  border-radius: 4px;\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n  background-color: #f9f9f9;\n}\n.selected-items {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n}\n.selected-item {\n  background-color: #e0e0e0;\n  padding: 4px 8px;\n  border-radius: 4px;\n  cursor: pointer;\n  text-decoration: underline;\n}\n.selected-item:hover {\n  background-color: #d6d6d6;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,UAAA,IAAA,MAAA;AACA,WAAA;AACA,iBAAA;AACA,WAAA;AACA,aAAA;AACA,OAAA;AACA,oBAAA;;AAEF,CAAA;AACE,WAAA;AACA,aAAA;AACA,OAAA;;AAEF,CAAA;AACE,oBAAA;AACA,WAAA,IAAA;AACA,iBAAA;AACA,UAAA;AACA,mBAAA;;AAEF,CAPA,aAOA;AACE,oBAAA;;",
+  "names": []
+}
