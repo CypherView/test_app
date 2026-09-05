@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/app-store/pages/app-create-wizard/app-create-wizard.component.scss"],
+  "sourcesContent": [":host {\n  display: flex;\n  flex-direction: column;\n  height: 100%;\n  overflow: hidden;\n}\n\n.card-selected {\n  background-color: color-mix(in srgb, var(--p-primary-color) 8%, transparent);\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,kBAAA;AACA,UAAA;AACA,YAAA;;AAGF,CAAA;AACE,oBAAA,UAAA,GAAA,IAAA,EAAA,IAAA,mBAAA,EAAA,EAAA;;",
+  "names": []
+}

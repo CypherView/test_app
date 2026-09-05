@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/language-switcher/language-switcher.component.scss"],
+  "sourcesContent": [".language-trigger {\n  color: var(--navigation-font-color);\n  font-size: var(--navigation-font-size);\n  font-weight: var(--navigation-font-weight);\n  text-transform: uppercase;\n  transition: background-color 0.2s ease;\n  border: none;\n  background: transparent;\n  cursor: pointer;\n\n  &:hover {\n    background-color: rgba(var(--color-primary-rgb, 66, 133, 244), 0.1);\n  }\n\n  .small-caps-text {\n    letter-spacing: 0.05em;\n  }\n}\n\n.language-options {\n  min-width: 10rem;\n\n  .language-option {\n    border: none;\n    background: transparent;\n    cursor: pointer;\n    border-radius: 4px;\n    transition: background-color 0.15s ease;\n    color: var(--p-text-color);\n    font-size: 0.875rem;\n\n    &:hover {\n      background-color: var(--p-content-hover-background);\n    }\n\n    &.active {\n      color: var(--p-primary-color);\n      font-weight: 600;\n    }\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA,IAAA;AACA,aAAA,IAAA;AACA,eAAA,IAAA;AACA,kBAAA;AACA,cAAA,iBAAA,KAAA;AACA,UAAA;AACA,cAAA;AACA,UAAA;;AAEA,CAVF,gBAUE;AACE,oBAAA,KAAA,IAAA,mBAAA,EAAA,EAAA,EAAA,GAAA,EAAA,IAAA,EAAA;;AAGF,CAdF,iBAcE,CAAA;AACE,kBAAA;;AAIJ,CAAA;AACE,aAAA;;AAEA,CAHF,iBAGE,CAAA;AACE,UAAA;AACA,cAAA;AACA,UAAA;AACA,iBAAA;AACA,cAAA,iBAAA,MAAA;AACA,SAAA,IAAA;AACA,aAAA;;AAEA,CAZJ,iBAYI,CATF,eASE;AACE,oBAAA,IAAA;;AAGF,CAhBJ,iBAgBI,CAbF,eAaE,CAAA;AACE,SAAA,IAAA;AACA,eAAA;;",
+  "names": []
+}

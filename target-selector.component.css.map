@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/forms/event-filter-field/target-selector/target-selector.component.scss"],
+  "sourcesContent": [":host {\n  --p-treeselect-background: var(--p-tree-background) !important;\n\n  .p-treeselect-label.p-placeholder {\n    color: var(--p-select-option-color);\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,6BAAA,IAAA;;AAEA,MAAA,CAAA,kBAAA,CAAA;AACE,SAAA,IAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/tree-panel/tree-panel.component.scss"],
+  "sourcesContent": [".tree-panel-wrapper {\n  scroll-behavior: smooth;\n\n  // Ensure smooth transitions for tree nodes\n  :host ::ng-deep .p-tree {\n    .p-treenode {\n      transition: background-color 0.2s ease;\n    }\n  }\n\n  // Node search loading overlay styles\n  .node-search-overlay {\n    backdrop-filter: blur(1px);\n    animation: fadeIn 0.2s ease-in;\n  }\n\n  .node-search-message {\n    box-shadow:\n      0 4px 6px -1px rgba(0, 0, 0, 0.1),\n      0 2px 4px -1px rgba(0, 0, 0, 0.06);\n    animation: slideIn 0.3s ease-out;\n  }\n\n  @keyframes fadeIn {\n    from {\n      opacity: 0;\n    }\n    to {\n      opacity: 1;\n    }\n  }\n\n  @keyframes slideIn {\n    from {\n      transform: translateY(-10px);\n      opacity: 0;\n    }\n    to {\n      transform: translateY(0);\n      opacity: 1;\n    }\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,mBAAA;;AAIE,CALJ,mBAKI,MAAA,UAAA,CAAA,OAAA,CAAA;AACE,cAAA,iBAAA,KAAA;;AAKJ,CAXF,mBAWE,CAAA;AACE,2BAAA,KAAA;AAAA,mBAAA,KAAA;AACA,aAAA,OAAA,KAAA;;AAGF,CAhBF,mBAgBE,CAAA;AACE,cACE,EAAA,IAAA,IAAA,KAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA,IAAA,EAAA,EAAA,IAAA,IAAA,KAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA;AAEF,aAAA,QAAA,KAAA;;AAGF,WAVE;AAWA;AACE,aAAA;;AAEF;AACE,aAAA;;;AAIJ,WAZE;AAaA;AACE,eAAA,WAAA;AACA,aAAA;;AAEF;AACE,eAAA,WAAA;AACA,aAAA;;;",
+  "names": []
+}
