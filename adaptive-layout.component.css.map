@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/splitter/adaptive-layout/adaptive-layout.component.scss"],
+  "sourcesContent": [":host {\n  @apply block h-full w-full;\n\n  ::ng-deep .adaptive-layout {\n    @apply h-full w-full flex flex-col;\n\n    // Ensure PrimeFaces splitter takes full height\n    .p-splitter {\n      @apply flex-1 h-full min-h-full;\n    }\n\n    // Fix for panel content\n    .p-splitter-panel > div {\n      @apply h-full;\n    }\n  }\n\n  &.has-hidden-panel {\n    ::ng-deep {\n      .zero-width-panel {\n        @apply max-w-0 min-w-0 w-0 p-0 m-0 border-0 overflow-hidden pointer-events-none;\n        flex: 0 0 0 !important;\n      }\n\n      // Hide gutter after a zero-width panel\n      .zero-width-panel + .p-splitter-gutter {\n        @apply hidden;\n      }\n\n      // First panel taking full space when other panels are hidden\n      .p-splitter-panel:first-child:not(.zero-width-panel) {\n        @apply flex-1 w-full;\n      }\n    }\n  }\n}\n"],
+  "mappings": ";AACE;AAAA,WAAA;AAAA,UAAA;AAAA,SAAA;AAAA;AAGE,MAAA,UAAA,CAAA;AAAA,WAAA;AAAA,UAAA;AAAA,SAAA;AAAA,kBAAA;AAAA;AAIE,MAAA,UAAA,CAJF,gBAIE,CAAA;AAAA,UAAA;AAAA,cAAA;AAAA,QAAA,EAAA,EAAA;AAAA;AAKA,MAAA,UAAA,CATF,gBASE,CAAA,iBAAA,EAAA;AAAA,UAAA;AAAA;AAOE,KAAA,CAAA,iBAAA,UAAA,CAAA;AAAA,kBAAA;AAAA,UAAA;AAAA,SAAA;AAAA,aAAA;AAAA,aAAA;AAAA,YAAA;AAAA,gBAAA;AAAA,WAAA;AACA,QAAA,EAAA,EAAA;AADA;AAMA,KAAA,CANA,iBAMA,UAAA,CANA,iBAMA,EAAA,CAAA;AAAA,WAAA;AAAA;AAKA,KAAA,CAXA,iBAWA,UAAA,CAlBF,gBAkBE,YAAA,KAAA,CAXA;AAWA,SAAA;AAAA,QAAA,EAAA,EAAA;AAAA;",
+  "names": []
+}

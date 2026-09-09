@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/network-animation/network-animation.component.scss"],
+  "sourcesContent": [":host {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n  pointer-events: none; // Allow clicks to pass through\n  z-index: -1; // Place behind other content\n  overflow: hidden;\n  margin: 0;\n  padding: 0;\n}\n\ncanvas.network-animation {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n  pointer-events: auto; // Re-enable pointer events just for canvas\n  image-rendering: -webkit-crisp-edges;\n  image-rendering: -moz-crisp-edges;\n  image-rendering: crisp-edges;\n  image-rendering: pixelated;\n  -webkit-backface-visibility: hidden;\n  backface-visibility: hidden;\n}\n"],
+  "mappings": ";AAAA;AACE,YAAA;AACA,OAAA;AACA,QAAA;AACA,SAAA;AACA,UAAA;AACA,kBAAA;AACA,WAAA;AACA,YAAA;AACA,UAAA;AACA,WAAA;;AAGF,MAAA,CAAA;AACE,YAAA;AACA,OAAA;AACA,QAAA;AACA,SAAA;AACA,UAAA;AACA,kBAAA;AACA,mBAAA;AACA,mBAAA;AACA,mBAAA;AACA,mBAAA;AACA,+BAAA;AACA,uBAAA;;",
+  "names": []
+}

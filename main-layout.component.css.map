@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/layouts/components/main-layout/main-layout.component.scss"],
+  "sourcesContent": [".layout-splitter {\n  height: 100vh;\n}\n\n.main-content {\n  padding: 20px;\n  overflow: auto;\n}\n\n@media (max-width: 768px) {\n  .layout-splitter {\n    flex-direction: column;\n  }\n\n  .main-content {\n    padding: 10px; // Reduce padding on mobile\n    height: 100%;\n    overflow: hidden; // Prevent scrolling issues\n  }\n}\n\n.flutter-layout {\n  height: calc(var(--vh, 1vh) * 100);\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,UAAA;;AAGF,CAAA;AACE,WAAA;AACA,YAAA;;AAGF,QAAA,WAAA;AACE,GAVF;AAWI,oBAAA;;AAGF,GAVF;AAWI,aAAA;AACA,YAAA;AACA,cAAA;;;AAIJ,CAAA;AACE,UAAA,KAAA,IAAA,IAAA,EAAA,KAAA,EAAA;;",
+  "names": []
+}

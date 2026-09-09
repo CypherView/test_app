@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/device/device-console/device-console.component.scss"],
+  "sourcesContent": [".full-height {\n    height: 90%;\n}"],
+  "mappings": ";AAAA,CAAA;AACI,UAAA;;",
+  "names": []
+}

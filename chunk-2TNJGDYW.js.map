@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/utils/register-chart-js.ts"],
+  "sourcesContent": ["import {\n  ArcElement,\n  BarController,\n  BarElement,\n  CategoryScale,\n  Chart,\n  DoughnutController,\n  Filler,\n  Legend,\n  LinearScale,\n  LineController,\n  LineElement,\n  PieController,\n  PointElement,\n  ScatterController,\n  TimeScale,\n  Tooltip,\n} from 'chart.js';\n\nlet registered = false;\n\nexport function registerChartJs(): void {\n  if (registered) return;\n  Chart.register(\n    LineController,\n    LineElement,\n    PointElement,\n    BarController,\n    BarElement,\n    PieController,\n    DoughnutController,\n    ScatterController,\n    ArcElement,\n    LinearScale,\n    TimeScale,\n    CategoryScale,\n    Tooltip,\n    Legend,\n    Filler,\n  );\n  registered = true;\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAmBA,IAAI,aAAa;AAEX,SAAU,kBAAe;AAC7B,MAAI;AAAY;AAChB,QAAM,SACJ,gBACA,aACA,cACA,eACA,YACA,eACA,oBACA,mBACA,YACA,aACA,WACA,eACA,gBACA,eACA,KAAM;AAER,eAAa;AACf;",
+  "names": []
+}

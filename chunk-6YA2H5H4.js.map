@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core/models/http-context.constants.ts"],
+  "sourcesContent": ["import { HttpContextToken } from '@angular/common/http';\n\n/**\n * HttpContextToken to indicate that an error should not trigger a global UI toast.\n * Use this for background verification tasks where failures are expected or handled silently.\n */\nexport const SILENT_ERROR = new HttpContextToken<boolean>(() => false);\n\n/**\n * HttpContextToken for requests that authenticate themselves (e.g. the reporting\n * backend's body `auth_token`) rather than the shared x-access-token session header.\n * A 401 from such a request reflects that request's own auth, not the CypherView\n * session, so the interceptor must not trigger a global token refresh or forced logout.\n */\nexport const SKIP_AUTH_REFRESH = new HttpContextToken<boolean>(() => false);\n\n/**\n * HttpContextToken for requests that must never be transparently retried.\n * The interceptor retries once on status 0/408/5xx, which is safe for reads but\n * not for a non-idempotent POST: a gateway 504 on \"queue this report\" would\n * silently enqueue the job a second time. Set this on such requests.\n */\nexport const NO_RETRY = new HttpContextToken<boolean>(() => false);\n"],
+  "mappings": ";;;;;AAMO,IAAM,eAAe,IAAI,iBAA0B,MAAM,KAAK;AAQ9D,IAAM,oBAAoB,IAAI,iBAA0B,MAAM,KAAK;AAQnE,IAAM,WAAW,IAAI,iBAA0B,MAAM,KAAK;",
+  "names": []
+}

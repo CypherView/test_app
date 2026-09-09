@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/alerts/components/alert-container/alert-container.component.ts", "src/app/features/alerts/alerts.routes.ts"],
+  "sourcesContent": ["import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-alert-container',\n  imports: [],\n  templateUrl: './alert-container.component.html',\n  styleUrl: './alert-container.component.scss',\n})\nexport class AlertContainerComponent {}\n", "import { Routes } from '@angular/router';\nimport { AlertContainerComponent } from './components/alert-container/alert-container.component';\n\nexport const ALERTS_ROUTES: Routes = [\n  {\n    path: '',\n    component: AlertContainerComponent,\n  },\n];\n"],
+  "mappings": ";;;;;;;;;AAQM,IAAO,0BAAP,MAAO,yBAAuB;;qCAAvB,0BAAuB;EAAA;yEAAvB,0BAAuB,WAAA,CAAA,CAAA,qBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,iCAAA,IAAA,KAAA;EAAA,GAAA,eAAA,EAAA,CAAA;;;sEAAvB,yBAAuB,CAAA;UANnC;uBACW,uBAAqB,SACtB,CAAA,GAAE,UAAA,GAAA,CAAA;;;;6EAIA,yBAAuB,EAAA,WAAA,2BAAA,UAAA,mFAAA,YAAA,EAAA,CAAA;AAAA,GAAA;;;ACL7B,IAAM,gBAAwB;EACnC;IACE,MAAM;IACN,WAAW;;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/generic-details-container/generic-details-container.component.scss"],
+  "sourcesContent": [":host {\n  @apply block h-full;\n\n  ::ng-deep {\n    .p-accordion {\n      .p-accordion-header-link {\n        @apply font-medium;\n\n        &:focus {\n          @apply shadow-none;\n        }\n      }\n\n      .p-accordion-header-text {\n        @apply font-semibold;\n      }\n\n      .p-accordion-content {\n        @apply py-4 px-0;\n      }\n    }\n\n    .p-divider {\n      @apply my-4;\n    }\n\n    .section-container {\n      @apply py-2;\n    }\n  }\n}\n\n.section-title {\n  @apply text-lg font-medium mb-3 pb-1 border-b border-surface-200;\n}\n"],
+  "mappings": ";AACE;AAAA,WAAA;AAAA,UAAA;AAAA;AAKM,MAAA,UAAA,CAAA,YAAA,CAAA;AAAA,eAAA;AAAA;AAGE,MAAA,UAAA,CAHF,YAGE,CAHF,uBAGE;AAAA,eAAA,EAAA,EAAA;AAAA,uBAAA,EAAA,EAAA;AAAA;IAAA,IAAA,uBAAA,EAAA,EAAA,EAAA,MAAA;IAAA,IAAA,gBAAA,EAAA,EAAA,EAAA,MAAA;IAAA,IAAA;AAAA;AAKF,MAAA,UAAA,CARA,YAQA,CAAA;AAAA,eAAA;AAAA;AAIA,MAAA,UAAA,CAZA,YAYA,CAAA;AAAA,eAAA;AAAA,kBAAA;AAAA,gBAAA;AAAA,iBAAA;AAAA;AAKF,MAAA,UAAA,CAAA;AAAA,cAAA;AAAA,iBAAA;AAAA;AAIA,MAAA,UAAA,CAAA;AAAA,eAAA;AAAA,kBAAA;AAAA;AAMJ,CAAA;AAAA,iBAAA;AAAA,uBAAA;AAAA,uBAAA;AAAA,gBAAA,UAAA,GAAA,IAAA,EAAA,IAAA,iBAAA,KAAA,KAAA,EAAA,IAAA,mBAAA,EAAA,GAAA,EAAA;AAAA,kBAAA;AAAA,aAAA;AAAA,eAAA;AAAA,eAAA;AAAA;",
+  "names": []
+}
