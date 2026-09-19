@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/system-health/system-overview/system-overview.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.system-overview {\n  padding-bottom: 2rem;\n}\n\n/* Semantic connection status classes that leverage theme variables if available, \n   or provide sensible defaults if not. */\n.connection-online {\n  background-color: var(--p-green-100, #dcfce7);\n  color: var(--p-green-800, #166534);\n}\n\n.connection-offline {\n  background-color: var(--p-red-100, #fee2e2);\n  color: var(--p-red-800, #991b1b);\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;;AAGF,CAAA;AACE,kBAAA;;AAKF,CAAA;AACE,oBAAA,IAAA,aAAA,EAAA;AACA,SAAA,IAAA,aAAA,EAAA;;AAGF,CAAA;AACE,oBAAA,IAAA,WAAA,EAAA;AACA,SAAA,IAAA,WAAA,EAAA;;",
+  "names": []
+}

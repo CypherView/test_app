@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/distributors/distributor-details/distributor-external-authentication/distributor-external-authentication.component.scss"],
+  "sourcesContent": [":host {\n  ::ng-deep {\n    .p-panel-header {\n      padding: 0 0 1.125rem 0;\n    }\n  }\n}\n"],
+  "mappings": ";AAEI,MAAA,UAAA,CAAA;AACE,WAAA,EAAA,EAAA,SAAA;;",
+  "names": []
+}

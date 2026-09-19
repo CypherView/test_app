@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/shared/logo-customization-section/logo-customization-section.component.scss"],
+  "sourcesContent": [".logo-customization-section {\n  .p-field {\n    margin-bottom: 1rem;\n  }\n\n  .action {\n    cursor: pointer;\n    transition: color 0.2s ease;\n\n    &:hover {\n      color: var(--primary-color);\n    }\n\n    &:disabled {\n      cursor: not-allowed;\n      opacity: 0.5;\n    }\n  }\n\n  .max-w-150 {\n    max-width: 150px;\n  }\n\n  .info-panel {\n    background-color: #eff6ff;\n    border: 1px solid #bfdbfe;\n    border-radius: 0.5rem;\n    padding: 1rem;\n    margin-bottom: 1rem;\n\n    .info-icon {\n      color: #2563eb;\n    }\n\n    .info-text {\n      font-weight: 500;\n      color: #1e40af;\n    }\n  }\n\n  .pending-changes {\n    color: #ea580c;\n    font-size: 0.875rem;\n    font-weight: 500;\n  }\n\n  .pending-indicator {\n    color: #ea580c;\n    margin-left: 0.5rem;\n    font-size: 0.875rem;\n  }\n}\n"],
+  "mappings": ";AACE,CAAA,2BAAA,CAAA;AACE,iBAAA;;AAGF,CAJA,2BAIA,CAAA;AACE,UAAA;AACA,cAAA,MAAA,KAAA;;AAEA,CARF,2BAQE,CAJF,MAIE;AACE,SAAA,IAAA;;AAGF,CAZF,2BAYE,CARF,MAQE;AACE,UAAA;AACA,WAAA;;AAIJ,CAlBA,2BAkBA,CAAA;AACE,aAAA;;AAGF,CAtBA,2BAsBA,CAAA;AACE,oBAAA;AACA,UAAA,IAAA,MAAA;AACA,iBAAA;AACA,WAAA;AACA,iBAAA;;AAEA,CA7BF,2BA6BE,CAPF,WAOE,CAAA;AACE,SAAA;;AAGF,CAjCF,2BAiCE,CAXF,WAWE,CAAA;AACE,eAAA;AACA,SAAA;;AAIJ,CAvCA,2BAuCA,CAAA;AACE,SAAA;AACA,aAAA;AACA,eAAA;;AAGF,CA7CA,2BA6CA,CAAA;AACE,SAAA;AACA,eAAA;AACA,aAAA;;",
+  "names": []
+}

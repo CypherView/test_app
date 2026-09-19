@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/themes/theme-value-display/theme-value-display.component.scss"],
+  "sourcesContent": [".color-swatch {\n  width: 1rem;\n  height: 1rem;\n  border-radius: var(--border-radius);\n  border: 1px solid var(--surface-border);\n  flex-shrink: 0;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;AACA,UAAA;AACA,iBAAA,IAAA;AACA,UAAA,IAAA,MAAA,IAAA;AACA,eAAA;;",
+  "names": []
+}
