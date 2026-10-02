@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/system-health/errors-and-alerts/errors-and-alerts.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.chart-container {\n  position: relative;\n  height: 400px;\n}\n\n// DataView styling\n::ng-deep {\n  .p-dataview {\n    .p-dataview-content {\n      background: transparent;\n      border: none;\n    }\n\n    .p-paginator {\n      background: transparent;\n      border: none;\n      padding: 1rem 0;\n    }\n  }\n\n  p-message {\n    display: block;\n  }\n\n  .p-card {\n    border-width: 1px;\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;;AAGF,CAAA;AACE,YAAA;AACA,UAAA;;AAME,UAAA,CAAA,WAAA,CAAA;AACE,cAAA;AACA,UAAA;;AAGF,UAAA,CALA,WAKA,CAAA;AACE,cAAA;AACA,UAAA;AACA,WAAA,KAAA;;AAIJ,UAAA;AACE,WAAA;;AAGF,UAAA,CAAA;AACE,gBAAA;;",
+  "names": []
+}

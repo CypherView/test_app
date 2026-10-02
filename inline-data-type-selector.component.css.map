@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/development/components/analytical-report/chat/components/inline-data-type-selector/inline-data-type-selector.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;;",
+  "names": []
+}

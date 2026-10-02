@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/forms/dynamic-form/dynamic-form.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  min-width: 0;\n  max-width: 100%;\n}\n\n.dynamic-form {\n  min-width: 0;\n  max-width: 100%;\n}\n\n.dynamic-form__actions {\n  max-width: 100%;\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,aAAA;AACA,aAAA;;AAGF,CAAA;AACE,aAAA;AACA,aAAA;;AAGF,CAAA;AACE,aAAA;;",
+  "names": []
+}

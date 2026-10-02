@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/development/components/analytical-report/global-search/global-search.component.scss"],
+  "sourcesContent": [":host ::ng-deep {\n  // Position dialog near top of viewport\n  .p-dialog-mask {\n    align-items: flex-start;\n  }\n\n  .global-search-dialog {\n    width: min(640px, 95vw);\n    min-height: 500px;\n\n    .p-dialog-header {\n      display: none;\n    }\n\n    .p-dialog-content {\n      padding: 0;\n      overflow: visible;\n      display: flex;\n      flex-direction: column;\n      border-radius: var(--p-dialog-border-radius);\n      gap: 0.75rem;\n    }\n\n    .p-dialog-footer {\n      padding: 0.5rem 1rem;\n    }\n  }\n\n  .global-search-input {\n    .p-inputtext {\n      border-radius: 0;\n      padding-left: 0;\n    }\n  }\n}\n"],
+  "mappings": ";AAEE,MAAA,UAAA,CAAA;AACE,eAAA;;AAGF,MAAA,UAAA,CAAA;AACE,SAAA,IAAA,KAAA,EAAA;AACA,cAAA;;AAEA,MAAA,UAAA,CAJF,qBAIE,CAAA;AACE,WAAA;;AAGF,MAAA,UAAA,CARF,qBAQE,CAAA;AACE,WAAA;AACA,YAAA;AACA,WAAA;AACA,kBAAA;AACA,iBAAA,IAAA;AACA,OAAA;;AAGF,MAAA,UAAA,CAjBF,qBAiBE,CAAA;AACE,WAAA,OAAA;;AAKF,MAAA,UAAA,CAAA,oBAAA,CAAA;AACE,iBAAA;AACA,gBAAA;;",
+  "names": []
+}
