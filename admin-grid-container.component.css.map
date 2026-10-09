@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/admin-grid-container/admin-grid-container.component.scss"],
+  "sourcesContent": [":host {\n  @apply block h-full overflow-hidden;\n}\n"],
+  "mappings": ";AACE;AAAA,WAAA;AAAA,UAAA;AAAA,YAAA;AAAA;",
+  "names": []
+}

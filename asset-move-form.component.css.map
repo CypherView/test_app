@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/assets/asset-move-form/asset-move-form.component.scss"],
+  "sourcesContent": [".p-dialog-content {\n  margin-top: 1rem;\n}\n\n.move-results__list {\n  list-style: none;\n  margin: 0.5rem 0 0;\n  padding: 0;\n  max-height: 20rem;\n  overflow-y: auto;\n}\n\n.move-results__item {\n  display: flex;\n  gap: 0.75rem;\n  align-items: flex-start;\n  padding: 0.5rem 0;\n  border-bottom: 1px solid var(--p-surface-200);\n\n  &:last-child {\n    border-bottom: none;\n  }\n\n  i {\n    margin-top: 0.2rem;\n  }\n}\n\n.move-results__text {\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n}\n\n.move-results__name {\n  font-weight: 600;\n  overflow-wrap: anywhere;\n}\n\n.move-results__message {\n  font-size: 0.875rem;\n  overflow-wrap: anywhere;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,cAAA;;AAGF,CAAA;AACE,cAAA;AACA,UAAA,OAAA,EAAA;AACA,WAAA;AACA,cAAA;AACA,cAAA;;AAGF,CAAA;AACE,WAAA;AACA,OAAA;AACA,eAAA;AACA,WAAA,OAAA;AACA,iBAAA,IAAA,MAAA,IAAA;;AAEA,CAPF,kBAOE;AACE,iBAAA;;AAGF,CAXF,mBAWE;AACE,cAAA;;AAIJ,CAAA;AACE,WAAA;AACA,kBAAA;AACA,aAAA;;AAGF,CAAA;AACE,eAAA;AACA,iBAAA;;AAGF,CAAA;AACE,aAAA;AACA,iBAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/media/components/media-container/media-container.component.ts", "src/app/features/media/media.routes.ts"],
+  "sourcesContent": ["import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-media-container',\n  imports: [],\n  templateUrl: './media-container.component.html',\n  styleUrl: './media-container.component.scss',\n})\nexport class MediaContainerComponent {}\n", "import { Routes } from '@angular/router';\nimport { MediaContainerComponent } from './components/media-container/media-container.component';\n\nexport const MEDIA_ROUTES: Routes = [\n  {\n    path: '',\n    component: MediaContainerComponent,\n  },\n];\n"],
+  "mappings": ";;;;;;;;;AAQM,IAAO,0BAAP,MAAO,yBAAuB;;qCAAvB,0BAAuB;EAAA;yEAAvB,0BAAuB,WAAA,CAAA,CAAA,qBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,iCAAA,IAAA,KAAA;EAAA,GAAA,eAAA,EAAA,CAAA;;;sEAAvB,yBAAuB,CAAA;UANnC;uBACW,uBAAqB,SACtB,CAAA,GAAE,UAAA,GAAA,CAAA;;;;6EAIA,yBAAuB,EAAA,WAAA,2BAAA,UAAA,kFAAA,YAAA,EAAA,CAAA;AAAA,GAAA;;;ACL7B,IAAM,eAAuB;EAClC;IACE,MAAM;IACN,WAAW;;;",
+  "names": []
+}

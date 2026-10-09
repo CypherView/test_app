@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/layouts/components/sidebar/menu-item/menu-item.component.scss"],
+  "sourcesContent": [".custom-icon-svg {\n  width: 1.5rem;\n  height: 1.5rem;\n  fill: currentColor;\n  transition: fill 0.2s ease;\n\n  :host-context(.p-menuitem-link-active) & {\n    fill: var(--primary-color);\n  }\n}\n\n// Small Caps text styling\n.small-caps-text {\n  font-weight: var(--navigation-font-weight);\n  letter-spacing: 0.05em;\n}\n\n// Hover state styling\n.menu-item-link {\n  position: relative;\n  transition: background-color 0.2s ease;\n\n  &:hover {\n    background-color: rgba(var(--color-primary-rgb, 66, 133, 244), 0.1);\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;AACA,UAAA;AACA,QAAA;AACA,cAAA,KAAA,KAAA;;AAEA,cAAA,CAAA,wBAAA,CANF;AAOI,QAAA,IAAA;;AAKJ,CAAA;AACE,eAAA,IAAA;AACA,kBAAA;;AAIF,CAAA;AACE,YAAA;AACA,cAAA,iBAAA,KAAA;;AAEA,CAJF,cAIE;AACE,oBAAA,KAAA,IAAA,mBAAA,EAAA,EAAA,EAAA,GAAA,EAAA,IAAA,EAAA;;",
+  "names": []
+}
