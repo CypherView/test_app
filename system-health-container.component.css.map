@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/administration/components/system-health/system-health-container/system-health-container.component.scss"],
+  "sourcesContent": ["::ng-deep {\n  .p-card {\n    border-width: 1px;\n  }\n}\n"],
+  "mappings": ";AACE,UAAA,CAAA;AACE,gBAAA;;",
+  "names": []
+}

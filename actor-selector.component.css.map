@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/forms/event-filter-field/actor-selector/actor-selector.component.scss"],
+  "sourcesContent": [":host {\n  --p-treeselect-background: var(--p-tree-background) !important;\n\n  .p-treeselect-label.p-placeholder {\n    color: var(--p-select-option-color);\n  }\n\n  .selector-wrapper {\n    position: relative;\n    display: inline-flex;\n    align-items: center;\n  }\n\n  .treeselect-anchor {\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    height: 0;\n    opacity: 0;\n    pointer-events: none;\n    overflow: hidden;\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,6BAAA,IAAA;;AAEA,MAAA,CAAA,kBAAA,CAAA;AACE,SAAA,IAAA;;AAGF,MAAA,CAAA;AACE,YAAA;AACA,WAAA;AACA,eAAA;;AAGF,MAAA,CAAA;AACE,YAAA;AACA,UAAA;AACA,QAAA;AACA,SAAA;AACA,UAAA;AACA,WAAA;AACA,kBAAA;AACA,YAAA;;",
+  "names": []
+}

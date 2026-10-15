@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/users/profile-container/profile-container.component.scss"],
+  "sourcesContent": [":host {\n  @apply block h-full;\n\n  ::ng-deep {\n    // Ensure smooth transitions\n    .p-splitter-panel {\n      @apply transition-all duration-300 ease-in-out;\n    }\n\n    // Make sure nested splitters don't have double borders\n    app-adaptive-layout app-adaptive-layout .p-splitter {\n      @apply border-0;\n    }\n\n    // Panel transition utility class - defined directly instead of using @layer\n    .panel-transition {\n      @apply transition-all duration-300 ease-in-out;\n    }\n\n    p-splitter {\n      @apply h-full;\n    }\n  }\n}\n"],
+  "mappings": ";AACE;AAAA,WAAA;AAAA,UAAA;AAAA;AAKI,MAAA,UAAA,CAAA;AAAA,uBAAA;AAAA,uBAAA;AAAA,8BAAA,aAAA,GAAA,EAAA,CAAA,EAAA,GAAA,EAAA;AAAA;AAKA,MAAA,UAAA,oBAAA,oBAAA,CAAA;AAAA,gBAAA;AAAA;AAKA,MAAA,UAAA,CAAA;AAAA,uBAAA;AAAA,uBAAA;AAAA,8BAAA,aAAA,GAAA,EAAA,CAAA,EAAA,GAAA,EAAA;AAAA;AAIA,MAAA,UAAA;AAAA,UAAA;AAAA;",
+  "names": []
+}

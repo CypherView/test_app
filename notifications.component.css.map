@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/users/notifications/notifications.component.scss"],
+  "sourcesContent": [":host ::ng-deep {\n  .p-datatable {\n    .p-datatable-tbody > tr > td {\n      border: none;\n      padding: 0.5rem 1rem;\n    }\n  }\n}\n"],
+  "mappings": ";AAEI,MAAA,UAAA,CAAA,YAAA,CAAA,kBAAA,EAAA,GAAA,EAAA;AACE,UAAA;AACA,WAAA,OAAA;;",
+  "names": []
+}

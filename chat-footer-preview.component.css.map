@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/development/components/analytical-report/chat/components/chat-footer-preview/chat-footer-preview.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n// PrimeNG's \"success\" severity gets a green background from the theme but no\n// contrasting label colour, so the enabled \"Generate Analytical Review\" button\n// renders grey text/icon. Force a light label + icon for readable contrast.\n:host ::ng-deep .p-button.p-button-success {\n  color: #ffffff !important;\n\n  .p-button-label,\n  .p-button-icon {\n    color: #ffffff !important;\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;;AAMF,MAAA,UAAA,CAAA,QAAA,CAAA;AACE,SAAA;;AAEA,MAAA,UAAA,CAHF,QAGE,CAHF,iBAGE,CAAA;AAAA,MAAA,UAAA,CAHF,QAGE,CAHF,iBAGE,CAAA;AAEE,SAAA;;",
+  "names": []
+}

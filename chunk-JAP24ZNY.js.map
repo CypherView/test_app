@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/position/components/position-container/position-container.component.ts", "src/app/features/position/position.routes.ts"],
+  "sourcesContent": ["import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-position-container',\n  imports: [],\n  templateUrl: './position-container.component.html',\n  styleUrl: './position-container.component.scss',\n})\nexport class PositionContainerComponent {}\n", "import { Routes } from '@angular/router';\nimport { PositionContainerComponent } from './components/position-container/position-container.component';\n\nexport const POSITION_ROUTES: Routes = [\n  {\n    path: '',\n    component: PositionContainerComponent,\n  },\n];\n"],
+  "mappings": ";;;;;;;;;AAQM,IAAO,6BAAP,MAAO,4BAA0B;;qCAA1B,6BAA0B;EAAA;yEAA1B,6BAA0B,WAAA,CAAA,CAAA,wBAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,oCAAA,IAAA,KAAA;EAAA,GAAA,eAAA,EAAA,CAAA;;;sEAA1B,4BAA0B,CAAA;UANtC;uBACW,0BAAwB,SACzB,CAAA,GAAE,UAAA,GAAA,CAAA;;;;6EAIA,4BAA0B,EAAA,WAAA,8BAAA,UAAA,2FAAA,YAAA,EAAA,CAAA;AAAA,GAAA;;;ACLhC,IAAM,kBAA0B;EACrC;IACE,MAAM;IACN,WAAW;;;",
+  "names": []
+}

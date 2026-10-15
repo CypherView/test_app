@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/app-store/pages/app-marketplace/app-marketplace.component.scss"],
+  "sourcesContent": [".filter-section {\n  border-bottom: 1px solid var(--border-subtle, #e5e7eb);\n}\n\n:host {\n  font-family: var(--font-family);\n  font-size: var(--base-font-size);\n  font-weight: var(--font-weight);\n  background: var(--main-background-color);\n  color: var(--nav-text-color);\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,iBAAA,IAAA,MAAA,IAAA,eAAA,EAAA;;AAGF;AACE,eAAA,IAAA;AACA,aAAA,IAAA;AACA,eAAA,IAAA;AACA,cAAA,IAAA;AACA,SAAA,IAAA;;",
+  "names": []
+}
